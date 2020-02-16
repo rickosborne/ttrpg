@@ -15,7 +15,6 @@ notes: Our first official session
 (This section will get removed after review and resolution of the items.)
 
 * Spelling of "Dunwych" and "Asturius"
-* What was the name of the player for Arc?  (He said but I didn't write it down.)
 * What were the NPC names for the people fighting?
 
 # The Party
@@ -24,25 +23,26 @@ The party assembled:
 
 Character | Player | Race | Notes
 --------- | ------ | ---- | -----
-Edgar Strangehaven | Lee | Human | Rogue, melee, priest
-Arctimus "Arc" | ? | Human | Rogue, generalist, old
-Sorven | Gabriel | Human | Mage, renegade, healer, support
-Brorvec | Daniel | Strig | Barbarian, tank
+Edgar Strangehaven | Lee | Human | Rogue, melee, priest (Church of the Stranger), weapons (also blessed objects) are 2 shortstaffs, invisibility
+ Art Starbringer | Arctimus "Arc" | Human | Rogue, generalist, old, multilingual, owes debt, compulsive gambler, healer, lockpick, flautist, weapon is bag of rocks to throw
+Sorven | Gabriel | Human | Mage, renegade, healer, support, low dex, weapon is quarterstaff, vow of poverty?
+Brorvec | Daniel | Dwarf | Barbarian or Paladin, tank, protection magic, heavily armored
 Yenevra "Yen" Feldspar | Corri | Strig | Barbarian, damage, ranger
 Delwyn "Del" Brevik | Rick | Human | Mage, renegade, damage
 
 # Summary
 
 We met up with **Gavin**, owner of _Skeleton Key Books and Maps_ (K4).
+Gavin is a member of the city and is on the City Council.
 He gave us 40 silver talents ($1000) to do a job for him: return the Tome of Asturius.
-The book was written by a high priest of Helliconia and concerns the placement and impact of fey lines throughout the world.
-The book is very large and unwieldy — approximately torso-sized.
+The book was written by a high priest of Helliconia and concerns the placement and impact of fey lines throughout the world (contains secret intersection of high power and high mana).
+The book is very large and unwieldy — approximately torso-sized and covered in gold, platinum and jewels.
 
 It was last seen in the possession of **Lady Dunwych**, who ruled the area between the Covari Mountains and the hills including Northunder and Everglen.
-She was over 150 years old when she was murdered.
+She was a known necromancer who was over 150 years old when she was murdered.
 Before that, she built a large underground temple at the foot of the mountains.
 
-Over time the entrance to Dunwych's temple was razed by the Church of the Seven to build their own temple, the Sept of the Matriarch.
+Over time the entrance to Dunwych's temple was razed by the Church of the Seven to build their own temple, the Sept of the Maiden.
 This temple was eventually sacked by orcs and was itself razed.
 
 To get to the temple, Gavin told us to take the road to Northunder, then to find a local guide to take us west into the foothills.
@@ -66,6 +66,7 @@ Climbing Gear | 1 | 20 | 4 | 20 | 4
 _Total_ | - | - | - |  808 | 126
 
 The items were distributed out to the Strig (Yen and Brorvec) to carry.
+Edgar is the group's bank.
 
 We spent the night in Blackwater, where Arc gambled away what money he had left.
 In the morning we walked the road to Northunder, seeing a number of people coming south, including merchants, families, and even a prisoner.
