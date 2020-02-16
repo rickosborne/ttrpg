@@ -1,0 +1,1334 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<character id="15246845-82e5-4ca9-80dd-b64c27906f62" version="4">
+	<created_date>Jan 26, 2020</created_date>
+	<modified_date>Jan 26, 2020, 10:27 PM</modified_date>
+	<profile>
+		<player_name>Rick Osborne</player_name>
+		<campaign>Blackwater</campaign>
+		<name>Drake</name>
+		<age>27</age>
+		<birthday>August 26</birthday>
+		<eyes>Blue</eyes>
+		<hair>Blonde</hair>
+		<skin>Tanned</skin>
+		<handedness>Left</handedness>
+		<height>6' 1"</height>
+		<weight>190 lb</weight>
+		<SM>0</SM>
+		<gender>Male</gender>
+		<race>Human</race>
+		<body_type>humanoid</body_type>
+		<tech_level>3</tech_level>
+	</profile>
+	<HP>0</HP>
+	<FP>0</FP>
+	<total_points>165</total_points>
+	<ST>11</ST>
+	<DX>14</DX>
+	<IQ>13</IQ>
+	<HT>12</HT>
+	<will>0</will>
+	<perception>0</perception>
+	<speed>0</speed>
+	<move>0</move>
+	<include_punch>true</include_punch>
+	<include_kick>true</include_kick>
+	<include_kick_with_boots>true</include_kick_with_boots>
+	<advantage_list>
+		<advantage version="3">
+			<name>Absolute Direction</name>
+			<type>Mental/Physical</type>
+			<base_points>5</base_points>
+			<modifier version="1" enabled="no">
+				<name>Requires signal</name>
+				<cost type="percentage">-20</cost>
+				<affects>total</affects>
+				<reference>B34</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>3D Spatial Sense</name>
+				<cost type="points">5</cost>
+				<affects>total</affects>
+				<reference>B34</reference>
+				<skill_bonus>
+					<name compare="starts with">piloting</name>
+					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
+					<amount>1</amount>
+				</skill_bonus>
+				<skill_bonus>
+					<name compare="is">aerobatics</name>
+					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
+					<amount>2</amount>
+				</skill_bonus>
+				<skill_bonus>
+					<name compare="is">free fall</name>
+					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
+					<amount>2</amount>
+				</skill_bonus>
+				<skill_bonus>
+					<name compare="is">navigation</name>
+					<specialization compare="is">hyperspace</specialization>
+					<category compare="is anything"></category>
+					<amount>2</amount>
+				</skill_bonus>
+				<skill_bonus>
+					<name compare="is">navigation</name>
+					<specialization compare="is">space</specialization>
+					<category compare="is anything"></category>
+					<amount>2</amount>
+				</skill_bonus>
+			</modifier>
+			<reference>B34</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+			<skill_bonus>
+				<name compare="is">body sense</name>
+				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
+				<amount>3</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">navigation</name>
+				<specialization compare="is">air</specialization>
+				<category compare="is anything"></category>
+				<amount>3</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">navigation</name>
+				<specialization compare="is">land</specialization>
+				<category compare="is anything"></category>
+				<amount>3</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">navigation</name>
+				<specialization compare="is">sea</specialization>
+				<category compare="is anything"></category>
+				<amount>3</amount>
+			</skill_bonus>
+		</advantage>
+		<advantage version="3">
+			<name>Acute Hearing</name>
+			<type>Physical</type>
+			<levels>1</levels>
+			<points_per_level>2</points_per_level>
+			<reference>B35</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+			<attribute_bonus>
+				<attribute>hearing</attribute>
+				<amount per_level="yes">1</amount>
+			</attribute_bonus>
+		</advantage>
+		<advantage version="3">
+			<name>Acute Vision</name>
+			<type>Physical</type>
+			<levels>2</levels>
+			<points_per_level>2</points_per_level>
+			<reference>B35</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+			<attribute_bonus>
+				<attribute>vision</attribute>
+				<amount per_level="yes">1</amount>
+			</attribute_bonus>
+		</advantage>
+		<advantage version="3">
+			<name>Alcohol Intolerance</name>
+			<type>Physical</type>
+			<base_points>-1</base_points>
+			<reference>B165</reference>
+			<categories>
+				<category>Quirk</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Attentive</name>
+			<type>Mental</type>
+			<base_points>-1</base_points>
+			<reference>B163</reference>
+			<categories>
+				<category>Quirk</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Code of Honor (Chivalry)</name>
+			<type>Mental</type>
+			<base_points>-15</base_points>
+			<reference>B127</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Contact (Florian the fence)</name>
+			<type>Social</type>
+			<modifier version="1">
+				<name>Effective skill</name>
+				<cost type="points">1</cost>
+				<affects>total</affects>
+				<notes>12</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Effective skill</name>
+				<cost type="points">2</cost>
+				<affects>total</affects>
+				<notes>15</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Effective skill</name>
+				<cost type="points">3</cost>
+				<affects>total</affects>
+				<notes>18</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Effective skill</name>
+				<cost type="points">4</cost>
+				<affects>total</affects>
+				<notes>21</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Can obtain information using supernatural talents</name>
+				<cost type="points">1</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Group</name>
+				<cost type="multiplier">5</cost>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Appears almost all the time</name>
+				<cost type="multiplier">3</cost>
+				<notes>15-</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Appears quite often</name>
+				<cost type="multiplier">2</cost>
+				<notes>12-</notes>
+			</modifier>
+			<modifier version="1">
+				<name>Appears fairly often</name>
+				<cost type="multiplier">1</cost>
+				<notes>9-</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Appears quite rarely</name>
+				<cost type="multiplier">0.5</cost>
+				<notes>6-</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Completely reliable</name>
+				<cost type="multiplier">3</cost>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Usually reliable</name>
+				<cost type="multiplier">2</cost>
+			</modifier>
+			<modifier version="1">
+				<name>Somewhat reliable</name>
+				<cost type="multiplier">1</cost>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Unreliable</name>
+				<cost type="multiplier">0.5</cost>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Favor</name>
+				<cost type="multiplier">0.2</cost>
+				<reference>B55</reference>
+			</modifier>
+			<reference>B44</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Contact (Meryn, knows of people in need)</name>
+			<type>Social</type>
+			<modifier version="1">
+				<name>Effective skill</name>
+				<cost type="points">1</cost>
+				<affects>total</affects>
+				<notes>12</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Effective skill</name>
+				<cost type="points">2</cost>
+				<affects>total</affects>
+				<notes>15</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Effective skill</name>
+				<cost type="points">3</cost>
+				<affects>total</affects>
+				<notes>18</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Effective skill</name>
+				<cost type="points">4</cost>
+				<affects>total</affects>
+				<notes>21</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Can obtain information using supernatural talents</name>
+				<cost type="points">1</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Group</name>
+				<cost type="multiplier">5</cost>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Appears almost all the time</name>
+				<cost type="multiplier">3</cost>
+				<notes>15-</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Appears quite often</name>
+				<cost type="multiplier">2</cost>
+				<notes>12-</notes>
+			</modifier>
+			<modifier version="1">
+				<name>Appears fairly often</name>
+				<cost type="multiplier">1</cost>
+				<notes>9-</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Appears quite rarely</name>
+				<cost type="multiplier">0.5</cost>
+				<notes>6-</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Completely reliable</name>
+				<cost type="multiplier">3</cost>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Usually reliable</name>
+				<cost type="multiplier">2</cost>
+			</modifier>
+			<modifier version="1">
+				<name>Somewhat reliable</name>
+				<cost type="multiplier">1</cost>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Unreliable</name>
+				<cost type="multiplier">0.5</cost>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Favor</name>
+				<cost type="multiplier">0.2</cost>
+				<reference>B55</reference>
+			</modifier>
+			<reference>B44</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Dull</name>
+			<type>Mental</type>
+			<base_points>-1</base_points>
+			<reference>B164</reference>
+			<categories>
+				<category>Quirk</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Hard to Kill</name>
+			<type>Physical</type>
+			<levels>1</levels>
+			<points_per_level>2</points_per_level>
+			<reference>B58</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Hard to Subdue</name>
+			<type>Physical</type>
+			<levels>1</levels>
+			<points_per_level>2</points_per_level>
+			<reference>B59</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>High Pain Threshold</name>
+			<type>Physical</type>
+			<base_points>10</base_points>
+			<reference>B59</reference>
+			<notes>Never suffer shock penalties when injured; +3 on all HT rolls to avoid knockdown and stunning; +3 to resist torture</notes>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Impulsiveness</name>
+			<type>Mental</type>
+			<base_points>-10</base_points>
+			<cr>12</cr>
+			<reference>B139</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Incurious</name>
+			<type>Mental</type>
+			<base_points>-5</base_points>
+			<cr>6</cr>
+			<reference>B140</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Language: Hellic</name>
+			<type>Mental</type>
+			<modifier version="1" enabled="no">
+				<name>Native</name>
+				<cost type="points">-6</cost>
+				<affects>total</affects>
+				<reference>B23</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Spoken</name>
+				<cost type="points">0</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>None</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Spoken</name>
+				<cost type="points">1</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>Broken</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Spoken</name>
+				<cost type="points">2</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>Accented</notes>
+			</modifier>
+			<modifier version="1">
+				<name>Spoken</name>
+				<cost type="points">3</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>Native</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Written</name>
+				<cost type="points">0</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>None</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Written</name>
+				<cost type="points">1</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>Broken</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Written</name>
+				<cost type="points">2</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>Accented</notes>
+			</modifier>
+			<modifier version="1">
+				<name>Written</name>
+				<cost type="points">3</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>Native</notes>
+			</modifier>
+			<reference>B24</reference>
+			<categories>
+				<category>Advantage</category>
+				<category>Language</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Overconfidence</name>
+			<type>Mental</type>
+			<base_points>-5</base_points>
+			<cr>6</cr>
+			<reference>B148</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Pacifism: Cannot Harm Innocents</name>
+			<type>Mental</type>
+			<base_points>-10</base_points>
+			<modifier version="1" enabled="no">
+				<name>Species-Specific</name>
+				<cost type="percentage">-80</cost>
+				<affects>total</affects>
+				<reference>UT32</reference>
+			</modifier>
+			<reference>B148</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Proud</name>
+			<type>Mental</type>
+			<base_points>-1</base_points>
+			<reference>B164</reference>
+			<categories>
+				<category>Quirk</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Signature Gear</name>
+			<type>Social</type>
+			<levels>4</levels>
+			<points_per_level>1</points_per_level>
+			<reference>B85</reference>
+			<notes>For equipment normally bought with money, each point gives goods worth up to 50% of the average campaign starting wealth (but never cash).</notes>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Stubbornness</name>
+			<type>Mental</type>
+			<base_points>-5</base_points>
+			<reference>B157</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Vow</name>
+			<type>Mental</type>
+			<levels>0</levels>
+			<base_points>-1</base_points>
+			<reference>B165</reference>
+			<notes>Avoid notoriety at all costs</notes>
+			<categories>
+				<category>Quirk</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Wealth</name>
+			<type>Social</type>
+			<modifier version="1" enabled="no">
+				<name>Dead Broke</name>
+				<cost type="points">-25</cost>
+				<affects>total</affects>
+				<reference>B25</reference>
+				<notes>Starting wealth is $0</notes>
+			</modifier>
+			<modifier version="1">
+				<name>Poor</name>
+				<cost type="points">-15</cost>
+				<affects>total</affects>
+				<reference>B25</reference>
+				<notes>Starting wealth is 1/5 average</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Struggling</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+				<reference>B25</reference>
+				<notes>Starting wealth is 1/2 average</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Average</name>
+				<cost type="points">0</cost>
+				<affects>total</affects>
+				<reference>B25</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Comfortable</name>
+				<cost type="points">10</cost>
+				<affects>total</affects>
+				<reference>B25</reference>
+				<notes>Starting wealth is 2x average</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Wealthy</name>
+				<cost type="points">20</cost>
+				<affects>total</affects>
+				<reference>B25</reference>
+				<notes>Starting wealth is 5x average</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Very Wealthy</name>
+				<cost type="points">30</cost>
+				<affects>total</affects>
+				<reference>B25</reference>
+				<notes>Starting wealth is 20x average</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Filthy Rich</name>
+				<cost type="points">50</cost>
+				<affects>total</affects>
+				<reference>B25</reference>
+				<notes>Starting wealth is 100x average</notes>
+			</modifier>
+			<reference>B25</reference>
+			<categories>
+				<category>Advantage</category>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+	</advantage_list>
+	<skill_list>
+		<skill version="3">
+			<name>Area Knowledge</name>
+			<specialization>Blackwater; Lived there</specialization>
+			<difficulty>IQ/E</difficulty>
+			<points>2</points>
+			<reference>B176</reference>
+			<notes>All important businesses, streets, citizens, leaders, etc.</notes>
+			<categories>
+				<category>Everyman</category>
+				<category>Knowledge</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Geography</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="3">
+			<name>Bow</name>
+			<difficulty>DX/A</difficulty>
+			<points>16</points>
+			<reference>B182</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="3">
+			<name>Climbing</name>
+			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
+			<difficulty>DX/A</difficulty>
+			<points>1</points>
+			<reference>B183</reference>
+			<categories>
+				<category>Athletic</category>
+				<category>Criminal/Street</category>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="3">
+			<name>Escape</name>
+			<difficulty>DX/H</difficulty>
+			<points>1</points>
+			<reference>B192</reference>
+			<categories>
+				<category>Criminal/Street</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="3">
+			<name>Fast-Draw</name>
+			<specialization>Arrow</specialization>
+			<difficulty>DX/E</difficulty>
+			<points>4</points>
+			<reference>B194</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+		</skill>
+		<skill version="3">
+			<name>Fast-Draw</name>
+			<specialization>Sword</specialization>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B194</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+		</skill>
+		<skill version="3">
+			<name>Lockpicking</name>
+			<tech_level>3</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B206</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Police</category>
+				<category>Spy</category>
+				<category>Technical</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="3">
+			<name>Riding</name>
+			<specialization>Equine</specialization>
+			<difficulty>DX/A</difficulty>
+			<points>1</points>
+			<reference>B217</reference>
+			<categories>
+				<category>Animal</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Animal Handling</name>
+				<specialization>Equine</specialization>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="3">
+			<name>Search</name>
+			<difficulty>Per/A</difficulty>
+			<points>2</points>
+			<reference>B219</reference>
+			<categories>
+				<category>Police</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Criminology</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="3">
+			<name>Shadowing</name>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B219</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Police</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Observation</name>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Stealth</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="3">
+			<name>Shield</name>
+			<specialization>Buckler</specialization>
+			<difficulty>DX/E</difficulty>
+			<points>2</points>
+			<reference>B220</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="3">
+			<name>Shortsword</name>
+			<difficulty>DX/A</difficulty>
+			<points>2</points>
+			<reference>B209</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<default>
+				<type>Skill</type>
+				<name>Broadsword</name>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Force Sword</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Jitte/Sai</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Knife</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Saber</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Smallsword</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Tonfa</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="3">
+			<name>Stealth</name>
+			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
+			<difficulty>DX/A</difficulty>
+			<points>2</points>
+			<reference>B222</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Police</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="3">
+			<name>Swimming</name>
+			<encumbrance_penalty_multiplier>2</encumbrance_penalty_multiplier>
+			<difficulty>HT/E</difficulty>
+			<points>1</points>
+			<reference>B224</reference>
+			<categories>
+				<category>Athletic</category>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>HT</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="3">
+			<name>Tracking</name>
+			<difficulty>Per/A</difficulty>
+			<points>1</points>
+			<reference>B226</reference>
+			<categories>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Naturalist</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+	</skill_list>
+	<equipment_list>
+		<equipment_container version="6" open="yes" equipped="yes">
+			<description>Backpack, Frame</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>100</value>
+			<weight>10 lb</weight>
+			<reference>B288</reference>
+			<categories>
+				<category>Camping and Survival Gear</category>
+			</categories>
+			<prereq_list all="yes">
+				<contained_weight_prereq has="yes" compare="at most">100 lb</contained_weight_prereq>
+			</prereq_list>
+			<equipment version="6" equipped="yes">
+				<quantity>1</quantity>
+				<description>Lockpicks</description>
+				<tech_level>3</tech_level>
+				<legality_class>4</legality_class>
+				<value>50</value>
+				<reference>B289</reference>
+				<notes>Basic equipment for Lockpicking skill</notes>
+				<categories>
+					<category>Law-Enforcement</category>
+					<category>Spy Gear</category>
+					<category>Thief</category>
+				</categories>
+			</equipment>
+			<equipment version="6" equipped="yes">
+				<quantity>1</quantity>
+				<description>Personal Basics</description>
+				<tech_level>0</tech_level>
+				<legality_class>4</legality_class>
+				<value>5</value>
+				<weight>1 lb</weight>
+				<reference>B288</reference>
+				<notes>Minimum gear for camping: -2 to any Survival roll without it. Includes utensils, tinderbox or flint and steel, towel, etc., as TL permits.</notes>
+				<categories>
+					<category>Camping and Survival Gear</category>
+				</categories>
+			</equipment>
+			<equipment version="6" equipped="yes">
+				<quantity>1</quantity>
+				<description>Rope, 3/4", 10 yards</description>
+				<tech_level>1</tech_level>
+				<legality_class>4</legality_class>
+				<value>25</value>
+				<weight>5 lb</weight>
+				<reference>B288</reference>
+				<notes>Supports 1,100 lbs.</notes>
+				<categories>
+					<category>Camping and Survival Gear</category>
+				</categories>
+			</equipment>
+			<equipment version="6" equipped="yes">
+				<quantity>6</quantity>
+				<description>Traveler's Rations</description>
+				<tech_level>0</tech_level>
+				<legality_class>4</legality_class>
+				<value>2</value>
+				<weight>0.5 lb</weight>
+				<reference>B288</reference>
+				<notes>One meal</notes>
+				<categories>
+					<category>Camping and Survival Gear</category>
+				</categories>
+			</equipment>
+			<equipment version="6" equipped="yes">
+				<quantity>1</quantity>
+				<description>Sleeping Fur</description>
+				<tech_level>1</tech_level>
+				<legality_class>4</legality_class>
+				<value>50</value>
+				<weight>8 lb</weight>
+				<reference>DF1:23</reference>
+				<categories>
+					<category>Camping and Survival Gear</category>
+				</categories>
+			</equipment>
+		</equipment_container>
+		<equipment version="6" equipped="yes">
+			<quantity>1</quantity>
+			<description>Composite Bow (ST11)</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>990</value>
+			<weight>4 lb</weight>
+			<reference>B275</reference>
+			<ranged_weapon>
+				<damage type="imp" base="1d+2"/>
+				<strength>11&#8224;</strength>
+				<accuracy>3</accuracy>
+				<range>220/275</range>
+				<rate_of_fire>1</rate_of_fire>
+				<shots>1(2)</shots>
+				<bulk>-7</bulk>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Bow</name>
+					<modifier>0</modifier>
+				</default>
+			</ranged_weapon>
+			<categories>
+				<category>Missile Weapon</category>
+			</categories>
+		</equipment>
+		<equipment_container version="6" open="yes" equipped="yes">
+			<description>Hip Quiver</description>
+			<tech_level>0</tech_level>
+			<legality_class>4</legality_class>
+			<value>15</value>
+			<weight>1 lb</weight>
+			<reference>B289</reference>
+			<notes>Holds 20 arrows or bolts</notes>
+			<categories>
+				<category>Weapon and Combat Accessories</category>
+			</categories>
+			<equipment version="6" equipped="yes">
+				<quantity>20</quantity>
+				<description>Arrow</description>
+				<tech_level>0</tech_level>
+				<legality_class>4</legality_class>
+				<value>2</value>
+				<weight>0.1 lb</weight>
+				<reference>B276</reference>
+				<categories>
+					<category>AmmoType:Arrow</category>
+					<category>Ammunition</category>
+					<category>Missile Weapon</category>
+				</categories>
+			</equipment>
+		</equipment_container>
+		<equipment version="6" equipped="yes">
+			<quantity>1</quantity>
+			<description>Light Buckler</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>25</value>
+			<weight>2 lb</weight>
+			<reference>B287</reference>
+			<melee_weapon>
+				<damage type="cr" st="thr"/>
+				<strength>0</strength>
+				<reach>1</reach>
+				<parry>No</parry>
+				<block>+0</block>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shield</name>
+					<specialization>Shield</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shield</name>
+					<specialization>Force Shield</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shield</name>
+					<specialization>Buckler</specialization>
+					<modifier>0</modifier>
+				</default>
+			</melee_weapon>
+			<categories>
+				<category>Shield</category>
+			</categories>
+			<attribute_bonus>
+				<attribute>dodge</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>parry</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>block</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
+		</equipment>
+		<equipment_container version="6" open="yes" equipped="yes">
+			<description>Scabbard, Sword</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>5</value>
+			<weight>0.5 lb</weight>
+			<categories>
+				<category>Accessories</category>
+			</categories>
+			<equipment version="6" equipped="yes">
+				<quantity>1</quantity>
+				<description>Shortsword</description>
+				<tech_level>2</tech_level>
+				<legality_class>4</legality_class>
+				<value>400</value>
+				<weight>2 lb</weight>
+				<reference>B273</reference>
+				<melee_weapon>
+					<damage type="cut" st="sw"/>
+					<strength>8</strength>
+					<usage>Swung</usage>
+					<reach>1</reach>
+					<parry>0</parry>
+					<block>No</block>
+					<default>
+						<type>DX</type>
+						<modifier>-5</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Shortsword</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Broadsword</name>
+						<modifier>-2</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Force Sword</name>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Jitte/Sai</name>
+						<modifier>-3</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Knife</name>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Saber</name>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Smallsword</name>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Tonfa</name>
+						<modifier>-3</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Sword!</name>
+						<modifier>0</modifier>
+					</default>
+				</melee_weapon>
+				<melee_weapon>
+					<damage type="imp" st="thr"/>
+					<strength>8</strength>
+					<usage>Thrust</usage>
+					<reach>1</reach>
+					<parry>0</parry>
+					<block>No</block>
+					<default>
+						<type>DX</type>
+						<modifier>-5</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Shortsword</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Broadsword</name>
+						<modifier>-2</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Force Sword</name>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Jitte/Sai</name>
+						<modifier>-3</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Knife</name>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Saber</name>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Smallsword</name>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Tonfa</name>
+						<modifier>-3</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Sword!</name>
+						<modifier>0</modifier>
+					</default>
+				</melee_weapon>
+				<categories>
+					<category>Melee Weapon</category>
+				</categories>
+			</equipment>
+		</equipment_container>
+		<equipment version="6" equipped="yes">
+			<quantity>1</quantity>
+			<description>Light Scale Armor</description>
+			<tech_level>2</tech_level>
+			<legality_class>4</legality_class>
+			<value>150</value>
+			<weight>15 lb</weight>
+			<reference>B283</reference>
+			<categories>
+				<category>Body Armor</category>
+			</categories>
+			<dr_bonus>
+				<location>torso</location>
+				<amount>3</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="6" equipped="yes">
+			<quantity>1</quantity>
+			<description>Leather Pants</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>40</value>
+			<weight>3 lb</weight>
+			<reference>B283</reference>
+			<categories>
+				<category>Limb Armor</category>
+			</categories>
+			<dr_bonus>
+				<location>groin</location>
+				<amount>1</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>legs</location>
+				<amount>1</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="6" equipped="yes">
+			<quantity>1</quantity>
+			<description>Leather Helm</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>20</value>
+			<weight>0.5 lb</weight>
+			<reference>B284</reference>
+			<categories>
+				<category>Headgear</category>
+			</categories>
+			<dr_bonus>
+				<location>skull</location>
+				<amount>2</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>face</location>
+				<amount>2</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="6" equipped="yes">
+			<quantity>1</quantity>
+			<description>Heavy Leather Sleeves</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>50</value>
+			<weight>2 lb</weight>
+			<reference>B283</reference>
+			<categories>
+				<category>Limb Armor</category>
+			</categories>
+			<dr_bonus>
+				<location>arms</location>
+				<amount>2</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="6" equipped="yes">
+			<quantity>1</quantity>
+			<description>Heavy Cloak</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>50</value>
+			<weight>5 lb</weight>
+			<reference>B287</reference>
+			<categories>
+				<category>Clothing</category>
+			</categories>
+			<attribute_bonus>
+				<attribute>dodge</attribute>
+				<amount>2</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>parry</attribute>
+				<amount>2</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>block</attribute>
+				<amount>2</amount>
+			</attribute_bonus>
+		</equipment>
+		<equipment version="6" equipped="yes">
+			<quantity>1</quantity>
+			<description>Boots</description>
+			<tech_level>2</tech_level>
+			<legality_class>4</legality_class>
+			<value>80</value>
+			<weight>3 lb</weight>
+			<reference>B284</reference>
+			<categories>
+				<category>Footwear</category>
+			</categories>
+			<dr_bonus>
+				<location>feet</location>
+				<amount>2</amount>
+			</dr_bonus>
+		</equipment>
+	</equipment_list>
+	<print_settings printer="SECUREPRINT" units="in">
+		<orientation>portrait</orientation>
+		<width>8.5</width>
+		<height>11</height>
+		<top_margin>0.5</top_margin>
+		<left_margin>0.5</left_margin>
+		<bottom_margin>0.5</bottom_margin>
+		<right_margin>0.5</right_margin>
+		<ink_chromaticity>monochrome</ink_chromaticity>
+		<sides>single</sides>
+		<quality>normal</quality>
+	</print_settings>
+</character>

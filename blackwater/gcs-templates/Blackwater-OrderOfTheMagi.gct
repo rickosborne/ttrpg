@@ -1,0 +1,1413 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<template id="e6d76401-ae35-4cb2-bead-4b6e536023da" version="2">
+	<advantage_list>
+		<advantage_container version="3" open="yes">
+			<name>Order of the Magi (Blackwater)</name>
+			<advantage version="3">
+				<name>Duty (Order of the Magi)</name>
+				<type>Social</type>
+				<modifier version="1" enabled="no">
+					<name>FR: 6</name>
+					<cost type="points">-2</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1">
+					<name>FR: 9</name>
+					<cost type="points">-5</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>FR: 12</name>
+					<cost type="points">-10</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>FR: 15</name>
+					<cost type="points">-15</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Extremely Hazardous</name>
+					<cost type="points">-5</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Involuntary</name>
+					<cost type="points">-5</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Nonhazardous</name>
+					<cost type="points">5</cost>
+					<affects>total</affects>
+				</modifier>
+				<reference>B133</reference>
+				<categories>
+					<category>Disadvantage</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Magery</name>
+				<type>Mental, Supernatural</type>
+				<levels>0</levels>
+				<base_points>5</base_points>
+				<points_per_level>10</points_per_level>
+				<modifier version="1" enabled="no">
+					<name>Dance</name>
+					<cost type="percentage">-40</cost>
+					<affects>levels only</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Dark-Aspected</name>
+					<cost type="percentage">-50</cost>
+					<affects>levels only</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Day-Aspected</name>
+					<cost type="percentage">-40</cost>
+					<affects>levels only</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Musical</name>
+					<cost type="percentage">-50</cost>
+					<affects>levels only</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Night-Aspected</name>
+					<cost type="percentage">-40</cost>
+					<affects>levels only</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>One College</name>
+					<cost type="percentage">-40</cost>
+					<affects>levels only</affects>
+					<notes>@College@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Solitary</name>
+					<cost type="percentage">-40</cost>
+					<affects>levels only</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Song</name>
+					<cost type="percentage">-40</cost>
+					<affects>levels only</affects>
+				</modifier>
+				<reference>B66</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+				<spell_bonus all_colleges="yes">
+					<amount per_level="yes">1</amount>
+					<category compare="is anything"></category>
+				</spell_bonus>
+				<skill_bonus>
+					<name compare="is">thaumatology</name>
+					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
+					<amount per_level="yes">1</amount>
+				</skill_bonus>
+			</advantage>
+			<advantage version="3">
+				<name>Patron</name>
+				<type>Social</type>
+				<modifier version="1" enabled="no">
+					<name>@Who: Individual with 150% of PC's starting points@</name>
+					<cost type="points">10</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1">
+					<name>Order of the Magi</name>
+					<cost type="points">10</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Who: Individual with twice the PC's starting points@</name>
+					<cost type="points">15</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Who: Organization with assets of at least 10000 times starting wealth@</name>
+					<cost type="points">15</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Who: An ultra-powerful individual@</name>
+					<cost type="points">20</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Who: Organization with assets of at least 100000 times starting wealth@</name>
+					<cost type="points">20</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Who: Organization with assets of at least 1000000 times starting wealth@</name>
+					<cost type="points">25</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Who: A national government or giant multi-national organization@</name>
+					<cost type="points">30</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Who: A diety@</name>
+					<cost type="points">30</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Appears almost all the time</name>
+					<cost type="multiplier">3</cost>
+					<reference>B36</reference>
+					<notes>15-</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Appears quite often</name>
+					<cost type="multiplier">2</cost>
+					<reference>B36</reference>
+					<notes>12-</notes>
+				</modifier>
+				<modifier version="1">
+					<name>Appears fairly often</name>
+					<cost type="multiplier">1</cost>
+					<reference>B36</reference>
+					<notes>9-</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Appears quite rarely</name>
+					<cost type="multiplier">0.5</cost>
+					<reference>B36</reference>
+					<notes>6-</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Equipment</name>
+					<cost type="percentage">50</cost>
+					<affects>total</affects>
+					<reference>B73</reference>
+					<notes>@Equipment worth no more than average starting wealth@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Equipment</name>
+					<cost type="percentage">100</cost>
+					<affects>total</affects>
+					<reference>B73</reference>
+					<notes>@Equipment worth more than average starting wealth@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Highly Accessible</name>
+					<cost type="percentage">50</cost>
+					<affects>total</affects>
+					<reference>B73</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Special Abilities</name>
+					<cost type="percentage">50</cost>
+					<affects>total</affects>
+					<reference>B73</reference>
+					<notes>@Extensive social or political power@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Special Abilities</name>
+					<cost type="percentage">100</cost>
+					<affects>total</affects>
+					<reference>B73</reference>
+					<notes>@Magical powers in a non-magical world, higher TL equipment, grants special powers or is supernatural@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Minimal Interventions</name>
+					<cost type="percentage">-50</cost>
+					<affects>total</affects>
+					<reference>B73</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Secret</name>
+					<cost type="percentage">-50</cost>
+					<affects>total</affects>
+					<reference>B73</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Unwilling</name>
+					<cost type="percentage">-50</cost>
+					<affects>total</affects>
+					<reference>B74</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Favor</name>
+					<cost type="multiplier">0.2</cost>
+					<reference>B55</reference>
+				</modifier>
+				<reference>B72</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+	</advantage_list>
+	<spell_list>
+		<spell_container version="3" open="no">
+			<name>Order of the Magi Acolyte</name>
+			<spell version="3">
+				<name>Light</name>
+				<college>Light &amp; Darkness</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>1</casting_cost>
+				<maintenance_cost>1</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>1 min</duration>
+				<reference>M110</reference>
+				<categories>
+					<category>Light</category>
+				</categories>
+			</spell>
+		</spell_container>
+		<spell_container version="3" open="no">
+			<name>Order of the Magi Initiate</name>
+			<notes>Acolyte plus at least 12 points</notes>
+			<spell version="3">
+				<name>Analyze Magic</name>
+				<college>Knowledge</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Info</spell_class>
+				<casting_cost>8</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 hr</casting_time>
+				<duration>Instant</duration>
+				<points>3</points>
+				<reference>M102</reference>
+				<categories>
+					<category>Knowledge</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">identify spell</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="3">
+				<name>Aura</name>
+				<college>Knowledge</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Info</spell_class>
+				<casting_cost>3</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>Instant</duration>
+				<points>2</points>
+				<reference>M101</reference>
+				<categories>
+					<category>Knowledge</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">detect magic</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="3">
+				<name>Mage Sight</name>
+				<college>Knowledge</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>3</casting_cost>
+				<maintenance_cost>2</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>1 min</duration>
+				<points>2</points>
+				<reference>M102</reference>
+				<categories>
+					<category>Knowledge</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">detect magic</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="3">
+				<name>Minor Healing</name>
+				<college>Healing</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>1-3</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>Permanent</duration>
+				<points>3</points>
+				<reference>M91</reference>
+				<categories>
+					<category>Healing</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">lend vitality</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="3">
+				<name>Recover Energy</name>
+				<college>Healing</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Special</spell_class>
+				<casting_cost>0</casting_cost>
+				<maintenance_cost>0</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>Special</duration>
+				<points>2</points>
+				<reference>M89</reference>
+				<categories>
+					<category>Healing</category>
+				</categories>
+				<prereq_list all="yes">
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">magery</name>
+							<notes compare="contains">one college (healing)</notes>
+							<level compare="at least">1</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">magery</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">1</level>
+						</advantage_prereq>
+					</prereq_list>
+					<spell_prereq has="yes">
+						<name compare="is">lend energy</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="3">
+				<name>Share Energy</name>
+				<college>Healing</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>2-10</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>1 sec</duration>
+				<points>2</points>
+				<reference>M89</reference>
+				<categories>
+					<category>Healing</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">lend energy</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+		</spell_container>
+		<spell_container version="3" open="no">
+			<name>Order of the Magi Novice</name>
+			<notes>Initiate plus at least 18 points</notes>
+			<spell version="3">
+				<name>Create Earth</name>
+				<college>Earth</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>2/25 cu ft</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>Permanent</duration>
+				<points>4</points>
+				<reference>M51</reference>
+				<categories>
+					<category>Earth</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">earth to stone</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="3">
+				<name>Create Fire</name>
+				<college>Fire</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Area</spell_class>
+				<casting_cost>2</casting_cost>
+				<maintenance_cost>Half</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>1 min</duration>
+				<points>2</points>
+				<melee_weapon>
+					<damage type="burn" base="1d-1"/>
+					<usage>Area</usage>
+					<reach>Special</reach>
+					<parry>No</parry>
+				</melee_weapon>
+				<reference>M72</reference>
+				<categories>
+					<category>Fire</category>
+				</categories>
+				<prereq_list all="no">
+					<spell_prereq has="yes">
+						<name compare="is">seek fire</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">ignite fire</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="3">
+				<name>Create Water</name>
+				<college>Water</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>2/gal</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>Permanent</duration>
+				<points>3</points>
+				<reference>M184</reference>
+				<categories>
+					<category>Water</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">purify water</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="3">
+				<name>Destroy Air</name>
+				<college>Air</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Area</spell_class>
+				<casting_cost>2</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>Instant</duration>
+				<points>3</points>
+				<reference>M24</reference>
+				<categories>
+					<category>Air</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">create air</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="3">
+				<name>Destroy Water</name>
+				<college>Water</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Area</spell_class>
+				<casting_cost>3</casting_cost>
+				<maintenance_cost>Same</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>Permanent</duration>
+				<points>4</points>
+				<reference>M185</reference>
+				<categories>
+					<category>Water</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">create water</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="3">
+				<name>Earth to Air</name>
+				<college>Air/Earth</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>5/25 cu ft#</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>2 sec</casting_time>
+				<duration>Permanent</duration>
+				<points>3</points>
+				<reference>M25</reference>
+				<categories>
+					<category>Air</category>
+					<category>Earth</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">shape earth</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">create air</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="3">
+				<name>Earth to Water</name>
+				<college>Earth/Water</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>1/25 cu ft#</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>Permanent</duration>
+				<points>3</points>
+				<reference>M52</reference>
+				<categories>
+					<category>Earth</category>
+					<category>Water</category>
+				</categories>
+				<prereq_list all="yes">
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">magery</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">1</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">magery</name>
+							<notes compare="contains">one college (water)</notes>
+							<level compare="at least">1</level>
+						</advantage_prereq>
+					</prereq_list>
+					<spell_prereq has="yes">
+						<name compare="is">shape earth</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">create water</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="3">
+				<name>Extinguish Fire</name>
+				<college>Fire</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>3</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>Permanent</duration>
+				<points>2</points>
+				<reference>M72</reference>
+				<categories>
+					<category>Fire</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">ignite fire</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="3">
+				<name>Shape Air</name>
+				<college>Air</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>1-10</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>1 min</duration>
+				<points>3</points>
+				<reference>M24</reference>
+				<categories>
+					<category>Air</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">create air</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+		</spell_container>
+		<spell_container version="3" open="no">
+			<name>Order of the Magi Disciple</name>
+			<notes>Novice plus at least 17 points</notes>
+			<spell version="3" very_hard="yes">
+				<name>Alertness</name>
+				<college>Mind Control</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>2/pt increase</casting_cost>
+				<maintenance_cost>Half</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>10 min</duration>
+				<points>3</points>
+				<reference>M133</reference>
+				<categories>
+					<category>Mind Control</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="starts with">keen</name>
+						<quantity compare="at least">2</quantity>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="3">
+				<name>Command</name>
+				<college>Mind Control</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Blocking</spell_class>
+				<casting_cost>2</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>Instant</duration>
+				<points>3</points>
+				<reference>M136</reference>
+				<categories>
+					<category>Mind Control</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">forgetfulness</name>
+					</spell_prereq>
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">magery</name>
+							<notes compare="contains">one college (mind control)</notes>
+							<level compare="at least">2</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">magery</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">2</level>
+						</advantage_prereq>
+					</prereq_list>
+				</prereq_list>
+			</spell>
+			<spell version="3">
+				<name>Haste</name>
+				<college>Movement</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>2/pt</casting_cost>
+				<maintenance_cost>Half</maintenance_cost>
+				<casting_time>2 sec</casting_time>
+				<duration>1 min</duration>
+				<reference>M142</reference>
+				<categories>
+					<category>Movement</category>
+				</categories>
+			</spell>
+			<spell version="3">
+				<name>Levitation</name>
+				<college>Movement</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>1 per 80 lbs</casting_cost>
+				<maintenance_cost>Half</maintenance_cost>
+				<casting_time>2 sec</casting_time>
+				<duration>1 min</duration>
+				<points>2</points>
+				<reference>M143</reference>
+				<categories>
+					<category>Movement</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">apportation</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="3">
+				<name>Missile Shield</name>
+				<college>Protection</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>5</casting_cost>
+				<maintenance_cost>2</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>1 min</duration>
+				<points>2</points>
+				<reference>M168</reference>
+				<categories>
+					<category>Protection</category>
+				</categories>
+				<prereq_list all="no">
+					<spell_prereq has="yes">
+						<name compare="is">apportation</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">shield</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="3">
+				<name>Shield</name>
+				<college>Protection</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>2 per DB</casting_cost>
+				<maintenance_cost>Half</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>1 min</duration>
+				<reference>M167</reference>
+				<categories>
+					<category>Protection</category>
+				</categories>
+				<prereq_list all="no">
+					<advantage_prereq has="yes">
+						<name compare="is">magery</name>
+						<notes compare="contains">one college (protection)</notes>
+						<level compare="at least">2</level>
+					</advantage_prereq>
+					<advantage_prereq has="yes">
+						<name compare="is">magery</name>
+						<notes compare="is anything"></notes>
+						<level compare="at least">2</level>
+					</advantage_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="3">
+				<name>Stun</name>
+				<college>Body Control</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>2</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>Instant</duration>
+				<points>4</points>
+				<reference>M37</reference>
+				<categories>
+					<category>Body Control</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">pain</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="3">
+				<name>Truthsayer</name>
+				<college>Communication &amp; Empathy</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Info</spell_class>
+				<casting_cost>2</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>Instant</duration>
+				<points>3</points>
+				<reference>M45</reference>
+				<categories>
+					<category>Communication</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">sense emotion</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+		</spell_container>
+		<spell_container version="3" open="no">
+			<name>Order of the Magi Adept</name>
+			<notes>Disciple plus at least 18 points</notes>
+			<spell version="3">
+				<name>Body of Air</name>
+				<college>Air</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular/R-HT</spell_class>
+				<casting_cost>4</casting_cost>
+				<maintenance_cost>1</maintenance_cost>
+				<casting_time>5 sec</casting_time>
+				<duration>1 min</duration>
+				<reference>M24</reference>
+				<categories>
+					<category>Air</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">shape air</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="3" very_hard="yes">
+				<name>Body of Flames</name>
+				<college>Fire</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>12</casting_cost>
+				<maintenance_cost>4</maintenance_cost>
+				<casting_time>5 sec</casting_time>
+				<duration>1 min</duration>
+				<melee_weapon>
+					<damage type="burn" base="1d"/>
+					<usage>Punch</usage>
+					<reach>C</reach>
+					<parry>0</parry>
+					<default>
+						<type>DX</type>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Boxing</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Brawling</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Karate</name>
+						<modifier>0</modifier>
+					</default>
+				</melee_weapon>
+				<reference>M76</reference>
+				<categories>
+					<category>Fire</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">breathe fire</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="3" very_hard="yes">
+				<name>Body of Ice</name>
+				<college>Water</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>7</casting_cost>
+				<maintenance_cost>3</maintenance_cost>
+				<casting_time>5 sec</casting_time>
+				<duration>1 min</duration>
+				<reference>M189</reference>
+				<categories>
+					<category>Water</category>
+				</categories>
+				<prereq_list all="yes">
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">magery</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">2</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">magery</name>
+							<notes compare="contains">one college (water)</notes>
+							<level compare="at least">2</level>
+						</advantage_prereq>
+					</prereq_list>
+					<spell_prereq has="yes">
+						<name compare="is">freeze</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">body of water</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="3" very_hard="yes">
+				<name>Body of Shadow</name>
+				<college>Light &amp; Darkness</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular/R-HT</spell_class>
+				<casting_cost>6</casting_cost>
+				<maintenance_cost>3</maintenance_cost>
+				<casting_time>5 sec</casting_time>
+				<duration>1 min</duration>
+				<reference>M114</reference>
+				<categories>
+					<category>Light</category>
+				</categories>
+				<prereq_list all="yes">
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">magery</name>
+							<notes compare="contains">one college (light)</notes>
+							<level compare="at least">2</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">magery</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">2</level>
+						</advantage_prereq>
+					</prereq_list>
+					<spell_prereq has="yes">
+						<name compare="is">shape darkness</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<college compare="contains">Movement</college>
+						<quantity compare="at least">3</quantity>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="3">
+				<name>Body of Slime</name>
+				<college>Plant</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>6</casting_cost>
+				<maintenance_cost>2</maintenance_cost>
+				<casting_time>5 sec</casting_time>
+				<duration>1 min</duration>
+				<reference>M165</reference>
+				<categories>
+					<category>Plant</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">shape water</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">plant form</name>
+					</spell_prereq>
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">magery</name>
+							<notes compare="contains">one college (plant)</notes>
+							<level compare="at least">2</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">magery</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">2</level>
+						</advantage_prereq>
+					</prereq_list>
+				</prereq_list>
+			</spell>
+			<spell version="3">
+				<name>Body of Stone</name>
+				<college>Earth</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>10</casting_cost>
+				<maintenance_cost>5</maintenance_cost>
+				<casting_time>5 secs</casting_time>
+				<duration>1 min</duration>
+				<reference>M54</reference>
+				<categories>
+					<category>Earth</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">stone to flesh</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="3">
+				<name>Body of Water</name>
+				<college>Water</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>5</casting_cost>
+				<maintenance_cost>2</maintenance_cost>
+				<casting_time>5 sec</casting_time>
+				<duration>1 min</duration>
+				<reference>M185</reference>
+				<categories>
+					<category>Water</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">shape water</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="3">
+				<name>Body of Wind</name>
+				<college>Air</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular/R-HT</spell_class>
+				<casting_cost>8</casting_cost>
+				<maintenance_cost>4</maintenance_cost>
+				<casting_time>2 sec</casting_time>
+				<duration>1 min</duration>
+				<reference>M27</reference>
+				<categories>
+					<category>Air</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<college_count compare="at least">5</college_count>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">windstorm</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">body of air</name>
+					</spell_prereq>
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">magery</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">3</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">magery</name>
+							<notes compare="contains">one college (air)</notes>
+							<level compare="at least">3</level>
+						</advantage_prereq>
+					</prereq_list>
+				</prereq_list>
+			</spell>
+			<spell version="3">
+				<name>Body of Wood</name>
+				<college>Plant</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>7</casting_cost>
+				<maintenance_cost>3</maintenance_cost>
+				<casting_time>5 sec</casting_time>
+				<duration>1 min</duration>
+				<reference>M165</reference>
+				<categories>
+					<category>Plant</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">plant form</name>
+					</spell_prereq>
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">magery</name>
+							<notes compare="contains">one college (plant)</notes>
+							<level compare="at least">2</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">magery</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">2</level>
+						</advantage_prereq>
+					</prereq_list>
+				</prereq_list>
+			</spell>
+			<spell version="3">
+				<name>Create Food</name>
+				<college>Food</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>Varies</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>30 sec</casting_time>
+				<duration>Permanent</duration>
+				<points>3</points>
+				<reference>M79</reference>
+				<categories>
+					<category>Food</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">cook</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">seek food</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="3">
+				<name>Darkness</name>
+				<college>Light &amp; Darkness</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Area</spell_class>
+				<casting_cost>2</casting_cost>
+				<maintenance_cost>1</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>1 min</duration>
+				<points>3</points>
+				<reference>M111</reference>
+				<categories>
+					<category>Light</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">continual light</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="3">
+				<name>Master</name>
+				<college>Animal</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular Blocking</spell_class>
+				<casting_cost>2</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>Indefinite</duration>
+				<points>5</points>
+				<reference>M30</reference>
+				<categories>
+					<category>Animal</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">beast soother</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="3">
+				<name>Shape Plant</name>
+				<college>Plant</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>3</casting_cost>
+				<maintenance_cost>1</maintenance_cost>
+				<casting_time>10 sec</casting_time>
+				<duration>1 min</duration>
+				<points>3</points>
+				<reference>M161</reference>
+				<categories>
+					<category>Plant</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">identify plant</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="3" very_hard="yes">
+				<name>Shapeshifting (@Specialty@)</name>
+				<college>Animal</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Special</spell_class>
+				<casting_cost>Varies</casting_cost>
+				<maintenance_cost>Varies</maintenance_cost>
+				<casting_time>3 sec</casting_time>
+				<duration>1 hr</duration>
+				<reference>M32</reference>
+				<categories>
+					<category>Animal</category>
+				</categories>
+				<prereq_list all="yes">
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">magery</name>
+							<notes compare="contains">one college (animal)</notes>
+							<level compare="at least">1</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">magery</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">1</level>
+						</advantage_prereq>
+					</prereq_list>
+					<spell_prereq has="yes">
+						<any/>
+						<quantity compare="at least">6</quantity>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="3">
+				<name>Summon Spirit</name>
+				<college>Necromancy</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Info</spell_class>
+				<casting_cost>20</casting_cost>
+				<maintenance_cost>10</maintenance_cost>
+				<casting_time>5 min</casting_time>
+				<duration>1 min</duration>
+				<points>2</points>
+				<reference>M150</reference>
+				<categories>
+					<category>Necromancy</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">death vision</name>
+					</spell_prereq>
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">magery</name>
+							<notes compare="contains">one college (necromancy)</notes>
+							<level compare="at least">2</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">magery</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">2</level>
+						</advantage_prereq>
+					</prereq_list>
+				</prereq_list>
+			</spell>
+		</spell_container>
+		<spell_container version="3" open="no">
+			<name>Order of the Magi Maven</name>
+			<notes>Adept plus 11 points</notes>
+			<spell version="3" very_hard="yes">
+				<name>Create Object</name>
+				<college>Illusion &amp; Creation</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>2/5 lbs</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec/cost</casting_time>
+				<duration>While touching someone</duration>
+				<points>4</points>
+				<reference>M98</reference>
+				<categories>
+					<category>Illusion &amp; Creation</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">create earth</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">perfect illusion</name>
+					</spell_prereq>
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">magery</name>
+							<notes compare="contains">one college (illusion &amp; creation)</notes>
+							<level compare="at least">2</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">magery</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">2</level>
+						</advantage_prereq>
+					</prereq_list>
+				</prereq_list>
+			</spell>
+			<spell version="3">
+				<name>Dispel Magic</name>
+				<college>Meta</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Area</spell_class>
+				<casting_cost>3</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>sec=cost</casting_time>
+				<duration>Permanent</duration>
+				<points>12</points>
+				<reference>M126</reference>
+				<categories>
+					<category>Meta</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<any/>
+						<quantity compare="at least">12</quantity>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">counterspell</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="3" very_hard="yes">
+				<name>Shatter</name>
+				<college>Making &amp; Breaking</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>1-3</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>Instant</duration>
+				<points>3</points>
+				<melee_weapon>
+					<damage type="/point" base="1d"/>
+					<reach>Special</reach>
+					<parry>No</parry>
+				</melee_weapon>
+				<reference>M116</reference>
+				<notes>only affects inanimate objects</notes>
+				<categories>
+					<category>Making &amp; Breaking</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">weaken</name>
+					</spell_prereq>
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">magery</name>
+							<notes compare="contains">one college (making &amp; breaking)</notes>
+							<level compare="at least">1</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">magery</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">1</level>
+						</advantage_prereq>
+					</prereq_list>
+				</prereq_list>
+			</spell>
+			<spell version="3" very_hard="yes">
+				<name>Teleport</name>
+				<college>Gate/Movement</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Special</spell_class>
+				<casting_cost>Varies</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>Instant</duration>
+				<reference>M147</reference>
+				<categories>
+					<category>Gate</category>
+					<category>Movement</category>
+				</categories>
+				<prereq_list all="no">
+					<spell_prereq has="yes">
+						<name compare="is">hawk flight</name>
+					</spell_prereq>
+					<prereq_list all="yes">
+						<attribute_prereq has="yes" which="iq" compare="at least">13</attribute_prereq>
+						<spell_prereq has="yes">
+							<college_count compare="at least">10</college_count>
+						</spell_prereq>
+					</prereq_list>
+				</prereq_list>
+			</spell>
+			<spell version="3">
+				<name>Voices</name>
+				<college>Sound</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>3</casting_cost>
+				<maintenance_cost>2</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>1 min</duration>
+				<points>2</points>
+				<reference>M172</reference>
+				<categories>
+					<category>Sound</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">sound</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+		</spell_container>
+		<spell_container version="3" open="no">
+			<name>Order of the Magi Enchanter</name>
+			<notes>Maven plus 1 point, create a powerstone and a permanent  magic item</notes>
+			<spell version="3" very_hard="yes">
+				<name>Enchant</name>
+				<college>Enchantment</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Enchantment</spell_class>
+				<casting_cost>Varies</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>Varies</casting_time>
+				<duration>Permanent</duration>
+				<reference>M56</reference>
+				<categories>
+					<category>Enchantment</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<college_count compare="at least">10</college_count>
+					</spell_prereq>
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">magery</name>
+							<notes compare="contains">one college (enchantment)</notes>
+							<level compare="at least">2</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">magery</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">2</level>
+						</advantage_prereq>
+					</prereq_list>
+				</prereq_list>
+			</spell>
+		</spell_container>
+		<spell_container version="3" open="no">
+			<name>Order of the Magi Magi</name>
+			<notes>By vote only</notes>
+		</spell_container>
+	</spell_list>
+</template>
