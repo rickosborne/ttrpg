@@ -5,8 +5,8 @@ keywords:
 - blackwater
 - northunder
 - gavin
-- asturius
-- dunwych
+- asturias
+- dunwich
 notes: Our first official session
 ---
 
@@ -14,7 +14,6 @@ notes: Our first official session
 
 (This section will get removed after review and resolution of the items.)
 
-* Spelling of "Dunwych" and "Asturius"
 * What were the NPC names for the people fighting?
 
 # The Party
@@ -34,15 +33,15 @@ Delwyn "Del" Brevik | Rick | Human | Mage, renegade, damage
 
 We met up with **Gavin**, owner of _Skeleton Key Books and Maps_ (K4).
 Gavin is a member of the city and is on the City Council.
-He gave us 40 silver talents ($1000) to do a job for him: return the Tome of Asturius.
+He gave us 40 silver talents ($1000) to do a job for him: return the Tome of Asturias.
 The book was written by a high priest of Helliconia and concerns the placement and impact of fey lines throughout the world (contains secret intersection of high power and high mana).
 The book is very large and unwieldy — approximately torso-sized and covered in gold, platinum and jewels.
 
-It was last seen in the possession of **Lady Dunwych**, who ruled the area between the Covari Mountains and the hills including Northunder and Everglen.
+It was last seen in the possession of **Lady Dunwich**, who ruled the area between the Covari Mountains and the hills including Northunder and Everglen.
 She was a known necromancer who was over 150 years old when she was murdered.
 Before that, she built a large underground temple at the foot of the mountains.
 
-Over time the entrance to Dunwych's temple was razed by the Church of the Seven to build their own temple, the Sept of the Maiden.
+Over time the entrance to Dunwich's temple was razed by the Church of the Seven to build their own temple, the Sept of the Maiden.
 This temple was eventually sacked by orcs and was itself razed.
 
 To get to the temple, Gavin told us to take the road to Northunder, then to find a local guide to take us west into the foothills.
