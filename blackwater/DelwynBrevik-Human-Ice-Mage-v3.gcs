@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character id="e9cb5e69-ada9-41c7-98a0-4074a9c77a25" version="4">
 	<created_date>Jan 6, 2020</created_date>
-	<modified_date>Feb 9, 2020, 5:19 PM</modified_date>
+	<modified_date>Feb 16, 2020, 12:21 PM</modified_date>
 	<profile>
 		<player_name>Rick Osborne</player_name>
 		<campaign>Blackwater</campaign>
@@ -14,7 +14,7 @@
 		<skin>Light Tan</skin>
 		<handedness>Right</handedness>
 		<height>5' 11"</height>
-		<weight>130 lb</weight>
+		<weight>155 lb</weight>
 		<SM>0</SM>
 		<gender>Male</gender>
 		<race>Human</race>
@@ -23,7 +23,7 @@
 	</profile>
 	<HP>0</HP>
 	<FP>2</FP>
-	<total_points>165</total_points>
+	<total_points>166</total_points>
 	<ST>9</ST>
 	<DX>13</DX>
 	<IQ>14</IQ>
@@ -323,7 +323,7 @@
 				<cost type="multiplier">2</cost>
 				<notes>12-</notes>
 			</modifier>
-			<modifier version="1">
+			<modifier version="1" enabled="no">
 				<name>Appears fairly often</name>
 				<cost type="multiplier">1</cost>
 				<notes>9-</notes>
@@ -564,7 +564,7 @@
 			</modifier>
 			<modifier version="1">
 				<name>Spoken</name>
-				<cost type="points">3</cost>
+				<cost type="points">0</cost>
 				<affects>total</affects>
 				<reference>B24</reference>
 				<notes>Native</notes>
@@ -1702,36 +1702,8 @@
 				<prereq_list all="yes">
 					<contained_weight_prereq has="yes" compare="at most">2 lb</contained_weight_prereq>
 				</prereq_list>
-				<equipment version="6" equipped="yes">
-					<quantity>1</quantity>
-					<description>Water (1 Quart)</description>
-					<legality_class>4</legality_class>
-					<value>0</value>
-					<weight>2 lb</weight>
-					<reference>DFA111</reference>
-					<categories>
-						<category>Camping and Survival Gear</category>
-					</categories>
-				</equipment>
 			</equipment_container>
 		</equipment_container>
-		<equipment version="6" equipped="yes">
-			<quantity>1</quantity>
-			<description>Boots, Light Leather </description>
-			<tech_level>1</tech_level>
-			<legality_class>5</legality_class>
-			<value>50</value>
-			<weight>1.5 lb</weight>
-			<reference>LTIA16</reference>
-			<notes>Don: 6 secs; Holdout: -1; Flexible and susceptible to blunt trauma (p. B379); +1 DR vs. cutting.</notes>
-			<categories>
-				<category>Footwear</category>
-			</categories>
-			<dr_bonus>
-				<location>feet</location>
-				<amount>0</amount>
-			</dr_bonus>
-		</equipment>
 		<equipment version="6" equipped="yes">
 			<quantity>1</quantity>
 			<description>Leather Jacket</description>
