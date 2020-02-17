@@ -10,11 +10,7 @@ keywords:
 notes: Our first official session
 ---
 
-# TODO for Rick
-
-(This section will get removed after review and resolution of the items.)
-
-* What were the NPC names for the people fighting?
+_Session 1_
 
 # The Party
 
@@ -23,7 +19,7 @@ The party assembled:
 Character | Player | Race | Notes
 --------- | ------ | ---- | -----
 Edgar Strangehaven | Lee | Human | Rogue, melee, priest (Church of the Stranger), weapons (also blessed objects) are 2 shortstaffs, invisibility
- Art Starbringer | Arctimus "Arc" | Human | Rogue, generalist, old, multilingual, owes debt, compulsive gambler, healer, lockpick, flautist, weapon is bag of rocks to throw
+Art Starbringer | Arctimus "Arc" | Human | Rogue, generalist, old, multilingual, owes debt, compulsive gambler, healer, lockpick, flautist, weapon is bag of rocks to throw
 Sorven | Gabriel | Human | Mage, renegade, healer, support, low dex, weapon is quarterstaff, vow of poverty?
 Brorvec | Daniel | Dwarf | Barbarian or Paladin, tank, protection magic, heavily armored
 Yenevra "Yen" Feldspar | Corri | Strig | Barbarian, damage, ranger
@@ -83,9 +79,8 @@ We were told the tale of a local criminal who had recently been caught — like
 We were also clued into a local mystery: Farmer Taggert's cattle keep disappearing.
 It might have something to do with the increased prevalence of orc raids, but it might be something more.
 
-A domestic dispute broke out between two locals.
-**TODO: What were their names?**
-Tara managed to diffuse the tension, but **WHATSHISNAME** left in a huff.
+A domestic dispute broke out between two locals, Oduardo and Vera.
+Tara managed to diffuse the tension, but Oduardo left in a huff.
 
 We rented out the large nine-bed common room on the third floor and got some sleep, locking the door behind us.
 Some time before sunrise, we were awoken with shouts of "fire!" from downstairs.
@@ -96,6 +91,6 @@ The effort was mostly successful, with only minor injuries.
 Del ran around to the back of the building, finding a well and someone trying to draw enough water to make a difference.
 As we ended the session, Del was doing the math to figure out if his arcane skills would be up to the challenge of being a one-man fire team.
 
-## Outcomes
+# Outcomes
 
 * Everyone gained 1 XP
