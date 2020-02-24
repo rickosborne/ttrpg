@@ -19,7 +19,7 @@ The party assembled:
 Character | Player | Race | Notes
 --------- | ------ | ---- | -----
 Edgar Strangehaven | Lee | Human | Rogue, melee, priest (Church of the Stranger), weapons (also blessed objects) are 2 shortstaffs, invisibility
-Art Starbringer | Arctimus "Arc" | Human | Rogue, generalist, old, multilingual, owes debt, compulsive gambler, healer, lockpick, flautist, weapon is bag of rocks to throw
+Arc Starbringer | Arctimus "Arc" | Human | Rogue, generalist, old, multilingual, owes debt, compulsive gambler, healer, lockpick, flautist, weapon is bag of rocks to throw
 Sorven | Gabriel | Human | Mage, renegade, healer, support, low dex, weapon is quarterstaff, vow of poverty?
 Brorvec | Daniel | Dwarf | Barbarian or Paladin, tank, protection magic, heavily armored
 Yenevra "Yen" Feldspar | Corri | Strig | Barbarian, damage, ranger
