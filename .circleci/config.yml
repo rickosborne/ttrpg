@@ -33,18 +33,22 @@ jobs:
               --listings \
               --reference-links \
               -o /target/blackwater-session-notes.docx
-      - persist_to_workspace:
-          root: /target
-      - store_artifacts:
-          path: /target/blackwater-session-notes.docx
-          name: blackwater-session-notes.docx
+      - save_cache:
+          key: blackwater-session-notes-{{ checksum "/target/blackwater-session-notes.docx" }}
+          paths:
+            - /target/blackwater-session-notes.docx
+#      - store_artifacts:
+#          path: /target/blackwater-session-notes.docx
+#          name: blackwater-session-notes.docx
 
   release-notes:
     docker:
       - image: tsub/ghr
     steps:
-      - attach_workspace:
-          at: /target
+#      - attach_workspace:
+#          at: /target
+      - restore_cache:
+          key: blackwater-session-notes-
       - run:
           command: >
             ghr \
