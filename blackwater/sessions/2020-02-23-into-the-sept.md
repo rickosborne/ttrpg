@@ -6,15 +6,15 @@ keywords:
 - undead
 ---
 
-_Session 3_
+# Session 3: Into the Sept
 
-# The Party
+## The Party
 
 Gus joined the party!
 Gus is playing Prur, the Dwarf cleric/monk, on a quest for enlightenment.
 Prur has some unique scarring: a hammer from nose to hairline.
 
-# Summary
+## Summary
 
 Brorvec waited in Northunder for Prur, who showed up about an hour after the rest of the party.
 They made good time on the road, and managed to show up at the scene of the fight shortly after its conclusion.
@@ -48,6 +48,6 @@ The party retreated step by step, back the way they came, but the monsters kept 
 
 As the session ended, the monsters were still coming, with not a single one yet knocked down.
 
-# Outcomes
+## Outcomes
 
 No XP this week — we'll get it for both weeks at the end of the next session.

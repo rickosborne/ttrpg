@@ -6,14 +6,14 @@ keywords:
 - undead
 ---
 
-_Session 4_
+# Session 4: The Undead Tide
 
-# The Party
+## The Party
 
 Gus was unavailable, so Prur was run by Daniel for the day.
 Matt and Daniel figured out some of the details of Prur's hammer attack.
 
-# Summary
+## Summary
 
 After a run of very bad luck, our heroes found that they couldn't inflict much damage on their undead attackers.
 Three undead latched on to Yen and began to strangle her, though they had trouble getting through her leathers and tough skin.
@@ -37,6 +37,6 @@ Sorven and Del took their time to recover some lost energy.
 Edgar and Brorvec searched the crypt, but found nothing of significance.
 Similarly, Arc searched the corpses and also came up with not much more than lint.
 
-# Outcomes
+## Outcomes
 
 Everyone gained 5XP total for the 2 sessions, taking the players to 174/171.

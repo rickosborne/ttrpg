@@ -10,9 +10,9 @@ keywords:
 notes: Our first official session
 ---
 
-_Session 1_
+# Session 1: Gavin's Request
 
-# The Party
+## The Party
 
 The party assembled:
 
@@ -25,7 +25,7 @@ Brorvec | Daniel | Dwarf | Barbarian or Paladin, tank, protection magic, heavily
 Yenevra "Yen" Feldspar | Corri | Strig | Barbarian, damage, ranger
 Delwyn "Del" Brevik | Rick | Human | Mage, renegade, damage
 
-# Summary
+## Summary
 
 We met up with **Gavin**, owner of _Skeleton Key Books and Maps_ (K4).
 Gavin is a member of the city and is on the City Council.
@@ -91,6 +91,6 @@ The effort was mostly successful, with only minor injuries.
 Del ran around to the back of the building, finding a well and someone trying to draw enough water to make a difference.
 As we ended the session, Del was doing the math to figure out if his arcane skills would be up to the challenge of being a one-man fire team.
 
-# Outcomes
+## Outcomes
 
 * Everyone gained 1 XP

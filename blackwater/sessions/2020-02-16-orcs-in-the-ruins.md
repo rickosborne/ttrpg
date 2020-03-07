@@ -6,13 +6,13 @@ keywords:
 - orcs
 ---
 
-_Session 2_
+# Session 2: Orcs in the Ruins
 
-# The Party
+## The Party
 
 Brorvec stayed behind in Northunder to wait for our incoming Dwarven companion.
 
-# Summary
+## Summary
 
 The Shivar Inn was a complete loss.
 The general consensus was that it was obviously Oduardo who committed the arson, as he disappeared downriver in his boat.
@@ -44,7 +44,7 @@ As the remaining orcs fled, she turned to rush Del, striking him down with a maj
 
 The session closed with the remaining conscious party members struggling to apply enough first aid and healing to get everyone stable. 
 
-# Outcomes
+## Outcomes
 
 * Attendees gained 3 XP
 
