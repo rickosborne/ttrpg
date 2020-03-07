@@ -18,7 +18,7 @@ jobs:
       - checkout
       - run:
           name: Make target dir
-          command: mkdir -p target
+          command: mkdir -p /target
       - run:
           name: Compile md to docx
           command: >
@@ -32,11 +32,11 @@ jobs:
               --no-highlight \
               --listings \
               --reference-links \
-              -o target/blackwater-session-notes.docx
+              -o /target/blackwater-session-notes.docx
       - persist_to_workspace:
-          root: target
+          root: /target
       - store_artifacts:
-          path: target/blackwater-session-notes.docx
+          path: /target/blackwater-session-notes.docx
           name: blackwater-session-notes.docx
 
   release-notes:
@@ -44,7 +44,7 @@ jobs:
       - image: tsub/ghr
     steps:
       - attach_workspace:
-          at: target
+          at: /target
       - run:
           command: >
             ghr \
@@ -53,4 +53,4 @@ jobs:
               -r "${CIRCLE_PROJECT_REPONAME}" \
               -c "${CIRCLE_SHA1}" \
               -delete $(date +'%Y%m%d%H%M%S') \
-              target/blackwater-session-notes.docx
+              /target/blackwater-session-notes.docx
