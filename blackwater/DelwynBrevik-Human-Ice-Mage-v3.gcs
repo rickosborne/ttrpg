@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character id="e9cb5e69-ada9-41c7-98a0-4074a9c77a25" version="4">
 	<created_date>Jan 6, 2020</created_date>
-	<modified_date>Mar 1, 2020, 7:44 PM</modified_date>
+	<modified_date>Mar 29, 2020, 6:21 PM</modified_date>
 	<profile>
 		<player_name>Rick Osborne</player_name>
 		<campaign>Blackwater</campaign>
@@ -22,9 +22,9 @@
 		<tech_level>3</tech_level>
 	</profile>
 	<HP>0</HP>
-	<current_hp>-2</current_hp>
-	<FP>2</FP>
-	<total_points>174</total_points>
+	<current_hp>9</current_hp>
+	<FP>3</FP>
+	<total_points>185</total_points>
 	<ST>9</ST>
 	<DX>13</DX>
 	<IQ>14</IQ>
@@ -798,38 +798,6 @@
 			</categories>
 		</advantage>
 		<advantage version="3">
-			<name>Secret (Renegade Mage)</name>
-			<type>Social</type>
-			<modifier version="1" enabled="no">
-				<name>Serious Embarrassment</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-				<reference>B152</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Utter Rejection</name>
-				<cost type="points">-10</cost>
-				<affects>total</affects>
-				<reference>B152</reference>
-			</modifier>
-			<modifier version="1">
-				<name>Imprisonment</name>
-				<cost type="points">-20</cost>
-				<affects>total</affects>
-				<reference>B152</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Possible Death</name>
-				<cost type="points">-30</cost>
-				<affects>total</affects>
-				<reference>B152</reference>
-			</modifier>
-			<reference>B152</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="3">
 			<name>Signature Gear</name>
 			<type>Social</type>
 			<levels>4</levels>
@@ -840,6 +808,41 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
+		<advantage_container version="3" open="yes" type="race">
+			<name>Packages</name>
+			<advantage version="3">
+				<name>Secret (Renegade Mage)</name>
+				<type>Social</type>
+				<modifier version="1" enabled="no">
+					<name>Serious Embarrassment</name>
+					<cost type="points">-5</cost>
+					<affects>total</affects>
+					<reference>B152</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Utter Rejection</name>
+					<cost type="points">-10</cost>
+					<affects>total</affects>
+					<reference>B152</reference>
+				</modifier>
+				<modifier version="1">
+					<name>Imprisonment</name>
+					<cost type="points">-20</cost>
+					<affects>total</affects>
+					<reference>B152</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Possible Death</name>
+					<cost type="points">-30</cost>
+					<affects>total</affects>
+					<reference>B152</reference>
+				</modifier>
+				<reference>B152</reference>
+				<categories>
+					<category>Disadvantage</category>
+				</categories>
+			</advantage>
+		</advantage_container>
 	</advantage_list>
 	<skill_list>
 		<skill version="3">
@@ -936,7 +939,7 @@
 			<name>Innate Attack</name>
 			<specialization>Projectile</specialization>
 			<difficulty>DX/E</difficulty>
-			<points>24</points>
+			<points>28</points>
 			<reference>B201</reference>
 			<categories>
 				<category>Combat/Weapon</category>
@@ -1127,6 +1130,7 @@
 				<maintenance_cost>-</maintenance_cost>
 				<casting_time>1 sec</casting_time>
 				<duration>Instant</duration>
+				<points>2</points>
 				<reference>M168</reference>
 				<categories>
 					<category>Protection</category>
@@ -1252,6 +1256,7 @@
 				<maintenance_cost>-</maintenance_cost>
 				<casting_time>1 sec</casting_time>
 				<duration>Instant</duration>
+				<points>2</points>
 				<reference>M147</reference>
 				<categories>
 					<category>Gate</category>
@@ -1314,6 +1319,7 @@
 				<maintenance_cost>-</maintenance_cost>
 				<casting_time>1-3 sec</casting_time>
 				<duration>Instant</duration>
+				<points>4</points>
 				<ranged_weapon>
 					<damage type="imp/point" base="1d-1"/>
 					<accuracy>3</accuracy>
@@ -1351,6 +1357,7 @@
 				<maintenance_cost>-</maintenance_cost>
 				<casting_time>1-3 sec</casting_time>
 				<duration>Instant</duration>
+				<points>4</points>
 				<ranged_weapon>
 					<damage type="cr/point" base="1d"/>
 					<accuracy>2</accuracy>
@@ -1916,6 +1923,8 @@
 		<right_margin>0.5</right_margin>
 		<ink_chromaticity>monochrome</ink_chromaticity>
 		<sides>single</sides>
+		<number_up>1</number_up>
 		<quality>normal</quality>
+		<resolution>60000</resolution>
 	</print_settings>
 </character>

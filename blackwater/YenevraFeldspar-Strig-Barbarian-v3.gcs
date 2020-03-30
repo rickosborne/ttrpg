@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character id="1f6c90f7-25d1-4a8b-ac75-5799c7f75f2f" version="4">
 	<created_date>Jan 12, 2020</created_date>
-	<modified_date>Feb 9, 2020, 2:04 PM</modified_date>
+	<modified_date>Mar 29, 2020, 8:09 PM</modified_date>
 	<profile>
 		<player_name>Corri</player_name>
 		<name>Yenevra Feldspar</name>
@@ -10,7 +10,7 @@
 		<hair>Dark Brown, Wavy, Short</hair>
 		<skin>Dark Tan</skin>
 		<handedness>Right</handedness>
-		<height>6'</height>
+		<height>7"</height>
 		<weight>300 lb</weight>
 		<SM>1</SM>
 		<gender>Female</gender>
@@ -21,7 +21,7 @@
 	</profile>
 	<HP>2</HP>
 	<FP>0</FP>
-	<total_points>165</total_points>
+	<total_points>184</total_points>
 	<ST>11</ST>
 	<DX>12</DX>
 	<IQ>11</IQ>
@@ -49,7 +49,7 @@
 				<name>Berserk</name>
 				<type>Mental</type>
 				<base_points>-10</base_points>
-				<cr>9</cr>
+				<cr>12</cr>
 				<modifier version="1">
 					<name>Battle Rage</name>
 					<cost type="percentage">50</cost>
@@ -870,7 +870,7 @@
 			<skill version="3">
 				<name>Axe/Mace</name>
 				<difficulty>DX/A</difficulty>
-				<points>16</points>
+				<points>20</points>
 				<reference>B208</reference>
 				<categories>
 					<category>Combat/Weapon</category>
@@ -907,6 +907,23 @@
 					<category>Melee Combat</category>
 				</categories>
 			</technique>
+			<skill version="3">
+				<name>Brawling</name>
+				<difficulty>DX/E</difficulty>
+				<points>1</points>
+				<reference>B182</reference>
+				<categories>
+					<category>Combat/Weapon</category>
+					<category>Melee Combat</category>
+				</categories>
+				<weapon_bonus>
+					<name compare="is">Brawling</name>
+					<specialization compare="is anything"></specialization>
+					<level compare="at least">2</level>
+					<category compare="is anything"></category>
+					<amount per_level="yes">1</amount>
+				</weapon_bonus>
+			</skill>
 			<skill version="3">
 				<name>Thrown Weapon</name>
 				<specialization>Chakram</specialization>
@@ -1543,7 +1560,7 @@
 				</prereq_list>
 			</equipment_container>
 			<equipment version="6" equipped="yes">
-				<quantity>2</quantity>
+				<quantity>1</quantity>
 				<description>Torch</description>
 				<legality_class>4</legality_class>
 				<value>3</value>
@@ -1603,8 +1620,9 @@
 		<left_margin>0.5</left_margin>
 		<bottom_margin>0.5</bottom_margin>
 		<right_margin>0.5</right_margin>
-		<ink_chromaticity>monochrome</ink_chromaticity>
+		<ink_chromaticity>color</ink_chromaticity>
 		<sides>single</sides>
+		<number_up>1</number_up>
 		<quality>normal</quality>
 		<resolution>120000</resolution>
 	</print_settings>
