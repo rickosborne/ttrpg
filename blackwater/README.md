@@ -18,7 +18,8 @@ The characters, notes, and other materials are **not** licensed for distribution
 | 5 | <abbr title="2020-03-08">Mar 8</abbr> | [Axes Out](./sessions/2020-03-08-axes-out.md) | 3 |
 | 6 | <abbr title="2020-03-15">Mar 15</abbr> | [Poking the Undead Bear](./sessions/2020-03-15-poking-the-undead-bear.md) | - |
 | 7 | <abbr title="2020-03-22">Mar 22</abbr> | [Slow and Unsteady](./sessions/2020-03-22-slow-and-unsteady.md) | - |
-| 8 | <abbr title="2020-03-29">Mar 29</abbr> | [I Cast Zombie Missile](sessions/2020-03-29-i-cast-zombie-missile.md) | 7 |
+| 8 | <abbr title="2020-03-29">Mar 29</abbr> | [I Cast Zombie Missile](./sessions/2020-03-29-i-cast-zombie-missile.md) | 7 |
+| 9 | <abbr title="2020-04-05">Apr 5</abbr> | [A Wail of a Good Time](./sessions/2020-04-05-a-wail-of-a-good-time.md) | 2 |
 
 Individual session notes are available in the [`sessions`](./sessions) directory.
 New sessions are automagically compiled into Word format files available in the [releases](https://github.com/rickosborne/ttrpg/releases) area.
