@@ -36,7 +36,7 @@ The front of the helm flashed before settling into a cool glow, illuminating sev
 This came in handy as the party moved back along the east corridor to the well, stepping carefully to each side of the trick floor.
 
 Again inspired and curious, Del stepped forward and touched his staff to the surface of the pool.
-But this time his clever ideas were for naught — the mater cleared a little, but otherwise was inert.
+But this time his clever ideas were for naught — the water cleared a little, but otherwise was inert.
 Edgar was able to bring a light closer and pick out the bottom of the pool, some two to four yards below.
 They had the thought of putting the giant skull capstone on the well, but it turned out the capstone was affixed to the floor.
 Instead, the group decided to retrace their steps down the southern corridor.
