@@ -24,6 +24,7 @@ TODO: Copy background stuff here.
 | - | -3 | - | 4 | _Ice Sphere_, SL 15 → 17 |
 | - | -3 | - | 1 | _Ice Dagger_, SL 15 → 17 |
 | [9](../sessions/2020-04-05-a-wail-of-a-good-time.md) | +2 | 187 | 3 | - |
+| [10](../sessions/2020-04-12-secret-passages.md) | +2 | 189 | 5 | - |
 
 ### Log Notes:
 
