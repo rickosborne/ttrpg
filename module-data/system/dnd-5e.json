@@ -1,0 +1,7 @@
+{
+	"$schema": "./system.schema.json",
+	"edition": 5,
+	"titleEn": "Dungeons & Dragons 5th Edition",
+	"id": "dnd-5e",
+	"systemGroupId": "dnd"
+}
