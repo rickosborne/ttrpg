@@ -1,0 +1,36 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema",
+	"additionalProperties": false,
+	"description": "Tabletop RPG system",
+	"properties": {
+		"$schema": {
+			"description": "System schema identifier",
+			"type": "string"
+		},
+		"edition": {
+			"description": "Edition",
+			"type": "number"
+		},
+		"titleEn": {
+			"description": "Full title in English",
+			"minLength": 1,
+			"type": "string"
+		},
+		"id": {
+			"description": "Unique system identifier in spinal-lower-case, used for references",
+			"pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]*)*$",
+			"type": "string"
+		},
+		"systemGroupId": {
+			"description": "System group identifier in spinal-lower-case",
+			"pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]*)*$",
+			"type": "string"
+		}
+	},
+	"required": [
+		"$schema",
+		"fullTitleEn",
+		"id"
+	],
+	"type": "object"
+}

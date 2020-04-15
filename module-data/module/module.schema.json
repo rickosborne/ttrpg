@@ -1,0 +1,328 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema",
+	"additionalProperties": false,
+	"definitions": {
+		"after": {
+			"allOf": [
+				{
+					"description": "Narrative segments this one happens after"
+				},
+				{
+					"$ref": "#/definitions/idsExpression"
+				}
+			]
+		},
+		"before": {
+			"allOf": [
+				{
+					"description": "Narrative segments this one happens before"
+				},
+				{
+					"$ref": "#/definitions/idsExpression"
+				}
+			]
+		},
+		"eventCount": {
+			"default": 0,
+			"description": "Number of events or encounters",
+			"minimum": 0,
+			"type": "number"
+		},
+		"idsExpression": {
+			"description": "One or more identifiers in a Boolean expression",
+			"oneOf": [
+				{
+					"pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]*)*$",
+					"type": "string"
+				},
+				{
+					"additionalProperties": false,
+					"properties": {
+						"all": {
+							"description": "All of",
+							"items": {
+								"$ref": "#/definitions/idsExpression"
+							},
+							"type": "array"
+						}
+					},
+					"required": [
+						"all"
+					],
+					"type": "object"
+				},
+				{
+					"additionalProperties": false,
+					"allOf": [
+						{
+							"properties": {
+								"some": {
+									"description": "Any of",
+									"items": {
+										"$ref": "#/definitions/idsExpression"
+									},
+									"type": "array"
+								}
+							},
+							"required": [
+								"some"
+							]
+						},
+						{
+							"$ref": "#/definitions/minMaxExactly"
+						}
+					],
+					"properties": {},
+					"type": "object"
+				}
+			]
+		},
+		"location": {
+			"description": "Location or scene",
+			"properties": {
+				"eventCount": {
+					"$ref": "#/definitions/eventCount"
+				},
+				"id": {
+					"description": "Location or scene identifier, unique within the module",
+					"pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]*)*$",
+					"type": "string"
+				},
+				"poiCount": {
+					"$ref": "#/definitions/poiCount"
+				},
+				"setting": {
+					"$ref": "#/definitions/setting"
+				},
+				"sideQuestCount": {
+					"$ref": "#/definitions/sideQuestCount"
+				},
+				"titleEn": {
+					"description": "Title or name of the location or scene, in English",
+					"type": "string"
+				}
+			},
+			"required": [
+				"id",
+				"setting"
+			],
+			"type": "object"
+		},
+		"minMaxExactly": {
+			"oneOf": [
+				{
+					"properties": {
+						"max": {
+							"description": "At most this many",
+							"type": "number"
+						},
+						"min": {
+							"description": "At least this many",
+							"type": "number"
+						}
+					},
+					"required": [
+						"max",
+						"min"
+					]
+				},
+				{
+					"properties": {
+						"exactly": {
+							"description": "Exactly this value",
+							"type": "number"
+						}
+					},
+					"required": [
+						"exactly"
+					]
+				}
+			]
+		},
+		"narrativeItem": {
+			"additionalProperties": false,
+			"description": "Narrative segment item",
+			"properties": {
+				"after": {
+					"$ref": "#/definitions/after"
+				},
+				"before": {
+					"$ref": "#/definitions/before"
+				},
+				"eventCount": {
+					"$ref": "#/definitions/eventCount"
+				},
+				"id": {
+					"description": "Narrative segment identifier, unique to the module",
+					"pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]*)*$",
+					"type": "string"
+				},
+				"locations": {
+					"description": "Locations or scenes within the narrative segment",
+					"items": {
+						"$ref": "#/definitions/location"
+					},
+					"type": "array"
+				},
+				"pcSkill": {
+					"allOf": [
+						{
+							"properties": {
+								"type": {
+									"description": "Skill scale",
+									"enum": [
+										"level",
+										"xp"
+									],
+									"type": "string"
+								}
+							}
+						},
+						{
+							"$ref": "#/definitions/minMaxExactly"
+						}
+					],
+					"description": "Player character skill expectation",
+					"type": "object"
+				},
+				"poiCount": {
+					"$ref": "#/definitions/poiCount"
+				},
+				"setting": {
+					"$ref": "#/definitions/setting"
+				},
+				"sideQuestCount": {
+					"$ref": "#/definitions/sideQuestCount"
+				},
+				"titleEn": {
+					"description": "Segment title, in English",
+					"type": "string"
+				}
+			},
+			"required": [
+				"id",
+				"titleEn"
+			],
+			"type": "object"
+		},
+		"parallelWith": {
+			"allOf": [
+				{
+					"description": "Narrative segments this one can happen in parallel with"
+				},
+				{
+					"$ref": "#/definitions/idsExpression"
+				}
+			]
+		},
+		"poiCount": {
+			"default": 0,
+			"description": "Number of points of interest described",
+			"minimum": 0,
+			"type": "number"
+		},
+		"setting": {
+			"description": "Primary setting or theme",
+			"enum": [
+				"town",
+				"dungeon",
+				"keep",
+				"journey",
+				"combat"
+			],
+			"type": "string"
+		},
+		"sideQuestCount": {
+			"default": 0,
+			"description": "Number of side quests described",
+			"minimum": 0,
+			"type": "number"
+		},
+		"structureItem": {
+			"description": "Module structure item",
+			"properties": {
+				"chapterNumber": {
+					"description": "Chapter number",
+					"type": "number"
+				},
+				"contentTypeIds": {
+					"description": "Content type identifiers",
+					"items": {
+						"enum": [
+							"arc",
+							"lore",
+							"meta",
+							"reference"
+						],
+						"pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]*)*$",
+						"type": "string"
+					},
+					"type": "array"
+				},
+				"titleEn": {
+					"description": "Segment/Section title, in English",
+					"type": "string"
+				}
+			},
+			"type": "object"
+		}
+	},
+	"description": "Tabletop RPG metadata",
+	"properties": {
+		"$schema": {
+			"description": "System schema identifier",
+			"type": "string"
+		},
+		"after": {
+			"$ref": "#/definitions/after"
+		},
+		"before": {
+			"$ref": "#/definitions/before"
+		},
+		"id": {
+			"description": "Unique module identifier in spinal-lower-case, used for references",
+			"pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]*)*$",
+			"type": "string"
+		},
+		"narrative": {
+			"description": "Narrative segment descriptions",
+			"items": {
+				"$ref": "#/definitions/narrativeItem"
+			},
+			"type": "array"
+		},
+		"parallelWith": {
+			"$ref": "#/definitions/parallelWith"
+		},
+		"personae": {
+			"$ref": "../schema/personae.schema.json"
+		},
+		"publish": {
+			"$ref": "../schema/publish.schema.json"
+		},
+		"structure": {
+			"description": "Module structure",
+			"items": {
+				"$ref": "#/definitions/structureItem"
+			},
+			"type": "array"
+		},
+		"systemId": {
+			"description": "System unique identifier in spinal-lower-case",
+			"pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]*)*$",
+			"type": "string"
+		},
+		"titleEn": {
+			"description": "Full title in English",
+			"minLength": 1,
+			"type": "string"
+		}
+	},
+	"required": [
+		"$schema",
+		"titleEn",
+		"id",
+		"systemId"
+	],
+	"type": "object"
+}

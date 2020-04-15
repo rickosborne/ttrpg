@@ -1,0 +1,25 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema",
+	"description": "Publication metadata",
+	"properties": {
+		"month": {
+			"description": "Publication month",
+			"maximum": 12,
+			"minimum": 1,
+			"type": "number"
+		},
+		"year": {
+			"description": "Publication year",
+			"minimum": 1800,
+			"type": "number"
+		},
+		"isbn": {
+			"description": "ISBN",
+			"type": "string"
+		}
+	},
+	"required": [
+		"year"
+	],
+	"type": "object"
+}

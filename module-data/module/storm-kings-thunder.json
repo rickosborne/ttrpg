@@ -1,0 +1,441 @@
+{
+	"$schema": "./module.schema.json",
+	"after": {
+		"max": 1,
+		"min": 0,
+		"some": [
+			"lost-mine-of-phandelver",
+			"princes-of-the-apocalypse"
+		]
+	},
+	"id": "storm-kings-thunder",
+	"narrative": [
+		{
+			"before": "rumblings",
+			"id": "a-great-upheaval",
+			"locations": [
+				{
+					"eventCount": 2,
+					"id": "nightstone",
+					"poiCount": 14,
+					"setting": "town",
+					"titleEn": "Nightstone"
+				},
+				{
+					"id": "dripping-cave",
+					"poiCount": 9,
+					"setting": "dungeon",
+					"titleEn": "Dripping Caves"
+				},
+				{
+					"eventCount": 2,
+					"id": "tower-of-zephyros",
+					"poiCount": 3,
+					"setting": "keep",
+					"titleEn": "Tower of Zephyros"
+				}
+			],
+			"pcSkill": {
+				"max": 4,
+				"min": 1,
+				"type": "level"
+			},
+			"titleEn": "A Great Upheaval"
+		},
+		{
+			"before": "rumblings",
+			"id": "other-published-adventure",
+			"pcSkill": {
+				"max": 4,
+				"min": 1,
+				"type": "level"
+			},
+			"titleEn": "Other Published Adventure"
+		},
+		{
+			"after": {
+				"max": 3,
+				"min": 1,
+				"some": [
+					"a-great-upheaval",
+					"other-published-adventure"
+				]
+			},
+			"before": {
+				"exactly": 1,
+				"some": [
+					"bryn-shander",
+					"goldenfields",
+					"triboar"
+				]
+			},
+			"id": "rumblings",
+			"pcSkill": {
+				"max": 5,
+				"min": 4,
+				"type": "level"
+			},
+			"titleEn": "Rumblings"
+		},
+		{
+			"after": "rumblings",
+			"before": "the-savage-frontier",
+			"id": "bryn-shander",
+			"locations": [
+				{
+					"eventCount": 1,
+					"id": "bryn-shander-location",
+					"poiCount": 14,
+					"setting": "town",
+					"sideQuestCount": 6,
+					"titleEn": "Bryn Shander"
+				}
+			],
+			"titleEn": "Bryn Shander"
+		},
+		{
+			"after": "rumblings",
+			"before": "the-savage-frontier",
+			"id": "goldenfields",
+			"locations": [
+				{
+					"eventCount": 1,
+					"id": "goldenfields-location",
+					"poiCount": 20,
+					"setting": "town",
+					"sideQuestCount": 6,
+					"titleEn": "Goldenfields"
+				}
+			],
+			"titleEn": "Goldenfields"
+		},
+		{
+			"after": "rumblings",
+			"before": "the-savage-frontier",
+			"id": "triboar",
+			"locations": [
+				{
+					"eventCount": 1,
+					"id": "triboar-location",
+					"poiCount": 25,
+					"setting": "town",
+					"sideQuestCount": 6,
+					"titleEn": "Triboar"
+				}
+			],
+			"titleEn": "Triboar"
+		},
+		{
+			"after": {
+				"exactly": 1,
+				"some": [
+					"bryn-shander",
+					"goldenfields",
+					"triboar"
+				]
+			},
+			"before": "the-chosen-path",
+			"eventCount": 37,
+			"id": "the-savage-frontier",
+			"pcSkill": {
+				"exactly": 6,
+				"type": "level"
+			},
+			"poiCount": 160,
+			"setting": "journey",
+			"titleEn": "The Savage Frontier"
+		},
+		{
+			"after": "the-savage-frontier",
+			"before": {
+				"all": [
+					"den-of-the-hill-giants",
+					"canyon-of-the-stone-giants",
+					"berg-of-the-frost-giants",
+					"forge-of-the-fire-giants",
+					"castle-of-the-cloud-giants"
+				]
+			},
+			"eventCount": 1,
+			"id": "the-chosen-path",
+			"locations": [
+				{
+					"id": "eye-of-the-all-father",
+					"poiCount": 11,
+					"setting": "dungeon",
+					"titleEn": "Eye of the All-Father"
+				},
+				{
+					"eventCount": 1,
+					"id": "airship-of-a-cult",
+					"poiCount": 6,
+					"setting": "journey",
+					"titleEn": "Airship of a Cult"
+				}
+			],
+			"pcSkill": {
+				"exactly": 7,
+				"type": "level"
+			},
+			"titleEn": "The Chosen Path"
+		},
+		{
+			"after": "the-chosen-path",
+			"before": "hold-of-the-storm-giants",
+			"id": "den-of-the-hill-giants",
+			"pcSkill": {
+				"exactly": 8,
+				"type": "level"
+			},
+			"poiCount": 16,
+			"setting": "dungeon",
+			"titleEn": "Den of the Hill Giants"
+		},
+		{
+			"after": "the-chosen-path",
+			"before": "hold-of-the-storm-giants",
+			"id": "canyon-of-the-stone-giants",
+			"pcSkill": {
+				"exactly": 8,
+				"type": "level"
+			},
+			"poiCount": 15,
+			"setting": "dungeon",
+			"titleEn": "Canyon of the Stone Giants"
+		},
+		{
+			"after": "the-chosen-path",
+			"before": "hold-of-the-storm-giants",
+			"id": "berg-of-the-frost-giants",
+			"pcSkill": {
+				"exactly": 8,
+				"type": "level"
+			},
+			"poiCount": 9,
+			"setting": "dungeon",
+			"titleEn": "Berg of the Frost Giants"
+		},
+		{
+			"after": "the-chosen-path",
+			"before": "hold-of-the-storm-giants",
+			"id": "forge-of-the-fire-giants",
+			"pcSkill": {
+				"exactly": 8,
+				"type": "level"
+			},
+			"poiCount": 37,
+			"setting": "dungeon",
+			"titleEn": "Forge of the Fire Giants"
+		},
+		{
+			"after": "the-chosen-path",
+			"before": "hold-of-the-storm-giants",
+			"id": "castle-of-the-cloud-giants",
+			"pcSkill": {
+				"exactly": 8,
+				"type": "level"
+			},
+			"poiCount": 33,
+			"setting": "dungeon",
+			"titleEn": "Castle of the Cloud Giants"
+		},
+		{
+			"before": {
+				"exactly": 1,
+				"some": [
+					"caught-in-the-tentacles",
+					"doom-of-the-desert"
+				]
+			},
+			"id": "hold-of-the-storm-giants",
+			"pcSkill": {
+				"exactly": 9,
+				"type": "level"
+			},
+			"poiCount": 34,
+			"setting": "dungeon",
+			"titleEn": "Hold of the Storm Giants"
+		},
+		{
+			"after": {
+				"exactly": 1,
+				"some": [
+					"den-of-the-hill-giants",
+					"canyon-of-the-stone-giants",
+					"berg-of-the-frost-giants",
+					"forge-of-the-fire-giants",
+					"castle-of-the-cloud-giants"
+				]
+			},
+			"before": "doom-of-the-desert",
+			"id": "caught-in-the-tentacles",
+			"locations": [
+				{
+					"id": "the-grand-dame",
+					"poiCount": 15,
+					"setting": "dungeon",
+					"titleEn": "The Grand Dame"
+				},
+				{
+					"id": "the-hunt-for-hekaton",
+					"setting": "journey",
+					"titleEn": "The Hunt for Hekaton"
+				},
+				{
+					"id": "the-morkoth",
+					"setting": "dungeon",
+					"titleEn": "The Morkoth"
+				},
+				{
+					"id": "the-kraken-cometh",
+					"setting": "combat",
+					"titleEn": "The Kraken Cometh"
+				}
+			],
+			"pcSkill": {
+				"exactly": 9,
+				"type": "level"
+			},
+			"titleEn": "Caught in the Tentacles"
+		},
+		{
+			"after": {
+				"max": 2,
+				"min": 1,
+				"some": [
+					"caught-in-the-tentacles",
+					"hold-of-the-storm-giants"
+				]
+			},
+			"id": "doom-of-the-desert",
+			"pcSkill": {
+				"exactly": 10,
+				"type": "level"
+			},
+			"setting": "dungeon",
+			"titleEn": "Doom of the Desert"
+		}
+	],
+	"parallelWith": {
+		"max": 1,
+		"min": 0,
+		"some": [
+			"hoard-of-the-dragon-queen",
+			"out-of-the-abyss"
+		]
+	},
+	"personae": {
+		"namedNpcCount": 63
+	},
+	"publish": {
+		"isbn": "978-0-7869-6600-4",
+		"month": 9,
+		"year": 2016
+	},
+	"structure": [
+		{
+			"contentTypeIds": [
+				"lore"
+			],
+			"titleEn": "Introduction"
+		},
+		{
+			"contentTypeIds": [
+				"arc"
+			],
+			"titleEn": "Chapter 1"
+		},
+		{
+			"contentTypeIds": [
+				"arc"
+			],
+			"titleEn": "Chapter 2"
+		},
+		{
+			"contentTypeIds": [
+				"arc"
+			],
+			"titleEn": "Chapter 3"
+		},
+		{
+			"contentTypeIds": [
+				"arc"
+			],
+			"titleEn": "Chapter 4"
+		},
+		{
+			"contentTypeIds": [
+				"arc"
+			],
+			"titleEn": "Chapter 5"
+		},
+		{
+			"contentTypeIds": [
+				"arc"
+			],
+			"titleEn": "Chapter 6"
+		},
+		{
+			"contentTypeIds": [
+				"arc"
+			],
+			"titleEn": "Chapter 7"
+		},
+		{
+			"contentTypeIds": [
+				"arc"
+			],
+			"titleEn": "Chapter 8"
+		},
+		{
+			"contentTypeIds": [
+				"arc"
+			],
+			"titleEn": "Chapter 9"
+		},
+		{
+			"contentTypeIds": [
+				"arc"
+			],
+			"titleEn": "Chapter 10"
+		},
+		{
+			"contentTypeIds": [
+				"arc"
+			],
+			"titleEn": "Chapter 11"
+		},
+		{
+			"contentTypeIds": [
+				"arc"
+			],
+			"titleEn": "Chapter 12"
+		},
+		{
+			"contentTypeIds": [
+				"meta"
+			],
+			"titleEn": "Appendix A"
+		},
+		{
+			"contentTypeIds": [
+				"reference"
+			],
+			"titleEn": "Appendix B"
+		},
+		{
+			"contentTypeIds": [
+				"reference"
+			],
+			"titleEn": "Appendix C"
+		},
+		{
+			"contentTypeIds": [
+				"reference"
+			],
+			"titleEn": "Appendix D"
+		}
+	],
+	"systemId": "dnd-5e",
+	"titleEn": "Storm King's Thunder"
+}
