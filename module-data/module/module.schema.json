@@ -22,6 +22,12 @@
 				}
 			]
 		},
+		"branchCount": {
+			"default": 0,
+			"description": "Number of story branches, paths, or significant choices",
+			"minimum": 0,
+			"type": "integer"
+		},
 		"eventCount": {
 			"default": 0,
 			"description": "Number of events or encounters",
@@ -82,6 +88,9 @@
 			"additionalProperties": false,
 			"description": "Location or scene",
 			"properties": {
+				"branchCount": {
+					"$ref": "#/definitions/branchCount"
+				},
 				"eventCount": {
 					"$ref": "#/definitions/eventCount"
 				},
@@ -113,7 +122,6 @@
 				}
 			},
 			"required": [
-				"id",
 				"setting"
 			],
 			"type": "object"
@@ -219,6 +227,9 @@
 				"poiCount": {
 					"$ref": "#/definitions/poiCount"
 				},
+				"sceneCount": {
+					"$ref": "#/definitions/sceneCount"
+				},
 				"setting": {
 					"$ref": "#/definitions/setting"
 				},
@@ -261,6 +272,12 @@
 			"minimum": 0,
 			"type": "integer"
 		},
+		"sceneCount": {
+			"default": 0,
+			"description": "Number of linear scenes described",
+			"minimum": 0,
+			"type": "integer"
+		},
 		"setting": {
 			"description": "Primary setting or theme",
 			"enum": [
@@ -268,7 +285,8 @@
 				"dungeon",
 				"keep",
 				"journey",
-				"combat"
+				"combat",
+				"investigation"
 			],
 			"type": "string"
 		},

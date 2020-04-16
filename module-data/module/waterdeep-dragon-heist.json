@@ -1,0 +1,325 @@
+{
+	"$schema": "./module.schema.json",
+	"id": "waterdeep-dragon-heist",
+	"narrative": [
+		{
+			"before": "trollskull-alley",
+			"id": "a-friend-in-need",
+			"locations": [
+				{
+					"eventCount": 1,
+					"id": "where-to-start",
+					"pageCount": 4,
+					"poiCount": 5,
+					"setting": "combat"
+				},
+				{
+					"eventCount": 1,
+					"id": "zentarim-hideout",
+					"pageCount": 3,
+					"poiCount": 5,
+					"setting": "dungeon"
+				},
+				{
+					"eventCount": 1,
+					"id": "xanathar-guild-hideout",
+					"pageCount": 3,
+					"poiCount": 13,
+					"setting": "dungeon"
+				}
+			],
+			"pageCount": 21,
+			"structureId": "chapter-1",
+			"titleEn": "A Friend in Need"
+		},
+		{
+			"after": "a-friend-in-need",
+			"before": "fireball",
+			"id": "trollskull-alley",
+			"pageCount": 12,
+			"poiCount": 7,
+			"setting": "town",
+			"structureId": "chapter-2",
+			"titleEn": "Trollskull Alley"
+		},
+		{
+			"after": "trollskull-alley",
+			"before": "dragon-season",
+			"id": "fireball",
+			"locations": [
+				{
+					"eventCount": 2,
+					"id": "the-crime-scene",
+					"pageCount": 2,
+					"poiCount": 4,
+					"setting": "investigation",
+					"titleEn": "The Crime Scene"
+				},
+				{
+					"id": "nims-secret",
+					"poiCount": 6,
+					"setting": "keep",
+					"sideQuestCount": 1,
+					"titleEn": "Nim's Secret"
+				},
+				{
+					"eventCount": 1,
+					"id": "gralhund-villa",
+					"pageCount": 7,
+					"poiCount": 20,
+					"setting": "keep",
+					"sideQuestCount": 1,
+					"titleEn": "Gralhund Villa"
+				}
+			],
+			"pageCount": 14,
+			"setting": "town",
+			"structureId": "chapter-3",
+			"titleEn": "Fireball"
+		},
+		{
+			"after": "fireball",
+			"id": "dragon-season",
+			"locations": [
+				{
+					"branchCount": 4,
+					"id": "alley",
+					"poiCount": 2,
+					"setting": "investigation"
+				},
+				{
+					"branchCount": 4,
+					"id": "mistshore",
+					"poiCount": 3,
+					"setting": "investigation"
+				},
+				{
+					"branchCount": 4,
+					"id": "street-chase",
+					"setting": "investigation"
+				},
+				{
+					"branchCount": 4,
+					"id": "mausoleum",
+					"poiCount": 2,
+					"setting": "investigation"
+				},
+				{
+					"branchCount": 4,
+					"id": "rooftop-chase",
+					"setting": "investigation"
+				},
+				{
+					"branchCount": 4,
+					"id": "theater",
+					"poiCount": 8,
+					"setting": "investigation"
+				},
+				{
+					"branchCount": 4,
+					"id": "old-tower",
+					"poiCount": 5,
+					"setting": "investigation"
+				},
+				{
+					"branchCount": 4,
+					"id": "courthouse",
+					"poiCount": 9,
+					"setting": "investigation"
+				},
+				{
+					"branchCount": 4,
+					"id": "cellar-complex",
+					"poiCount": 11,
+					"setting": "dungeon"
+				},
+				{
+					"branchCount": 4,
+					"id": "converted-windmill",
+					"poiCount": 8,
+					"setting": "investigation"
+				},
+				{
+					"id": "vault-of-dragons",
+					"poiCount": 9,
+					"setting": "dungeon",
+					"sideQuestCount": 2,
+					"titleEn": "Vault of Dragons"
+				}
+			],
+			"pageCount": 42,
+			"sceneCount": 10,
+			"setting": "journey",
+			"structureId": "chapter-4",
+			"titleEn": "Dragon Season"
+		},
+		{
+			"id": "spring-madness",
+			"poiCount": 36,
+			"setting": "dungeon",
+			"sideQuestCount": 2,
+			"structureId": "chapter-5",
+			"titleEn": "Spring Madness"
+		},
+		{
+			"id": "hell-of-a-summer",
+			"locations": [
+				{
+					"id": "cassalanter-villa",
+					"poiCount": 29,
+					"setting": "dungeon",
+					"titleEn": "Cassalanter Villa"
+				},
+				{
+					"id": "temple-of-asmodeus",
+					"poiCount": 9,
+					"setting": "dungeon",
+					"sideQuestCount": 2,
+					"titleEn": "Templae of Asmodeus"
+				}
+			],
+			"sceneCount": 3,
+			"structureId": "hell-of-a-summer",
+			"titleEn": "Hell of a Summer"
+		},
+		{
+			"id": "maestros-fall",
+			"locations": [
+				{
+					"id": "sea-maidens-faire",
+					"poiCount": 32,
+					"setting": "keep"
+				},
+				{
+					"id": "scarlet-marpenoth",
+					"poiCount": 13,
+					"setting": "keep",
+					"sideQuestCount": 4
+				}
+			],
+			"structureId": "chapter-7",
+			"titleEn": "Maestro's Fall"
+		},
+		{
+			"id": "winter-wizardry",
+			"locations": [
+				{
+					"id": "kolat-towers",
+					"poiCount": 22,
+					"setting": "dungeon"
+				},
+				{
+					"id": "extradimensional-sanctum",
+					"poiCount": 13,
+					"setting": "dungeon"
+				}
+			],
+			"sideQuestCount": 3,
+			"structureId": "chapter-8",
+			"titleEn": "Winter Wizardry"
+		}
+	],
+	"personae": {
+		"namedNpcCount": 85
+	},
+	"publish": {
+		"isbn": "978-0-7869-6625-7",
+		"month": 9,
+		"year": 2018
+	},
+	"structure": [
+		{
+			"contentTypeIds": [
+				"lore"
+			],
+			"pageCount": 17,
+			"titleEn": "Introduction"
+		},
+		{
+			"contentTypeIds": [
+				"arc"
+			],
+			"id": "chapter-1",
+			"pageCount": 10
+		},
+		{
+			"contentTypeIds": [
+				"arc"
+			],
+			"id": "chapter-2",
+			"pageCount": 12
+		},
+		{
+			"contentTypeIds": [
+				"arc"
+			],
+			"id": "chapter-3",
+			"pageCount": 14
+		},
+		{
+			"contentTypeIds": [
+				"arc"
+			],
+			"id": "chapter-4",
+			"pageCount": 42
+		},
+		{
+			"contentTypeIds": [
+				"arc"
+			],
+			"id": "chapter-5",
+			"pageCount": 16
+		},
+		{
+			"contentTypeIds": [
+				"arc"
+			],
+			"id": "chapter-6",
+			"pageCount": 16
+		},
+		{
+			"contentTypeIds": [
+				"arc"
+			],
+			"id": "chapter-7",
+			"pageCount": 16
+		},
+		{
+			"contentTypeIds": [
+				"arc"
+			],
+			"id": "chapter-8",
+			"pageCount": 16
+		},
+		{
+			"contentTypeIds": [
+				"lore"
+			],
+			"id": "chapter-9",
+			"pageCount": 26
+		},
+		{
+			"contentTypeIds": [
+				"reference"
+			],
+			"pageCount": 4,
+			"titleEn": "Appendix A"
+		},
+		{
+			"contentTypeIds": [
+				"reference"
+			],
+			"pageCount": 28,
+			"titleEn": "Appendix B"
+		},
+		{
+			"contentTypeIds": [
+				"reference"
+			],
+			"pageCount": 4,
+			"titleEn": "Appendix C"
+		}
+	],
+	"systemId": "dnd-5e",
+	"titleEn": "Waterdeep Dragon Heist"
+}
