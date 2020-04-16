@@ -415,6 +415,24 @@
 		"publish": {
 			"$ref": "../schema/publish.schema.json"
 		},
+		"series": {
+			"additionalProperties": false,
+			"description": "Collection, series, brand, etc.",
+			"properties": {
+				"id": {
+					"$ref": "#/definitions/id"
+				},
+				"titleEn": {
+					"description": "Title of the series, in English",
+					"type": "string"
+				},
+				"url": {
+					"description": "URL for the series",
+					"type": "string"
+				}
+			},
+			"type": "object"
+		},
 		"structure": {
 			"description": "Module structure",
 			"items": {

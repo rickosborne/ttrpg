@@ -41,6 +41,10 @@
 		"url": "https://nordgamesllc.com/product/fires-of-war/",
 		"year": 2019
 	},
+	"series": {
+		"titleEn": "Heroes of High Fantasy",
+		"url": "https://nordgamesllc.com/product-category/heroes-of-high-fantasy/"
+	},
 	"structure": [
 		{
 			"contentTypeIds": [

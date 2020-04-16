@@ -1,0 +1,144 @@
+{
+	"$schema": "./module.schema.json",
+	"duration": "arc",
+	"id": "artifices-of-quartztoil-tower",
+	"narrative": [
+		{
+			"before": "searching-for-quartztoil",
+			"id": "downturn-in-the-marketplace",
+			"pageCount": 1,
+			"poiCount": 1,
+			"sceneCount": 1,
+			"setting": "event",
+			"structureId": "part-1",
+			"titleEn": "Downturn in the Marketplace"
+		},
+		{
+			"after": "downturn-in-the-marketplace",
+			"before": "quartztoil-tower",
+			"eventCount": 2,
+			"id": "searching-for-quartztoil",
+			"pageCount": 2,
+			"poiCount": 5,
+			"setting": "investigation",
+			"structureId": "part-2",
+			"titleEn": "Searching for Quartztoil"
+		},
+		{
+			"after": "downturn-in-the-marketplace",
+			"before": "conclusion",
+			"eventCount": 1,
+			"id": "quartztoil-tower",
+			"pageCount": 9,
+			"poiCount": 9,
+			"setting": "dungeon",
+			"structureId": "part-3",
+			"titleEn": "Quartztoil Tower"
+		},
+		{
+			"after": "quartztoil-tower",
+			"id": "conclusion",
+			"pageCount": 1,
+			"poiCount": 1,
+			"setting": "event",
+			"structureId": "conclusion-section",
+			"titleEn": "Conclusion"
+		}
+	],
+	"publish": {
+		"isbn": "978-1-946669-21-6",
+		"url": "https://nordgamesllc.com/product/heroes-of-high-fantasy-artifices-of-quartztoil-tower/",
+		"year": 2019
+	},
+	"series": {
+		"titleEn": "Heroes of High Fantasy",
+		"url": "https://nordgamesllc.com/product-category/heroes-of-high-fantasy/"
+	},
+	"structure": [
+		{
+			"contentTypeIds": [
+				"meta"
+			],
+			"pageCount": 1
+		},
+		{
+			"contentTypeIds": [
+				"arc"
+			],
+			"id": "part-1",
+			"pageCount": 1
+		},
+		{
+			"contentTypeIds": [
+				"arc"
+			],
+			"id": "part-2",
+			"pageCount": 2
+		},
+		{
+			"contentTypeIds": [
+				"arc"
+			],
+			"id": "part-3",
+			"pageCount": 9
+		},
+		{
+			"contentTypeIds": [
+				"arc"
+			],
+			"id": "conclusion-section",
+			"pageCount": 1
+		},
+		{
+			"contentTypeIds": [
+				"reference"
+			],
+			"id": "appendix-a",
+			"pageCount": 8
+		},
+		{
+			"contentTypeIds": [
+				"reference"
+			],
+			"id": "appendix-b",
+			"pageCount": 8
+		},
+		{
+			"contentTypeIds": [
+				"reference"
+			],
+			"id": "appendix-c",
+			"pageCount": 8
+		},
+		{
+			"contentTypeIds": [
+				"reference"
+			],
+			"id": "appendix-d",
+			"pageCount": 2
+		},
+		{
+			"contentTypeIds": [
+				"reference"
+			],
+			"id": "appendix-e",
+			"pageCount": 4
+		},
+		{
+			"contentTypeIds": [
+				"reference"
+			],
+			"id": "appendix-f",
+			"pageCount": 6
+		},
+		{
+			"contentTypeIds": [
+				"meta"
+			],
+			"id": "appendix-g",
+			"pageCount": 10
+		}
+	],
+	"systemId": "dnd-5e",
+	"titleEn": "Heroes of High Fantasy: Artifices of Quartztoil Tower"
+}
