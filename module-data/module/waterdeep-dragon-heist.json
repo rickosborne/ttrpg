@@ -1,5 +1,6 @@
 {
 	"$schema": "./module.schema.json",
+	"duration": "arc",
 	"id": "waterdeep-dragon-heist",
 	"narrative": [
 		{

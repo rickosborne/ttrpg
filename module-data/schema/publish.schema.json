@@ -12,6 +12,10 @@
 			"minimum": 1,
 			"type": "number"
 		},
+		"url": {
+			"description": "URL for the publication",
+			"type": "string"
+		},
 		"year": {
 			"description": "Publication year",
 			"minimum": 1800,

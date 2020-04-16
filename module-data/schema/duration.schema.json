@@ -1,0 +1,27 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema",
+	"description": "Intended duration or scope of play",
+	"oneOf": [
+		{
+			"const": "scene",
+			"description": "A single scene, generally in a single location with a small group of characters"
+		},
+		{
+			"const": "episode",
+			"description": "A number of related scenes, generally focusing on a shared narrative theme, encompassing a single play session"
+		},
+		{
+			"const": "arc",
+			"description": "A number of related episodes, generally focusing on a single major goal across a number of play sessions"
+		},
+		{
+			"const": "season",
+			"description": "A number of related arcs, stringing together major goals into a transformative narrative"
+		},
+		{
+			"const": "campaign",
+			"description": "A complete story for one or more player characters, from inception to retirement"
+		}
+	],
+	"type": "string"
+}

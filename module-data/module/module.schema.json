@@ -169,6 +169,9 @@
 				"before": {
 					"$ref": "#/definitions/before"
 				},
+				"branchCount": {
+					"$ref": "#/definitions/branchCount"
+				},
 				"eventCount": {
 					"$ref": "#/definitions/eventCount"
 				},
@@ -310,6 +313,10 @@
 				{
 					"const": "investigation",
 					"description": "Something of a cross between a keep and a journey, relying less on structured narrative and more on player agency"
+				},
+				{
+					"const": "event",
+					"description": "A non-combat encounter, generally with a directed narrative focus"
 				}
 			],
 			"type": "string"
@@ -378,6 +385,9 @@
 		},
 		"before": {
 			"$ref": "#/definitions/before"
+		},
+		"duration": {
+			"$ref": "../schema/duration.schema.json"
 		},
 		"id": {
 			"allOf": [

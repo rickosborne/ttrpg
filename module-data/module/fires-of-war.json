@@ -1,0 +1,96 @@
+{
+	"$schema": "./module.schema.json",
+	"duration": "episode",
+	"id": "fires-of-war",
+	"narrative": [
+		{
+			"before": "campfires",
+			"id": "reporting-for-duty",
+			"pageCount": 3,
+			"poiCount": 1,
+			"sceneCount": 1,
+			"setting": "event",
+			"structureId": "part-1",
+			"titleEn": "Reporting for Duty"
+		},
+		{
+			"after": "reporting-for-duty",
+			"before": "ashes-and-embers",
+			"branchCount": 8,
+			"eventCount": 1,
+			"id": "campfires",
+			"pageCount": 3,
+			"poiCount": 1,
+			"sceneCount": 1,
+			"setting": "combat",
+			"structureId": "part-2",
+			"titleEn": "Campfires"
+		},
+		{
+			"after": "campfires",
+			"id": "ashes-and-embers",
+			"pageCount": 1,
+			"poiCount": 1,
+			"sceneCount": 1,
+			"setting": "event",
+			"structureId": "part-3",
+			"titleEn": "Ashes and Embers"
+		}
+	],
+	"publish": {
+		"url": "https://nordgamesllc.com/product/fires-of-war/",
+		"year": 2019
+	},
+	"structure": [
+		{
+			"contentTypeIds": [
+				"meta"
+			],
+			"pageCount": 1
+		},
+		{
+			"contentTypeIds": [
+				"arc"
+			],
+			"id": "part-1",
+			"pageCount": 3
+		},
+		{
+			"contentTypeIds": [
+				"arc"
+			],
+			"id": "part-2",
+			"pageCount": 3
+		},
+		{
+			"contentTypeIds": [
+				"arc"
+			],
+			"id": "part-3",
+			"pageCount": 1
+		},
+		{
+			"contentTypeIds": [
+				"reference"
+			],
+			"id": "appendix-a",
+			"pageCount": 5
+		},
+		{
+			"contentTypeIds": [
+				"reference"
+			],
+			"id": "appendix-b",
+			"pageCount": 5
+		},
+		{
+			"contentTypeIds": [
+				"reference"
+			],
+			"id": "appendix-c",
+			"pageCount": 5
+		}
+	],
+	"systemId": "dnd-5e",
+	"titleEn": "Heroes of High Fantasy: Fires of War"
+}
