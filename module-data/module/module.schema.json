@@ -26,14 +26,16 @@
 			"default": 0,
 			"description": "Number of events or encounters",
 			"minimum": 0,
-			"type": "number"
+			"type": "integer"
+		},
+		"id": {
+			"$ref": "../schema/id.schema.json"
 		},
 		"idsExpression": {
 			"description": "One or more identifiers in a Boolean expression",
 			"oneOf": [
 				{
-					"pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]*)*$",
-					"type": "string"
+					"$ref": "#/definitions/id"
 				},
 				{
 					"additionalProperties": false,
@@ -72,21 +74,29 @@
 							"$ref": "#/definitions/minMaxExactly"
 						}
 					],
-					"properties": {},
 					"type": "object"
 				}
 			]
 		},
 		"location": {
+			"additionalProperties": false,
 			"description": "Location or scene",
 			"properties": {
 				"eventCount": {
 					"$ref": "#/definitions/eventCount"
 				},
 				"id": {
-					"description": "Location or scene identifier, unique within the module",
-					"pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]*)*$",
-					"type": "string"
+					"allOf": [
+						{
+							"description": "Location or scene identifier, unique within the module"
+						},
+						{
+							"$ref": "#/definitions/id"
+						}
+					]
+				},
+				"pageCount": {
+					"$ref": "#/definitions/pageCount"
 				},
 				"poiCount": {
 					"$ref": "#/definitions/poiCount"
@@ -109,16 +119,17 @@
 			"type": "object"
 		},
 		"minMaxExactly": {
+			"additionalProperties": false,
 			"oneOf": [
 				{
 					"properties": {
 						"max": {
 							"description": "At most this many",
-							"type": "number"
+							"type": "integer"
 						},
 						"min": {
 							"description": "At least this many",
-							"type": "number"
+							"type": "integer"
 						}
 					},
 					"required": [
@@ -130,14 +141,15 @@
 					"properties": {
 						"exactly": {
 							"description": "Exactly this value",
-							"type": "number"
+							"type": "integer"
 						}
 					},
 					"required": [
 						"exactly"
 					]
 				}
-			]
+			],
+			"type": "object"
 		},
 		"narrativeItem": {
 			"additionalProperties": false,
@@ -153,9 +165,14 @@
 					"$ref": "#/definitions/eventCount"
 				},
 				"id": {
-					"description": "Narrative segment identifier, unique to the module",
-					"pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]*)*$",
-					"type": "string"
+					"allOf": [
+						{
+							"description": "Narrative segment identifier, unique to the module"
+						},
+						{
+							"$ref": "#/definitions/id"
+						}
+					]
 				},
 				"locations": {
 					"description": "Locations or scenes within the narrative segment",
@@ -164,7 +181,21 @@
 					},
 					"type": "array"
 				},
+				"pageCount": {
+					"$ref": "#/definitions/pageCount"
+				},
+				"parentId": {
+					"allOf": [
+						{
+							"description": "Section/segment which contains this one"
+						},
+						{
+							"$ref": "#/definitions/id"
+						}
+					]
+				},
 				"pcSkill": {
+					"additionalProperties": false,
 					"allOf": [
 						{
 							"properties": {
@@ -194,6 +225,9 @@
 				"sideQuestCount": {
 					"$ref": "#/definitions/sideQuestCount"
 				},
+				"structureId": {
+					"$ref": "#/definitions/id"
+				},
 				"titleEn": {
 					"description": "Segment title, in English",
 					"type": "string"
@@ -204,6 +238,12 @@
 				"titleEn"
 			],
 			"type": "object"
+		},
+		"pageCount": {
+			"default": 0,
+			"description": "Count of pages in the section",
+			"minimum": 0,
+			"type": "integer"
 		},
 		"parallelWith": {
 			"allOf": [
@@ -219,7 +259,7 @@
 			"default": 0,
 			"description": "Number of points of interest described",
 			"minimum": 0,
-			"type": "number"
+			"type": "integer"
 		},
 		"setting": {
 			"description": "Primary setting or theme",
@@ -236,14 +276,15 @@
 			"default": 0,
 			"description": "Number of side quests described",
 			"minimum": 0,
-			"type": "number"
+			"type": "integer"
 		},
 		"structureItem": {
+			"additionalProperties": false,
 			"description": "Module structure item",
 			"properties": {
 				"chapterNumber": {
 					"description": "Chapter number",
-					"type": "number"
+					"type": "integer"
 				},
 				"contentTypeIds": {
 					"description": "Content type identifiers",
@@ -254,10 +295,15 @@
 							"meta",
 							"reference"
 						],
-						"pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]*)*$",
 						"type": "string"
 					},
 					"type": "array"
+				},
+				"id": {
+					"$ref": "#/definitions/id"
+				},
+				"pageCount": {
+					"$ref": "#/definitions/pageCount"
 				},
 				"titleEn": {
 					"description": "Segment/Section title, in English",
@@ -280,9 +326,14 @@
 			"$ref": "#/definitions/before"
 		},
 		"id": {
-			"description": "Unique module identifier in spinal-lower-case, used for references",
-			"pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]*)*$",
-			"type": "string"
+			"allOf": [
+				{
+					"description": "Unique module identifier in spinal-lower-case, used for references"
+				},
+				{
+					"$ref": "#/definitions/id"
+				}
+			]
 		},
 		"narrative": {
 			"description": "Narrative segment descriptions",
@@ -308,9 +359,14 @@
 			"type": "array"
 		},
 		"systemId": {
-			"description": "System unique identifier in spinal-lower-case",
-			"pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]*)*$",
-			"type": "string"
+			"allOf": [
+				{
+					"description": "System unique identifier in spinal-lower-case"
+				},
+				{
+					"$ref": "#/definitions/id"
+				}
+			]
 		},
 		"titleEn": {
 			"description": "Full title in English",

@@ -35,11 +35,13 @@
 					"titleEn": "Tower of Zephyros"
 				}
 			],
+			"pageCount": 18,
 			"pcSkill": {
 				"max": 4,
 				"min": 1,
 				"type": "level"
 			},
+			"structureId": "chapter-1",
 			"titleEn": "A Great Upheaval"
 		},
 		{
@@ -70,11 +72,13 @@
 				]
 			},
 			"id": "rumblings",
+			"pageCount": 26,
 			"pcSkill": {
 				"max": 5,
 				"min": 4,
 				"type": "level"
 			},
+			"structureId": "chapter-2",
 			"titleEn": "Rumblings"
 		},
 		{
@@ -91,6 +95,8 @@
 					"titleEn": "Bryn Shander"
 				}
 			],
+			"pageCount": 6,
+			"parentId": "rumblings",
 			"titleEn": "Bryn Shander"
 		},
 		{
@@ -107,6 +113,8 @@
 					"titleEn": "Goldenfields"
 				}
 			],
+			"pageCount": 9,
+			"parentId": "rumblings",
 			"titleEn": "Goldenfields"
 		},
 		{
@@ -123,6 +131,8 @@
 					"titleEn": "Triboar"
 				}
 			],
+			"pageCount": 9,
+			"parentId": "rumblings",
 			"titleEn": "Triboar"
 		},
 		{
@@ -137,12 +147,14 @@
 			"before": "the-chosen-path",
 			"eventCount": 37,
 			"id": "the-savage-frontier",
+			"pageCount": 58,
 			"pcSkill": {
 				"exactly": 6,
 				"type": "level"
 			},
 			"poiCount": 160,
 			"setting": "journey",
+			"structureId": "chapter-3",
 			"titleEn": "The Savage Frontier"
 		},
 		{
@@ -173,70 +185,82 @@
 					"titleEn": "Airship of a Cult"
 				}
 			],
+			"pageCount": 16,
 			"pcSkill": {
 				"exactly": 7,
 				"type": "level"
 			},
+			"structureId": "chapter-4",
 			"titleEn": "The Chosen Path"
 		},
 		{
 			"after": "the-chosen-path",
 			"before": "hold-of-the-storm-giants",
 			"id": "den-of-the-hill-giants",
+			"pageCount": 8,
 			"pcSkill": {
 				"exactly": 8,
 				"type": "level"
 			},
 			"poiCount": 16,
 			"setting": "dungeon",
+			"structureId": "chapter-5",
 			"titleEn": "Den of the Hill Giants"
 		},
 		{
 			"after": "the-chosen-path",
 			"before": "hold-of-the-storm-giants",
 			"id": "canyon-of-the-stone-giants",
+			"pageCount": 10,
 			"pcSkill": {
 				"exactly": 8,
 				"type": "level"
 			},
 			"poiCount": 15,
 			"setting": "dungeon",
+			"structureId": "chapter-6",
 			"titleEn": "Canyon of the Stone Giants"
 		},
 		{
 			"after": "the-chosen-path",
 			"before": "hold-of-the-storm-giants",
 			"id": "berg-of-the-frost-giants",
+			"pageCount": 12,
 			"pcSkill": {
 				"exactly": 8,
 				"type": "level"
 			},
 			"poiCount": 9,
 			"setting": "dungeon",
+			"structureId": "chapter-7",
 			"titleEn": "Berg of the Frost Giants"
 		},
 		{
 			"after": "the-chosen-path",
 			"before": "hold-of-the-storm-giants",
 			"id": "forge-of-the-fire-giants",
+			"pageCount": 20,
 			"pcSkill": {
 				"exactly": 8,
 				"type": "level"
 			},
 			"poiCount": 37,
 			"setting": "dungeon",
+			"structureId": "chapter-8",
 			"titleEn": "Forge of the Fire Giants"
 		},
 		{
 			"after": "the-chosen-path",
 			"before": "hold-of-the-storm-giants",
 			"id": "castle-of-the-cloud-giants",
+			"pageCount": 14,
 			"pcSkill": {
 				"exactly": 8,
 				"type": "level"
 			},
 			"poiCount": 33,
 			"setting": "dungeon",
+			"structureId": "chapter-9",
 			"titleEn": "Castle of the Cloud Giants"
 		},
 		{
@@ -248,12 +272,14 @@
 				]
 			},
 			"id": "hold-of-the-storm-giants",
+			"pageCount": 14,
 			"pcSkill": {
 				"exactly": 9,
 				"type": "level"
 			},
 			"poiCount": 34,
 			"setting": "dungeon",
+			"structureId": "chapter-10",
 			"titleEn": "Hold of the Storm Giants"
 		},
 		{
@@ -272,30 +298,36 @@
 			"locations": [
 				{
 					"id": "the-grand-dame",
+					"pageCount": 3,
 					"poiCount": 15,
 					"setting": "dungeon",
 					"titleEn": "The Grand Dame"
 				},
 				{
 					"id": "the-hunt-for-hekaton",
+					"pageCount": 2,
 					"setting": "journey",
 					"titleEn": "The Hunt for Hekaton"
 				},
 				{
 					"id": "the-morkoth",
+					"pageCount": 2,
 					"setting": "dungeon",
 					"titleEn": "The Morkoth"
 				},
 				{
 					"id": "the-kraken-cometh",
+					"pageCount": 1,
 					"setting": "combat",
 					"titleEn": "The Kraken Cometh"
 				}
 			],
+			"pageCount": 10,
 			"pcSkill": {
 				"exactly": 9,
 				"type": "level"
 			},
+			"structureId": "chapter-11",
 			"titleEn": "Caught in the Tentacles"
 		},
 		{
@@ -308,11 +340,13 @@
 				]
 			},
 			"id": "doom-of-the-desert",
+			"pageCount": 6,
 			"pcSkill": {
 				"exactly": 10,
 				"type": "level"
 			},
 			"setting": "dungeon",
+			"structureId": "chapter-12",
 			"titleEn": "Doom of the Desert"
 		}
 	],
@@ -337,102 +371,131 @@
 			"contentTypeIds": [
 				"lore"
 			],
+			"pageCount": 6,
 			"titleEn": "Introduction"
 		},
 		{
 			"contentTypeIds": [
 				"arc"
 			],
+			"id": "chapter-1",
+			"pageCount": 18,
 			"titleEn": "Chapter 1"
 		},
 		{
 			"contentTypeIds": [
 				"arc"
 			],
+			"id": "chapter-2",
+			"pageCount": 26,
 			"titleEn": "Chapter 2"
 		},
 		{
 			"contentTypeIds": [
 				"arc"
 			],
+			"id": "chapter-3",
+			"pageCount": 58,
 			"titleEn": "Chapter 3"
 		},
 		{
 			"contentTypeIds": [
 				"arc"
 			],
+			"id": "chapter-4",
+			"pageCount": 16,
 			"titleEn": "Chapter 4"
 		},
 		{
 			"contentTypeIds": [
 				"arc"
 			],
+			"id": "chapter-5",
+			"pageCount": 8,
 			"titleEn": "Chapter 5"
 		},
 		{
 			"contentTypeIds": [
 				"arc"
 			],
+			"id": "chapter-6",
+			"pageCount": 10,
 			"titleEn": "Chapter 6"
 		},
 		{
 			"contentTypeIds": [
 				"arc"
 			],
+			"id": "chapter-7",
+			"pageCount": 12,
 			"titleEn": "Chapter 7"
 		},
 		{
 			"contentTypeIds": [
 				"arc"
 			],
+			"id": "chapter-8",
+			"pageCount": 20,
 			"titleEn": "Chapter 8"
 		},
 		{
 			"contentTypeIds": [
 				"arc"
 			],
+			"id": "chapter-9",
+			"pageCount": 14,
 			"titleEn": "Chapter 9"
 		},
 		{
 			"contentTypeIds": [
 				"arc"
 			],
+			"id": "chapter-10",
+			"pageCount": 14,
 			"titleEn": "Chapter 10"
 		},
 		{
 			"contentTypeIds": [
 				"arc"
 			],
+			"id": "chapter-11",
+			"pageCount": 10,
 			"titleEn": "Chapter 11"
 		},
 		{
 			"contentTypeIds": [
 				"arc"
 			],
+			"id": "chapter-12",
+			"pageCount": 6,
 			"titleEn": "Chapter 12"
 		},
 		{
 			"contentTypeIds": [
 				"meta"
 			],
+			"pageCount": 2,
 			"titleEn": "Appendix A"
 		},
 		{
 			"contentTypeIds": [
 				"reference"
 			],
+			"pageCount": 5,
 			"titleEn": "Appendix B"
 		},
 		{
 			"contentTypeIds": [
 				"reference"
 			],
+			"pageCount": 7,
 			"titleEn": "Appendix C"
 		},
 		{
 			"contentTypeIds": [
 				"reference"
 			],
+			"pageCount": 10,
 			"titleEn": "Appendix D"
 		}
 	],
