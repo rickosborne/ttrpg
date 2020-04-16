@@ -209,9 +209,15 @@
 							"properties": {
 								"type": {
 									"description": "Skill scale",
-									"enum": [
-										"level",
-										"xp"
+									"oneOf": [
+										{
+											"const": "level",
+											"description": "PC scale in systems which use explicit, monotonic, integral levels"
+										},
+										{
+											"const": "xp",
+											"description": "PC scale in systems which use continuous growth, without explicit breakpoints"
+										}
 									],
 									"type": "string"
 								}
@@ -280,13 +286,31 @@
 		},
 		"setting": {
 			"description": "Primary setting or theme",
-			"enum": [
-				"town",
-				"dungeon",
-				"keep",
-				"journey",
-				"combat",
-				"investigation"
+			"oneOf": [
+				{
+					"const": "town",
+					"description": "An area where travel is generally easy and NPCs are generally non-hostile until provoked"
+				},
+				{
+					"const": "dungeon",
+					"description": "An area where danger lurks around every corner and NPCs are generally hostile on sight"
+				},
+				{
+					"const": "keep",
+					"description": "An area or demesne, generally belonging to a neutral NPC or group, where PC choices directly impact the hostility of NPCs"
+				},
+				{
+					"const": "journey",
+					"description": "A large collection of ad hoc destinations, or a sequence of encounters"
+				},
+				{
+					"const": "combat",
+					"description": "An extended confrontation, generally without much travel, though it may be phased across multiple scenes"
+				},
+				{
+					"const": "investigation",
+					"description": "Something of a cross between a keep and a journey, relying less on structured narrative and more on player agency"
+				}
 			],
 			"type": "string"
 		},
@@ -307,11 +331,23 @@
 				"contentTypeIds": {
 					"description": "Content type identifiers",
 					"items": {
-						"enum": [
-							"arc",
-							"lore",
-							"meta",
-							"reference"
+						"oneOf": [
+							{
+								"const": "arc",
+								"description": "Story arc or narrative segment, generally spanning one or more full gaming sessions"
+							},
+							{
+								"const": "lore",
+								"description": "Background narrative, context, history, etc."
+							},
+							{
+								"const": "meta",
+								"description": "Meta-textual information about the module, the system, player advice, etc."
+							},
+							{
+								"const": "reference",
+								"description": "Tables, statistics blocks, NPCs, maps, etc."
+							}
 						],
 						"type": "string"
 					},
