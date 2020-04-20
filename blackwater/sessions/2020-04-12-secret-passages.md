@@ -67,6 +67,11 @@ Party loot included:
 
 * A new backpack, eventually stuffed with:
     * Silken rope with grappling hook
+    * Lockpicks (Edgar)
+* Chest (5 lbs empty + 6 lbs carried = 11 lbs)
+    * 86 small gold coins (~$50 each, 100/lb = 0.9 lbs)
+    * 12 copper coins (~$2 ea, 200/lb = 0.01 lbs)
+    * 3 silver coins (~$10 ea, 200/lb = 0.01 lbs)
 * Coinage
     * 3 Copper Boors
     * 21 Silver Crests
@@ -94,15 +99,18 @@ Party loot included:
 * Weapons and Armor
     * Two-handed bastard sword
     * Mace
-    * Halberd
-    * Steel helmet (Guy)
-    * Large studded bat, Swing+3 crushing (Yen)
+    * Halberd (7 lbs) - Guy
+    * Steel helmet (DR 4 skull & back of neck, 2 lbs) - Guy
+    * Nubbed Club, a.k.a Nubbin (8 lbs, Swing+3 crushing)- Yen
     * Sledgehammer
     * Ball-and-chain flail
+    * Kopesh Sword (sw+2 cut) - Arc
+    * Large wooden shield (DR 3)
+    * Medium wooden shield (DR 2)
 * Other items carried by people
-    * A horned skull (Arc)
+    * A horned skull - Arc
     * A bolt of leather
     * A stein
-    * Large brass key (Yen)
+    * Large brass key - Yen
     * Empty glass bottle with stopper
 
