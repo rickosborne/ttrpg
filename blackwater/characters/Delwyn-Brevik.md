@@ -26,6 +26,7 @@ TODO: Copy background stuff here.
 | [9](../sessions/2020-04-05-a-wail-of-a-good-time.md) | +2 | 187 | 3 | - |
 | [10](../sessions/2020-04-12-secret-passages.md) | +2 | 189 | 5 | - |
 | [11](../sessions/2020-04-19-boned-and-stoned.md) | +2 | 191 | 7 | - |
+| [12](../sessions/2020-04-26-a-dark-cloud.md) | - | 191 | 7 | - |
 
 ### Log Notes:
 
