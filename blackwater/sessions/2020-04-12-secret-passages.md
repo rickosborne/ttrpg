@@ -91,7 +91,7 @@ Party loot included:
 * Scrolls
     * _Scroll of Great Healing_, level 20 (reduces cost by 2)
     * _Scroll of Armor_, level 16 (reduces cost by 1)
-    * An unidentified scroll in a language Del doesn't read.  Maybe Plamarise?
+    * _Turn Zombie_ (in Plamarise)
 * Alchemical solutions
     * Salve of Restoration
     * A bottle of unidentified red substance

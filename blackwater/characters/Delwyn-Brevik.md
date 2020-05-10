@@ -27,7 +27,30 @@ TODO: Copy background stuff here.
 | [10](../sessions/2020-04-12-secret-passages.md) | +2 | 189 | 5 | - |
 | [11](../sessions/2020-04-19-boned-and-stoned.md) | +2 | 191 | 7 | - |
 | [12](../sessions/2020-04-26-a-dark-cloud.md) | - | 191 | 7 | - |
+| [13](../sessions/2020-05-03-do-you-smell-that.md) | +7 | 198 | 14 | - |
+| - | -1 | - | 13 | (retroactive) Language (Callach), Spoken: Broken |
+
 
 ### Log Notes:
 
 * ❖ For session #8, Del got 8 points instead 7 because of Rick's egregious puns.
+* For session #13, Rick didn't understand that Callach is dead like Latin, not dead like ancient Egyptian, so it can still be spoken in a way that allows for casting spells.  One point was spent to retroactively allow Del to have Callach at Spoken: Broken.
+
+## Spend Proposals
+
+### Sessions 13/14
+
+Del has 14 points to spend.  Priorities in descending order:
+
+* ~~1pt for retroactive Language: Callach, Spoken (Broken)~~
+* 3pt for +1 FP
+* 1pt for new spell: Levitation (would be a 15 SL)
+* 1pt for new spell: Continual Light (would be a 15 SL)
+* 2pt to upgrade Return Missile (SL 16 to 17)
+* 4pt to upgrade Ice Sphere (SL 17 to 18)
+* 3pt to upgrade Apportation (SL 15 to 17)
+* 4pt to upgrade Innate Attack: Projectile (SL 21 to 22)
+* 1pt to upgrade Simple Illusion (SL 15 to 16)
+* 10pt for +1 ST
+
+Also: Need to figure out if Del can pick up _Lend Energy_, on the path to _Recover Energy_.

@@ -16,7 +16,7 @@ Gus was finding the schedule hard to keep and has bowed out.
 
 The party spent the rest of the evening resting and recovering from their wounds.
 Prur, shaken by his experiences, could be found praying until well past dark.
-The party awoke on the morning of the 10th of Flocktime to find it misty and dark, but also to find Prur gone, along with all his gear.
+The party awoke on the morning of the 10th of Flocktime, 852, to find it misty and dark, but also to find Prur gone, along with all his gear.
 Everyone was sad to see such a jovial individual cowed, but no one could fault him for his choice.
 
 The party prepared to go back down into the sept, Yen making rope harnesses and Brorvec bracing to lower each in turn.
