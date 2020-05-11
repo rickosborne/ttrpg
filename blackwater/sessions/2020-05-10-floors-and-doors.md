@@ -6,7 +6,7 @@ keywords:
 - undead
 ---
 
-# Session 13: Floors and Doors
+# Session 14: Floors and Doors
 
 ## The Party
 
