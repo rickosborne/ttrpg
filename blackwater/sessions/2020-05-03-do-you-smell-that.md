@@ -155,3 +155,4 @@ Gabriel got an extra 1 XP for good RP with Sorven.
     * Edgar - southwest corner of the room 
     * Yenna - sleeping in the lowered center of the room
     * Guy - sleeping in the lowered center of the room
+    * Arc

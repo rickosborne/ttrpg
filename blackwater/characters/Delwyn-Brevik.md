@@ -29,12 +29,19 @@ TODO: Copy background stuff here.
 | [12](../sessions/2020-04-26-a-dark-cloud.md) | - | 191 | 7 | - |
 | [13](../sessions/2020-05-03-do-you-smell-that.md) | +7 | 198 | 14 | - |
 | - | -1 | - | 13 | (retroactive) Language (Callach), Spoken: Broken |
-
+| - | -3 | - | 10 | +1 FP |
+| - | -1 | - | 9 | new: _Levitation_, SL 15 |
+| - | -1 | - | 8 | new: _Continual Light_, SL 15 |
+| - | -2 | - | 6 | _Return Missile_, SL 16 → 17  |
+| - | -4 | - | 2 | _Ice Sphere_, SL 17 → 18  |
+| - | -1 | - | 1 | _Apportation_, SL 15 → 16  |
+| [14](../sessions/2020-05-10-floors-and-doors.md) | +4 ❖ | 202 | 5 | - |
 
 ### Log Notes:
 
 * ❖ For session #8, Del got 8 points instead 7 because of Rick's egregious puns.
 * For session #13, Rick didn't understand that Callach is dead like Latin, not dead like ancient Egyptian, so it can still be spoken in a way that allows for casting spells.  One point was spent to retroactively allow Del to have Callach at Spoken: Broken.
+* ❖ For session #14, Del got 4 points instead 3 because of Rick's clever use of an improvised _Glass Wall_ spell.
 
 ## Spend Proposals
 
@@ -43,14 +50,26 @@ TODO: Copy background stuff here.
 Del has 14 points to spend.  Priorities in descending order:
 
 * ~~1pt for retroactive Language: Callach, Spoken (Broken)~~
-* 3pt for +1 FP
-* 1pt for new spell: Levitation (would be a 15 SL)
-* 1pt for new spell: Continual Light (would be a 15 SL)
-* 2pt to upgrade Return Missile (SL 16 to 17)
-* 4pt to upgrade Ice Sphere (SL 17 to 18)
-* 3pt to upgrade Apportation (SL 15 to 17)
+* ~~3pt for +1 FP~~
+* ~~1pt for new spell: Levitation (would be a 15 SL)~~
+* ~~1pt for new spell: Continual Light (would be a 15 SL)~~
+* ~~2pt to upgrade Return Missile (SL 16 to 17)~~
+* ~~4pt to upgrade Ice Sphere (SL 17 to 18)~~
+* ~~1pt to upgrade Apportation (SL 15 to 16)~~
+* 2pt to upgrade Apportation (SL 16 to 17)
 * 4pt to upgrade Innate Attack: Projectile (SL 21 to 22)
 * 1pt to upgrade Simple Illusion (SL 15 to 16)
 * 10pt for +1 ST
 
-Also: Need to figure out if Del can pick up _Lend Energy_, on the path to _Recover Energy_.
+~~Also: Need to figure out if Del can pick up _Lend Energy_, on the path to _Recover Energy_.~~
+
+### Future Sessions
+
+* 1pts for new spell: _Glass Wall_ (would be a 15 SL, ~32%)
+* 2pts to upgrade _Body Sense_ (SL 12 to 13, ~9%)
+* 2pts to upgrade _Teleport_ (SL 15 to 16, <3%)
+* 3pts for +1 FP
+* 2pt to upgrade _Apportation_ (SL 16 to 17, <2%)
+* 4pt to upgrade _Innate Attack: Projectile_ (SL 21 to 22)
+* 1pt to upgrade _Simple Illusion_ (SL 15 to 16, <3%)
+* 10pt for +1 ST

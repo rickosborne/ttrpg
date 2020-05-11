@@ -24,6 +24,7 @@ The characters, notes, and other materials are **not** licensed for distribution
 | 11 | <abbr title="2020-04-19">Apr 19</abbr> | [Guy Gets Boned and Edgar Gets Stoned](./sessions/2020-04-19-boned-and-stoned.md) | 2 |
 | 12 | <abbr title="2020-04-26">Apr 26</abbr> | [A Dark Cloud](sessions/2020-04-26-a-dark-cloud.md) | - |
 | 13 | <abbr title="2020-05-03">May 3</abbr> | [Do you smell that?](sessions/2020-05-03-do-you-smell-that.md) | - |
+| 14 | <abbr title="2020-05-10">May 10</abbr> | [Floors and Doors](sessions/2020-05-10-floors-and-doors.md) | - |
 
 Individual session notes are available in the [`sessions`](./sessions) directory.
 New sessions are automagically compiled into Word format files available in the [releases](https://github.com/rickosborne/ttrpg/releases) area.
