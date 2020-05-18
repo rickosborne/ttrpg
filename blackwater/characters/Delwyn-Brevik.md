@@ -36,12 +36,14 @@ TODO: Copy background stuff here.
 | - | -4 | - | 2 | _Ice Sphere_, SL 17 → 18  |
 | - | -1 | - | 1 | _Apportation_, SL 15 → 16  |
 | [14](../sessions/2020-05-10-floors-and-doors.md) | +4 ❖ | 202 | 5 | - |
+| [15](../sessions/2020-05-17-back-to-the-futile.md) | +5 ❖ | 207 | 10 | - |
 
 ### Log Notes:
 
 * ❖ For session #8, Del got 8 points instead 7 because of Rick's egregious puns.
 * For session #13, Rick didn't understand that Callach is dead like Latin, not dead like ancient Egyptian, so it can still be spoken in a way that allows for casting spells.  One point was spent to retroactively allow Del to have Callach at Spoken: Broken.
 * ❖ For session #14, Del got 4 points instead 3 because of Rick's clever use of an improvised _Glass Wall_ spell.
+* ❖ For session #15, Del got 5 points instead 3 because of Rick's clever use of an improvised _Timeport_ spell.
 
 ## Spend Proposals
 
