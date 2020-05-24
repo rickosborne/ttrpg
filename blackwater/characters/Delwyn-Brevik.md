@@ -75,3 +75,8 @@ Del has 14 points to spend.  Priorities in descending order:
 * 4pt to upgrade _Innate Attack: Projectile_ (SL 21 to 22)
 * 1pt to upgrade _Simple Illusion_ (SL 15 to 16, <3%)
 * 10pt for +1 ST
+
+## Grimoire
+
+Printable PDF at [The-Grimoire-of-Delwyn-Brevik.pdf](The-Grimoire-of-Delwyn-Brevik.pdf).
+Source document available at [ricko.is/del-grimoire](https://ricko.is/del-grimoire).
