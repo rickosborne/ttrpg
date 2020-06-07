@@ -27,6 +27,7 @@ The characters, notes, and other materials are **not** licensed for distribution
 | 14 | <abbr title="2020-05-10">May 10</abbr> | [Floors and Doors](sessions/2020-05-10-floors-and-doors.md) | 3 |
 | 15 | <abbr title="2020-05-17">May 17</abbr> | [Back to the Futile](sessions/2020-05-17-back-to-the-futile.md) | 3 |
 | 16 | <abbr title="2020-05-24">May 24</abbr> | [One Long Breath](sessions/2020-05-24-one-long-breath.md) | 2 |
+| 17 | <abbr title="2020-05-31">May 31</abbr> | [Thunderbolts and Lightning](sessions/2020-05-31-thunderbolts-and-lightning.md) | - |
 
 Individual session notes are available in the [`sessions`](./sessions) directory.
 New sessions are automagically compiled into Word format files available in the [releases](https://github.com/rickosborne/ttrpg/releases) area.
