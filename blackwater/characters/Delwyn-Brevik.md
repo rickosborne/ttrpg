@@ -39,6 +39,7 @@ TODO: Copy background stuff here.
 | [15](../sessions/2020-05-17-back-to-the-futile.md) | +5 ❖ | 207 | 10 | - |
 | [16](../sessions/2020-05-24-one-long-breath.md) | +2 | 209 | 12 | - |
 | [17](../sessions/2020-05-31-thunderbolts-and-lightning.md) | -9 | 200 | 3 | - |
+| [18](../sessions/2020-06-07-its-not-a-fight-until-yenna-goes-negative.md) | - | 200 | 3 | - |
 
 ### Log Notes:
 

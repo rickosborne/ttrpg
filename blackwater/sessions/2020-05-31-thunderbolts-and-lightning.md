@@ -167,3 +167,4 @@ Without missing a beat, he began to pray, calling upon his deity for aid.
 ## Outcomes
 
 Del spent 9 XP to reroll at various times.
+Brorvec spent 1 point the same way.
