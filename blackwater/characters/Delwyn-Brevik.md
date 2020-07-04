@@ -40,6 +40,11 @@ TODO: Copy background stuff here.
 | [16](../sessions/2020-05-24-one-long-breath.md) | +2 | 209 | 12 | - |
 | [17](../sessions/2020-05-31-thunderbolts-and-lightning.md) | -9 | 200 | 3 | - |
 | [18](../sessions/2020-06-07-its-not-a-fight-until-yenna-goes-negative.md) | - | 200 | 3 | - |
+| [19](../sessions/2020-06-14.md) | +10 | 210 | 13 | - |
+| - | -10 | - | 3 | +1 HT, 10 → 11 |
+| - | -1 | - | 2 | new: _Timeport_, SL 14 |
+| - | -1 | - | 1 | new: _Blink Other_, SL 15 |
+| - | -1 | - | 0 | new: _Lend Energy_, SL 15 |
 
 ### Log Notes:
 
@@ -69,15 +74,22 @@ Del has 14 points to spend.  Priorities in descending order:
 
 ~~Also: Need to figure out if Del can pick up _Lend Energy_, on the path to _Recover Energy_.~~
 
+### Session 19
+
+* 10pts for +1 Ht (10 → 11)
+* 1pt for _Lend Energy_ (SL 15)
+* 1pt for _Timeport_ (SL 14)
+* 1pt for _Blink Other_ (SL 15)
+
 ### Future Sessions
 
 * 1pts for new spell: _Glass Wall_ (would be a 15 SL, ~32%)
 * 2pts to upgrade _Body Sense_ (SL 12 to 13, ~9%)
 * 2pts to upgrade _Teleport_ (SL 15 to 16, <3%)
-* 3pts for +1 FP
 * 2pt to upgrade _Apportation_ (SL 16 to 17, <2%)
 * 4pt to upgrade _Innate Attack: Projectile_ (SL 21 to 22)
 * 1pt to upgrade _Simple Illusion_ (SL 15 to 16, <3%)
+* 3pts for +1 FP
 * 10pt for +1 ST
 
 ## Grimoire

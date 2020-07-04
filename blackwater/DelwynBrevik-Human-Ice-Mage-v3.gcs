@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<character id="e9cb5e69-ada9-41c7-98a0-4074a9c77a25" version="4">
+<character id="e9cb5e69-ada9-41c7-98a0-4074a9c77a25" version="5">
 	<created_date>Jan 6, 2020</created_date>
-	<modified_date>May 10, 2020, 3:10 PM</modified_date>
+	<modified_date>Jun 15, 2020, 11:10 AM</modified_date>
 	<profile>
 		<player_name>Rick Osborne</player_name>
 		<campaign>Blackwater</campaign>
@@ -22,13 +22,12 @@
 		<tech_level>3</tech_level>
 	</profile>
 	<HP>0</HP>
-	<current_hp>9</current_hp>
 	<FP>4</FP>
-	<total_points>198</total_points>
+	<total_points>210</total_points>
 	<ST>9</ST>
 	<DX>13</DX>
 	<IQ>14</IQ>
-	<HT>10</HT>
+	<HT>11</HT>
 	<will>0</will>
 	<perception>0</perception>
 	<speed>-0.75</speed>
@@ -188,8 +187,8 @@
 			</modifier>
 			<modifier version="1" enabled="no">
 				<name>Favor</name>
-				<cost type="multiplier">0.2</cost>
 				<reference>B55</reference>
+				<cost type="multiplier">0.2</cost>
 			</modifier>
 			<reference>B44</reference>
 			<categories>
@@ -270,8 +269,8 @@
 			</modifier>
 			<modifier version="1" enabled="no">
 				<name>Favor</name>
-				<cost type="multiplier">0.2</cost>
 				<reference>B55</reference>
+				<cost type="multiplier">0.2</cost>
 			</modifier>
 			<reference>B44</reference>
 			<categories>
@@ -352,8 +351,8 @@
 			</modifier>
 			<modifier version="1" enabled="no">
 				<name>Favor</name>
-				<cost type="multiplier">0.2</cost>
 				<reference>B55</reference>
+				<cost type="multiplier">0.2</cost>
 			</modifier>
 			<reference>B44</reference>
 			<categories>
@@ -485,64 +484,64 @@
 			<type>Mental</type>
 			<modifier version="1" enabled="no">
 				<name>Native</name>
+				<reference>B23</reference>
 				<cost type="points">-6</cost>
 				<affects>total</affects>
-				<reference>B23</reference>
 			</modifier>
 			<modifier version="1" enabled="no">
 				<name>Spoken</name>
+				<reference>B24</reference>
 				<cost type="points">0</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>None</notes>
 			</modifier>
 			<modifier version="1">
 				<name>Spoken</name>
+				<reference>B24</reference>
 				<cost type="points">1</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>Broken</notes>
 			</modifier>
 			<modifier version="1" enabled="no">
 				<name>Spoken</name>
+				<reference>B24</reference>
 				<cost type="points">2</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>Accented</notes>
 			</modifier>
 			<modifier version="1" enabled="no">
 				<name>Spoken</name>
+				<reference>B24</reference>
 				<cost type="points">3</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>Native</notes>
 			</modifier>
 			<modifier version="1" enabled="no">
 				<name>Written</name>
+				<reference>B24</reference>
 				<cost type="points">0</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>None</notes>
 			</modifier>
 			<modifier version="1">
 				<name>Written</name>
+				<reference>B24</reference>
 				<cost type="points">1</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>Broken</notes>
 			</modifier>
 			<modifier version="1" enabled="no">
 				<name>Written</name>
+				<reference>B24</reference>
 				<cost type="points">2</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>Accented</notes>
 			</modifier>
 			<modifier version="1" enabled="no">
 				<name>Written</name>
+				<reference>B24</reference>
 				<cost type="points">3</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>Native</notes>
 			</modifier>
 			<reference>B24</reference>
@@ -556,64 +555,64 @@
 			<type>Mental</type>
 			<modifier version="1" enabled="no">
 				<name>Native</name>
+				<reference>B23</reference>
 				<cost type="points">-6</cost>
 				<affects>total</affects>
-				<reference>B23</reference>
 			</modifier>
 			<modifier version="1" enabled="no">
 				<name>Spoken</name>
+				<reference>B24</reference>
 				<cost type="points">0</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>None</notes>
 			</modifier>
 			<modifier version="1" enabled="no">
 				<name>Spoken</name>
+				<reference>B24</reference>
 				<cost type="points">1</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>Broken</notes>
 			</modifier>
 			<modifier version="1" enabled="no">
 				<name>Spoken</name>
+				<reference>B24</reference>
 				<cost type="points">2</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>Accented</notes>
 			</modifier>
 			<modifier version="1">
 				<name>Spoken</name>
+				<reference>B24</reference>
 				<cost type="points">0</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>Native</notes>
 			</modifier>
 			<modifier version="1" enabled="no">
 				<name>Written</name>
+				<reference>B24</reference>
 				<cost type="points">0</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>None</notes>
 			</modifier>
 			<modifier version="1" enabled="no">
 				<name>Written</name>
+				<reference>B24</reference>
 				<cost type="points">1</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>Broken</notes>
 			</modifier>
 			<modifier version="1" enabled="no">
 				<name>Written</name>
+				<reference>B24</reference>
 				<cost type="points">2</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>Accented</notes>
 			</modifier>
 			<modifier version="1">
 				<name>Written</name>
+				<reference>B24</reference>
 				<cost type="points">3</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>Native</notes>
 			</modifier>
 			<reference>B24</reference>
@@ -627,64 +626,64 @@
 			<type>Mental</type>
 			<modifier version="1" enabled="no">
 				<name>Native</name>
+				<reference>B23</reference>
 				<cost type="points">-6</cost>
 				<affects>total</affects>
-				<reference>B23</reference>
 			</modifier>
 			<modifier version="1" enabled="no">
 				<name>Spoken</name>
+				<reference>B24</reference>
 				<cost type="points">0</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>None</notes>
 			</modifier>
 			<modifier version="1">
 				<name>Spoken</name>
+				<reference>B24</reference>
 				<cost type="points">1</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>Broken</notes>
 			</modifier>
 			<modifier version="1" enabled="no">
 				<name>Spoken</name>
+				<reference>B24</reference>
 				<cost type="points">2</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>Accented</notes>
 			</modifier>
 			<modifier version="1" enabled="no">
 				<name>Spoken</name>
+				<reference>B24</reference>
 				<cost type="points">3</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>Native</notes>
 			</modifier>
 			<modifier version="1" enabled="no">
 				<name>Written</name>
+				<reference>B24</reference>
 				<cost type="points">0</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>None</notes>
 			</modifier>
 			<modifier version="1">
 				<name>Written</name>
+				<reference>B24</reference>
 				<cost type="points">1</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>Broken</notes>
 			</modifier>
 			<modifier version="1" enabled="no">
 				<name>Written</name>
+				<reference>B24</reference>
 				<cost type="points">2</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>Accented</notes>
 			</modifier>
 			<modifier version="1" enabled="no">
 				<name>Written</name>
+				<reference>B24</reference>
 				<cost type="points">3</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>Native</notes>
 			</modifier>
 			<reference>B24</reference>
@@ -698,64 +697,64 @@
 			<type>Mental</type>
 			<modifier version="1" enabled="no">
 				<name>Native</name>
+				<reference>B23</reference>
 				<cost type="points">-6</cost>
 				<affects>total</affects>
-				<reference>B23</reference>
 			</modifier>
 			<modifier version="1" enabled="no">
 				<name>Spoken</name>
+				<reference>B24</reference>
 				<cost type="points">0</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>None</notes>
 			</modifier>
 			<modifier version="1">
 				<name>Spoken</name>
+				<reference>B24</reference>
 				<cost type="points">1</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>Broken</notes>
 			</modifier>
 			<modifier version="1" enabled="no">
 				<name>Spoken</name>
+				<reference>B24</reference>
 				<cost type="points">2</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>Accented</notes>
 			</modifier>
 			<modifier version="1" enabled="no">
 				<name>Spoken</name>
+				<reference>B24</reference>
 				<cost type="points">3</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>Native</notes>
 			</modifier>
 			<modifier version="1" enabled="no">
 				<name>Written</name>
+				<reference>B24</reference>
 				<cost type="points">0</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>None</notes>
 			</modifier>
 			<modifier version="1">
 				<name>Written</name>
+				<reference>B24</reference>
 				<cost type="points">1</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>Broken</notes>
 			</modifier>
 			<modifier version="1" enabled="no">
 				<name>Written</name>
+				<reference>B24</reference>
 				<cost type="points">2</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>Accented</notes>
 			</modifier>
 			<modifier version="1" enabled="no">
 				<name>Written</name>
+				<reference>B24</reference>
 				<cost type="points">3</cost>
 				<affects>total</affects>
-				<reference>B24</reference>
 				<notes>Native</notes>
 			</modifier>
 			<reference>B24</reference>
@@ -779,15 +778,15 @@
 			<type>Physical</type>
 			<modifier version="1" enabled="no">
 				<name>Short term</name>
+				<reference>B146</reference>
 				<cost type="points">-5</cost>
 				<affects>total</affects>
-				<reference>B146</reference>
 			</modifier>
 			<modifier version="1">
 				<name>Long term</name>
+				<reference>B146</reference>
 				<cost type="points">-10</cost>
 				<affects>total</affects>
-				<reference>B146</reference>
 			</modifier>
 			<reference>B146</reference>
 			<notes>Topple the Order of the Magi</notes>
@@ -833,27 +832,27 @@
 				<type>Social</type>
 				<modifier version="1" enabled="no">
 					<name>Serious Embarrassment</name>
+					<reference>B152</reference>
 					<cost type="points">-5</cost>
 					<affects>total</affects>
-					<reference>B152</reference>
 				</modifier>
 				<modifier version="1" enabled="no">
 					<name>Utter Rejection</name>
+					<reference>B152</reference>
 					<cost type="points">-10</cost>
 					<affects>total</affects>
-					<reference>B152</reference>
 				</modifier>
 				<modifier version="1">
 					<name>Imprisonment</name>
+					<reference>B152</reference>
 					<cost type="points">-20</cost>
 					<affects>total</affects>
-					<reference>B152</reference>
 				</modifier>
 				<modifier version="1" enabled="no">
 					<name>Possible Death</name>
+					<reference>B152</reference>
 					<cost type="points">-30</cost>
 					<affects>total</affects>
-					<reference>B152</reference>
 				</modifier>
 				<reference>B152</reference>
 				<categories>
@@ -868,6 +867,13 @@
 			<specialization>Blackwater; Lived there</specialization>
 			<difficulty>IQ/E</difficulty>
 			<points>1</points>
+			<defaulted_from>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+				<level>10</level>
+				<adjusted_level>10</adjusted_level>
+				<points>-10</points>
+			</defaulted_from>
 			<reference>B176</reference>
 			<notes>All important businesses, streets, citizens, leaders, etc.</notes>
 			<categories>
@@ -889,6 +895,13 @@
 			<specialization>Baking</specialization>
 			<difficulty>IQ/E</difficulty>
 			<points>4</points>
+			<defaulted_from>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+				<level>9</level>
+				<adjusted_level>9</adjusted_level>
+				<points>-9</points>
+			</defaulted_from>
 			<reference>B185</reference>
 			<categories>
 				<category>Everyman</category>
@@ -918,6 +931,13 @@
 			<specialization>Beam</specialization>
 			<difficulty>DX/E</difficulty>
 			<points>1</points>
+			<defaulted_from>
+				<type>DX</type>
+				<modifier>-4</modifier>
+				<level>9</level>
+				<adjusted_level>9</adjusted_level>
+				<points>-9</points>
+			</defaulted_from>
 			<reference>B201</reference>
 			<categories>
 				<category>Combat/Weapon</category>
@@ -938,6 +958,13 @@
 			<specialization>Breath</specialization>
 			<difficulty>DX/E</difficulty>
 			<points>1</points>
+			<defaulted_from>
+				<type>DX</type>
+				<modifier>-4</modifier>
+				<level>9</level>
+				<adjusted_level>9</adjusted_level>
+				<points>-9</points>
+			</defaulted_from>
 			<reference>B201</reference>
 			<categories>
 				<category>Combat/Weapon</category>
@@ -958,6 +985,13 @@
 			<specialization>Projectile</specialization>
 			<difficulty>DX/E</difficulty>
 			<points>28</points>
+			<defaulted_from>
+				<type>DX</type>
+				<modifier>-4</modifier>
+				<level>9</level>
+				<adjusted_level>9</adjusted_level>
+				<points>-9</points>
+			</defaulted_from>
 			<reference>B201</reference>
 			<categories>
 				<category>Combat/Weapon</category>
@@ -977,6 +1011,13 @@
 			<name>Merchant</name>
 			<difficulty>IQ/A</difficulty>
 			<points>4</points>
+			<defaulted_from>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+				<level>9</level>
+				<adjusted_level>9</adjusted_level>
+				<points>-9</points>
+			</defaulted_from>
 			<reference>B209</reference>
 			<categories>
 				<category>Business</category>
@@ -1001,6 +1042,13 @@
 			<name>Occultism</name>
 			<difficulty>IQ/A</difficulty>
 			<points>4</points>
+			<defaulted_from>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+				<level>9</level>
+				<adjusted_level>9</adjusted_level>
+				<points>-9</points>
+			</defaulted_from>
 			<reference>B212</reference>
 			<categories>
 				<category>Occult/Magical</category>
@@ -1014,6 +1062,13 @@
 			<name>Thaumatology</name>
 			<difficulty>IQ/VH</difficulty>
 			<points>4</points>
+			<defaulted_from>
+				<type>IQ</type>
+				<modifier>-7</modifier>
+				<level>7</level>
+				<adjusted_level>7</adjusted_level>
+				<points>-7</points>
+			</defaulted_from>
 			<reference>B225</reference>
 			<categories>
 				<category>Occult/Magical</category>
@@ -1027,6 +1082,13 @@
 			<name>Body Sense</name>
 			<difficulty>DX/H</difficulty>
 			<points>2</points>
+			<defaulted_from>
+				<type>DX</type>
+				<modifier>-6</modifier>
+				<level>7</level>
+				<adjusted_level>7</adjusted_level>
+				<points>-7</points>
+			</defaulted_from>
 			<reference>B181</reference>
 			<categories>
 				<category>Athletic</category>
@@ -1043,10 +1105,11 @@
 		</skill>
 	</skill_list>
 	<spell_list>
-		<spell_container version="3" open="yes">
+		<spell_container version="4" open="yes">
 			<name>Defensive</name>
-			<spell version="3">
+			<spell version="4">
 				<name>Deflect Missile</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Movement/Protection</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Blocking</spell_class>
@@ -1066,8 +1129,9 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Watchdog</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Protection</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -1085,8 +1149,9 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Sense Foes</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Communication &amp; Empathy</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Info/Area</spell_class>
@@ -1099,8 +1164,9 @@
 					<category>Communication</category>
 				</categories>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Blink</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Gate/Movement</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Blocking</spell_class>
@@ -1120,8 +1186,9 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Catch Missile</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Protection</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Blocking</spell_class>
@@ -1139,8 +1206,9 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Return Missile</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Protection</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Blocking</spell_class>
@@ -1159,8 +1227,9 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Shield</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Protection</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1185,8 +1254,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3" very_hard="yes">
+			<spell version="4">
 				<name>Catch Spell</name>
+				<difficulty>IQ/VH</difficulty>
 				<college>Meta</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Blocking/Special</spell_class>
@@ -1217,8 +1287,9 @@
 					</prereq_list>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Sense Danger</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Protection</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Info</spell_class>
@@ -1240,8 +1311,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Counterspell</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Meta</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1265,8 +1337,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3" very_hard="yes">
+			<spell version="4">
 				<name>Teleport</name>
+				<difficulty>IQ/VH</difficulty>
 				<college>Gate/Movement</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Special</spell_class>
@@ -1293,10 +1366,11 @@
 				</prereq_list>
 			</spell>
 		</spell_container>
-		<spell_container version="3" open="yes">
+		<spell_container version="4" open="yes">
 			<name>Ice</name>
-			<spell version="3">
+			<spell version="4">
 				<name>Purify Air</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Air</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -1309,8 +1383,9 @@
 					<category>Air</category>
 				</categories>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Shape Water</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Water</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1328,8 +1403,9 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Ice Dagger</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Water</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Missile</spell_class>
@@ -1366,8 +1442,9 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Ice Sphere</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Water</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Missile</spell_class>
@@ -1401,8 +1478,9 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Purify Water</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Water</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Special</spell_class>
@@ -1420,8 +1498,9 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Seek Water</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Water</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Info</spell_class>
@@ -1434,8 +1513,9 @@
 					<category>Water</category>
 				</categories>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Create Water</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Water</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1454,10 +1534,11 @@
 				</prereq_list>
 			</spell>
 		</spell_container>
-		<spell_container version="3" open="yes">
+		<spell_container version="4" open="yes">
 			<name>Knowledge</name>
-			<spell version="3">
+			<spell version="4">
 				<name>Detect Magic</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Knowledge</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1482,8 +1563,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Identify Spell</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Knowledge</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Info</spell_class>
@@ -1501,8 +1583,9 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Mage Sight</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Knowledge</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1520,8 +1603,9 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Seek Magic</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Knowledge</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Info</spell_class>
@@ -1539,8 +1623,9 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Analyze Magic</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Knowledge</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Info</spell_class>
@@ -1559,8 +1644,9 @@
 				</prereq_list>
 			</spell>
 		</spell_container>
-		<spell version="3">
+		<spell version="4">
 			<name>Light</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Light &amp; Darkness</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -1573,8 +1659,9 @@
 				<category>Light</category>
 			</categories>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Continual Light</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Light &amp; Darkness</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -1592,8 +1679,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Simple Illusion</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Illusion &amp; Creation</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -1613,8 +1701,9 @@
 				<attribute_prereq has="yes" which="iq" compare="at least">11</attribute_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Know Illusion</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Illusion &amp; Creation</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Info</spell_class>
@@ -1632,8 +1721,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Dispel Magic</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Meta</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -1655,8 +1745,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Apportation</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Movement</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -1683,8 +1774,9 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Levitation</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Movement</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -1699,6 +1791,92 @@
 			<prereq_list all="yes">
 				<spell_prereq has="yes">
 					<name compare="is">apportation</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="4">
+			<name>Lend Energy</name>
+			<difficulty>IQ/H</difficulty>
+			<college>Healing</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>1/pt</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>Permanent</duration>
+			<reference>M89</reference>
+			<categories>
+				<category>Healing</category>
+			</categories>
+			<prereq_list all="no">
+				<prereq_list all="no">
+					<advantage_prereq has="yes">
+						<name compare="is">magery</name>
+						<notes compare="contains">one college (healing)</notes>
+						<level compare="at least">1</level>
+					</advantage_prereq>
+					<advantage_prereq has="yes">
+						<name compare="is">magery</name>
+						<notes compare="does not contain">one college</notes>
+						<level compare="at least">1</level>
+					</advantage_prereq>
+				</prereq_list>
+				<advantage_prereq has="yes">
+					<name compare="is">empathy</name>
+					<notes compare="is anything"></notes>
+				</advantage_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="4">
+			<name>Timeport</name>
+			<difficulty>IQ/VH</difficulty>
+			<college>Gate</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Special</spell_class>
+			<casting_cost>Varies</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>Instant</duration>
+			<reference>M81</reference>
+			<categories>
+				<category>Gate</category>
+			</categories>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">teleport</name>
+				</spell_prereq>
+				<prereq_list all="no">
+					<advantage_prereq has="yes">
+						<name compare="is">magery</name>
+						<notes compare="contains">one college (gate)</notes>
+						<level compare="at least">3</level>
+					</advantage_prereq>
+					<advantage_prereq has="yes">
+						<name compare="is">magery</name>
+						<notes compare="does not contain">one college</notes>
+						<level compare="at least">3</level>
+					</advantage_prereq>
+				</prereq_list>
+			</prereq_list>
+		</spell>
+		<spell version="4">
+			<name>Blink Other</name>
+			<difficulty>IQ/H</difficulty>
+			<college>Gate/Movement</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Blocking</spell_class>
+			<casting_cost>2</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>Instant</duration>
+			<reference>M148</reference>
+			<categories>
+				<category>Gate</category>
+				<category>Movement</category>
+			</categories>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">blink</name>
 				</spell_prereq>
 			</prereq_list>
 		</spell>
