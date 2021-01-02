@@ -40,7 +40,7 @@ TODO: Copy background stuff here.
 | [16](../sessions/2020-05-24-one-long-breath.md) | +2 | 209 | 12 | - |
 | [17](../sessions/2020-05-31-thunderbolts-and-lightning.md) | -9 | 200 | 3 | - |
 | [18](../sessions/2020-06-07-its-not-a-fight-until-yenna-goes-negative.md) | - | 200 | 3 | - |
-| [19](../sessions/2020-06-14.md) | +10 | 210 | 13 | - |
+| [19](../sessions/2020-06-14-shes-gone-for-good-right.md) | +10 | 210 | 13 | - |
 | - | -10 | - | 3 | +1 HT, 10 → 11 |
 | - | -1 | - | 2 | new: _Timeport_, SL 14 |
 | - | -1 | - | 1 | new: _Blink Other_, SL 15 |
