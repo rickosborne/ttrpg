@@ -1,1629 +1,2491 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<character id="1f6c90f7-25d1-4a8b-ac75-5799c7f75f2f" version="4">
-	<created_date>Jan 12, 2020</created_date>
-	<modified_date>Mar 29, 2020, 8:09 PM</modified_date>
-	<profile>
-		<player_name>Corri</player_name>
-		<name>Yenevra Feldspar</name>
-		<age>31</age>
-		<eyes>Brown</eyes>
-		<hair>Dark Brown, Wavy, Short</hair>
-		<skin>Dark Tan</skin>
-		<handedness>Right</handedness>
-		<height>7"</height>
-		<weight>300 lb</weight>
-		<SM>1</SM>
-		<gender>Female</gender>
-		<race>Human</race>
-		<body_type>humanoid</body_type>
-		<tech_level>2</tech_level>
-		<religion>(ex) Morgoth</religion>
-	</profile>
-	<HP>2</HP>
-	<FP>0</FP>
-	<total_points>184</total_points>
-	<ST>11</ST>
-	<DX>12</DX>
-	<IQ>11</IQ>
-	<HT>13</HT>
-	<will>0</will>
-	<perception>2</perception>
-	<speed>0</speed>
-	<move>0</move>
-	<include_punch>true</include_punch>
-	<include_kick>true</include_kick>
-	<include_kick_with_boots>true</include_kick_with_boots>
-	<advantage_list>
-		<advantage_container version="3" open="yes">
-			<name>Combat</name>
-			<advantage version="3">
-				<name>Ambidexterity</name>
-				<type>Physical</type>
-				<base_points>5</base_points>
-				<reference>B39</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="3">
-				<name>Berserk</name>
-				<type>Mental</type>
-				<base_points>-10</base_points>
-				<cr>12</cr>
-				<modifier version="1">
-					<name>Battle Rage</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B124</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="3">
-				<name>Combat Reflexes</name>
-				<type>Mental</type>
-				<base_points>15</base_points>
-				<reference>B43</reference>
-				<notes>Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)</notes>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-				<skill_bonus>
-					<name compare="starts with">fast-draw</name>
-					<specialization compare="is anything"></specialization>
-					<category compare="is anything"></category>
-					<amount>1</amount>
-				</skill_bonus>
-				<attribute_bonus>
-					<attribute>dodge</attribute>
-					<amount>1</amount>
-				</attribute_bonus>
-				<attribute_bonus>
-					<attribute>parry</attribute>
-					<amount>1</amount>
-				</attribute_bonus>
-				<attribute_bonus>
-					<attribute>block</attribute>
-					<amount>1</amount>
-				</attribute_bonus>
-				<attribute_bonus>
-					<attribute>fright check</attribute>
-					<amount>2</amount>
-				</attribute_bonus>
-				<prereq_list all="yes">
-					<advantage_prereq has="no">
-						<name compare="is">Enhanced Time Sense</name>
-						<notes compare="is anything"></notes>
-					</advantage_prereq>
-				</prereq_list>
-			</advantage>
-			<advantage version="3">
-				<name>Damage Resistance</name>
-				<type>Physical, Exotic</type>
-				<levels>1</levels>
-				<points_per_level>5</points_per_level>
-				<modifier version="1" enabled="no">
-					<name>Force Field</name>
-					<cost type="percentage">20</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Hardened</name>
-					<cost type="percentage">20</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Absorption</name>
-					<cost type="percentage">80</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>Enhances @Trait@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Absorption</name>
-					<cost type="percentage">80</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>Healing only</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Absorption</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>Enhances any trait</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Reflection</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bane</name>
-					<cost type="points">-1</cost>
-					<affects>total</affects>
-					<reference>H14</reference>
-					<notes>@Rare@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bane</name>
-					<cost type="percentage">-5</cost>
-					<affects>total</affects>
-					<reference>H14</reference>
-					<notes>@Occasional@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bane</name>
-					<cost type="percentage">-10</cost>
-					<affects>total</affects>
-					<reference>H14</reference>
-					<notes>@Common@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bane</name>
-					<cost type="percentage">-15</cost>
-					<affects>total</affects>
-					<reference>H14</reference>
-					<notes>@Very Common@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Directional</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-					<notes>Front</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Flexible</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Very Common Attack Form@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Semi-Ablative</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Can't wear armor</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Directional</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-					<notes>@Direction: Back, Right, Left, Top or Underside@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Common Attack Form@</notes>
-				</modifier>
-				<modifier version="1">
-					<name>Tough Skin</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<notes>Effects that just require skin contact or a scratch ignore this DR</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-60</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Occasional Attack Form@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Ablative</name>
-					<cost type="percentage">-80</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-80</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Rare Attack Form@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Laminate</name>
-					<cost type="percentage">10</cost>
-					<affects>total</affects>
-					<reference>RSWL18</reference>
-				</modifier>
-				<reference>B47</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-				<dr_bonus>
-					<location>full body</location>
-					<amount per_level="yes">1</amount>
-				</dr_bonus>
-			</advantage>
-			<advantage version="3">
-				<name>Hard to Kill</name>
-				<type>Physical</type>
-				<levels>1</levels>
-				<points_per_level>2</points_per_level>
-				<reference>B58</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="3">
-				<name>Hard to Subdue</name>
-				<type>Physical</type>
-				<levels>1</levels>
-				<points_per_level>2</points_per_level>
-				<reference>B59</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="3">
-				<name>High Pain Threshold</name>
-				<type>Physical</type>
-				<base_points>10</base_points>
-				<reference>B59</reference>
-				<notes>Never suffer shock penalties when injured; +3 on all HT rolls to avoid knockdown and stunning; +3 to resist torture</notes>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="3">
-				<name>Post-Combat Shakes</name>
-				<type>Mental</type>
-				<base_points>-5</base_points>
-				<cr>12</cr>
-				<reference>B150</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-		<advantage_container version="3" open="yes">
-			<name>Survival</name>
-			<advantage version="3">
-				<name>Absolute Direction</name>
-				<type>Mental/Physical</type>
-				<base_points>5</base_points>
-				<modifier version="1" enabled="no">
-					<name>Requires signal</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B34</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>3D Spatial Sense</name>
-					<cost type="points">5</cost>
-					<affects>total</affects>
-					<reference>B34</reference>
-					<skill_bonus>
-						<name compare="starts with">piloting</name>
-						<specialization compare="is anything"></specialization>
-						<category compare="is anything"></category>
-						<amount>1</amount>
-					</skill_bonus>
-					<skill_bonus>
-						<name compare="is">aerobatics</name>
-						<specialization compare="is anything"></specialization>
-						<category compare="is anything"></category>
-						<amount>2</amount>
-					</skill_bonus>
-					<skill_bonus>
-						<name compare="is">free fall</name>
-						<specialization compare="is anything"></specialization>
-						<category compare="is anything"></category>
-						<amount>2</amount>
-					</skill_bonus>
-					<skill_bonus>
-						<name compare="is">navigation</name>
-						<specialization compare="is">hyperspace</specialization>
-						<category compare="is anything"></category>
-						<amount>2</amount>
-					</skill_bonus>
-					<skill_bonus>
-						<name compare="is">navigation</name>
-						<specialization compare="is">space</specialization>
-						<category compare="is anything"></category>
-						<amount>2</amount>
-					</skill_bonus>
-				</modifier>
-				<reference>B34</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-				<skill_bonus>
-					<name compare="is">body sense</name>
-					<specialization compare="is anything"></specialization>
-					<category compare="is anything"></category>
-					<amount>3</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">navigation</name>
-					<specialization compare="is">air</specialization>
-					<category compare="is anything"></category>
-					<amount>3</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">navigation</name>
-					<specialization compare="is">land</specialization>
-					<category compare="is anything"></category>
-					<amount>3</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">navigation</name>
-					<specialization compare="is">sea</specialization>
-					<category compare="is anything"></category>
-					<amount>3</amount>
-				</skill_bonus>
-			</advantage>
-			<advantage version="3">
-				<name>Danger Sense</name>
-				<type>Mental</type>
-				<base_points>15</base_points>
-				<reference>B47</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-		<advantage_container version="3" open="yes" type="race">
-			<name>Strig Barbarian</name>
-			<advantage version="3">
-				<name>Gigantism</name>
-				<type>Physical</type>
-				<reference>B20</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-				<attribute_bonus>
-					<attribute>move</attribute>
-					<amount>1</amount>
-				</attribute_bonus>
-				<skill_bonus>
-					<name compare="is">disguise</name>
-					<specialization compare="is not">animals</specialization>
-					<category compare="is anything"></category>
-					<amount>-2</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">shadowing</name>
-					<specialization compare="is anything"></specialization>
-					<category compare="is anything"></category>
-					<amount>-2</amount>
-				</skill_bonus>
-				<attribute_bonus>
-					<attribute>sm</attribute>
-					<amount>1</amount>
-				</attribute_bonus>
-			</advantage>
-			<advantage version="3">
-				<name>Increased Strength</name>
-				<type>Physical</type>
-				<levels>3</levels>
-				<points_per_level>10</points_per_level>
-				<modifier version="1" enabled="no">
-					<name>No Fine Manipulators</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B15</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Size</name>
-					<cost type="percentage">-10</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B15</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Super-Effort</name>
-					<cost type="percentage">300</cost>
-					<affects>total</affects>
-					<reference>SU24</reference>
-				</modifier>
-				<reference>B14</reference>
-				<categories>
-					<category>Advantage</category>
-					<category>Attribute</category>
-				</categories>
-				<attribute_bonus>
-					<attribute>st</attribute>
-					<amount per_level="yes">1</amount>
-				</attribute_bonus>
-			</advantage>
-			<advantage version="3">
-				<name>Overweight</name>
-				<type>Physical</type>
-				<base_points>-1</base_points>
-				<reference>B19</reference>
-				<notes>+1 ST vs. knockback</notes>
-				<categories>
-					<category>Quirk</category>
-				</categories>
-				<skill_bonus>
-					<name compare="is">disguise</name>
-					<specialization compare="is anything"></specialization>
-					<category compare="is anything"></category>
-					<amount>-1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">shadowing</name>
-					<specialization compare="is anything"></specialization>
-					<category compare="is anything"></category>
-					<amount>-1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">swimming</name>
-					<specialization compare="is anything"></specialization>
-					<category compare="is anything"></category>
-					<amount>1</amount>
-				</skill_bonus>
-			</advantage>
-			<advantage version="3">
-				<name>Rapid Healing</name>
-				<type>Physical</type>
-				<base_points>5</base_points>
-				<reference>B79</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-				<prereq_list all="yes">
-					<attribute_prereq has="yes" which="ht" compare="at least">10</attribute_prereq>
-				</prereq_list>
-			</advantage>
-			<advantage version="3">
-				<name>Primitive (Low TL)</name>
-				<type>Social</type>
-				<levels>1</levels>
-				<points_per_level>-5</points_per_level>
-				<reference>B22</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="3">
-				<name>Social Stigma (Uneducated)</name>
-				<type>Social</type>
-				<base_points>-5</base_points>
-				<reference>B156</reference>
-				<notes>-1 Reaction</notes>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="3">
-				<name>Temperature Tolerance (Cold)</name>
-				<type>Physical</type>
-				<levels>2</levels>
-				<base_points>1</base_points>
-				<reference>B93</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="3">
-				<name>Wealth</name>
-				<type>Social</type>
-				<modifier version="1" enabled="no">
-					<name>Dead Broke</name>
-					<cost type="points">-25</cost>
-					<affects>total</affects>
-					<reference>B25</reference>
-					<notes>Starting wealth is $0</notes>
-				</modifier>
-				<modifier version="1">
-					<name>Poor</name>
-					<cost type="points">-15</cost>
-					<affects>total</affects>
-					<reference>B25</reference>
-					<notes>Starting wealth is 1/5 average</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Struggling</name>
-					<cost type="points">-10</cost>
-					<affects>total</affects>
-					<reference>B25</reference>
-					<notes>Starting wealth is 1/2 average</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Average</name>
-					<cost type="points">0</cost>
-					<affects>total</affects>
-					<reference>B25</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Comfortable</name>
-					<cost type="points">10</cost>
-					<affects>total</affects>
-					<reference>B25</reference>
-					<notes>Starting wealth is 2x average</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Wealthy</name>
-					<cost type="points">20</cost>
-					<affects>total</affects>
-					<reference>B25</reference>
-					<notes>Starting wealth is 5x average</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Very Wealthy</name>
-					<cost type="points">30</cost>
-					<affects>total</affects>
-					<reference>B25</reference>
-					<notes>Starting wealth is 20x average</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Filthy Rich</name>
-					<cost type="points">50</cost>
-					<affects>total</affects>
-					<reference>B25</reference>
-					<notes>Starting wealth is 100x average</notes>
-				</modifier>
-				<reference>B25</reference>
-				<categories>
-					<category>Advantage</category>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-		<advantage_container version="3" open="yes">
-			<name>Social</name>
-			<advantage version="3">
-				<name>Curious</name>
-				<type>Mental</type>
-				<base_points>-5</base_points>
-				<cr>9</cr>
-				<reference>B129</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="3">
-				<name>Code of Honor - Intolerant of Misogyny</name>
-				<type>Mental</type>
-				<base_points>-1</base_points>
-				<reference>B162</reference>
-				<categories>
-					<category>Quirk</category>
-				</categories>
-			</advantage>
-			<advantage version="3">
-				<name>Distractible</name>
-				<type>Mental</type>
-				<base_points>-1</base_points>
-				<reference>B162</reference>
-				<categories>
-					<category>Quirk</category>
-				</categories>
-			</advantage>
-			<advantage version="3">
-				<name>Easy to Read</name>
-				<type>Mental</type>
-				<base_points>-10</base_points>
-				<reference>B134</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="3">
-				<name>Language: Schepal</name>
-				<type>Mental</type>
-				<modifier version="1" enabled="no">
-					<name>Native</name>
-					<cost type="points">-6</cost>
-					<affects>total</affects>
-					<reference>B23</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Spoken</name>
-					<cost type="points">0</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>None</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Spoken</name>
-					<cost type="points">1</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Broken</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Spoken</name>
-					<cost type="points">2</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Accented</notes>
-				</modifier>
-				<modifier version="1">
-					<name>Spoken</name>
-					<cost type="points">0</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Native</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Written</name>
-					<cost type="points">0</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>None</notes>
-				</modifier>
-				<modifier version="1">
-					<name>Written</name>
-					<cost type="points">1</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Broken</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Written</name>
-					<cost type="points">2</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Accented</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Written</name>
-					<cost type="points">3</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Native</notes>
-				</modifier>
-				<reference>B24</reference>
-				<categories>
-					<category>Advantage</category>
-					<category>Language</category>
-				</categories>
-			</advantage>
-			<advantage version="3">
-				<name>Language: Helic</name>
-				<type>Mental</type>
-				<modifier version="1" enabled="no">
-					<name>Native</name>
-					<cost type="points">-6</cost>
-					<affects>total</affects>
-					<reference>B23</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Spoken</name>
-					<cost type="points">0</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>None</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Spoken</name>
-					<cost type="points">1</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Broken</notes>
-				</modifier>
-				<modifier version="1">
-					<name>Spoken</name>
-					<cost type="points">2</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Accented</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Spoken</name>
-					<cost type="points">3</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Native</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Written</name>
-					<cost type="points">0</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>None</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Written</name>
-					<cost type="points">1</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Broken</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Written</name>
-					<cost type="points">2</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Accented</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Written</name>
-					<cost type="points">3</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Native</notes>
-				</modifier>
-				<reference>B24</reference>
-				<categories>
-					<category>Advantage</category>
-					<category>Language</category>
-				</categories>
-			</advantage>
-			<advantage version="3">
-				<name>Pacifism: Cannot Harm Innocents</name>
-				<type>Mental</type>
-				<base_points>-10</base_points>
-				<modifier version="1" enabled="no">
-					<name>Species-Specific</name>
-					<cost type="percentage">-80</cost>
-					<affects>total</affects>
-					<reference>UT32</reference>
-				</modifier>
-				<reference>B148</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="3">
-				<name>Responsive</name>
-				<type>Mental</type>
-				<base_points>-1</base_points>
-				<reference>B162</reference>
-				<categories>
-					<category>Quirk</category>
-				</categories>
-			</advantage>
-			<advantage version="3">
-				<name>Social Stigma (Barbarian)</name>
-				<type>Social</type>
-				<base_points>-10</base_points>
-				<reference>BS186</reference>
-				<notes>-2 Reaction from others; +2 Reaction by Barbarians</notes>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="3">
-				<name>Social Stigma (Disowned, Outcast)</name>
-				<type>Social</type>
-				<base_points>-10</base_points>
-				<reference>B155</reference>
-				<notes>-2 Reaction</notes>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="3">
-				<name>Truthfulness</name>
-				<type>Mental</type>
-				<base_points>-5</base_points>
-				<cr>15</cr>
-				<reference>B159</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-				<skill_bonus>
-					<name compare="is">fast talk</name>
-					<specialization compare="is anything"></specialization>
-					<category compare="is anything"></category>
-					<amount>-5</amount>
-				</skill_bonus>
-			</advantage>
-		</advantage_container>
-		<advantage version="3">
-			<name>Susceptible (Undercooked Meats)</name>
-			<type>Physical</type>
-			<levels>1</levels>
-			<points_per_level>-1</points_per_level>
-			<modifier version="1">
-				<name>Occasional</name>
-				<cost type="multiplier">1</cost>
-				<reference>B158</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Common</name>
-				<cost type="multiplier">2</cost>
-				<reference>B158</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Very Common</name>
-				<cost type="multiplier">4</cost>
-				<reference>B158</reference>
-			</modifier>
-			<reference>B158</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="3">
-			<name>Signature Gear</name>
-			<type>Social</type>
-			<levels>1</levels>
-			<points_per_level>1</points_per_level>
-			<reference>B85</reference>
-			<notes>Leather gear made by mother, Chakrams made by father</notes>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-	</advantage_list>
-	<skill_list>
-		<skill_container version="3" open="yes">
-			<name>Combat</name>
-			<skill version="3">
-				<name>Axe/Mace</name>
-				<difficulty>DX/A</difficulty>
-				<points>20</points>
-				<reference>B208</reference>
-				<categories>
-					<category>Combat/Weapon</category>
-					<category>Melee Combat</category>
-				</categories>
-				<default>
-					<type>DX</type>
-					<modifier>-5</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Two-Handed Axe/Mace</name>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Flail</name>
-					<modifier>-4</modifier>
-				</default>
-			</skill>
-			<technique version="3" limit="0">
-				<name>Dual-Weapon Attack</name>
-				<difficulty>H</difficulty>
-				<points>4</points>
-				<reference>B230,MA83</reference>
-				<default>
-					<type>Skill</type>
-					<name>Axe/Mace</name>
-					<modifier>-4</modifier>
-				</default>
-				<categories>
-					<category>Cinematic Techniques</category>
-					<category>Combat/Weapon</category>
-					<category>Melee Combat</category>
-				</categories>
-			</technique>
-			<skill version="3">
-				<name>Brawling</name>
-				<difficulty>DX/E</difficulty>
-				<points>1</points>
-				<reference>B182</reference>
-				<categories>
-					<category>Combat/Weapon</category>
-					<category>Melee Combat</category>
-				</categories>
-				<weapon_bonus>
-					<name compare="is">Brawling</name>
-					<specialization compare="is anything"></specialization>
-					<level compare="at least">2</level>
-					<category compare="is anything"></category>
-					<amount per_level="yes">1</amount>
-				</weapon_bonus>
-			</skill>
-			<skill version="3">
-				<name>Thrown Weapon</name>
-				<specialization>Chakram</specialization>
-				<difficulty>DX/E</difficulty>
-				<points>8</points>
-				<reference>B226</reference>
-				<categories>
-					<category>Combat/Weapon</category>
-					<category>Ranged Combat</category>
-				</categories>
-				<default>
-					<type>DX</type>
-					<modifier>-4</modifier>
-				</default>
-			</skill>
-			<skill version="3">
-				<name>First Aid</name>
-				<tech_level>2</tech_level>
-				<difficulty>IQ/E</difficulty>
-				<points>1</points>
-				<reference>B195</reference>
-				<categories>
-					<category>Everyman</category>
-					<category>Medical</category>
-				</categories>
-				<default>
-					<type>IQ</type>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Esoteric Medicine</name>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Physician</name>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Veterinary</name>
-					<modifier>-4</modifier>
-				</default>
-			</skill>
-		</skill_container>
-		<skill_container version="3" open="yes">
-			<name>Survival</name>
-			<skill version="3">
-				<name>Area Knowledge</name>
-				<specialization>Northern Woods</specialization>
-				<difficulty>IQ/E</difficulty>
-				<points>1</points>
-				<reference>B176</reference>
-				<notes>The inhabitants, trails, streams, hiding places, ambush sites, flora, and fauna of a few hundred acres</notes>
-				<categories>
-					<category>Everyman</category>
-					<category>Knowledge</category>
-				</categories>
-				<default>
-					<type>Skill</type>
-					<name>Geography</name>
-					<specialization>hunting, logging</specialization>
-					<modifier>-3</modifier>
-				</default>
-			</skill>
-			<skill version="3">
-				<name>Climbing</name>
-				<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
-				<difficulty>DX/A</difficulty>
-				<points>8</points>
-				<reference>B183</reference>
-				<categories>
-					<category>Athletic</category>
-					<category>Criminal/Street</category>
-					<category>Outdoor/Exploration</category>
-				</categories>
-				<default>
-					<type>DX</type>
-					<modifier>-5</modifier>
-				</default>
-			</skill>
-			<skill version="3">
-				<name>Knot-Tying</name>
-				<difficulty>DX/E</difficulty>
-				<points>1</points>
-				<reference>B203</reference>
-				<categories>
-					<category>Everyman</category>
-				</categories>
-				<default>
-					<type>DX</type>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Climbing</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Seamanship</name>
-					<modifier>-4</modifier>
-				</default>
-			</skill>
-			<skill version="3">
-				<name>Navigation</name>
-				<specialization>Land</specialization>
-				<tech_level>2</tech_level>
-				<difficulty>IQ/A</difficulty>
-				<points>1</points>
-				<reference>B211</reference>
-				<categories>
-					<category>Outdoor/Exploration</category>
-					<category>Technical</category>
-					<category>Vehicle</category>
-				</categories>
-				<default>
-					<type>IQ</type>
-					<modifier>-5</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Cartography</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Mathematics</name>
-					<specialization>Surveying</specialization>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Navigation</name>
-					<specialization>Air</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Navigation</name>
-					<specialization>Sea</specialization>
-					<modifier>-2</modifier>
-				</default>
-			</skill>
-			<skill version="3">
-				<name>Running</name>
-				<difficulty>HT/A</difficulty>
-				<points>1</points>
-				<reference>B218</reference>
-				<categories>
-					<category>Athletic</category>
-				</categories>
-				<default>
-					<type>HT</type>
-					<modifier>-5</modifier>
-				</default>
-			</skill>
-			<skill version="3">
-				<name>Survival</name>
-				<specialization>Mountain</specialization>
-				<difficulty>Per/A</difficulty>
-				<points>1</points>
-				<reference>B223</reference>
-				<categories>
-					<category>Outdoor/Exploration</category>
-				</categories>
-				<default>
-					<type>Per</type>
-					<modifier>-5</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Naturalist</name>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Survival</name>
-					<specialization>Arctic</specialization>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Survival</name>
-					<specialization>Desert</specialization>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Survival</name>
-					<specialization>Island/Beach</specialization>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Survival</name>
-					<specialization>Jungle</specialization>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Survival</name>
-					<specialization>Plains</specialization>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Survival</name>
-					<specialization>Swampland</specialization>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Survival</name>
-					<specialization>Woodlands</specialization>
-					<modifier>-3</modifier>
-				</default>
-			</skill>
-			<skill version="3">
-				<name>Survival</name>
-				<specialization>Woodlands</specialization>
-				<difficulty>Per/A</difficulty>
-				<points>1</points>
-				<reference>B223</reference>
-				<categories>
-					<category>Outdoor/Exploration</category>
-				</categories>
-				<default>
-					<type>Per</type>
-					<modifier>-5</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Naturalist</name>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Survival</name>
-					<specialization>Arctic</specialization>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Survival</name>
-					<specialization>Desert</specialization>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Survival</name>
-					<specialization>Island/Beach</specialization>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Survival</name>
-					<specialization>Jungle</specialization>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Survival</name>
-					<specialization>Mountain</specialization>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Survival</name>
-					<specialization>Plains</specialization>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Survival</name>
-					<specialization>Swampland</specialization>
-					<modifier>-3</modifier>
-				</default>
-			</skill>
-			<skill version="3">
-				<name>Swimming</name>
-				<encumbrance_penalty_multiplier>2</encumbrance_penalty_multiplier>
-				<difficulty>HT/E</difficulty>
-				<points>1</points>
-				<reference>B224</reference>
-				<categories>
-					<category>Athletic</category>
-					<category>Outdoor/Exploration</category>
-				</categories>
-				<default>
-					<type>HT</type>
-					<modifier>-4</modifier>
-				</default>
-			</skill>
-			<skill version="3">
-				<name>Tracking</name>
-				<difficulty>Per/A</difficulty>
-				<points>4</points>
-				<reference>B226</reference>
-				<categories>
-					<category>Outdoor/Exploration</category>
-				</categories>
-				<default>
-					<type>Per</type>
-					<modifier>-5</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Naturalist</name>
-					<modifier>-5</modifier>
-				</default>
-			</skill>
-			<skill version="3">
-				<name>Traps</name>
-				<tech_level>2</tech_level>
-				<difficulty>IQ/A</difficulty>
-				<points>8</points>
-				<reference>B226</reference>
-				<categories>
-					<category>Criminal/Street</category>
-					<category>Military</category>
-				</categories>
-				<default>
-					<type>IQ</type>
-					<modifier>-5</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Lockpicking</name>
-					<modifier>-3</modifier>
-				</default>
-			</skill>
-		</skill_container>
-		<skill_container version="3" open="yes">
-			<name>Mundane</name>
-			<skill version="3">
-				<name>Fortune-Telling</name>
-				<specialization>Astrology</specialization>
-				<difficulty>IQ/A</difficulty>
-				<points>1</points>
-				<reference>B196</reference>
-				<categories>
-					<category>Social</category>
-				</categories>
-				<default>
-					<type>IQ</type>
-					<modifier>-5</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Fast-Talk</name>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Occultism</name>
-					<modifier>-3</modifier>
-				</default>
-			</skill>
-			<skill version="3">
-				<name>Smith</name>
-				<specialization>Iron</specialization>
-				<tech_level>2</tech_level>
-				<difficulty>IQ/A</difficulty>
-				<points>8</points>
-				<reference>B221</reference>
-				<categories>
-					<category>Craft</category>
-				</categories>
-				<default>
-					<type>IQ</type>
-					<modifier>-5</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Smith</name>
-					<modifier>-4</modifier>
-				</default>
-			</skill>
-		</skill_container>
-	</skill_list>
-	<equipment_list>
-		<equipment version="6" equipped="yes">
-			<quantity>2</quantity>
-			<description>Axe</description>
-			<tech_level>0</tech_level>
-			<legality_class>4</legality_class>
-			<value>50</value>
-			<weight>4 lb</weight>
-			<reference>LT54</reference>
-			<melee_weapon>
-				<damage type="cut" st="sw" base="+2"/>
-				<strength>11</strength>
-				<usage>Swing</usage>
-				<reach>1</reach>
-				<parry>0U</parry>
-				<block>No</block>
-				<default>
-					<type>DX</type>
-					<modifier>-5</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Axe/Mace</name>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Flail</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Two-Handed Axe/Mace</name>
-					<modifier>-3</modifier>
-				</default>
-			</melee_weapon>
-			<melee_weapon>
-				<damage type="cut" st="sw" base="+3"/>
-				<strength>10&#8224;</strength>
-				<usage>Swing - two handed</usage>
-				<reach>1</reach>
-				<parry>0U</parry>
-				<block>No</block>
-				<default>
-					<type>DX</type>
-					<modifier>-5</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Two-Handed Axe/Mace</name>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Axe/Mace</name>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Polearm</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Two-Handed Flail</name>
-					<modifier>-4</modifier>
-				</default>
-			</melee_weapon>
-			<categories>
-				<category>Melee Weapon</category>
-			</categories>
-		</equipment>
-		<equipment version="6" equipped="yes">
-			<quantity>2</quantity>
-			<description>Chakram</description>
-			<tech_level>2</tech_level>
-			<legality_class>4</legality_class>
-			<value>50</value>
-			<weight>1.5 lb</weight>
-			<reference>LT72</reference>
-			<ranged_weapon>
-				<damage type="cut" st="thr" base="+1"/>
-				<strength>6</strength>
-				<usage>Thrown</usage>
-				<accuracy>1</accuracy>
-				<range>x4/x6</range>
-				<rate_of_fire>1</rate_of_fire>
-				<shots>T(1)</shots>
-				<bulk>-2</bulk>
-				<default>
-					<type>DX</type>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Thrown Weapon</name>
-					<specialization>Disc</specialization>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Throwing</name>
-					<modifier>-2</modifier>
-				</default>
-			</ranged_weapon>
-			<categories>
-				<category>Missile Weapon</category>
-			</categories>
-		</equipment>
-		<equipment version="6" equipped="yes">
-			<quantity>1</quantity>
-			<description>Leather Pants</description>
-			<tech_level>1</tech_level>
-			<legality_class>4</legality_class>
-			<value>40</value>
-			<weight>3 lb</weight>
-			<reference>B283</reference>
-			<categories>
-				<category>Limb Armor</category>
-			</categories>
-			<dr_bonus>
-				<location>groin</location>
-				<amount>1</amount>
-			</dr_bonus>
-			<dr_bonus>
-				<location>legs</location>
-				<amount>1</amount>
-			</dr_bonus>
-		</equipment>
-		<equipment version="6" equipped="yes">
-			<quantity>1</quantity>
-			<description>Boots, leather</description>
-			<tech_level>2</tech_level>
-			<legality_class>4</legality_class>
-			<value>80</value>
-			<weight>3 lb</weight>
-			<reference>LT98</reference>
-			<categories>
-				<category>Clothing</category>
-			</categories>
-		</equipment>
-		<equipment version="6" equipped="yes">
-			<quantity>1</quantity>
-			<description>Leather Armor</description>
-			<tech_level>1</tech_level>
-			<legality_class>4</legality_class>
-			<value>100</value>
-			<weight>10 lb</weight>
-			<reference>B283</reference>
-			<categories>
-				<category>Body Armor</category>
-			</categories>
-			<dr_bonus>
-				<location>torso</location>
-				<amount>2</amount>
-			</dr_bonus>
-			<dr_bonus>
-				<location>groin</location>
-				<amount>2</amount>
-			</dr_bonus>
-		</equipment>
-		<equipment version="6" equipped="yes">
-			<quantity>1</quantity>
-			<description>Heavy Leather Sleeves</description>
-			<tech_level>1</tech_level>
-			<legality_class>4</legality_class>
-			<value>50</value>
-			<weight>2 lb</weight>
-			<reference>B283</reference>
-			<categories>
-				<category>Limb Armor</category>
-			</categories>
-			<dr_bonus>
-				<location>arms</location>
-				<amount>2</amount>
-			</dr_bonus>
-		</equipment>
-		<equipment version="6" equipped="yes">
-			<quantity>1</quantity>
-			<description>Light Cloak</description>
-			<tech_level>1</tech_level>
-			<legality_class>4</legality_class>
-			<value>20</value>
-			<weight>2 lb</weight>
-			<reference>B287</reference>
-			<categories>
-				<category>Clothing</category>
-			</categories>
-			<attribute_bonus>
-				<attribute>dodge</attribute>
-				<amount>1</amount>
-			</attribute_bonus>
-			<attribute_bonus>
-				<attribute>parry</attribute>
-				<amount>1</amount>
-			</attribute_bonus>
-			<attribute_bonus>
-				<attribute>block</attribute>
-				<amount>1</amount>
-			</attribute_bonus>
-		</equipment>
-		<equipment_container version="6" open="yes" equipped="yes">
-			<description>Backpack, Small</description>
-			<tech_level>1</tech_level>
-			<legality_class>4</legality_class>
-			<value>60</value>
-			<weight>3 lb</weight>
-			<reference>B288</reference>
-			<categories>
-				<category>Camping and Survival Gear</category>
-			</categories>
-			<prereq_list all="yes">
-				<contained_weight_prereq has="yes" compare="at most">40 lb</contained_weight_prereq>
-			</prereq_list>
-			<equipment version="6" equipped="yes">
-				<quantity>1</quantity>
-				<description>Rope, 3/4", 20 yards</description>
-				<tech_level>1</tech_level>
-				<legality_class>4</legality_class>
-				<value>50</value>
-				<weight>10 lb</weight>
-				<reference>B288</reference>
-				<notes>Supports 1,100 lbs.</notes>
-				<categories>
-					<category>Camping and Survival Gear</category>
-				</categories>
-			</equipment>
-			<equipment version="6" equipped="yes">
-				<quantity>1</quantity>
-				<description>Sleeping Fur</description>
-				<tech_level>0</tech_level>
-				<legality_class>4</legality_class>
-				<value>50</value>
-				<weight>8 lb</weight>
-				<reference>B288</reference>
-				<categories>
-					<category>Camping and Survival Gear</category>
-				</categories>
-			</equipment>
-			<equipment_container version="6" open="yes" equipped="yes">
-				<description>Canteen</description>
-				<tech_level>5</tech_level>
-				<legality_class>4</legality_class>
-				<value>10</value>
-				<weight>1 lb</weight>
-				<reference>B288</reference>
-				<categories>
-					<category>Camping and Survival Gear</category>
-				</categories>
-				<prereq_list all="yes">
-					<contained_weight_prereq has="yes" compare="at most">2 lb</contained_weight_prereq>
-				</prereq_list>
-			</equipment_container>
-			<equipment version="6" equipped="yes">
-				<quantity>1</quantity>
-				<description>Torch</description>
-				<legality_class>4</legality_class>
-				<value>3</value>
-				<weight>1 lb</weight>
-				<reference>DFA111</reference>
-				<notes>Burns for 1 hour, 2 yd.</notes>
-				<categories>
-					<category>Light Sources</category>
-				</categories>
-			</equipment>
-			<equipment version="6" equipped="yes">
-				<quantity>1</quantity>
-				<description>Climbing Gear</description>
-				<tech_level>2</tech_level>
-				<legality_class>4</legality_class>
-				<value>20</value>
-				<weight>4 lb</weight>
-				<reference>B288</reference>
-				<notes>Hammer, spikes, carabiners</notes>
-				<categories>
-					<category>Camping and Survival Gear</category>
-				</categories>
-			</equipment>
-			<equipment version="6" equipped="yes">
-				<quantity>4</quantity>
-				<description>Traveler's Rations</description>
-				<tech_level>0</tech_level>
-				<legality_class>4</legality_class>
-				<value>2</value>
-				<weight>0.5 lb</weight>
-				<reference>B288</reference>
-				<notes>One meal</notes>
-				<categories>
-					<category>Camping and Survival Gear</category>
-				</categories>
-			</equipment>
-			<equipment version="6" equipped="yes">
-				<quantity>1</quantity>
-				<description>Personal Basics</description>
-				<tech_level>0</tech_level>
-				<legality_class>4</legality_class>
-				<value>5</value>
-				<weight>1 lb</weight>
-				<reference>B288</reference>
-				<notes>Minimum gear for camping: -2 to any Survival roll without it. Includes utensils, tinderbox or flint and steel, towel, etc., as TL permits.</notes>
-				<categories>
-					<category>Camping and Survival Gear</category>
-				</categories>
-			</equipment>
-		</equipment_container>
-	</equipment_list>
-	<print_settings printer="Canon MG3600 series" units="in">
-		<orientation>portrait</orientation>
-		<width>8.5</width>
-		<height>11</height>
-		<top_margin>0.5</top_margin>
-		<left_margin>0.5</left_margin>
-		<bottom_margin>0.5</bottom_margin>
-		<right_margin>0.5</right_margin>
-		<ink_chromaticity>color</ink_chromaticity>
-		<sides>single</sides>
-		<number_up>1</number_up>
-		<quality>normal</quality>
-		<resolution>120000</resolution>
-	</print_settings>
-</character>
+{
+	"type": "character",
+	"version": 1,
+	"id": "1f6c90f7-25d1-4a8b-ac75-5799c7f75f2f",
+	"settings": {
+		"version": 1,
+		"default_length_units": "ft_in",
+		"default_weight_units": "lb",
+		"user_description_display": "tooltip",
+		"modifiers_display": "inline",
+		"notes_display": "inline",
+		"base_will_and_per_on_10": false,
+		"use_multiplicative_modifiers": false,
+		"use_modifying_dice_plus_adds": false,
+		"use_know_your_own_strength": false,
+		"use_reduced_swing": false,
+		"use_thrust_equals_swing_minus_2": false,
+		"use_simple_metric_conversions": true,
+		"show_college_in_sheet_spells": false,
+		"use_title_in_footer": false,
+		"block_layout": [
+			"reactions",
+			"melee",
+			"ranged",
+			"advantages skills",
+			"spells",
+			"equipment",
+			"other_equipment",
+			"notes"
+		]
+	},
+	"created_date": "Jan 12, 2020, 12:00 AM",
+	"modified_date": "Mar 29, 2020, 8:09 PM",
+	"profile": {
+		"player_name": "Corri",
+		"name": "Yenevra Feldspar",
+		"age": 31,
+		"eyes": "Brown",
+		"hair": "Dark Brown, Wavy, Short",
+		"skin": "Dark Tan",
+		"handedness": "Right",
+		"height": "7\"",
+		"weight": "300 lb",
+		"SM": 1,
+		"gender": "Female",
+		"body_type": "humanoid",
+		"tech_level": "2",
+		"religion": "(ex) Morgoth"
+	},
+	"HP_adj": 2,
+	"total_points": 184,
+	"ST": 11,
+	"DX": 12,
+	"IQ": 11,
+	"HT": 13,
+	"per_adj": 2,
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "cebf5bd4-16da-4e09-98dc-472bda117c70",
+			"name": "Combat",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "2e967859-2639-46e8-a020-5c70e2d67122",
+					"name": "Ambidexterity",
+					"physical": true,
+					"base_points": 5,
+					"reference": "B39",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "58a935b0-09ab-4597-854b-760e621b6c9c",
+					"name": "Berserk",
+					"mental": true,
+					"base_points": -10,
+					"cr": 12,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "57fc99a4-39b8-4227-bc48-f56998d594c7",
+							"name": "Battle Rage",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						}
+					],
+					"reference": "B124",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "642c840e-bb9d-493f-8431-f5ce906f4359",
+					"name": "Combat Reflexes",
+					"mental": true,
+					"base_points": 15,
+					"reference": "B43",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "advantage_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Enhanced Time Sense"
+								}
+							}
+						]
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "starts_with",
+								"qualifier": "fast-draw"
+							}
+						},
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"attribute": "dodge"
+						},
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"attribute": "parry"
+						},
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"attribute": "block"
+						},
+						{
+							"type": "attribute_bonus",
+							"amount": 2,
+							"attribute": "fright_check"
+						}
+					],
+					"notes": "Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "ce3ac9fe-71cd-4144-ba6c-d819b2dd35de",
+					"name": "Damage Resistance",
+					"physical": true,
+					"exotic": true,
+					"levels": "1",
+					"points_per_level": 5,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "4612809f-689c-4249-a4e6-5a44fddbb7ff",
+							"disabled": true,
+							"name": "Force Field",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "eba765e1-f13a-4bd3-921e-1521a406d965",
+							"disabled": true,
+							"name": "Hardened",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ce42b539-25d1-4fc2-bebe-1ddd5a11a8ca",
+							"disabled": true,
+							"name": "Absorption",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": 80,
+							"affects": "total",
+							"notes": "Enhances @Trait@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "1563f187-5e45-4b6d-be6f-a104383a06f2",
+							"disabled": true,
+							"name": "Absorption",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": 80,
+							"affects": "total",
+							"notes": "Healing only"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "33239e55-034a-464e-b782-0b0a252b7d97",
+							"disabled": true,
+							"name": "Absorption",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total",
+							"notes": "Enhances any trait"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "6caab9f0-23a6-46c4-ad5b-6bd24ed3430c",
+							"disabled": true,
+							"name": "Reflection",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "2f5247a9-b83e-4664-92f0-397539310f3f",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H14",
+							"cost_type": "points",
+							"cost": -1,
+							"affects": "total",
+							"notes": "@Rare@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "5f323cad-0322-4d6b-bb2c-d2db5bb8efbb",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H14",
+							"cost_type": "percentage",
+							"cost": -5,
+							"affects": "total",
+							"notes": "@Occasional@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "db8e693d-57c8-47cd-b69b-7d2e2f2234c4",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H14",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total",
+							"notes": "@Common@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "cae7763b-28dd-443f-a689-6de89bd36267",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H14",
+							"cost_type": "percentage",
+							"cost": -15,
+							"affects": "total",
+							"notes": "@Very Common@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "5fd354a3-854e-47f0-855a-2894e3bf1cd1",
+							"disabled": true,
+							"name": "Directional",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total",
+							"notes": "Front"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "7d5e96bf-1126-4ea5-8cd4-71d52b5f8ab8",
+							"disabled": true,
+							"name": "Flexible",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f19471b6-11ce-4ccc-8d27-b419f4f519b1",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total",
+							"notes": "@Very Common Attack Form@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "65813992-535c-4891-ab01-994835f23636",
+							"disabled": true,
+							"name": "Semi-Ablative",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "57e0da59-fb8d-4487-a2c3-85b5c3cdeece",
+							"disabled": true,
+							"name": "Can't wear armor",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ef6352ec-7509-43b0-9e48-78bd23f8068e",
+							"disabled": true,
+							"name": "Directional",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total",
+							"notes": "@Direction: Back, Right, Left, Top or Underside@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ca1b27d5-eb19-4cd7-a32e-c69bcb0a224b",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total",
+							"notes": "@Common Attack Form@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "bb9c0930-9f9e-4ce0-872c-fc93b2dc3b6b",
+							"name": "Tough Skin",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total",
+							"notes": "Effects that just require skin contact or a scratch ignore this DR"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "2ccd9e2d-57c6-4b06-89ed-183e5c878cbb",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": -60,
+							"affects": "total",
+							"notes": "@Occasional Attack Form@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8ed15f9e-53c4-4ce0-a1ba-3ae53f488f06",
+							"disabled": true,
+							"name": "Ablative",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -80,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "7e107fdf-411b-44c3-9680-2eeec791e001",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": -80,
+							"affects": "total",
+							"notes": "@Rare Attack Form@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "7cd6b4e3-6dd0-4865-8232-ebaeb7410afd",
+							"disabled": true,
+							"name": "Laminate",
+							"reference": "RSWL18",
+							"cost_type": "percentage",
+							"cost": 10,
+							"affects": "total"
+						}
+					],
+					"reference": "B47",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "full_body"
+						}
+					],
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "51ff4bb0-d07a-4dff-afb7-b158186e807c",
+					"name": "Hard to Kill",
+					"physical": true,
+					"levels": "1",
+					"points_per_level": 2,
+					"reference": "B58",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "62ea93f5-56fc-426d-903b-c25a157d5c81",
+					"name": "Hard to Subdue",
+					"physical": true,
+					"levels": "1",
+					"points_per_level": 2,
+					"reference": "B59",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "ea59af66-3695-4f95-b8bf-2a8e70e3a829",
+					"name": "High Pain Threshold",
+					"physical": true,
+					"base_points": 10,
+					"reference": "B59",
+					"notes": "Never suffer shock penalties when injured; +3 on all HT rolls to avoid knockdown and stunning; +3 to resist torture",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "a7f95c82-135e-4bbd-8125-716d68eaa584",
+					"name": "Post-Combat Shakes",
+					"mental": true,
+					"base_points": -5,
+					"cr": 12,
+					"reference": "B150",
+					"categories": [
+						"Disadvantage"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "2a4c0865-6d9a-48c8-b4d8-eeca9f0f13f0",
+			"name": "Survival",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "16cfb412-d098-41c9-9dce-45abfab24142",
+					"name": "Absolute Direction",
+					"mental": true,
+					"physical": true,
+					"base_points": 5,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "80011397-155c-409e-adab-9b8f7834b527",
+							"disabled": true,
+							"name": "Requires signal",
+							"reference": "B34",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "545c7ff6-2280-43da-8df6-69c508a57d19",
+							"disabled": true,
+							"name": "3D Spatial Sense",
+							"reference": "B34",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total",
+							"features": [
+								{
+									"type": "skill_bonus",
+									"amount": 1,
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "starts_with",
+										"qualifier": "piloting"
+									}
+								},
+								{
+									"type": "skill_bonus",
+									"amount": 2,
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "aerobatics"
+									}
+								},
+								{
+									"type": "skill_bonus",
+									"amount": 2,
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "free fall"
+									}
+								},
+								{
+									"type": "skill_bonus",
+									"amount": 2,
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "navigation"
+									},
+									"specialization": {
+										"compare": "is",
+										"qualifier": "hyperspace"
+									}
+								},
+								{
+									"type": "skill_bonus",
+									"amount": 2,
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "navigation"
+									},
+									"specialization": {
+										"compare": "is",
+										"qualifier": "space"
+									}
+								}
+							]
+						}
+					],
+					"reference": "B34",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 3,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "body sense"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 3,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "navigation"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "air"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 3,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "navigation"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "land"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 3,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "navigation"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "sea"
+							}
+						}
+					],
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "2d5bf0a0-28b3-40b2-a59b-067a745abf71",
+					"name": "Danger Sense",
+					"mental": true,
+					"base_points": 15,
+					"reference": "B47",
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "28c2569e-620a-471a-92cd-f2be273513ed",
+			"container_type": "race",
+			"name": "Strig Barbarian",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "e29f6a25-4ad0-4e4d-afdc-376694509228",
+					"name": "Gigantism",
+					"physical": true,
+					"reference": "B20",
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"attribute": "move"
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -2,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "disguise"
+							},
+							"specialization": {
+								"compare": "is_not",
+								"qualifier": "animals"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -2,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "shadowing"
+							}
+						},
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"attribute": "sm"
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "f1cd0a5c-e22e-4d62-a669-732a13fb5439",
+					"name": "Increased Strength",
+					"physical": true,
+					"levels": "3",
+					"points_per_level": 10,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "98124d45-4714-4d70-8f9c-aac1e3c83095",
+							"disabled": true,
+							"name": "No Fine Manipulators",
+							"reference": "B15",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "00560921-8142-4891-a1a7-2145837e35fb",
+							"name": "Size",
+							"reference": "B15",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "402929ca-dfc3-4086-88e4-68fabf81a2c9",
+							"disabled": true,
+							"name": "Super-Effort",
+							"reference": "SU24",
+							"cost_type": "percentage",
+							"cost": 300,
+							"affects": "total"
+						}
+					],
+					"reference": "B14",
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "st"
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Attribute"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "7104841a-08da-4767-980e-16a0913a1707",
+					"name": "Overweight",
+					"physical": true,
+					"base_points": -1,
+					"reference": "B19",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "disguise"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "shadowing"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "swimming"
+							}
+						}
+					],
+					"notes": "+1 ST vs. knockback",
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "fc13036d-c344-45c9-b3d2-f71e4b26a2d8",
+					"name": "Rapid Healing",
+					"physical": true,
+					"base_points": 5,
+					"reference": "B79",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"which": "ht",
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 10
+								}
+							}
+						]
+					},
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "d7598438-0613-4d6b-b490-f4c75e75ac85",
+					"name": "Primitive (Low TL)",
+					"social": true,
+					"levels": "1",
+					"points_per_level": -5,
+					"reference": "B22",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "b6d3c3c8-9f3d-42c4-b424-43f6ef032017",
+					"name": "Social Stigma (Uneducated)",
+					"social": true,
+					"base_points": -5,
+					"reference": "B156",
+					"notes": "-1 Reaction",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "de5278ee-b421-4230-8950-5718a96ecd88",
+					"name": "Temperature Tolerance (Cold)",
+					"physical": true,
+					"levels": "2",
+					"base_points": 1,
+					"reference": "B93",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "2eb9725d-2bca-4c97-a2f4-aa8fd4cf8883",
+					"name": "Wealth",
+					"social": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "dde5d1db-4258-4abc-8eef-752226eaa440",
+							"disabled": true,
+							"name": "Dead Broke",
+							"reference": "B25",
+							"cost_type": "points",
+							"cost": -25,
+							"affects": "total",
+							"notes": "Starting wealth is $0"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "fa8b1645-4275-439b-8c96-096b9d2ff389",
+							"name": "Poor",
+							"reference": "B25",
+							"cost_type": "points",
+							"cost": -15,
+							"affects": "total",
+							"notes": "Starting wealth is 1/5 average"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c94fb48d-33f1-4beb-b6fb-ebbf85e68e7e",
+							"disabled": true,
+							"name": "Struggling",
+							"reference": "B25",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total",
+							"notes": "Starting wealth is 1/2 average"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "0d7748a1-857e-4169-9869-16afcbc85087",
+							"disabled": true,
+							"name": "Average",
+							"reference": "B25",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c17c6f14-b53b-449c-9b7b-4eaa0d2233f0",
+							"disabled": true,
+							"name": "Comfortable",
+							"reference": "B25",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total",
+							"notes": "Starting wealth is 2x average"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8a9f4c99-e04b-40e4-a06f-605d0686f71b",
+							"disabled": true,
+							"name": "Wealthy",
+							"reference": "B25",
+							"cost_type": "points",
+							"cost": 20,
+							"affects": "total",
+							"notes": "Starting wealth is 5x average"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "709402b3-38e5-4aa5-b36f-ff7607823752",
+							"disabled": true,
+							"name": "Very Wealthy",
+							"reference": "B25",
+							"cost_type": "points",
+							"cost": 30,
+							"affects": "total",
+							"notes": "Starting wealth is 20x average"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "9340ca3b-a3d5-4d62-95d1-ce148a630beb",
+							"disabled": true,
+							"name": "Filthy Rich",
+							"reference": "B25",
+							"cost_type": "points",
+							"cost": 50,
+							"affects": "total",
+							"notes": "Starting wealth is 100x average"
+						}
+					],
+					"reference": "B25",
+					"categories": [
+						"Advantage",
+						"Disadvantage"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "77cdf163-bc93-4f14-a610-e268a75a9f23",
+			"name": "Social",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "79e7eff6-26b3-43cd-8a8c-c2538b9fee53",
+					"name": "Curious",
+					"mental": true,
+					"base_points": -5,
+					"cr": 9,
+					"reference": "B129",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "809bf78b-4495-4050-a927-448f40703fa8",
+					"name": "Code of Honor - Intolerant of Misogyny",
+					"mental": true,
+					"base_points": -1,
+					"reference": "B162",
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "d3ba21db-0aa7-4b65-816e-d86ae61bdf96",
+					"name": "Distractible",
+					"mental": true,
+					"base_points": -1,
+					"reference": "B162",
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "7c74acaf-ecd2-47ff-8d4f-224f0c45fe1f",
+					"name": "Easy to Read",
+					"mental": true,
+					"base_points": -10,
+					"reference": "B134",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "408e380c-733b-4fea-a525-27e5ac3b440e",
+					"name": "Language: Schepal",
+					"mental": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "dba56375-7034-4124-bbad-61a4207f747d",
+							"disabled": true,
+							"name": "Native",
+							"reference": "B23",
+							"cost_type": "points",
+							"cost": -6,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f7d7fc4f-03d8-47bd-b1ac-15d8cbdcd12b",
+							"disabled": true,
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total",
+							"notes": "None"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "32747478-e14d-46ce-8e21-e8c2bae97fe9",
+							"disabled": true,
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 1,
+							"affects": "total",
+							"notes": "Broken"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "19dc91bc-2d94-4103-8b19-fe05acf88808",
+							"disabled": true,
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 2,
+							"affects": "total",
+							"notes": "Accented"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8e9c8baa-1676-439d-8a95-a298b656b9b8",
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total",
+							"notes": "Native"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "50af5be6-a818-4cf3-a7f7-ec73134d724d",
+							"disabled": true,
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total",
+							"notes": "None"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c8fc5718-b8d6-46fa-9297-49d04e014eb9",
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 1,
+							"affects": "total",
+							"notes": "Broken"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "09eb9852-4e56-4261-a190-b3f377412e1d",
+							"disabled": true,
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 2,
+							"affects": "total",
+							"notes": "Accented"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "fba179ca-0cf8-4006-9a1f-ef2da38b8634",
+							"disabled": true,
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 3,
+							"affects": "total",
+							"notes": "Native"
+						}
+					],
+					"reference": "B24",
+					"categories": [
+						"Advantage",
+						"Language"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "0047c02b-58d0-4471-9e6c-2d84d1c9ec87",
+					"name": "Language: Helic",
+					"mental": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d78d2558-8c39-4a53-a6b3-51e8f9e757b4",
+							"disabled": true,
+							"name": "Native",
+							"reference": "B23",
+							"cost_type": "points",
+							"cost": -6,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "615208f3-0828-4791-b2f2-9768512d115e",
+							"disabled": true,
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total",
+							"notes": "None"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ded6ec4c-6674-4dd5-bfa8-4b70cc271b72",
+							"disabled": true,
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 1,
+							"affects": "total",
+							"notes": "Broken"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "0004230a-0ee3-41d4-8d5e-88fdc9a3e869",
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 2,
+							"affects": "total",
+							"notes": "Accented"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "9dde1941-9726-424a-839e-baea26729b93",
+							"disabled": true,
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 3,
+							"affects": "total",
+							"notes": "Native"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "142a768f-6429-4b6e-b020-e157de48746e",
+							"disabled": true,
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total",
+							"notes": "None"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "196ec940-e0ee-449b-a8b7-1266150f3c25",
+							"disabled": true,
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 1,
+							"affects": "total",
+							"notes": "Broken"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "50b28649-fa1d-4144-9d24-6cc213b296c3",
+							"disabled": true,
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 2,
+							"affects": "total",
+							"notes": "Accented"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "55314d16-b83f-4f3c-aeb5-d4d470f1e981",
+							"disabled": true,
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 3,
+							"affects": "total",
+							"notes": "Native"
+						}
+					],
+					"reference": "B24",
+					"categories": [
+						"Advantage",
+						"Language"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "52f7ccde-b8c8-4a4d-98f4-53f1d503fe79",
+					"name": "Pacifism: Cannot Harm Innocents",
+					"mental": true,
+					"base_points": -10,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "2a8d7617-5c26-41f4-9f4d-9bfb9cb620f7",
+							"disabled": true,
+							"name": "Species-Specific",
+							"reference": "UT32",
+							"cost_type": "percentage",
+							"cost": -80,
+							"affects": "total"
+						}
+					],
+					"reference": "B148",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "2952990a-1285-4b72-9799-3e143f703711",
+					"name": "Responsive",
+					"mental": true,
+					"base_points": -1,
+					"reference": "B162",
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "3404490b-0c75-471b-b057-55ebf783e46e",
+					"name": "Social Stigma (Barbarian)",
+					"social": true,
+					"base_points": -10,
+					"reference": "BS186",
+					"notes": "-2 Reaction from others; +2 Reaction by Barbarians",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "39c3afba-12d7-4277-9b3f-2283edf0ba74",
+					"name": "Social Stigma (Disowned, Outcast)",
+					"social": true,
+					"base_points": -10,
+					"reference": "B155",
+					"notes": "-2 Reaction",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "9ed5c0ef-a9ba-4271-ab7f-d51b9eaf8b6a",
+					"name": "Truthfulness",
+					"mental": true,
+					"base_points": -5,
+					"cr": 15,
+					"reference": "B159",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": -5,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "fast talk"
+							}
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "df43a553-3650-4f52-b959-e278330c9849",
+			"name": "Susceptible (Undercooked Meats)",
+			"physical": true,
+			"levels": "1",
+			"points_per_level": -1,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "86e88128-6605-46f3-aea5-bfb7889016ae",
+					"name": "Occasional",
+					"reference": "B158",
+					"cost_type": "multiplier",
+					"cost": 1
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "062838f7-4bd5-4a76-9e4a-03fc9ac81155",
+					"disabled": true,
+					"name": "Common",
+					"reference": "B158",
+					"cost_type": "multiplier",
+					"cost": 2
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "863b474a-476b-4be4-a0b5-98490575ad85",
+					"disabled": true,
+					"name": "Very Common",
+					"reference": "B158",
+					"cost_type": "multiplier",
+					"cost": 4
+				}
+			],
+			"reference": "B158",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "07b2683d-fb3a-4786-ae39-79247d04c099",
+			"name": "Signature Gear",
+			"social": true,
+			"levels": "1",
+			"points_per_level": 1,
+			"reference": "B85",
+			"notes": "Leather gear made by mother, Chakrams made by father",
+			"categories": [
+				"Advantage"
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill_container",
+			"version": 1,
+			"id": "abec002a-10ed-4e9e-b5e4-4a5438bce946",
+			"name": "Combat",
+			"open": true,
+			"children": [
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "c33e0125-0620-4d69-a2a4-731423258a49",
+					"name": "Axe/Mace",
+					"reference": "B208",
+					"difficulty": "DX/A",
+					"points": 20,
+					"defaulted_from": {
+						"type": "DX",
+						"modifier": -5,
+						"level": 7,
+						"adjusted_level": 7,
+						"points": -7
+					},
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Flail",
+							"modifier": -4
+						}
+					],
+					"categories": [
+						"Combat/Weapon",
+						"Melee Combat"
+					]
+				},
+				{
+					"type": "technique",
+					"version": 1,
+					"id": "10524086-6770-4961-84fa-516a16f14eaf",
+					"name": "Dual-Weapon Attack",
+					"reference": "B230,MA83",
+					"difficulty": "H",
+					"points": 4,
+					"limit": 0,
+					"default": {
+						"type": "Skill",
+						"name": "Axe/Mace",
+						"modifier": -4
+					},
+					"categories": [
+						"Cinematic Techniques",
+						"Combat/Weapon",
+						"Melee Combat"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "949e2ad3-0b45-4696-b6b7-3c61b78e12aa",
+					"name": "Brawling",
+					"reference": "B182",
+					"difficulty": "DX/E",
+					"points": 1,
+					"features": [
+						{
+							"type": "weapon_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "weapons_with_required_skill",
+							"name": {
+								"compare": "is",
+								"qualifier": "Brawling"
+							},
+							"level": {
+								"compare": "at_least",
+								"qualifier": 2
+							}
+						}
+					],
+					"categories": [
+						"Combat/Weapon",
+						"Melee Combat"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "b9589fa9-2ea6-4187-8859-f6bef8fae980",
+					"name": "Thrown Weapon",
+					"reference": "B226",
+					"specialization": "Chakram",
+					"difficulty": "DX/E",
+					"points": 8,
+					"defaulted_from": {
+						"type": "DX",
+						"modifier": -4,
+						"level": 8,
+						"adjusted_level": 8,
+						"points": -8
+					},
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						}
+					],
+					"categories": [
+						"Combat/Weapon",
+						"Ranged Combat"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "a742fe7b-c893-49c0-bf84-15449b3e744d",
+					"name": "First Aid",
+					"reference": "B195",
+					"tech_level": "2",
+					"difficulty": "IQ/E",
+					"points": 1,
+					"defaulted_from": {
+						"type": "IQ",
+						"modifier": -4,
+						"level": 7,
+						"adjusted_level": 7,
+						"points": -7
+					},
+					"defaults": [
+						{
+							"type": "IQ",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Esoteric Medicine"
+						},
+						{
+							"type": "Skill",
+							"name": "Physician"
+						},
+						{
+							"type": "Skill",
+							"name": "Veterinary",
+							"modifier": -4
+						}
+					],
+					"categories": [
+						"Everyman",
+						"Medical"
+					]
+				}
+			]
+		},
+		{
+			"type": "skill_container",
+			"version": 1,
+			"id": "290c483b-cb19-4530-b67c-e79f3309458b",
+			"name": "Survival",
+			"open": true,
+			"children": [
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "ab36e267-4d90-488d-b7b5-f623e969d906",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"specialization": "Northern Woods",
+					"difficulty": "IQ/E",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "Skill",
+							"name": "Geography",
+							"specialization": "hunting, logging",
+							"modifier": -3
+						}
+					],
+					"notes": "The inhabitants, trails, streams, hiding places, ambush sites, flora, and fauna of a few hundred acres",
+					"categories": [
+						"Everyman",
+						"Knowledge"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "fe92be31-2e0e-403e-ba8f-15c80ee9f123",
+					"name": "Climbing",
+					"reference": "B183",
+					"encumbrance_penalty_multiplier": 1,
+					"difficulty": "DX/A",
+					"points": 8,
+					"defaulted_from": {
+						"type": "DX",
+						"modifier": -5,
+						"level": 7,
+						"adjusted_level": 7,
+						"points": -7
+					},
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						}
+					],
+					"categories": [
+						"Athletic",
+						"Criminal/Street",
+						"Outdoor/Exploration"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "92051898-23bb-4ffa-90db-cb5ca2ca8ef9",
+					"name": "Knot-Tying",
+					"reference": "B203",
+					"difficulty": "DX/E",
+					"points": 1,
+					"defaulted_from": {
+						"type": "Skill",
+						"name": "Climbing",
+						"modifier": -4,
+						"level": 10,
+						"adjusted_level": 10,
+						"points": -10
+					},
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Climbing",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Seamanship",
+							"modifier": -4
+						}
+					],
+					"categories": [
+						"Everyman"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "84b2a589-72a7-4506-941e-d5e9aa698e07",
+					"name": "Navigation",
+					"reference": "B211",
+					"specialization": "Land",
+					"tech_level": "2",
+					"difficulty": "IQ/A",
+					"points": 1,
+					"defaulted_from": {
+						"type": "IQ",
+						"modifier": -5,
+						"level": 6,
+						"adjusted_level": 6,
+						"points": -6
+					},
+					"defaults": [
+						{
+							"type": "IQ",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Cartography",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Mathematics",
+							"specialization": "Surveying",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Navigation",
+							"specialization": "Air",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Navigation",
+							"specialization": "Sea",
+							"modifier": -2
+						}
+					],
+					"categories": [
+						"Outdoor/Exploration",
+						"Technical",
+						"Vehicle"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "1f51d47d-c993-44b8-9817-403de6528581",
+					"name": "Running",
+					"reference": "B218",
+					"difficulty": "HT/A",
+					"points": 1,
+					"defaulted_from": {
+						"type": "HT",
+						"modifier": -5,
+						"level": 8,
+						"adjusted_level": 8,
+						"points": -8
+					},
+					"defaults": [
+						{
+							"type": "HT",
+							"modifier": -5
+						}
+					],
+					"categories": [
+						"Athletic"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "acc2eba6-148e-44aa-8c68-316ea53537d7",
+					"name": "Survival",
+					"reference": "B223",
+					"specialization": "Mountain",
+					"difficulty": "Per/A",
+					"points": 1,
+					"defaulted_from": {
+						"type": "Skill",
+						"name": "Survival",
+						"specialization": "Woodlands",
+						"modifier": -3,
+						"level": 9,
+						"adjusted_level": 9,
+						"points": -9
+					},
+					"defaults": [
+						{
+							"type": "Per",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Naturalist",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Survival",
+							"specialization": "Arctic",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Survival",
+							"specialization": "Desert",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Survival",
+							"specialization": "Island/Beach",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Survival",
+							"specialization": "Jungle",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Survival",
+							"specialization": "Plains",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Survival",
+							"specialization": "Swampland",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Survival",
+							"specialization": "Woodlands",
+							"modifier": -3
+						}
+					],
+					"categories": [
+						"Outdoor/Exploration"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "d2478bea-ec6d-49bf-bdac-99b0fe595ed2",
+					"name": "Survival",
+					"reference": "B223",
+					"specialization": "Woodlands",
+					"difficulty": "Per/A",
+					"points": 1,
+					"defaulted_from": {
+						"type": "Per",
+						"modifier": -5,
+						"level": 8,
+						"adjusted_level": 8,
+						"points": -8
+					},
+					"defaults": [
+						{
+							"type": "Per",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Naturalist",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Survival",
+							"specialization": "Arctic",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Survival",
+							"specialization": "Desert",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Survival",
+							"specialization": "Island/Beach",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Survival",
+							"specialization": "Jungle",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Survival",
+							"specialization": "Mountain",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Survival",
+							"specialization": "Plains",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Survival",
+							"specialization": "Swampland",
+							"modifier": -3
+						}
+					],
+					"categories": [
+						"Outdoor/Exploration"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "2eb577c9-c41a-417e-993b-8bff7e20652c",
+					"name": "Swimming",
+					"reference": "B224",
+					"encumbrance_penalty_multiplier": 2,
+					"difficulty": "HT/E",
+					"points": 1,
+					"defaulted_from": {
+						"type": "HT",
+						"modifier": -4,
+						"level": 9,
+						"adjusted_level": 9,
+						"points": -9
+					},
+					"defaults": [
+						{
+							"type": "HT",
+							"modifier": -4
+						}
+					],
+					"categories": [
+						"Athletic",
+						"Outdoor/Exploration"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "35c125b3-3a42-4df1-9cd8-965916d05f3c",
+					"name": "Tracking",
+					"reference": "B226",
+					"difficulty": "Per/A",
+					"points": 4,
+					"defaulted_from": {
+						"type": "Per",
+						"modifier": -5,
+						"level": 8,
+						"adjusted_level": 8,
+						"points": -8
+					},
+					"defaults": [
+						{
+							"type": "Per",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Naturalist",
+							"modifier": -5
+						}
+					],
+					"categories": [
+						"Outdoor/Exploration"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "b9b1cfb1-6f7b-4c9c-b909-bd48e2e8cb50",
+					"name": "Traps",
+					"reference": "B226",
+					"tech_level": "2",
+					"difficulty": "IQ/A",
+					"points": 8,
+					"defaulted_from": {
+						"type": "IQ",
+						"modifier": -5,
+						"level": 6,
+						"adjusted_level": 6,
+						"points": -6
+					},
+					"defaults": [
+						{
+							"type": "IQ",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Lockpicking",
+							"modifier": -3
+						}
+					],
+					"categories": [
+						"Criminal/Street",
+						"Military"
+					]
+				}
+			]
+		},
+		{
+			"type": "skill_container",
+			"version": 1,
+			"id": "6c02f95d-9b85-4102-a18f-c3094892a914",
+			"name": "Mundane",
+			"open": true,
+			"children": [
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "9698496e-e615-42e3-8126-281b4ea27cbd",
+					"name": "Fortune-Telling",
+					"reference": "B196",
+					"specialization": "Astrology",
+					"difficulty": "IQ/A",
+					"points": 1,
+					"defaulted_from": {
+						"type": "IQ",
+						"modifier": -5,
+						"level": 6,
+						"adjusted_level": 6,
+						"points": -6
+					},
+					"defaults": [
+						{
+							"type": "IQ",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Fast-Talk",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Occultism",
+							"modifier": -3
+						}
+					],
+					"categories": [
+						"Social"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "d51f31ca-56c4-4eff-99d4-6d7195b9d433",
+					"name": "Smith",
+					"reference": "B221",
+					"specialization": "Iron",
+					"tech_level": "2",
+					"difficulty": "IQ/A",
+					"points": 8,
+					"defaulted_from": {
+						"type": "IQ",
+						"modifier": -5,
+						"level": 6,
+						"adjusted_level": 6,
+						"points": -6
+					},
+					"defaults": [
+						{
+							"type": "IQ",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Smith",
+							"modifier": -4
+						}
+					],
+					"categories": [
+						"Craft"
+					]
+				}
+			]
+		}
+	],
+	"equipment": [
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "dcdf7a27-2bbe-4666-8a5d-3c4ca3137fe2",
+			"equipped": true,
+			"quantity": 2,
+			"description": "Axe",
+			"tech_level": "0",
+			"value": "50",
+			"weight": "4 lb",
+			"reference": "LT54",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "+2"
+					},
+					"strength": "11",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Axe/Mace"
+						},
+						{
+							"type": "Skill",
+							"name": "Flail",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "+3"
+					},
+					"strength": "10†",
+					"usage": "Swing - two handed",
+					"reach": "1",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Two-Handed Axe/Mace"
+						},
+						{
+							"type": "Skill",
+							"name": "Axe/Mace",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Two-Handed Flail",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "6eb4116a-ebbe-4434-baa8-e03e7d1336f6",
+			"equipped": true,
+			"quantity": 2,
+			"description": "Chakram",
+			"tech_level": "2",
+			"value": "50",
+			"weight": "1.5 lb",
+			"reference": "LT72",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "thr",
+						"base": "+1"
+					},
+					"strength": "6",
+					"usage": "Thrown",
+					"accuracy": "1",
+					"range": "x4/x6",
+					"rate_of_fire": "1",
+					"shots": "T(1)",
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Thrown Weapon",
+							"specialization": "Disc"
+						},
+						{
+							"type": "Skill",
+							"name": "Throwing",
+							"modifier": -2
+						}
+					]
+				}
+			],
+			"categories": [
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "5f6642ec-7414-4e5e-8579-2f0bae1a11bf",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Leather Pants",
+			"tech_level": "1",
+			"value": "40",
+			"weight": "3 lb",
+			"reference": "B283",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "groin"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "legs"
+				}
+			],
+			"categories": [
+				"Limb Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "4c291e7b-459f-4023-a995-cd198c406b2d",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Boots, leather",
+			"tech_level": "2",
+			"value": "80",
+			"weight": "3 lb",
+			"reference": "LT98",
+			"categories": [
+				"Clothing"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "cd41659a-a21f-44fb-8344-d2af9a57f8aa",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Leather Armor",
+			"tech_level": "1",
+			"value": "100",
+			"weight": "10 lb",
+			"reference": "B283",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 2,
+					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 2,
+					"location": "groin"
+				}
+			],
+			"categories": [
+				"Body Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "e25469a2-e7bc-4be6-bd1d-864677bd3326",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Heavy Leather Sleeves",
+			"tech_level": "1",
+			"value": "50",
+			"weight": "2 lb",
+			"reference": "B283",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 2,
+					"location": "arms"
+				}
+			],
+			"categories": [
+				"Limb Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "1d09a1a0-82b4-4192-9552-4df19e492afb",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Light Cloak",
+			"tech_level": "1",
+			"value": "20",
+			"weight": "2 lb",
+			"reference": "B287",
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"attribute": "dodge"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"attribute": "parry"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"attribute": "block"
+				}
+			],
+			"categories": [
+				"Clothing"
+			]
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "b184e829-326c-413b-92a6-05e65a5e8f06",
+			"equipped": true,
+			"description": "Backpack, Small",
+			"tech_level": "1",
+			"value": "60",
+			"weight": "3 lb",
+			"reference": "B288",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "40 lb"
+						}
+					}
+				]
+			},
+			"categories": [
+				"Camping and Survival Gear"
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "equipment",
+					"version": 1,
+					"id": "a55364a5-cada-4740-a140-a3a64227db97",
+					"equipped": true,
+					"quantity": 1,
+					"description": "Rope, 3/4\", 20 yards",
+					"tech_level": "1",
+					"value": "50",
+					"weight": "10 lb",
+					"reference": "B288",
+					"notes": "Supports 1,100 lbs.",
+					"categories": [
+						"Camping and Survival Gear"
+					]
+				},
+				{
+					"type": "equipment",
+					"version": 1,
+					"id": "0b56a8dd-168e-4d92-9c97-ece8e41414cd",
+					"equipped": true,
+					"quantity": 1,
+					"description": "Sleeping Fur",
+					"tech_level": "0",
+					"value": "50",
+					"weight": "8 lb",
+					"reference": "B288",
+					"categories": [
+						"Camping and Survival Gear"
+					]
+				},
+				{
+					"type": "equipment_container",
+					"version": 1,
+					"id": "d849a160-76d6-4c3d-b21a-31658e739cdd",
+					"equipped": true,
+					"description": "Canteen",
+					"tech_level": "5",
+					"value": "10",
+					"weight": "1 lb",
+					"reference": "B288",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "contained_weight_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_most",
+									"qualifier": "2 lb"
+								}
+							}
+						]
+					},
+					"categories": [
+						"Camping and Survival Gear"
+					],
+					"open": true
+				},
+				{
+					"type": "equipment",
+					"version": 1,
+					"id": "eb8e4a3c-e8d1-40a7-a4cf-251bc5ff9fae",
+					"equipped": true,
+					"quantity": 1,
+					"description": "Torch",
+					"value": "3",
+					"weight": "1 lb",
+					"reference": "DFA111",
+					"notes": "Burns for 1 hour, 2 yd.",
+					"categories": [
+						"Light Sources"
+					]
+				},
+				{
+					"type": "equipment",
+					"version": 1,
+					"id": "063b5b16-41e3-4003-80d8-5d16ad0b2174",
+					"equipped": true,
+					"quantity": 1,
+					"description": "Climbing Gear",
+					"tech_level": "2",
+					"value": "20",
+					"weight": "4 lb",
+					"reference": "B288",
+					"notes": "Hammer, spikes, carabiners",
+					"categories": [
+						"Camping and Survival Gear"
+					]
+				},
+				{
+					"type": "equipment",
+					"version": 1,
+					"id": "8a623ea3-2dc9-4255-950c-fe238ed2c6db",
+					"equipped": true,
+					"quantity": 4,
+					"description": "Traveler's Rations",
+					"tech_level": "0",
+					"value": "2",
+					"weight": "0.5 lb",
+					"reference": "B288",
+					"notes": "One meal",
+					"categories": [
+						"Camping and Survival Gear"
+					]
+				},
+				{
+					"type": "equipment",
+					"version": 1,
+					"id": "71022a83-2250-4d91-8f6f-ea74920c6a33",
+					"equipped": true,
+					"quantity": 1,
+					"description": "Personal Basics",
+					"tech_level": "0",
+					"value": "5",
+					"weight": "1 lb",
+					"reference": "B288",
+					"notes": "Minimum gear for camping: -2 to any Survival roll without it. Includes utensils, tinderbox or flint and steel, towel, etc., as TL permits.",
+					"categories": [
+						"Camping and Survival Gear"
+					]
+				}
+			]
+		}
+	]
+}

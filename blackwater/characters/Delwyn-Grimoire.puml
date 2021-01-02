@@ -1,0 +1,100 @@
+@startuml
+
+title The Grimoire of Delwyn Brevik, 2020-06-14
+
+skinparam shadowing false
+hide stereotypes
+
+skinparam {
+	RectangleBackgroundColor #eeeeee
+	RectangleBorderColor transparent
+	RectangleFontColor #000000
+	ArrowColor #999999
+	RectangleBackgroundColor<<Impossible>> #ffeeee
+	RectangleFontColor<<Impossible>> #770000
+	RectangleBackgroundColor<<Improvised>> #ffffee
+	RectangleFontColor<<Improvised>> #777755
+}
+
+rectangle "**Apportation**\nMovement :: M142\n16 :: 1min :: *FP" as apportation
+rectangle "**Turn Blade**\nProtection :: M166\n12 :: 1FP" as turnblade <<Improvised>>
+apportation <-- turnblade
+rectangle "**Wallwalker**\nMovement :: M144\n12 :: 1FP/50lb" as wallwalker <<Improvised>>
+apportation <--- wallwalker
+rectangle "**Deflect Missile**\nProtection :: M143\n16 :: 1FP" as deflectmissile
+apportation <-- deflectmissile
+rectangle "**Levitation**\nMovement :: M143\n15 :: 1min :: 1FP/80lb" as levitation
+apportation <-- levitation
+rectangle "**Distant Blow**\nMovement :: M144\n12 :: 3FP+3" as distantblow <<Improvised>>
+apportation <-- distantblow
+rectangle "**Lockmaster**\nMovement :: M144\n12 :: 3" as lockmaster <<Improvised>>
+apportation <-- lockmaster
+rectangle "**Catch Missile**\nProtection :: M168\n15 :: 2FP" as catchmissile
+deflectmissile <-- catchmissile
+rectangle "**Return Missile**\nProtection :: M168\n17 :: 2FP" as returnmissile
+catchmissile <-- returnmissile
+rectangle "**Catch Spell**\nMeta :: M123\n**14** :: 3FP" as catchspell
+returnmissile <-- catchspell
+rectangle "**Flight**\nMovement :: M145\n11 :: 1min :: 5FP+3" as flight <<Improvised>>
+levitation <-- flight
+rectangle "**Flying Carpet**\nMovement :: M146\n9 :: 10min :: 1FP/25lb" as flyingcarpet <<Improvised>>
+flight <-- flyingcarpet
+rectangle "**Pull**\nMovement :: M146\n11 :: 1min :: 1/2ST*FP" as pull <<Improvised>>
+levitation <-- pull
+
+rectangle "**Mage Lock**\nProtection :: M166\n13 :: 6hr :: 3FP+2" as magelock <<Impossible>>
+'apportation <---[hidden] magelock
+
+rectangle "**Shield**\nProtection :: M167\n15 :: 1min :: 2FP/DR" as shield
+'apportation <---[hidden] shield
+rectangle "**Armor**\nProtection :: M167\n11 :: 1min :: 2FP/DR" as armor <<Improvised>>
+rectangle "**Bladeturning**\nProtection :: M168\n11 :: 1min :: 2FP+2" as bladeturning <<Improvised>>
+rectangle "**Missile Shield**\nProtection :: M168\n11 :: 1min :: 5FP+2" as missileshield <<Improvised>>
+rectangle "**Reverse Missiles**\nProtection :: M168\n9 :: 1min :: 7FP+3" as reversemissiles <<Improvised>>
+shield <-- armor
+shield <-- bladeturning
+shield <-- missileshield
+missileshield <-- reversemissiles
+
+rectangle "**Block**\nProtection :: M166\n11 :: 1FP/DR" as block <<Impossible>>
+rectangle "**Hardiness**\nProtection :: M166\n9 :: 1FP/DR" as hardiness <<Impossible>>
+block <-- hardiness
+'shield <---[hidden] block
+
+rectangle "**Teleport**\nGate + Movement :: M147\n15 :: Instant :: *FP" as teleport
+apportation <-----[hidden] teleport
+rectangle "**Trace Teleport**\nGate + Movement :: M84\n11 :: Instant :: 3FP" as traceteleport <<Improvised>>
+teleport <-- traceteleport
+rectangle "**Beacon**\nGate :: M83\n11 :: 24hr :: 10FP" as beacon <<Improvised>>
+teleport <---- beacon
+rectangle "**Blink**\nGate + Movement :: M148\n17 :: Instant :: 2FP" as blink
+teleport <-- blink
+rectangle "**Rapid Journey**\nGate + Movement :: M82\n11 :: * :: *FP" as rapidjourney <<Improvised>>
+teleport <---- rapidjourney
+rectangle "**Timeport**\nGate :: M81\n**14** :: Instant :: *FP" as timeport
+teleport <-- timeport
+rectangle "**Divert Teleport**\nGate + Movement :: M84\n9 :: Instant :: 3+FP" as divertteleport <<Improvised>>
+traceteleport <-- divertteleport
+rectangle "**Blink Other**\nGate + Movement :: M148\n15 :: Instant :: *FP" as blinkother
+blink <-- blinkother
+rectangle "**Timeslip**\nGate :: M81\n9 :: Instant :: *FP" as timeslip <<Improvised>>
+timeport <-- timeslip
+rectangle "**Timeslip Other**\nGate :: M81\n9 :: Instant :: *FP" as timeslipother <<Improvised>>
+timeport <--- timeslipother
+rectangle "**Timeport Other**\nGate :: M81\n9 :: Instant :: *FP" as timeportother <<Improvised>>
+timeport <--- timeportother
+
+
+rectangle Light
+rectangle Counterspell
+rectangle "Magic Resist." as magicresist <<Impossible>>
+rectangle Ward <<Impossible>>
+rectangle "Sense Foes" as sensefoes
+rectangle "Purify Air" as purifyair
+rectangle "Seek Air" as seekair <<Impossible>>
+rectangle "Seek Water" as seekwater <<Impossible>>
+rectangle "Lend Energy" as lendenergy
+
+
+
+@enduml

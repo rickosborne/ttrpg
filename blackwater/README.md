@@ -28,7 +28,8 @@ The characters, notes, and other materials are **not** licensed for distribution
 | 15 | <abbr title="2020-05-17">May 17</abbr> | [Back to the Futile](sessions/2020-05-17-back-to-the-futile.md) | 3 |
 | 16 | <abbr title="2020-05-24">May 24</abbr> | [One Long Breath](sessions/2020-05-24-one-long-breath.md) | 2 |
 | 17 | <abbr title="2020-05-31">May 31</abbr> | [Thunderbolts and Lightning](sessions/2020-05-31-thunderbolts-and-lightning.md) | - |
-| 18 | <abbr title="2020-06-07">Jun 7</abbr> | [???](sessions/2020-06-07-its-not-a-fight-until-yenna-goes-negative.md) | - |
+| 18 | <abbr title="2020-06-07">Jun 7</abbr> | [It's Not A Fight Until Yenna Goes Negative](sessions/2020-06-07-its-not-a-fight-until-yenna-goes-negative.md) | - |
+| 19 | <abbr title="2020-06-14">Jun 14</abbr> | [???](sessions/2020-06-14.md) | 10 |
 
 Individual session notes are available in the [`sessions`](./sessions) directory.
 New sessions are automagically compiled into Word format files available in the [releases](https://github.com/rickosborne/ttrpg/releases) area.
