@@ -30,7 +30,7 @@
 		]
 	},
 	"created_date": "Jan 6, 2020, 12:00 AM",
-	"modified_date": "Jan 1, 2021, 5:18 PM",
+	"modified_date": "Jan 3, 2021, 2:40 PM",
 	"profile": {
 		"player_name": "Rick Osborne",
 		"name": "Delwyn Brevik (Mage)",
@@ -3239,7 +3239,7 @@
 			"type": "equipment_container",
 			"version": 1,
 			"id": "c6964c56-2515-4b9b-9bc5-df6a60afa194",
-			"equipped": true,
+			"equipped": false,
 			"description": "Backpack, Frame",
 			"tech_level": "1",
 			"value": "100",
@@ -3262,13 +3262,13 @@
 			"categories": [
 				"Camping and Survival Gear"
 			],
-			"open": true,
+			"open": false,
 			"children": [
 				{
 					"type": "equipment",
 					"version": 1,
 					"id": "ae5d8cb5-dddb-4e57-83e3-7a76c9890422",
-					"equipped": true,
+					"equipped": false,
 					"quantity": 6,
 					"description": "Traveler's Rations",
 					"tech_level": "0",
@@ -3284,7 +3284,7 @@
 					"type": "equipment",
 					"version": 1,
 					"id": "1c6893ef-52ae-4bcc-911a-a29a0cbefe38",
-					"equipped": true,
+					"equipped": false,
 					"quantity": 1,
 					"description": "Sleeping Bag",
 					"tech_level": "6",
@@ -3299,7 +3299,7 @@
 					"type": "equipment",
 					"version": 1,
 					"id": "5a5669ce-c6da-42f9-a6cc-988519d063b7",
-					"equipped": true,
+					"equipped": false,
 					"quantity": 1,
 					"description": "Personal Basics",
 					"tech_level": "0",
@@ -3315,7 +3315,7 @@
 					"type": "equipment_container",
 					"version": 1,
 					"id": "218e9195-15e5-4cf8-8f28-d4a173429f18",
-					"equipped": true,
+					"equipped": false,
 					"description": "Canteen",
 					"tech_level": "5",
 					"value": "10",
@@ -3343,259 +3343,295 @@
 			]
 		},
 		{
-			"type": "equipment",
+			"type": "equipment_container",
 			"version": 1,
-			"id": "29f34954-c0a7-4ffc-9931-18d7e5ea6eac",
+			"id": "30d8b4a9-4858-4dc5-b6c9-71727bc36dfc",
 			"equipped": true,
-			"quantity": 1,
-			"description": "Leather Jacket",
-			"tech_level": "1",
-			"value": "50",
-			"weight": "4 lb",
-			"reference": "B283",
-			"features": [
+			"description": "Combat Ready",
+			"open": true,
+			"children": [
 				{
-					"type": "dr_bonus",
-					"amount": 1,
-					"location": "torso"
-				},
-				{
-					"type": "dr_bonus",
-					"amount": 1,
-					"location": "arms"
-				}
-			],
-			"categories": [
-				"Body Armor"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "e4e98043-c72b-42d9-9976-a2c15d0f93d7",
-			"equipped": true,
-			"quantity": 1,
-			"description": "Leather Pants",
-			"tech_level": "1",
-			"value": "40",
-			"weight": "3 lb",
-			"reference": "B283",
-			"features": [
-				{
-					"type": "dr_bonus",
-					"amount": 1,
-					"location": "groin"
-				},
-				{
-					"type": "dr_bonus",
-					"amount": 1,
-					"location": "legs"
-				}
-			],
-			"categories": [
-				"Limb Armor"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "7578aeae-f4b8-4dd9-b716-850b1f0cf9dc",
-			"equipped": true,
-			"quantity": 1,
-			"description": "Heavy Cloak",
-			"tech_level": "1",
-			"value": "50",
-			"weight": "5 lb",
-			"reference": "B287",
-			"weapons": [
-				{
-					"type": "melee_weapon",
-					"damage": {
-						"type": "-"
-					},
-					"strength": "-",
-					"reach": "-",
-					"parry": "No",
-					"block": "+0",
-					"defaults": [
+					"type": "equipment",
+					"version": 1,
+					"id": "911707bc-7382-49b1-a7ea-ad88b314d372",
+					"equipped": true,
+					"quantity": 1,
+					"description": "Boots",
+					"tech_level": "2",
+					"value": "80",
+					"weight": "3 lb",
+					"reference": "B284",
+					"features": [
 						{
-							"type": "Block",
-							"name": "Cloak"
+							"type": "dr_bonus",
+							"amount": 2,
+							"location": "feet"
 						}
+					],
+					"categories": [
+						"Footwear"
 					]
 				},
 				{
-					"type": "ranged_weapon",
-					"damage": {
-						"type": "Special"
-					},
-					"strength": "8",
-					"usage": "Thrown",
-					"accuracy": "+1",
-					"range": "2",
-					"rate_of_fire": "1",
-					"shots": "T(1)",
-					"bulk": "-6",
-					"defaults": [
-						{
-							"type": "Skill",
-							"name": "Cloak"
-						},
-						{
-							"type": "Skill",
-							"name": "Net",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Shield",
-							"modifier": -4
-						},
-						{
-							"type": "DX",
-							"modifier": -5
-						}
-					]
-				}
-			],
-			"features": [
-				{
-					"type": "attribute_bonus",
-					"amount": 2,
-					"attribute": "dodge"
-				},
-				{
-					"type": "attribute_bonus",
-					"amount": 2,
-					"attribute": "parry"
-				},
-				{
-					"type": "attribute_bonus",
-					"amount": 2,
-					"attribute": "block"
-				}
-			],
-			"categories": [
-				"Clothing"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "911707bc-7382-49b1-a7ea-ad88b314d372",
-			"equipped": true,
-			"quantity": 1,
-			"description": "Boots",
-			"tech_level": "2",
-			"value": "80",
-			"weight": "3 lb",
-			"reference": "B284",
-			"features": [
-				{
-					"type": "dr_bonus",
-					"amount": 2,
-					"location": "feet"
-				}
-			],
-			"categories": [
-				"Footwear"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "7a47a95a-5d49-41c9-9f14-a5b275d8b0b2",
-			"equipped": true,
-			"quantity": 1,
-			"description": "Clothing",
-			"weight": "2 lb",
-			"reference": "DFA110",
-			"categories": [
-				"Clothes"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "88b5df71-1107-4125-90e9-7cf60b5af704",
-			"equipped": true,
-			"quantity": 1,
-			"description": "Quarterstaff",
-			"tech_level": "0",
-			"value": "4093",
-			"weight": "4 lb",
-			"reference": "B273",
-			"weapons": [
-				{
-					"type": "melee_weapon",
-					"damage": {
-						"type": "cr",
-						"st": "sw",
-						"base": "+2"
-					},
-					"strength": "7†",
-					"usage": "Swung",
-					"reach": "1,2",
-					"parry": "+2",
-					"block": "No",
-					"defaults": [
-						{
-							"type": "DX",
-							"modifier": -5
-						},
-						{
-							"type": "Skill",
-							"name": "Staff"
-						},
-						{
-							"type": "Skill",
-							"name": "Polearm",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Spear",
-							"modifier": -2
-						}
+					"type": "equipment",
+					"version": 1,
+					"id": "7a47a95a-5d49-41c9-9f14-a5b275d8b0b2",
+					"equipped": true,
+					"quantity": 1,
+					"description": "Clothing",
+					"weight": "2 lb",
+					"reference": "DFA110",
+					"categories": [
+						"Clothes"
 					]
 				},
 				{
-					"type": "melee_weapon",
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "+2"
-					},
-					"strength": "7†",
-					"usage": "Thrust",
-					"reach": "1,2",
-					"parry": "+2",
-					"block": "No",
-					"defaults": [
+					"type": "equipment",
+					"version": 1,
+					"id": "88b5df71-1107-4125-90e9-7cf60b5af704",
+					"equipped": true,
+					"quantity": 1,
+					"description": "Quarterstaff",
+					"tech_level": "0",
+					"value": "4093",
+					"weight": "4 lb",
+					"reference": "B273",
+					"weapons": [
 						{
-							"type": "DX",
-							"modifier": -5
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cr",
+								"st": "sw",
+								"base": "+2"
+							},
+							"strength": "7†",
+							"usage": "Swung",
+							"reach": "1,2",
+							"parry": "+2",
+							"block": "No",
+							"defaults": [
+								{
+									"type": "DX",
+									"modifier": -5
+								},
+								{
+									"type": "Skill",
+									"name": "Staff"
+								},
+								{
+									"type": "Skill",
+									"name": "Polearm",
+									"modifier": -4
+								},
+								{
+									"type": "Skill",
+									"name": "Spear",
+									"modifier": -2
+								}
+							]
 						},
 						{
-							"type": "Skill",
-							"name": "Staff"
-						},
-						{
-							"type": "Skill",
-							"name": "Polearm",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Spear",
-							"modifier": -2
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cr",
+								"st": "thr",
+								"base": "+2"
+							},
+							"strength": "7†",
+							"usage": "Thrust",
+							"reach": "1,2",
+							"parry": "+2",
+							"block": "No",
+							"defaults": [
+								{
+									"type": "DX",
+									"modifier": -5
+								},
+								{
+									"type": "Skill",
+									"name": "Staff"
+								},
+								{
+									"type": "Skill",
+									"name": "Polearm",
+									"modifier": -4
+								},
+								{
+									"type": "Skill",
+									"name": "Spear",
+									"modifier": -2
+								}
+							]
 						}
+					],
+					"notes": "Signature gear: Enchanted with +15 powerstone (+$4073)",
+					"categories": [
+						"Melee Weapon"
+					]
+				},
+				{
+					"type": "equipment",
+					"version": 1,
+					"id": "5ff0c15f-6ad8-4321-95db-7dab4b4ee5e0",
+					"based_on_id": "c6087e21-db85-466b-b5fb-4ad38e5e1d5c",
+					"based_on_hash": "FAHZZnHudz9d2svmDQk6H8SMwMSfbbLeqzfRWmSrzZ0",
+					"equipped": true,
+					"quantity": 1,
+					"description": "Leather, Medium Torso Armor",
+					"tech_level": "0",
+					"value": "100",
+					"weight": "12 lb",
+					"reference": "LTIA4",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"amount": 2,
+							"location": "torso"
+						},
+						{
+							"type": "dr_bonus",
+							"amount": 2,
+							"location": "groin"
+						}
+					],
+					"notes": "Don: 30 secs; Holdout: -2; Reaction Pen.-1; Flexible and susceptible to blunt trauma (p. B379); -1 DR vs. impaling.",
+					"categories": [
+						"Body Armor"
+					]
+				},
+				{
+					"type": "equipment",
+					"version": 1,
+					"id": "f3fefbd6-5b08-4ae0-9b7f-8ae6114ddbe7",
+					"based_on_id": "a23cb1ce-282f-4573-bea5-5f2e11a1415e",
+					"based_on_hash": "X5eAgGvB5bFM4tzGMpjbkxu3/9pY5WObQR0qhdbPxGs",
+					"equipped": true,
+					"quantity": 1,
+					"description": "Leather, Medium Arm Armor",
+					"tech_level": "0",
+					"value": "50",
+					"weight": "6 lb",
+					"reference": "LTIA7",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"amount": 2,
+							"location": "arms"
+						}
+					],
+					"notes": "Don: 15 secs; Holdout: -2; Reaction Pen.-1; Flexible and susceptible to blunt trauma (p. B379); -1 DR vs. impaling.",
+					"categories": [
+						"Limb Armor"
+					]
+				},
+				{
+					"type": "equipment",
+					"version": 1,
+					"id": "e9295c98-5278-48b1-850a-2cb35cf3e921",
+					"based_on_id": "be68ea02-e54b-463b-b1e2-a87e4c036277",
+					"based_on_hash": "RrlkhTQRCGmMcr8Ab2wT2rgXeQj8DmHw68t2FbnCJlY",
+					"equipped": true,
+					"quantity": 1,
+					"description": "Leather, Medium Leg Armor",
+					"tech_level": "0",
+					"value": "100",
+					"weight": "12 lb",
+					"reference": "LTIA10",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"amount": 2,
+							"location": "legs"
+						}
+					],
+					"notes": "Don: 30 secs; Holdout: -2; Reaction Pen.-1; Flexible and susceptible to blunt trauma (p. B379); -1 DR vs. impaling.",
+					"categories": [
+						"Limb Armor"
+					]
+				},
+				{
+					"type": "equipment",
+					"version": 1,
+					"id": "7578aeae-f4b8-4dd9-b716-850b1f0cf9dc",
+					"equipped": true,
+					"quantity": 1,
+					"description": "Heavy Cloak",
+					"tech_level": "1",
+					"value": "50",
+					"weight": "5 lb",
+					"reference": "B287",
+					"weapons": [
+						{
+							"type": "melee_weapon",
+							"damage": {
+								"type": "-"
+							},
+							"strength": "-",
+							"reach": "-",
+							"parry": "No",
+							"block": "+0",
+							"defaults": [
+								{
+									"type": "Block",
+									"name": "Cloak"
+								}
+							]
+						},
+						{
+							"type": "ranged_weapon",
+							"damage": {
+								"type": "Special"
+							},
+							"strength": "8",
+							"usage": "Thrown",
+							"accuracy": "+1",
+							"range": "2",
+							"rate_of_fire": "1",
+							"shots": "T(1)",
+							"bulk": "-6",
+							"defaults": [
+								{
+									"type": "Skill",
+									"name": "Cloak"
+								},
+								{
+									"type": "Skill",
+									"name": "Net",
+									"modifier": -4
+								},
+								{
+									"type": "Skill",
+									"name": "Shield",
+									"modifier": -4
+								},
+								{
+									"type": "DX",
+									"modifier": -5
+								}
+							]
+						}
+					],
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 2,
+							"attribute": "dodge"
+						},
+						{
+							"type": "attribute_bonus",
+							"amount": 2,
+							"attribute": "parry"
+						},
+						{
+							"type": "attribute_bonus",
+							"amount": 2,
+							"attribute": "block"
+						}
+					],
+					"categories": [
+						"Clothing"
 					]
 				}
-			],
-			"notes": "Signature gear: Enchanted with +15 powerstone (+$4073)",
-			"categories": [
-				"Melee Weapon"
 			]
 		}
 	],

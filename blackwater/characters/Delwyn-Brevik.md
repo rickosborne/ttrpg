@@ -54,6 +54,15 @@ TODO: Copy background stuff here.
 * ❖ For session #15, Del got 5 points instead 3 because of Rick's clever use of an improvised _Timeport_ spell.
 * For session #17, Del spent 9 points on rerolls to stay alive.
 
+## Funds
+
+| Session | 𝝙 $ | 𝝨 $ | Notes |
+| :---: | ---: | ---: | :--- |
+| 0  | - | 0 | Starting cash: effectively zero |
+| [20](../sessions/2021-01-03-back-to-blackwater.md) | +2,525 | 2,525 | Payout from Gavin for Sept of the Maiden loot |
+| 20 | -150 | 2,375 | Payment to Mad Cow for the drider armor (torso, legs, arms) |
+
+
 ## Spend Proposals
 
 ### Sessions 13/14

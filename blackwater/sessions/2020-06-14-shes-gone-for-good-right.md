@@ -75,8 +75,6 @@ The others ask Del if he's seen Sorven do enough healing magic to allow him to i
 Del thinks it's a bad idea, but he gives it a shot.
 It takes hours, several pauses and restarts, and help from everyone in an intricate ceremony, but their patience is rewarded with the flush of color returning to the old man's cheeks, and the creeping closure of his open wounds.
 
----
-
 ## Outcomes
 
 * Gabriel used 1 XP for a reroll for Sorven.
