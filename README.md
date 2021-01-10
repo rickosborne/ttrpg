@@ -1,5 +1,10 @@
 # ttrpg
-Tabletop RPG material
+
+Tabletop RPG material.
+
+Browseable version here:
+
+> [rickosborne.github.io/ttrpg/](https://rickosborne.github.io/ttrpg/)
 
 ## Blackwater
 
