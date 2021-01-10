@@ -4,6 +4,8 @@ date: 2020-04-26
 keywords:
 - dunwich
 - undead
+prev:
+  title: Blackwater
 ---
 
 # Session 12: A Dark Cloud

@@ -4,6 +4,8 @@ date: 2020-06-14
 keywords:
 - dunwich
 - undead
+prev:
+  title: Blackwater
 ---
 
 # Session 19: She's Gone For Good, Right?

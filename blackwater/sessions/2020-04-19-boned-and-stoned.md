@@ -4,6 +4,8 @@ date: 2020-04-19
 keywords:
 - dunwich
 - undead
+prev:
+  title: Blackwater
 ---
 
 # Session 11: Guy Gets Boned and Edgar Gets Stoned

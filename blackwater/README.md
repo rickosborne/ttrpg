@@ -1,11 +1,17 @@
 # Blackwater
 
-These files pertain to our GURPS campaign in the Blackwater setting, run by Matt McKaig.
+These files pertain to our GURPS campaign in the Blackwater setting, run by [Matt McKaig](https://github.com/mlmckaig).
 
 The Blackwater IP is owned by Matt McKaig.
 Anyone wishing to reuse or remix it should contact him.
 
 The characters, notes, and other materials are **not** licensed for distribution or any other use, and are the property of Rick and Corri Osborne.
+
+The character and party art here is by [Jessica Dayley](https://www.artstation.com/jdayley).
+
+{:.art}
+![Party Height Chart](sessions/art/OGPartyHeightChart.svg "Party Height Chart, by Jessica Dayley")
+<label><a href="https://www.artstation.com/jdayley">Art by Jessica Dayley</a></label>
 
 ## Sessions
 
@@ -31,7 +37,7 @@ The characters, notes, and other materials are **not** licensed for distribution
 | 18 | <abbr title="2020-06-07">Jun 7</abbr> | [It's Not A Fight Until Yenna Goes Negative](sessions/2020-06-07-its-not-a-fight-until-yenna-goes-negative.md) | - |
 | 19 | <abbr title="2020-06-14">Jun 14</abbr> | [She's Gone For Good, Right?](sessions/2020-06-14-shes-gone-for-good-right.md) | 10 |
 | 19.1 | <abbr title="2021-01-02">Jan 2</abbr> | [Meta Session: Getting Paid is Half the Fun](sessions/2021-01-02-Meta-Session-GM-Notes.md) | - |
-| 20 | <abbr title="2021-01-03">Jan 2</abbr> | [Back to Blackwater](sessions/2021-01-03-back-to-blackwater.md) | - |
+| 20 | <abbr title="2021-01-03">Jan 3</abbr> | [Back to Blackwater](sessions/2021-01-03-back-to-blackwater.md) | - |
 
 Individual session notes are available in the [`sessions`](./sessions) directory.
 New sessions are automagically compiled into Word format files available in the [releases](https://github.com/rickosborne/ttrpg/releases) area.

@@ -4,6 +4,8 @@ date: 2020-03-29
 keywords:
 - dunwich
 - undead
+prev:
+  title: Blackwater
 ---
 
 # Session 8: I Cast Zombie Missile

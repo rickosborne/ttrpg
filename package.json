@@ -1,0 +1,19 @@
+{
+	"author": {
+		"name": "Rick Osborne",
+		"url": "https://rickosborne.org"
+	},
+	"bugs": {
+		"url": "https://github.com/rickosborne/ttrpg/issues"
+	},
+	"description": "Rick Osborne's tabletop RPG material",
+	"homepage": "https://github.com/rickosborne/ttrpg/",
+	"license": "UNLICENSED",
+	"name": "@rickosborne/ttrpg",
+	"private": true,
+	"repository": "github:rickosborne/ttrpg",
+	"scripts": {
+		"jekyll:serve": "bundle exec jekyll serve --livereload"
+	},
+	"version": "1.0.0-pre"
+}

@@ -4,6 +4,8 @@ date: 2020-04-05
 keywords:
 - dunwich
 - undead
+prev:
+  title: Blackwater
 ---
 
 # Session 9: A Wail of a Good Time
@@ -101,8 +103,8 @@ They found a small, single-coffin elliptical room, overlooked by another stone s
 Del remarked that this statue seemed oddly different than the others, vaguely elf-like, but also something else.
 But it was Arc who was willing to venture close enough to the casket to read the ancient Calach inscription on its lid:
 
-> Theonopholis, Master Architect  
-> Alchemist, Teacher, and advisor
+    Theonopholis, Master Architect  
+    Alchemist, Teacher, and advisor
 
 The inscription was scratched out with the word TRAITOR in an angry scrawl.
 

@@ -8,6 +8,8 @@ keywords:
 - asturias
 - dunwich
 notes: Our first official session
+prev:
+  title: Blackwater
 ---
 
 # Session 1: Gavin's Request
@@ -16,13 +18,14 @@ notes: Our first official session
 
 The party assembled:
 
+{:.eyechart}
 Character | Player | Race | Notes
 --------- | ------ | ---- | -----
 Edgar Strangehaven | Lee | Human | Rogue, melee, priest (Church of the Stranger), weapons (also blessed objects) are 2 shortstaffs, invisibility
 Arc Starbringer | Arctimus "Arc" | Human | Rogue, generalist, old, multilingual, owes debt, compulsive gambler, healer, lockpick, flautist, weapon is bag of rocks to throw
 Sorven | Gabriel | Human | Mage, renegade, healer, support, low dex, weapon is quarterstaff, vow of poverty?
 Brorvec | Daniel | Dwarf | Barbarian or Paladin, tank, protection magic, heavily armored
-Yenevra "Yen" Feldspar | Corri | Strig | Barbarian, damage, ranger
+Yenevra "Yenna" Feldspar | Corri | Strig | Barbarian, damage, ranger
 Delwyn "Del" Brevik | Rick | Human | Mage, renegade, damage
 
 ## Summary
@@ -45,7 +48,7 @@ To get to the temple, Gavin told us to take the road to Northunder, then to find
 Before we left, we bought supplies:
 
 Item | # | $ ea | lbs ea | ∑ $ | ∑ lbs
----- | --- | --- | --- | --- | ---
+---- | ---: | ---: | ---: | ---: | ---:
 Heavy Cloak | 4 | 50 | 5 | 200 | 20
 4-Man Tent | 2 | 150 | 30 | 300 | 60
 6' Pole | 4 | 5 | 3 | 20 | 12
@@ -60,7 +63,7 @@ Chalk | 4 | 1 | 0.25 | 4 | 1
 Climbing Gear | 1 | 20 | 4 | 20 | 4
 _Total_ | - | - | - |  808 | 126
 
-The items were distributed out to the Strig (Yen and Brorvec) to carry.
+The items were distributed out to the Strig (Yenna and Brorvec) to carry.
 Edgar is the group's bank.
 
 We spent the night in Blackwater, where Arc gambled away what money he had left.

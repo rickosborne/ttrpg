@@ -26,19 +26,23 @@ The next morning you are awakened by a knock at your door.  Opening your door, K
 > Gavin Monkreif  
 
 ## Summary of days spent
+
+{:.eyechart}
 |Date|Day|Events|Location|Weather|
 |---|---|---|---|---|
-|12 Flocktime|Holidi|Emerged from Crypts with loot|Abandoned Maiden's Sept|Partly cloudy and warm|
-|13 Flocktime|Lundi|Some members walked to Northunder to hire wagons ($2,500)|Abandoned Maiden's Sept|Clear and moderate (perfect)|
-|14 Flocktime|Delmi|Returned from Northunder with Wagons|Abandoned Maiden's Sept|Clear and moderate (perfect)|
-|15 Floctime|Samdi|Rode from Abandoned Maiden's Sept to Northunder and camped outside of town|Northunder|Warm and breezy|
-|16 Floctime|Fellodi|Hired a messenger to deliver message to Gavin in Blackwater.  Rode from Northunder to Ferton in wagons.|Ferton|Warm and sunny (almost hot)|
-|17 Flocktime|Bochdi|Received message from Gavin|Ferton|Warm with thunderstorms on the horizon|
+|12&nbsp;Flocktime|Holidi|Emerged from Crypts with loot|Abandoned Maiden's Sept|Partly cloudy and warm|
+|13&nbsp;Flocktime|Lundi|Some members walked to Northunder to hire wagons ($2,500)|Abandoned Maiden's Sept|Clear and moderate (perfect)|
+|14&nbsp;Flocktime|Delmi|Returned from Northunder with Wagons|Abandoned Maiden's Sept|Clear and moderate (perfect)|
+|15&nbsp;Flocktime|Samdi|Rode from Abandoned Maiden's Sept to Northunder and camped outside of town|Northunder|Warm and breezy|
+|16&nbsp;Flocktime|Fellodi|Hired a messenger to deliver message to Gavin in Blackwater.  Rode from Northunder to Ferton in wagons.|Ferton|Warm and sunny (almost hot)|
+|17&nbsp;Flocktime|Bochdi|Received message from Gavin|Ferton|Warm with thunderstorms on the horizon|
   
 ## Summary of money spent
+
+{:.eyechart}
 |Date|Amount|Reason|
 |---|---|---|
-|13 Flocktime|18 Gold Royals ($2,520)|Hire 2 wagons, 4 mules, and 2 drivers to come to abandoned Maiden's Sept.  Then haul cargo from Sept to Ferton.|
-|16 Floctime|2 Silver Crests ($60)|Hire messenger to deliver message to Gavin in Blackwater.|
-|17 Flocktime|3 Silver Crests ($90)|1 nights lodging for 3, meals for 6, and stabling for 4 mules.|  
+|13&nbsp;Flocktime|18 Gold Royals ($2,520)|Hire 2 wagons, 4 mules, and 2 drivers to come to abandoned Maiden's Sept.  Then haul cargo from Sept to Ferton.|
+|16&nbsp;Flocktime|2 Silver Crests ($60)|Hire messenger to deliver message to Gavin in Blackwater.|
+|17&nbsp;Flocktime|3 Silver Crests ($90)|1 nights lodging for 3, meals for 6, and stabling for 4 mules.|  
 |TOTAL|$2,670| |  

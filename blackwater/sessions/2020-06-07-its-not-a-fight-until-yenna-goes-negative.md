@@ -4,6 +4,8 @@ date: 2020-06-07
 keywords:
 - dunwich
 - undead
+prev:
+  title: Blackwater
 ---
 
 # Session 18: It's not a fight until Yenna goes negative
@@ -56,6 +58,10 @@ The cone of flame rolled over Guy, surprising him.
 He was able to take one large Strig-sized step away, but it didn't get him out of the heat.
 His exposed skin along his neck and arms blackened and charred.
 Gaining momentum, he was able to get farther away and swing around to keep an eye on it.
+
+{:.art.max-width-half}
+![Guy, wounded, by Jessica Dayley](art/GuyWounded.svg "Guy, wounded, by Jessica Dayley")
+<label><a href="https://www.artstation.com/jdayley">Art by Jessica Dayley</a></label>
 
 Weighing his options, Guy charged into the mist.
 Its disorienting effects tore at his mind, but he was able to keep his composure.

@@ -4,6 +4,8 @@ date: 2020-03-22
 keywords:
 - dunwich
 - undead
+prev:
+  title: Blackwater
 ---
 
 # Session 7: Slow and Unsteady

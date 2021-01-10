@@ -4,6 +4,8 @@ date: 2020-04-12
 keywords:
 - dunwich
 - undead
+prev:
+  title: Blackwater
 ---
 
 # Session 10: Secret Passages

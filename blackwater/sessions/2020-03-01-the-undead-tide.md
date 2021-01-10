@@ -4,6 +4,8 @@ date: 2020-03-01
 keywords:
 - dunwich
 - undead
+prev:
+  title: Blackwater
 ---
 
 # Session 4: The Undead Tide

@@ -4,6 +4,8 @@ date: 2020-03-15
 keywords:
 - dunwich
 - undead
+prev:
+  title: Blackwater
 ---
 
 # Session 6: Poking the Undead Bear

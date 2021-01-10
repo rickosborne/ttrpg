@@ -4,6 +4,8 @@ date: 2020-05-03
 keywords:
 - dunwich
 - undead
+prev:
+  title: Blackwater
 ---
 
 # Session 13: Do you smell that?
@@ -133,6 +135,10 @@ Rejoining the party below some time later, they passed out jerky and hard bread.
 Again not looking for conversation, he took his lantern and staff and walked into the darkness.
 
 Edgar, looking between a taciturn Del and a dismissive Sorven, moved to catch up to the former.
+
+{:.art}
+![Tired Strig](art/TiredStrig.svg "Tired Strig, by Jessica Dayley")
+<label><a href="https://www.artstation.com/jdayley">Art by Jessica Dayley</a></label>
 
 ## Outcomes
 

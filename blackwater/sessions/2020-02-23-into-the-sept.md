@@ -4,6 +4,8 @@ date: 2020-02-23
 keywords:
 - dunwich
 - undead
+prev:
+  title: Blackwater
 ---
 
 # Session 3: Into the Sept

@@ -4,6 +4,8 @@ date: 2020-05-31
 keywords:
 - dunwich
 - undead
+prev:
+  title: Blackwater
 ---
 
 # Session 17: Thunderbolts and Lightning
@@ -89,6 +91,10 @@ Arc zipped more stones into them as he and Sorven raced along the dry floor to r
 The skeletons matched their speed, soon flanking the party on the narrow walkway.
 Sorven, now seeing Edgar's condition, looked to Yenna and said "I'll need you to pull that out."
 Arc, face pail and strained from his efforts, made a snap decision and dove back down into the hole, swimming back they way they'd come.
+
+{:.art}
+![Bleeding Edgar](art/BleedingEdgar.svg "Bleeding Edgar, by Jessica Dayley")
+<label><a href="https://www.artstation.com/jdayley">Art by Jessica Dayley</a></label>
 
 In the chaos, none noticed that Del was no longer standing behind them.
 No one saw him vanish only to reappear at the far end of the room, barely visible past the fog cloud.

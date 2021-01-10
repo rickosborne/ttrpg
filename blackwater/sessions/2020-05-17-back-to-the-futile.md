@@ -4,6 +4,8 @@ date: 2020-05-17
 keywords:
 - dunwich
 - undead
+prev:
+  title: Blackwater
 ---
 
 # Session 15: Back to the Futile
@@ -31,6 +33,10 @@ Arc groaned loudly, a trickle of blood running from his nose.
 Yenna, seeing this, lost control of her temper and charged at the skull, cracking it with a blow of her axe.
 Edgar and Brorvec, unsure of what to make of the scene, dropped into defensive postures.
 Arc, recovering, smeared the blood from his lip before zipping another pair of stones into the back of the skull.
+
+{:.art}
+![Yenna's reaction rage](art/YenReactionRage.svg "Yenna's reaction rage, by Jessica Dayley")
+<label><a href="https://www.artstation.com/jdayley">Art by Jessica Dayley</a></label>
 
 The skull pulsed an even brighter purple for a moment, a wave of psychic energy rippling through the hallway.
 Yenna seemed to catch the brunt of the attack, dropping unconscious to the ground.

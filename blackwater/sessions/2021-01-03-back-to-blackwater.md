@@ -5,6 +5,8 @@ keywords:
 - gavin
 - ferton
 - blackwater
+prev:
+  title: Blackwater
 ---
 
 # Session 20: Back to Blackwater
@@ -33,6 +35,8 @@ Arriving at the gate, Del asked one of the guards for a bag for the leather armo
 The guard, seeing their brass residency tags, waved them through with only a questioning word about the mellifluous odor coming off Del: "have you been swimming in the river?".
 Hooking a thumb at Edgar, Del rolled his eyes: "this one thought it would be funny to throw me in".
 Splitting up after entry, Del headed straight home to stash away his staff and powerstone.
+
+!["This one thought it would be funny"](art/FishyBusiness.svg){:.art}
 
 Edgar, visiting his contact Nelora, learned that drider leather was quite prized and valuable.
 In turn, she'd recently come into possession of a ring which would grant the wearer increased agility for a short time.
