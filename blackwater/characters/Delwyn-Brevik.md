@@ -4,6 +4,7 @@ TODO: Copy background stuff here.
 
 ## Skill Progression Log
 
+{:.eyechart}
 | Session | 𝝙 XP | 𝝨 XP | Banked | Notes |
 | :---: | :---: | :---: | :---: | :--- |
 | - | - | 165 | 3 | (started with only 162 spent) |
@@ -45,6 +46,7 @@ TODO: Copy background stuff here.
 | - | -1 | - | 2 | new: _Timeport_, SL 14 |
 | - | -1 | - | 1 | new: _Blink Other_, SL 15 |
 | - | -1 | - | 0 | new: _Lend Energy_, SL 15 |
+| [20](../sessions/2021-01-03-back-to-blackwater.md) | - | 210 | 0 | - |
 
 ### Log Notes:
 
@@ -56,6 +58,7 @@ TODO: Copy background stuff here.
 
 ## Funds
 
+{:.eyechart}
 | Session | 𝝙 $ | 𝝨 $ | Notes |
 | :---: | ---: | ---: | :--- |
 | 0  | - | 0 | Starting cash: effectively zero |

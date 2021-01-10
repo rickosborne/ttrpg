@@ -280,6 +280,9 @@ p.art a:hover {
         color: rgba(80, 160, 240, 0.9);
         background: linear-gradient(rgba(80, 160, 240, 0.2), transparent var(--half));
     }
+    h3 {
+        color: rgba(64, 128, 192, 0.9);
+    }
     a {
         color: #48C;
     }

@@ -42,6 +42,10 @@ The character and party art here is by [Jessica Dayley](https://www.artstation.c
 Individual session notes are available in the [`sessions`](./sessions) directory.
 New sessions are automagically compiled into Word format files available in the [releases](https://github.com/rickosborne/ttrpg/releases) area.
 
+## Characters
+
+* [Delwyn Brevik](characters/Delwyn-Brevik.md)
+
 ## Additional Links
 
 * [GURPS 4e Combat Actions, Colorized](https://docs.google.com/drawings/u/0/d/1pnqf3oE2S04ZFnGJ5rc2d9WqsWGR5MyqlbzSEGotoqg/edit)
