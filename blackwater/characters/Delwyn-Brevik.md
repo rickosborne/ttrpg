@@ -5,7 +5,7 @@ TODO: Copy background stuff here.
 ## Skill Progression Log
 
 {:.eyechart}
-| Session | 𝝙 XP | 𝝨 XP | Banked | Notes |
+| Session | 𝝙&nbsp;XP | 𝝨&nbsp;XP | Banked | Notes |
 | :---: | :---: | :---: | :---: | :--- |
 | - | - | 165 | 3 | (started with only 162 spent) |
 | [1](../sessions/2020-02-09-gavins-request-northunder.md) | +1 | 166 | 4 | - |
@@ -59,7 +59,7 @@ TODO: Copy background stuff here.
 ## Funds
 
 {:.eyechart}
-| Session | 𝝙 $ | 𝝨 $ | Notes |
+| Session | 𝝙&nbsp;$ | 𝝨&nbsp;$ | Notes |
 | :---: | ---: | ---: | :--- |
 | 0  | - | 0 | Starting cash: effectively zero |
 | [20](../sessions/2021-01-03-back-to-blackwater.md) | +2,525 | 2,525 | Payout from Gavin for Sept of the Maiden loot |
