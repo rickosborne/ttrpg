@@ -36,7 +36,9 @@ The guard, seeing their brass residency tags, waved them through with only a que
 Hooking a thumb at Edgar, Del rolled his eyes: "this one thought it would be funny to throw me in".
 Splitting up after entry, Del headed straight home to stash away his staff and powerstone.
 
-!["This one thought it would be funny"](art/FishyBusiness.svg){:.art}
+{:.art}
+!["This one thought it would be funny"](art/FishyBusiness.svg "&ldquo;This one thought it would be funny&rdquo; by Jessica Dayley")
+<a href="https://www.artstation.com/jdayley">Art by Jessica Dayley</a>
 
 Edgar, visiting his contact Nelora, learned that drider leather was quite prized and valuable.
 In turn, she'd recently come into possession of a ring which would grant the wearer increased agility for a short time.

@@ -36,7 +36,7 @@ Arc, recovering, smeared the blood from his lip before zipping another pair of s
 
 {:.art}
 ![Yenna's reaction rage](art/YenReactionRage.svg "Yenna's reaction rage, by Jessica Dayley")
-<label><a href="https://www.artstation.com/jdayley">Art by Jessica Dayley</a></label>
+<a href="https://www.artstation.com/jdayley">Art by Jessica Dayley</a>
 
 The skull pulsed an even brighter purple for a moment, a wave of psychic energy rippling through the hallway.
 Yenna seemed to catch the brunt of the attack, dropping unconscious to the ground.

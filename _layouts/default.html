@@ -70,26 +70,11 @@
           border-bottom: thin solid rgba(0, 0, 0, 0.1);
           background-color: rgb(24, 48, 72);
       }
-      @media screen {
-          h1, h2 {
-              margin-left: var(--unfull);
-              margin-right: var(--unfull);
-              padding: var(--full);
-          }
-          h1:first-child {
-              margin-top: var(--unfull);
-          }
-      }
       h2 {
           margin-top: var(--double);
           font-size: 130%;
           color: rgba(24, 48, 72, 0.9);
           border-top: thin solid rgba(24, 48, 72, 0.2);
-      }
-      @media screen {
-          h2 {
-              background: linear-gradient(rgba(24, 48, 72, 0.1), transparent var(--half));
-          }
       }
       h1+h2 {
           margin-top: var(--unhalf);
@@ -109,6 +94,8 @@
       a:hover, a:focus {
           color: #48f;
           background-color: #FFEEBB;
+      }
+      p a:hover, a:focus {
           padding: 0 0.2em;
           margin: 0 -0.2em;
       }
@@ -178,43 +165,20 @@
           font-size: 80%;
           line-height: 120%;
       }
-      .art {
-          margin: var(--half);
-          box-shadow: 0 0 var(--half) #369;
-          border: thin solid rgba(80, 160, 240, 0.5);
-          background-color: white;
-          padding: 0;
-      }
       .prev {
           position: fixed;
           top: 0;
           left: 0;
           display: block;
           width: 100%;
-          height: calc(var(--full) * 1.8);
           background-color: rgba(0, 0, 0, 0.9);
       }
       .prev-link {
-          line-height: 200%;
+          line-height: var(--double);
           display: block;
           text-align: center;
           color: rgba(176, 208, 240, 0.9);
           font-size: 90%;
-      }
-      @media print {
-          .prev, .prev-link, .site-footer {
-              display: none;
-          }
-
-          h1 {
-              padding: var(--half) 0;
-              background-color: transparent;
-              border-bottom: thin solid #369;
-              color: #369;
-          }
-          blockquote {
-              margin-left: var(--double);
-          }
       }
       .prev-footer {
           margin: var(--double) var(--unfull) var(--unfull) var(--unfull);
@@ -224,11 +188,6 @@
       .prev-link:hover {
           background-color: #222;
           color: #def;
-      }
-      @media screen {
-          .has-prev {
-              margin-top: calc(var(--full) * 1.8);
-          }
       }
       pre, code {
           font-family: 'Share Tech Mono', monospace;
@@ -246,16 +205,82 @@
           margin: 0 auto;
           display: block;
       }
-      .art label a {
+      .art {
+          margin: var(--half);
+          box-shadow: 0 0 var(--half) #369;
+          border: thin solid rgba(80, 160, 240, 0.5);
+          background-color: white;
+          padding: 0;
+      }
+      .art img {
+          display: block;
+      }
+      .art a {
           display: block;
           background-color: rgba(24, 48, 72, 0.1);
           text-align: center;
           font-size: 90%;
           color: rgba(24, 48, 72, 0.8);
       }
-      .art label a:hover {
+      p.art a:hover {
           background-color: #369;
           color: white;
+          padding: unset;
+          margin: unset;
+      }
+
+      @media screen {
+          h1, h2 {
+              margin-left: var(--unfull);
+              margin-right: var(--unfull);
+              padding: var(--full);
+          }
+          h1:first-child {
+              margin-top: var(--unfull);
+          }
+          h2 {
+              background: linear-gradient(rgba(24, 48, 72, 0.1), transparent var(--half));
+          }
+          .has-prev {
+              margin-top: var(--double);
+          }
+      }
+
+      @media print {
+          .prev, .prev-link, .site-footer {
+              display: none;
+          }
+
+          h1 {
+              padding: var(--half) 0;
+              background-color: transparent;
+              border-bottom: thin solid #369;
+              color: #369;
+          }
+          blockquote {
+              margin-left: var(--double);
+          }
+      }
+
+      @media screen and (max-width: 640px) {
+          body {
+              padding: var(--half);
+              font-size: 3.5vw;
+          }
+          h1, h2 {
+              margin-left: var(--unhalf);
+              margin-right: var(--unhalf);
+              padding: var(--half);
+          }
+          h1:first-child {
+              margin-top: var(--unhalf);
+          }
+      }
+
+      @media screen and (max-width: 480px) {
+          body {
+              font-size: 4vw;
+          }
       }
 
       @media screen and (prefers-color-scheme: dark) {
@@ -282,6 +307,13 @@
           }
           blockquote:before {
               color: rgb(122, 138, 153);
+          }
+          .art {
+              background-color: rgba(24, 48, 72, 0.1);
+          }
+          .art a {
+              background-color: rgba(255, 255, 255, 0.1);
+              color: #999;
           }
       }
   </style>

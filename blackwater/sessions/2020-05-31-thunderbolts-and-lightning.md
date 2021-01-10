@@ -94,7 +94,7 @@ Arc, face pail and strained from his efforts, made a snap decision and dove back
 
 {:.art}
 ![Bleeding Edgar](art/BleedingEdgar.svg "Bleeding Edgar, by Jessica Dayley")
-<label><a href="https://www.artstation.com/jdayley">Art by Jessica Dayley</a></label>
+<a href="https://www.artstation.com/jdayley">Art by Jessica Dayley</a>
 
 In the chaos, none noticed that Del was no longer standing behind them.
 No one saw him vanish only to reappear at the far end of the room, barely visible past the fog cloud.

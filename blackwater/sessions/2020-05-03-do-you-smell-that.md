@@ -138,7 +138,7 @@ Edgar, looking between a taciturn Del and a dismissive Sorven, moved to catch up
 
 {:.art}
 ![Tired Strig](art/TiredStrig.svg "Tired Strig, by Jessica Dayley")
-<label><a href="https://www.artstation.com/jdayley">Art by Jessica Dayley</a></label>
+<a href="https://www.artstation.com/jdayley">Art by Jessica Dayley</a>
 
 ## Outcomes
 

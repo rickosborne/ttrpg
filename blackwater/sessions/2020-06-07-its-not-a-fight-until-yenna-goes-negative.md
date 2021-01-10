@@ -61,7 +61,7 @@ Gaining momentum, he was able to get farther away and swing around to keep an ey
 
 {:.art.max-width-half}
 ![Guy, wounded, by Jessica Dayley](art/GuyWounded.svg "Guy, wounded, by Jessica Dayley")
-<label><a href="https://www.artstation.com/jdayley">Art by Jessica Dayley</a></label>
+<a href="https://www.artstation.com/jdayley">Art by Jessica Dayley</a>
 
 Weighing his options, Guy charged into the mist.
 Its disorienting effects tore at his mind, but he was able to keep his composure.
