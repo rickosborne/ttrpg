@@ -1,3 +1,12 @@
+---
+title: Delwyn Brevik
+prev:
+  title: Blackwater
+keywords:
+  - character
+  - pc
+---
+
 # Delwyn Brevik
 
 TODO: Copy background stuff here.
@@ -47,6 +56,7 @@ TODO: Copy background stuff here.
 | - | -1 | - | 1 | new: _Blink Other_, SL 15 |
 | - | -1 | - | 0 | new: _Lend Energy_, SL 15 |
 | [20](../sessions/2021-01-03-back-to-blackwater.md) | - | 210 | 0 | - |
+| [21](../sessions/2021-01-10-gavins-no-good-very-bad-day.md) | +1 | 211 | 1 | - |
 
 ### Log Notes:
 

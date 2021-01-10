@@ -17,7 +17,7 @@ The character and party art here is by [Jessica Dayley](https://www.artstation.c
 
 | # | Date | Title | XP |
 | :---: | :---: | :--- | :---: |
-| 21 | <abbr title="2021-01-10">Jan 10</abbr> | [Gavin's No-Good Very Bad Day](sessions/2021-01-10-gavins-no-good-very-bad-day.md) | - |
+| 21 | <abbr title="2021-01-10">Jan 10</abbr> | [Gavin's No-Good Very Bad Day](sessions/2021-01-10-gavins-no-good-very-bad-day.md) | 1 |
 | 20 | <abbr title="2021-01-03">Jan 3</abbr> | [Back to Blackwater](sessions/2021-01-03-back-to-blackwater.md) | - |
 | 19.1 | <abbr title="2021-01-02">Jan 2</abbr> | [Meta Session: Getting Paid is Half the Fun](sessions/2021-01-02-Meta-Session-GM-Notes.md) | - |
 | 19 | <abbr title="2020-06-14">Jun 14</abbr> | [She's Gone For Good, Right?](sessions/2020-06-14-shes-gone-for-good-right.md) | 10 |

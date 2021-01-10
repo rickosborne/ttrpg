@@ -27,6 +27,10 @@ Arc, happy to be back in the land of civilized entertainments, obtained his dail
 Guy and Yenna, with nothing interesting to do in the city before getting paid, opted instead to treat themselves, along with Sorven, to baths and massages as luxurious as the Ferton Inn could manage.
 Guy was quite happy to divvy up the found coin to the party to give everyone some spending cash.
 
+{:.art}
+![Yenna, pampered](art/YenPampered.svg "Yenna pampered, by Jessica Dayley")
+<a href="https://www.artstation.com/jdayley">Art by Jessica Dayley</a>
+
 Edgar hemmed and hawed about whether he would sneak into the city or just walk in like normal.
 Upon hearing how Del was going to try to be seen as doing everything above board, Edgar agreed.
 He did, however, maintain his practice of keeping his leather armor equipped and hidden beneath his clothes.
@@ -86,6 +90,7 @@ To everyone's surprise, as Gavin had the chest with payment brought into the roo
 The party, wanting to talk it over, told Gavin they'd meet him at his building the next day around lunch.
 Instead of taking the payment for the job, they took 340 silver Talents ($8500), the appraised value of the rest of the haul.
 The remainder would be worked out the following day.
+Guy, wanting to get more information, toured several inns and taverns, meeting people and carousing.
 
 ## Outcomes
 
