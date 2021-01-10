@@ -105,10 +105,15 @@ td {
 tr:nth-of-type(2n) {
     background-color: rgba(64, 128, 192, 0.1);
 }
-ul > li {
-    list-style: disc;
+ul > li, ol > li {
     margin-left: var(--double);
     padding: var(--quarter) 0;
+}
+ul > li {
+    list-style: disc;
+}
+ol > li {
+    list-style: decimal;
 }
 .site-footer {
     background-color: rgba(0, 0, 0, 0.9);
@@ -262,6 +267,16 @@ p.art a:hover {
     }
     h1:first-child {
         margin-top: var(--unhalf);
+    }
+    .prev-footer {
+        margin: var(--double) var(--unhalf) var(--unfull) var(--unhalf);
+    }
+    .site-footer {
+        margin: var(--full) var(--unhalf) var(--unhalf) var(--unhalf);
+    }
+    ul > li, ol > li {
+        margin-left: var(--full);
+        padding: var(--quarter) 0;
     }
 }
 
