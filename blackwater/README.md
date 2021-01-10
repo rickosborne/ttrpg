@@ -13,6 +13,10 @@ The character and party art here is by [Jessica Dayley](https://www.artstation.c
 ![Party Height Chart](sessions/art/OGPartyHeightChart.svg "Party Height Chart, by Jessica Dayley")
 <label><a href="https://www.artstation.com/jdayley">Art by Jessica Dayley</a></label>
 
+## Reference
+
+* [Headquarters in Blackwater](./reference/hq.md)
+
 ## Sessions
 
 | # | Date | Title | XP |
