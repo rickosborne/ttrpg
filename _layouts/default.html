@@ -289,7 +289,7 @@
 <body class="{% for tag in page.tags %}{{ tag | slugify }} {% endfor %}{% if page.prev %} has-prev{% endif %}">
 {% if page.prev %}
 <nav class="prev">
-  <a href="{{ page.prev.href | default: '..' }}" class="prev-link">&larr; {{ page.prev.title | 'Up' }}</a>
+  <a href="{{ page.prev.href | default: '..' }}" class="prev-link">&larr; {{ page.prev.title | default: 'Up' }}</a>
 </nav>
 {% endif %}
 
@@ -303,7 +303,7 @@
 
 {% if page.prev %}
 <nav class="prev-footer">
-  <a href="{{ page.prev.href | default: '..' }}" class="prev-link">&larr; {{ page.prev.title | 'Up' }}</a>
+  <a href="{{ page.prev.href | default: '..' }}" class="prev-link">&larr; {{ page.prev.title | default: 'Up' }}</a>
 </nav>
 {% endif %}
 
