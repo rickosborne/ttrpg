@@ -5,6 +5,7 @@ keywords:
 - hq
 prev:
   title: Blackwater
+description: Maps of the headquarters / warehouse
 ---
 
 # Blackwater HQ

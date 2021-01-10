@@ -87,6 +87,12 @@ p a:hover, a:focus {
     padding: 0 0.2em;
     margin: 0 -0.2em;
 }
+strong {
+    font-weight: bold;
+}
+em {
+    font-style: italic;
+}
 table {
     width: auto;
     margin: 0 auto;
@@ -132,7 +138,6 @@ blockquote {
     /*background: linear-gradient(270deg, #369, #369 var(--quarter), rgba(24, 48, 72, 0.05) var(--quarter));*/
     background-color: rgba(24, 48, 72, 0.05);
     padding: var(--half)  calc(var(--half) + var(--quarter)) var(--half) var(--half);
-    box-shadow: 0 0 0.5em rgba(24, 48, 72, 0.5);
     position: relative;
     margin: var(--double) var(--half) var(--full) var(--half);
     color: #246;
@@ -140,6 +145,8 @@ blockquote {
     border-radius: var(--half);
     /*font-size: 105%;*/
     font-family: 'Overlock', cursive;
+    break-inside: avoid;
+    page-break-inside: avoid;
 }
 blockquote:before {
     content: '❝';
@@ -148,7 +155,6 @@ blockquote:before {
     top: -0.125em;
     left: -0.25em;
     color: #369;
-    text-shadow: 0 0 0.05em rgba(24, 48, 72, 0.5);
 }
 blockquote p:only-child {
     margin: 0;
@@ -200,10 +206,11 @@ pre {
 }
 .art {
     margin: var(--half);
-    box-shadow: 0 0 var(--half) #369;
     border: thin solid rgba(80, 160, 240, 0.5);
     background-color: white;
     padding: 0;
+    break-inside: avoid;
+    page-break-inside: avoid;
 }
 .art img {
     display: block;
@@ -237,9 +244,23 @@ p.art a:hover {
     .has-prev {
         margin-top: var(--double);
     }
+    .art {
+        box-shadow: 0 0 var(--half) #369;
+    }
+    blockquote {
+        box-shadow: 0 0 0.5em rgba(24, 48, 72, 0.5);
+    }
+    blockquote:before {
+        text-shadow: 0 0 0.05em rgba(24, 48, 72, 0.5);
+    }
 }
 
 @media print {
+    body {
+        font-size: 2vw;
+        max-width: 45em;
+    }
+
     .prev, .prev-link, .site-footer {
         display: none;
     }
