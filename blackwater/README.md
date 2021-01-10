@@ -2,7 +2,7 @@
 
 These files pertain to our GURPS campaign in the Blackwater setting, run by [Matt McKaig](https://github.com/mlmckaig).
 
-The Blackwater IP is owned by Matt McKaig.
+The [Blackwater IP](https://rickosborne.github.io/blackwater/) is owned by Matt McKaig.
 Anyone wishing to reuse or remix it should contact him.
 
 The characters, notes, and other materials are **not** licensed for distribution or any other use, and are the property of Rick and Corri Osborne.
