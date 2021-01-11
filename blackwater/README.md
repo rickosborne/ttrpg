@@ -15,6 +15,7 @@ The character and party art here is by [Jessica Dayley](https://www.artstation.c
 
 ## Sessions
 
+{:.full-width}
 | # | Date | Title | XP |
 | :---: | :---: | :--- | :---: |
 | 21 | <abbr title="2021-01-10">Jan 10</abbr> | [Gavin's No-Good Very Bad Day](sessions/2021-01-10-gavins-no-good-very-bad-day.md) | 1 |

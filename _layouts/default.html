@@ -19,8 +19,6 @@
 </nav>
 {% endif %}
 
-<div id="pre-page"></div>
-
 <main id="page" role="main">
   <div class="main-content" id="content">
     {{ content }}
@@ -32,7 +30,6 @@
   <a href="{{ page.prev.href | default: '..' }}" class="prev-link">&larr; {{ page.prev.title | default: 'Up' }}</a>
 </nav>
 {% endif %}
-
 
 <footer class="site-footer">
   {% if page.next %}

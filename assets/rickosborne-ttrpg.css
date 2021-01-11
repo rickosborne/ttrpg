@@ -6,6 +6,8 @@
     --quarter: calc(var(--full) * 0.25);
     --double: calc(var(--full) * 2.0);
     --tpad: 1vw;
+    --main-pad: var(--full);
+    --main-unpad: calc(var(--main-pad) * -1.0);
 }
 * {
     box-sizing: border-box;
@@ -30,17 +32,6 @@ body {
     line-height: 150%;
     max-width: 35em;
     position: relative;
-}
-@media screen {
-    html {
-        height: 100%;
-        background-color: #111;
-    }
-
-    body {
-        box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
-        padding: var(--full);
-    }
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
@@ -133,7 +124,6 @@ ol > li {
     background-color: rgba(0, 0, 0, 0.9);
     color: #777;
     padding: var(--full);
-    margin: var(--full) var(--unfull) var(--unfull) var(--unfull);
     font-size: 80%;
 }
 .site-footer a {
@@ -174,7 +164,6 @@ blockquote p:only-child {
 }
 .prev {
     position: sticky;
-    margin: var(--unfull) var(--unfull) var(--full) var(--unfull);
     top: 0;
     display: block;
     background-color: rgba(0, 0, 0, 0.9);
@@ -187,7 +176,7 @@ blockquote p:only-child {
     font-size: 90%;
 }
 .prev-footer {
-    margin: var(--double) var(--unfull) var(--unfull) var(--unfull);
+    /*margin: var(--double) var(--unfull) var(--unfull) var(--unfull);*/
     padding: 0;
     background-color: rgba(0, 0, 0, 0.8);
 }
@@ -210,6 +199,9 @@ pre {
     max-width: 50%;
     margin: 0 auto;
     display: block;
+}
+.full-width {
+    width: 100%;
 }
 .art {
     margin: var(--half);
@@ -237,13 +229,23 @@ p.art a:hover {
 }
 
 @media screen {
+    html {
+        height: 100%;
+        background-color: #111;
+    }
+    body {
+        box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+    }
+    .main-content {
+        padding: var(--main-pad);
+    }
     h1, h2 {
         margin-left: var(--unfull);
         margin-right: var(--unfull);
         padding: var(--full);
     }
     h1:first-child {
-        margin-top: var(--unfull);
+        margin-top: var(--main-unpad);
     }
     h2 {
         background: linear-gradient(rgba(24, 48, 72, 0.1), transparent var(--half));
@@ -278,29 +280,29 @@ p.art a:hover {
     blockquote {
         margin-left: var(--double);
     }
+    .art {
+        max-width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media screen and (max-width: 640px) {
+    :root {
+        --main-pad: var(--half);
+    }
     body {
-        padding: var(--half);
         font-size: 3.5vw;
     }
     h1, h2 {
-        margin-left: var(--unhalf);
-        margin-right: var(--unhalf);
+        margin-left: var(--main-unpad);
+        margin-right: var(--main-unpad);
+    }
+    h1, h2, .main-content {
         padding: var(--half);
     }
     .prev {
-        margin: var(--unhalf) var(--unhalf) var(--half) var(--unhalf);
-    }
-    h1:first-child {
-        margin-top: var(--unhalf);
-    }
-    .prev-footer {
-        margin: var(--double) var(--unhalf) var(--unfull) var(--unhalf);
-    }
-    .site-footer {
-        margin: var(--full) var(--unhalf) var(--unhalf) var(--unhalf);
+        margin-bottom: 0;
     }
     ul > li, ol > li {
         margin-left: var(--full);
