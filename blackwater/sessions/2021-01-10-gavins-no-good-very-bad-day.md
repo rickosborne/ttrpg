@@ -31,8 +31,8 @@ Several hours passed as people picked out rooms, gathered their equipment, and g
 
 Some time after lunch, Edgar returned with a new face he introduced as Fave.
 A young man of maybe eighteen years and just over six feet, Fave was mute, though he and Edgar had some amount of sign language between the two of them that the latter was able to pass along at least the essence of what the younger was trying to get across.
-Edgar explained that Fave was assigned to him as a bodyguard by the Brotherhood of Balance and Harmony.
-At this explanation, Fave twisted up his face in an expression of disdain clear to everyone in the room.
+Edgar explained that Fave was assigned to him as a bodyguard by the Church, after he'd left the Brotherhood of Balance and Harmony.
+At this explanation, Fave twisted up his face in an expression of disdain toward the latter group clear to everyone in the room.
 
 Later, Del showed up with a pair of guests: a young half-Elf woman, Vaelyn, and her daughter of maybe seven years, Rayna.
 Vaelyn was skittish and soft-spoken, but explained that she and her daughter were fleeing pursuers and trying to arrange passage out of town and onto a new life.
