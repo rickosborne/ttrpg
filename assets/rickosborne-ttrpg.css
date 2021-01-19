@@ -195,14 +195,6 @@ pre {
     color: #246;
     border: thin solid rgba(24, 48, 72, 0.5);
 }
-.max-width-half {
-    max-width: 50%;
-    margin: 0 auto;
-    display: block;
-}
-.full-width {
-    width: 100%;
-}
 .art {
     margin: var(--half);
     border: thin solid rgba(80, 160, 240, 0.5);
@@ -227,6 +219,14 @@ p.art a:hover {
     color: white;
     padding: unset;
     margin: unset;
+}
+.max-width-half {
+    max-width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+.full-width {
+    width: 100%;
 }
 
 @media screen {
