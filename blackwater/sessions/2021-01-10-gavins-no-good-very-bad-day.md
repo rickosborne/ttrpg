@@ -1,6 +1,6 @@
 ---
 title: Gavin's No-Good Very Bad Day
-date: 2021-01-03
+date: 2021-01-10
 keywords:
 - gavin
 - blackwater

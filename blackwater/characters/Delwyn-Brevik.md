@@ -57,6 +57,7 @@ TODO: Copy background stuff here.
 | - | -1 | - | 0 | new: _Lend Energy_, SL 15 |
 | [20](../sessions/2021-01-03-back-to-blackwater.md) | - | 210 | 0 | - |
 | [21](../sessions/2021-01-10-gavins-no-good-very-bad-day.md) | +1 | 211 | 1 | - |
+| [22](../sessions/2021-01-17-piece-by-piece.md) | +2 | 213 | 3 | - |
 
 ### Log Notes:
 
