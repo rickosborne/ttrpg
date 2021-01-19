@@ -213,6 +213,7 @@ pre {
 }
 .art img {
     display: block;
+    margin: 0 auto;
 }
 .art a {
     display: block;
