@@ -30,7 +30,7 @@
 		]
 	},
 	"created_date": "Jan 6, 2020, 12:00 AM",
-	"modified_date": "Jan 10, 2021, 1:02 PM",
+	"modified_date": "Jan 24, 2021, 12:32 PM",
 	"profile": {
 		"player_name": "Rick Osborne",
 		"name": "Delwyn Brevik (Mage)",
@@ -48,7 +48,7 @@
 		"tech_level": "3"
 	},
 	"FP_adj": 4,
-	"total_points": 211,
+	"total_points": 216,
 	"ST": 9,
 	"DX": 13,
 	"IQ": 14,
@@ -1737,7 +1737,7 @@
 			"name": "Body Sense",
 			"reference": "B181",
 			"difficulty": "DX/H",
-			"points": 2,
+			"points": 4,
 			"defaulted_from": {
 				"type": "DX",
 				"modifier": -6,
@@ -2323,7 +2323,7 @@
 					"maintenance_cost": "-",
 					"casting_time": "1 sec",
 					"duration": "Instant",
-					"points": 2,
+					"points": 4,
 					"prereqs": {
 						"type": "prereq_list",
 						"all": false,
@@ -3054,6 +3054,45 @@
 						"name": {
 							"compare": "is",
 							"qualifier": "empathy"
+						}
+					}
+				]
+			},
+			"categories": [
+				"Healing"
+			]
+		},
+		{
+			"type": "spell",
+			"version": 1,
+			"id": "2e3fa55b-bc61-4528-b15d-39a1ba8c278a",
+			"based_on_id": "2cc81c2b-a71a-4d40-ad95-c8db5c2c61ab",
+			"based_on_hash": "v2YbnnKtAEElXjPz7ugCjLZWL7PF16h0ujKYfYVdZmY",
+			"name": "Lend Vitality",
+			"reference": "M89",
+			"difficulty": "IQ/H",
+			"college": "Healing",
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1/pt",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "1 hour",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"has": true,
+						"sub_type": "name",
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "lend energy"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
 						}
 					}
 				]
