@@ -109,24 +109,24 @@ Seeing the futility of the situation, Del sank back against the wall, nearly exh
 
 > Look, I don't want any trouble, I don't know what's going on here.
 
-The butcher, backed away from Yenna, circling around her, and ignoring the swipes from the staff of the old man behind him.
-Sorven attempts another spell, but it again fizzles out as his swipe at the bald man's head goes wide.
-Yenna and the large man square off for a moment until they hear the back-to-back thuds and yells.
-All three turn and run towards the sounds.
+The butcher backed away from Yenna, circled around her, and ignored the swipes from the staff of the old man behind him.
+Sorven attempted another spell, but it again fizzled out as his swipe at the bald man's head went wide.
+Yenna and the large man squared off for a moment until both heard the back-to-back thuds and yells.
+All three turned and ran toward the sounds.
 
-Seeing his friend in a heap on the ground, the butcher wails: "oh, Red, what did you do?"
-Del, looking up, calls to him: "he's hurt, can you do anything?"
-Crossing the distance to the corner of the building, the man finds a large bell there and rings it loudly, its tones crisp even against the drone of the rain.
+Seeing his friend in a heap on the ground, the butcher wailed: "oh, Red, what did you do?"
+Del, looking up, called to him: "he's hurt, can you do anything?"
+Crossing the distance to the corner of the building, the man found a large bell there and tolled it loudly, its tones crisp even against the drone of the rain.
 
-Sorven strides up to Edgar, giving him what looks to be a callous kick to his injured leg.
-Whispering a quiet spell, younger man feels his leg mend back to full function.
-Standing, the two men stride back towards Del and the boy.
-From the north end of the alley, Fave slides to a stop next to the group.
+Sorven strode up to Edgar, giving him what looked to be a callous kick to his injured leg.
+Whispering a quiet spell, younger man felt his leg mend back to full function.
+Standing, the two men walked back toward Del and the boy.
+From the north end of the alley, Fave slid to a stop next to the group.
 
-Yenna catches up and pushes past them, dropping to her knees as she moves to assess the injuries.
-Sorven, putting a hand on her shoulder, tells her: "there's nothing you can do".
-Hearing this, the butcher cries out again: "you killed him!"
-Del stands up, walks toward the man, pointing at his own bloody face.
+Yenna, catching up and pushing past them, dropped to her knees to assess the injuries.
+Sorven, putting a hand on her shoulder, shook his head and said: "there's nothing you can do".
+Hearing this, the butcher cried out again: "you killed him!"
+Del standing up and walking toward the man, pointed at his own bloody face.
 
 > You know this kid?
 > Why did he tackle me?
