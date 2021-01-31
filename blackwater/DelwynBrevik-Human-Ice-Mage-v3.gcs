@@ -9,7 +9,8 @@
 		"user_description_display": "tooltip",
 		"modifiers_display": "inline",
 		"notes_display": "inline",
-		"base_will_and_per_on_10": false,
+		"base_will_on_10": false,
+		"base_per_on_10": false,
 		"use_multiplicative_modifiers": false,
 		"use_modifying_dice_plus_adds": false,
 		"use_know_your_own_strength": false,
@@ -17,6 +18,7 @@
 		"use_thrust_equals_swing_minus_2": false,
 		"use_simple_metric_conversions": true,
 		"show_college_in_sheet_spells": true,
+		"show_difficulty": false,
 		"use_title_in_footer": false,
 		"block_layout": [
 			"reactions",
@@ -30,7 +32,7 @@
 		]
 	},
 	"created_date": "Jan 6, 2020, 12:00 AM",
-	"modified_date": "Jan 24, 2021, 12:32 PM",
+	"modified_date": "Jan 31, 2021, 12:14 PM",
 	"profile": {
 		"player_name": "Rick Osborne",
 		"name": "Delwyn Brevik (Mage)",
@@ -48,7 +50,7 @@
 		"tech_level": "3"
 	},
 	"FP_adj": 4,
-	"total_points": 216,
+	"total_points": 218,
 	"ST": 9,
 	"DX": 13,
 	"IQ": 14,
@@ -3154,6 +3156,83 @@
 			"duration": "1 min",
 			"categories": [
 				"Light"
+			]
+		},
+		{
+			"type": "spell",
+			"version": 1,
+			"id": "3ce75ba4-520d-4a56-91f3-1543e7bfd81b",
+			"based_on_id": "30a697a3-04f3-4d92-99f6-148fa6deced8",
+			"based_on_hash": "F/YOhvguv9erH56Uk/z+tokMMNaCy9d3YTqnGvZuKXw",
+			"name": "Recover Energy",
+			"reference": "M89",
+			"difficulty": "IQ/H",
+			"college": "Healing",
+			"power_source": "Arcane",
+			"spell_class": "Special",
+			"casting_cost": "0",
+			"maintenance_cost": "0",
+			"casting_time": "1 sec",
+			"duration": "Special",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "advantage_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (healing)"
+								}
+							},
+							{
+								"type": "advantage_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"has": true,
+						"sub_type": "name",
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "lend energy"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"categories": [
+				"Healing"
 			]
 		},
 		{

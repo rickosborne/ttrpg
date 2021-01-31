@@ -59,6 +59,11 @@ TODO: Copy background stuff here.
 | [21](../sessions/2021-01-10-gavins-no-good-very-bad-day.md) | +1 | 211 | 1 | - |
 | [22](../sessions/2021-01-17-piece-by-piece.md) | +2 | 213 | 3 | - |
 | [23](../sessions/2021-01-24-slippery-when-red.md) | +3 | 216 | 6 | +1 XP for RP |
+| [24](../sessions/2021-01-31-just-walk-away.md) | +2 | 218 | 8 | - |
+| - | -2 | - | 6 | _Teleport_, SL 15 → 16 |
+| - | -2 | - | 4 | _Body Sense_, SL 12 → 13 |
+| - | -1 | - | 3 | new: _Lend Vitality_, SL 15 |
+| - | -1 | - | 2 | new: _Recover Energy_, SL 15 |
 
 ### Log Notes:
 
@@ -105,27 +110,26 @@ Del has 14 points to spend.  Priorities in descending order:
 * 1pt for _Timeport_ (SL 14)
 * 1pt for _Blink Other_ (SL 15)
 
-### Session 23
+### Session 24
 
-Note: These have been applied to [the character sheet](../DelwynBrevik-Human-Ice-Mage-v3.gcs), though technically Del has not yet hit a long rest to apply them, so they are not yet mirrored in Roll20.
-
-| Session | 𝝙&nbsp;XP | 𝝨&nbsp;XP | Banked | Notes |
-| :---: | :---: | :---: | :---: | :--- |
-| 23 | +3 | 216 | 6 | +1 XP for RP |
-| - | -2 | - | 4 | _Teleport_, SL 15 → 16 |
-| - | -2 | - | 2 | _Body Sense_, SL 12 → 13 |
-| - | -1 | - | 1 | new: _Lend Vitality_, SL 15 |
+| 𝝙&nbsp;XP | 𝝨&nbsp;XP | Banked | Notes |
+| :---: | :---: | :---: | :--- |
+| +2 | 218 | 8 | +1 XP for RP |
+| -2 | - | 6 | _Teleport_, SL 15 → 16 |
+| -2 | - | 4 | _Body Sense_, SL 12 → 13 |
+| -1 | - | 3 | new: _Lend Vitality_, SL 15 |
+| -1 | - | 2 | new: _Recover Energy_, SL 15 |
 
 ### Future Sessions
 
-* 1pts for new spell: _Glass Wall_ (would be a 15 SL, ~32%)
-* 2pts to upgrade _Body Sense_ (SL 12 to 13, ~9%)
-* 2pts to upgrade _Teleport_ (SL 15 to 16, <3%)
-* 2pt to upgrade _Apportation_ (SL 16 to 17, <2%)
-* 4pt to upgrade _Innate Attack: Projectile_ (SL 21 to 22)
-* 1pt to upgrade _Simple Illusion_ (SL 15 to 16, <3%)
-* 3pts for +1 FP
 * 10pt for +1 ST
+* 3pts for +1 FP
+* 1pt to upgrade _Simple Illusion_ (SL 15 to 16, <3%)
+* 1pts for a new spell: _Glass Wall_ (would be a 15 SL, ~32%)
+* 2pts to upgrade _Apportation_ (SL 16 to 17, <2%)
+* 4pts to upgrade _Innate Attack: Projectile_ (SL 21 to 22)
+* ~~2pts to upgrade _Body Sense_ (SL 12 to 13, ~9%)~~
+* ~~2pts to upgrade _Teleport_ (SL 15 to 16, <3%)~~
 
 ## Grimoire
 

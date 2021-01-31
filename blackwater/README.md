@@ -18,6 +18,7 @@ The character and party art here is by [Jessica Dayley](https://www.artstation.c
 {:.full-width}
 | # | Date | Title | XP |
 | :---: | :---: | :--- | :---: |
+| 24 | <abbr title="2021-01-31">Jan 31</abbr> | [Just Walk Away](sessions/2021-01-31-just-walk-away.md) | 2 |
 | 23 | <abbr title="2021-01-24">Jan 24</abbr> | [Slippery When Red](sessions/2021-01-24-slippery-when-red.md) | 2 |
 | 22 | <abbr title="2021-01-17">Jan 17</abbr> | [Piece by Piece](sessions/2021-01-17-piece-by-piece.md) | 2 |
 | 21 | <abbr title="2021-01-10">Jan 10</abbr> | [Gavin's No-Good Very Bad Day](sessions/2021-01-10-gavins-no-good-very-bad-day.md) | 1 |
