@@ -18,6 +18,7 @@ The character and party art here is by [Jessica Dayley](https://www.artstation.c
 {:.full-width}
 | # | Date | Title | XP |
 | :---: | :---: | :--- | :---: |
+| 26 | <abbr title="2021-02-21">Feb 21</abbr> | [Harried Fodder and the Deathly Hallways](sessions/2021-02-21-harried-fodder-and-the-deathly-hallways.md) | - |
 | 25 | <abbr title="2021-02-14">Feb 14</abbr> | [Underneath It All](sessions/2021-02-14-underneath-it-all.md) | 2 |
 | 24 | <abbr title="2021-01-31">Jan 31</abbr> | [Just Walk Away](sessions/2021-01-31-just-walk-away.md) | 2 |
 | 23 | <abbr title="2021-01-24">Jan 24</abbr> | [Slippery When Red](sessions/2021-01-24-slippery-when-red.md) | 2 |
@@ -51,6 +52,7 @@ New sessions are automagically compiled into Word format files available in the 
 ## Reference
 
 * [Headquarters in Blackwater](./reference/hq.md)
+* [Blackwater, with Sewers](./sessions/art/BlackwaterWithSewers.svg) (SVG, 1.2MB)
 
 ## Characters
 

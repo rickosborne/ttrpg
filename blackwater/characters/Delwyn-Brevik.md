@@ -60,10 +60,8 @@ TODO: Copy background stuff here.
 | [22](../sessions/2021-01-17-piece-by-piece.md) | +2 | 213 | 3 | - |
 | [23](../sessions/2021-01-24-slippery-when-red.md) | +3 | 216 | 6 | +1 XP for RP |
 | [24](../sessions/2021-01-31-just-walk-away.md) | +2 | 218 | 8 | - |
-| - | -2 | - | 6 | _Teleport_, SL 15 → 16 |
-| - | -2 | - | 4 | _Body Sense_, SL 12 → 13 |
-| - | -1 | - | 3 | new: _Lend Vitality_, SL 15 |
-| - | -1 | - | 2 | new: _Recover Energy_, SL 15 |
+| [25](../sessions/2021-02-14-underneath-it-all.md) | +2 | 220 | 10 | - |
+| [26](../sessions/2021-02-21-harried-fodder-and-the-deathly-hallways.md) | - | 220 | 10 | - |
 
 ### Log Notes:
 
@@ -135,3 +133,18 @@ Del has 14 points to spend.  Priorities in descending order:
 
 Printable PDF at [The-Grimoire-of-Delwyn-Brevik.pdf](The-Grimoire-of-Delwyn-Brevik.pdf).
 Source document available at [ricko.is/del-grimoire](https://ricko.is/del-grimoire).
+
+## Spell Log
+
+{:.eyechart}
+| Session | Spell | ✅❌ | 𝝙&nbsp;F | 𝝨&nbsp;F | Notes |
+| :---: | :--- | :---: | :---: | :---: | :--- |
+| [26](blackwater/sessions/2021-02-21-harried-fodder-and-the-deathly-hallways.md) | - | - | - | 15 | - |
+| 26 | _Continual Light_ | ✅ | -3 | 12 | Yenna's "Bandanna of Blinding" |
+| 26 | _Continual Light_ | ✅ | -3 | 9 | Guy's "Bandanna of Blinding" |
+| 26 | _Levitate_ | ✅ | -1 | 8 | Sorven |
+| 26 | _Levitate_ | ✅ | -2 | 6 | Del |
+| 26 | Fatigue from Sorven | - | +3 | 9 | - |
+| 26 | Rest | - | +1 | 10 | 0:10 |
+| 26 | _Levitate_ | ✅ | -1 | 9 | Sorven |
+| 26 | _Dispel Magic_, 2yd | ✅ | -6 | 3 | Extra Effort, Loud, Broad Gestures |
