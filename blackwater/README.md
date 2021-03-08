@@ -18,7 +18,8 @@ The character and party art here is by [Jessica Dayley](https://www.artstation.c
 {:.full-width}
 | # | Date | Title | XP |
 | :---: | :---: | :--- | :---: |
-| 26 | <abbr title="2021-02-21">Feb 21</abbr> | [Harried Fodder and the Deathly Hallways](sessions/2021-02-21-harried-fodder-and-the-deathly-hallways.md) | - |
+| 27 | <abbr title="2021-03-07">Mar 7</abbr> | [Could you not?](sessions/2021-03-07-could-you-not.md) | 2 |
+| 26 | <abbr title="2021-02-21">Feb 21</abbr> | [Harried Fodder and the Deathly Hallways](sessions/2021-02-21-harried-fodder-and-the-deathly-hallways.md) | 3 |
 | 25 | <abbr title="2021-02-14">Feb 14</abbr> | [Underneath It All](sessions/2021-02-14-underneath-it-all.md) | 2 |
 | 24 | <abbr title="2021-01-31">Jan 31</abbr> | [Just Walk Away](sessions/2021-01-31-just-walk-away.md) | 2 |
 | 23 | <abbr title="2021-01-24">Jan 24</abbr> | [Slippery When Red](sessions/2021-01-24-slippery-when-red.md) | 2 |

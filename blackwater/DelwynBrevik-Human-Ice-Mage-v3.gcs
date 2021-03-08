@@ -20,6 +20,7 @@
 		"show_college_in_sheet_spells": true,
 		"show_difficulty": false,
 		"use_title_in_footer": false,
+		"extra_space_around_encumbrance": false,
 		"block_layout": [
 			"reactions",
 			"melee",
@@ -32,7 +33,7 @@
 		]
 	},
 	"created_date": "Jan 6, 2020, 12:00 AM",
-	"modified_date": "Feb 21, 2021, 9:14 AM",
+	"modified_date": "Mar 7, 2021, 5:40 PM",
 	"profile": {
 		"player_name": "Rick Osborne",
 		"name": "Delwyn Brevik (Mage)",
@@ -50,7 +51,7 @@
 		"tech_level": "3"
 	},
 	"FP_adj": 4,
-	"total_points": 220,
+	"total_points": 225,
 	"ST": 9,
 	"DX": 13,
 	"IQ": 14,
@@ -728,117 +729,120 @@
 		{
 			"type": "advantage",
 			"version": 1,
-			"id": "e9ecf505-5517-4a42-8eab-d0f00ccba120",
-			"name": "Magery",
+			"id": "cda7889f-2a34-434a-a7ad-f95e59974b7e",
+			"name": "Language: Bomen (Dwarvish)",
 			"mental": true,
-			"supernatural": true,
-			"levels": "3",
-			"base_points": 5,
-			"points_per_level": 10,
 			"modifiers": [
 				{
 					"type": "modifier",
 					"version": 1,
-					"id": "407e2ecf-e4ca-4363-9d40-dea92844d5cd",
+					"id": "e05e3457-f564-46c2-97cd-c755e36fce55",
 					"disabled": true,
-					"name": "Dance",
-					"cost_type": "percentage",
-					"cost": -40,
-					"affects": "levels_only"
+					"name": "Native",
+					"reference": "B23",
+					"cost_type": "points",
+					"cost": -6,
+					"affects": "total"
 				},
 				{
 					"type": "modifier",
 					"version": 1,
-					"id": "170ad951-1c73-4d1a-a5f6-a9f48853e783",
+					"id": "3863063e-1f35-42b9-8058-3f72b2b56ec0",
 					"disabled": true,
-					"name": "Dark-Aspected",
-					"cost_type": "percentage",
-					"cost": -50,
-					"affects": "levels_only"
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total",
+					"notes": "None"
 				},
 				{
 					"type": "modifier",
 					"version": 1,
-					"id": "609dc5c1-2db5-4880-8577-7d143d6506a2",
-					"disabled": true,
-					"name": "Day-Aspected",
-					"cost_type": "percentage",
-					"cost": -40,
-					"affects": "levels_only"
+					"id": "792de2fa-17dd-4467-811c-c6b8c8f65dc6",
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "Broken"
 				},
 				{
 					"type": "modifier",
 					"version": 1,
-					"id": "7e139eeb-7a27-43fa-bb34-1b5817091a76",
+					"id": "4f392225-9c12-44ac-a305-81817fd3d559",
 					"disabled": true,
-					"name": "Musical",
-					"cost_type": "percentage",
-					"cost": -50,
-					"affects": "levels_only"
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "Accented"
 				},
 				{
 					"type": "modifier",
 					"version": 1,
-					"id": "acb92bee-0244-44a6-a427-df14e68ac126",
+					"id": "9fbf76b7-a281-4427-8757-64c2feeed9ec",
 					"disabled": true,
-					"name": "Night-Aspected",
-					"cost_type": "percentage",
-					"cost": -40,
-					"affects": "levels_only"
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 3,
+					"affects": "total",
+					"notes": "Native"
 				},
 				{
 					"type": "modifier",
 					"version": 1,
-					"id": "56a45a2d-a23a-48b8-9427-7146b9f9849d",
+					"id": "2fa84233-32ce-4ed6-a489-2e3d55bad485",
 					"disabled": true,
-					"name": "One College",
-					"cost_type": "percentage",
-					"cost": -40,
-					"affects": "levels_only",
-					"notes": "@College@"
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total",
+					"notes": "None"
 				},
 				{
 					"type": "modifier",
 					"version": 1,
-					"id": "1de588a8-8a29-4335-a3a9-29d1e2f84978",
-					"disabled": true,
-					"name": "Solitary",
-					"cost_type": "percentage",
-					"cost": -40,
-					"affects": "levels_only"
+					"id": "331c2b5d-8d17-4c35-b226-675ed2ad97c9",
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "Broken"
 				},
 				{
 					"type": "modifier",
 					"version": 1,
-					"id": "2d33e5fd-63c9-4945-b69f-89f5c8082f15",
+					"id": "5e29833a-2e37-465c-ba81-a382b8251d8a",
 					"disabled": true,
-					"name": "Song",
-					"cost_type": "percentage",
-					"cost": -40,
-					"affects": "levels_only"
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "Accented"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "4bbd27ee-53a4-4357-b10d-bc23ee9afa54",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 3,
+					"affects": "total",
+					"notes": "Native"
 				}
 			],
-			"reference": "B66",
-			"features": [
-				{
-					"type": "spell_bonus",
-					"amount": 1,
-					"per_level": true,
-					"match": "all_colleges"
-				},
-				{
-					"type": "skill_bonus",
-					"amount": 1,
-					"per_level": true,
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "thaumatology"
-					}
-				}
-			],
+			"reference": "B24",
 			"categories": [
-				"Advantage"
+				"Advantage",
+				"Language"
 			]
 		},
 		{
@@ -1082,125 +1086,6 @@
 		{
 			"type": "advantage",
 			"version": 1,
-			"id": "cda7889f-2a34-434a-a7ad-f95e59974b7e",
-			"name": "Language: Bomen (Dwarvish)",
-			"mental": true,
-			"modifiers": [
-				{
-					"type": "modifier",
-					"version": 1,
-					"id": "e05e3457-f564-46c2-97cd-c755e36fce55",
-					"disabled": true,
-					"name": "Native",
-					"reference": "B23",
-					"cost_type": "points",
-					"cost": -6,
-					"affects": "total"
-				},
-				{
-					"type": "modifier",
-					"version": 1,
-					"id": "3863063e-1f35-42b9-8058-3f72b2b56ec0",
-					"disabled": true,
-					"name": "Spoken",
-					"reference": "B24",
-					"cost_type": "points",
-					"cost": 0,
-					"affects": "total",
-					"notes": "None"
-				},
-				{
-					"type": "modifier",
-					"version": 1,
-					"id": "792de2fa-17dd-4467-811c-c6b8c8f65dc6",
-					"name": "Spoken",
-					"reference": "B24",
-					"cost_type": "points",
-					"cost": 1,
-					"affects": "total",
-					"notes": "Broken"
-				},
-				{
-					"type": "modifier",
-					"version": 1,
-					"id": "4f392225-9c12-44ac-a305-81817fd3d559",
-					"disabled": true,
-					"name": "Spoken",
-					"reference": "B24",
-					"cost_type": "points",
-					"cost": 2,
-					"affects": "total",
-					"notes": "Accented"
-				},
-				{
-					"type": "modifier",
-					"version": 1,
-					"id": "9fbf76b7-a281-4427-8757-64c2feeed9ec",
-					"disabled": true,
-					"name": "Spoken",
-					"reference": "B24",
-					"cost_type": "points",
-					"cost": 3,
-					"affects": "total",
-					"notes": "Native"
-				},
-				{
-					"type": "modifier",
-					"version": 1,
-					"id": "2fa84233-32ce-4ed6-a489-2e3d55bad485",
-					"disabled": true,
-					"name": "Written",
-					"reference": "B24",
-					"cost_type": "points",
-					"cost": 0,
-					"affects": "total",
-					"notes": "None"
-				},
-				{
-					"type": "modifier",
-					"version": 1,
-					"id": "331c2b5d-8d17-4c35-b226-675ed2ad97c9",
-					"name": "Written",
-					"reference": "B24",
-					"cost_type": "points",
-					"cost": 1,
-					"affects": "total",
-					"notes": "Broken"
-				},
-				{
-					"type": "modifier",
-					"version": 1,
-					"id": "5e29833a-2e37-465c-ba81-a382b8251d8a",
-					"disabled": true,
-					"name": "Written",
-					"reference": "B24",
-					"cost_type": "points",
-					"cost": 2,
-					"affects": "total",
-					"notes": "Accented"
-				},
-				{
-					"type": "modifier",
-					"version": 1,
-					"id": "4bbd27ee-53a4-4357-b10d-bc23ee9afa54",
-					"disabled": true,
-					"name": "Written",
-					"reference": "B24",
-					"cost_type": "points",
-					"cost": 3,
-					"affects": "total",
-					"notes": "Native"
-				}
-			],
-			"reference": "B24",
-			"categories": [
-				"Advantage",
-				"Language"
-			]
-		},
-		{
-			"type": "advantage",
-			"version": 1,
 			"id": "fd607494-4638-498e-b2bf-ae252a1f7ce5",
 			"name": "Language: Mellinarathi (Elvish Common)",
 			"mental": true,
@@ -1333,6 +1218,122 @@
 		{
 			"type": "advantage",
 			"version": 1,
+			"id": "e9ecf505-5517-4a42-8eab-d0f00ccba120",
+			"name": "Magery",
+			"mental": true,
+			"supernatural": true,
+			"levels": "3",
+			"base_points": 5,
+			"points_per_level": 10,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "407e2ecf-e4ca-4363-9d40-dea92844d5cd",
+					"disabled": true,
+					"name": "Dance",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "levels_only"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "170ad951-1c73-4d1a-a5f6-a9f48853e783",
+					"disabled": true,
+					"name": "Dark-Aspected",
+					"cost_type": "percentage",
+					"cost": -50,
+					"affects": "levels_only"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "609dc5c1-2db5-4880-8577-7d143d6506a2",
+					"disabled": true,
+					"name": "Day-Aspected",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "levels_only"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "7e139eeb-7a27-43fa-bb34-1b5817091a76",
+					"disabled": true,
+					"name": "Musical",
+					"cost_type": "percentage",
+					"cost": -50,
+					"affects": "levels_only"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "acb92bee-0244-44a6-a427-df14e68ac126",
+					"disabled": true,
+					"name": "Night-Aspected",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "levels_only"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "56a45a2d-a23a-48b8-9427-7146b9f9849d",
+					"disabled": true,
+					"name": "One College",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "levels_only",
+					"notes": "@College@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "1de588a8-8a29-4335-a3a9-29d1e2f84978",
+					"disabled": true,
+					"name": "Solitary",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "levels_only"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "2d33e5fd-63c9-4945-b69f-89f5c8082f15",
+					"disabled": true,
+					"name": "Song",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "levels_only"
+				}
+			],
+			"reference": "B66",
+			"features": [
+				{
+					"type": "spell_bonus",
+					"amount": 1,
+					"per_level": true,
+					"match": "all_colleges"
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "thaumatology"
+					}
+				}
+			],
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
 			"id": "2c420e36-e617-4261-94ef-d9e69f587332",
 			"name": "Obsession",
 			"physical": true,
@@ -1376,33 +1377,6 @@
 			"reference": "B148",
 			"categories": [
 				"Disadvantage"
-			]
-		},
-		{
-			"type": "advantage",
-			"version": 1,
-			"id": "fe689e04-47d8-48a4-8d80-8a56952d2caa",
-			"name": "Post-Combat Shakes",
-			"mental": true,
-			"base_points": -5,
-			"cr": 6,
-			"reference": "B150",
-			"categories": [
-				"Disadvantage"
-			]
-		},
-		{
-			"type": "advantage",
-			"version": 1,
-			"id": "f989685e-57fa-4e70-8d05-50119f517697",
-			"name": "Signature Gear",
-			"social": true,
-			"levels": "4",
-			"points_per_level": 1,
-			"reference": "B85",
-			"notes": "For equipment normally bought with money, each point gives goods worth up to 50% of the average campaign starting wealth (but never cash).",
-			"categories": [
-				"Advantage"
 			]
 		},
 		{
@@ -1469,6 +1443,33 @@
 						"Disadvantage"
 					]
 				}
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "fe689e04-47d8-48a4-8d80-8a56952d2caa",
+			"name": "Post-Combat Shakes",
+			"mental": true,
+			"base_points": -5,
+			"cr": 6,
+			"reference": "B150",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "f989685e-57fa-4e70-8d05-50119f517697",
+			"name": "Signature Gear",
+			"social": true,
+			"levels": "4",
+			"points_per_level": 1,
+			"reference": "B85",
+			"notes": "For equipment normally bought with money, each point gives goods worth up to 50% of the average campaign starting wealth (but never cash).",
+			"categories": [
+				"Advantage"
 			]
 		}
 	],
@@ -3290,6 +3291,7 @@
 			"maintenance_cost": "-",
 			"casting_time": "1 sec",
 			"duration": "Instant",
+			"points": 2,
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,

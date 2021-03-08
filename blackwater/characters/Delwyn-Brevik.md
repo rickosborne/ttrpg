@@ -61,7 +61,8 @@ TODO: Copy background stuff here.
 | [23](../sessions/2021-01-24-slippery-when-red.md) | +3 | 216 | 6 | +1 XP for RP |
 | [24](../sessions/2021-01-31-just-walk-away.md) | +2 | 218 | 8 | - |
 | [25](../sessions/2021-02-14-underneath-it-all.md) | +2 | 220 | 10 | - |
-| [26](../sessions/2021-02-21-harried-fodder-and-the-deathly-hallways.md) | - | 220 | 10 | - |
+| [26](../sessions/2021-02-21-harried-fodder-and-the-deathly-hallways.md) | +3 | 223 | 13 | - |
+| [27](../sessions/2021-03-07-could-you-not.md) | +2 | 225 | 15 | - |
 
 ### Log Notes:
 
@@ -120,6 +121,7 @@ Del has 14 points to spend.  Priorities in descending order:
 
 ### Future Sessions
 
+* 1pt to upgrade _Timeport_ (SL 14 to 15)
 * 10pt for +1 ST
 * 3pts for +1 FP
 * 1pt to upgrade _Simple Illusion_ (SL 15 to 16, <3%)
@@ -139,7 +141,7 @@ Source document available at [ricko.is/del-grimoire](https://ricko.is/del-grimoi
 {:.eyechart}
 | Session | Spell | ✅❌ | 𝝙&nbsp;F | 𝝨&nbsp;F | Notes |
 | :---: | :--- | :---: | :---: | :---: | :--- |
-| [26](blackwater/sessions/2021-02-21-harried-fodder-and-the-deathly-hallways.md) | - | - | - | 15 | - |
+| [26](../sessions/2021-02-21-harried-fodder-and-the-deathly-hallways.md) | - | - | - | 15 | - |
 | 26 | _Continual Light_ | ✅ | -3 | 12 | Yenna's "Bandanna of Blinding" |
 | 26 | _Continual Light_ | ✅ | -3 | 9 | Guy's "Bandanna of Blinding" |
 | 26 | _Levitate_ | ✅ | -1 | 8 | Sorven |
@@ -148,3 +150,6 @@ Source document available at [ricko.is/del-grimoire](https://ricko.is/del-grimoi
 | 26 | Rest | - | +1 | 10 | 0:10 |
 | 26 | _Levitate_ | ✅ | -1 | 9 | Sorven |
 | 26 | _Dispel Magic_, 2yd | ✅ | -6 | 3 | Extra Effort, Loud, Broad Gestures |
+| [27](../sessions/2021-03-07-could-you-not.md) | _Timeport_, -10:00 | ✅ | -6 | 3 | Loud, Broad Gestures, from staff powerstone |
+| 27 | _Levitate_ | ✅ | -2 | 1 | - |
+| 27 | Fatigue from Sorven | - | +14 | 15 | - |
