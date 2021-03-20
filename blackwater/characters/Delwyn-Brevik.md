@@ -63,6 +63,7 @@ TODO: Copy background stuff here.
 | [25](../sessions/2021-02-14-underneath-it-all.md) | +2 | 220 | 10 | - |
 | [26](../sessions/2021-02-21-harried-fodder-and-the-deathly-hallways.md) | +3 | 223 | 13 | - |
 | [27](../sessions/2021-03-07-could-you-not.md) | +2 | 225 | 15 | - |
+| [28](../sessions/2021-03-14-team-hold-my-beer.md) | -1 | 224 | 14 | Re-roll _Blink Other_ |
 
 ### Log Notes:
 
@@ -139,6 +140,7 @@ Source document available at [ricko.is/del-grimoire](https://ricko.is/del-grimoi
 ## Spell Log
 
 {:.eyechart}
+
 | Session | Spell | ✅❌ | 𝝙&nbsp;F | 𝝨&nbsp;F | Notes |
 | :---: | :--- | :---: | :---: | :---: | :--- |
 | [26](../sessions/2021-02-21-harried-fodder-and-the-deathly-hallways.md) | - | - | - | 15 | - |
@@ -153,3 +155,7 @@ Source document available at [ricko.is/del-grimoire](https://ricko.is/del-grimoi
 | [27](../sessions/2021-03-07-could-you-not.md) | _Timeport_, -10:00 | ✅ | -6 | 3 | Loud, Broad Gestures, from staff powerstone |
 | 27 | _Levitate_ | ✅ | -2 | 1 | - |
 | 27 | Fatigue from Sorven | - | +14 | 15 | - |
+| [28](../sessions/2021-03-14-team-hold-my-beer.md) | _Mage Eye_ | ✅ | -2 | 13 | Artifact |
+| 28 | _Mage Sight_ | ✅ | -2 | 11 | Guy |
+| 28 | _Blink_ | ✅ | - | 11 | -2 to skill |
+| 28 | _Blink Other_, Fave | ✅ | -2 | 9 | Success, to no effect |
