@@ -110,9 +110,6 @@ The Lady had rolled back her head and released a gout of bright blue flame from 
 Surprised, Edgar caught it square in the chest, where it splashed like water and crawled up his neck and down his legs.
 This caused his next attack to falter, the staff slipping in his grasp, to an awkward mid-length position.
 
-Smirking, the lady shook her head at them.
-With a flick of one hand she disappeared from her cornered position, reappearing by one of the levers on the far side of the room.
-
 ## Outcomes
 
 * Del spent 1 XP to re-roll a _Blink Other_
