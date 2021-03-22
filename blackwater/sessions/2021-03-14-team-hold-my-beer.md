@@ -24,7 +24,7 @@ Del, tapping Guy on the shoulder, released a spell and said:
 Guy didn't understand for a moment, but as the spell took hold and the magic around them began to reveal itself, he nodded and followed.
 One by one, everyone made their way up into the passage.
 
-Sorven an Edgar stepped up to the south wall, the mage speaking an incantation the younger man had not yet heard.
+Sorven and Edgar stepped up to the south wall, the mage speaking an incantation the younger man had not yet heard.
 With a firm push, the older man sent the other flying into the wall, which seemed to bubble and warp like quicksand to accept him.
 The glowing powerstone in the mage's hand began to curse loudly in Callach as the second spell washed over the elder, and he, too, stepped into the stone wall. 
 

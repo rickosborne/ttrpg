@@ -64,6 +64,7 @@ TODO: Copy background stuff here.
 | [26](../sessions/2021-02-21-harried-fodder-and-the-deathly-hallways.md) | +3 | 223 | 13 | - |
 | [27](../sessions/2021-03-07-could-you-not.md) | +2 | 225 | 15 | - |
 | [28](../sessions/2021-03-14-team-hold-my-beer.md) | -1 | 224 | 14 | Re-roll _Blink Other_ |
+| [29](../sessions/2021-03-21-waitin-to-tap-that.md) | +5 | 229 | 19 | - |
 
 ### Log Notes:
 
@@ -159,3 +160,7 @@ Source document available at [ricko.is/del-grimoire](https://ricko.is/del-grimoi
 | 28 | _Mage Sight_ | ✅ | -2 | 11 | Guy |
 | 28 | _Blink_ | ✅ | - | 11 | -2 to skill |
 | 28 | _Blink Other_, Fave | ✅ | -2 | 9 | Success, to no effect |
+| [29](../sessions/2021-03-21-waitin-to-tap-that.md) | _Blink Other_, Yenna | ✅ | -1 | 8 | - |
+| 29 | _Blink Other_, Vaelyn | ✅ | -1 | 7 | - |
+| 29 | _Mystic Mist_ | ✅ | -3 | 4 | Improvised, area 2 |
+| 29 | _Ice Dagger_ | ✅ | 0 | 4 | - |
