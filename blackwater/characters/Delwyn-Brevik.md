@@ -111,19 +111,21 @@ Del has 14 points to spend.  Priorities in descending order:
 * 1pt for _Timeport_ (SL 14)
 * 1pt for _Blink Other_ (SL 15)
 
-### Session 24
+### Session 29
 
 | 𝝙&nbsp;XP | 𝝨&nbsp;XP | Banked | Notes |
 | :---: | :---: | :---: | :--- |
-| +2 | 218 | 8 | +1 XP for RP |
-| -2 | - | 6 | _Teleport_, SL 15 → 16 |
-| -2 | - | 4 | _Body Sense_, SL 12 → 13 |
-| -1 | - | 3 | new: _Lend Vitality_, SL 15 |
-| -1 | - | 2 | new: _Recover Energy_, SL 15 |
+| - | 229 | 19 | (starting) |
+| -2 | - | 17 | _Teleport_, SL 15 → 16 |
+| -2 | - | 15 | _Body Sense_, SL 12 → 13 |
+| -1 | - | 14 | new: _Lend Vitality_, SL 15 |
+| -1 | - | 13 | new: _Recover Energy_, SL 15 |
+| -1 | - | 12 | _Blink Other_, SL 15 → 16 |
+| -2 | - | 10 | _Timeport_, SL 15 → 16 |
 
 ### Future Sessions
 
-* 1pt to upgrade _Timeport_ (SL 14 to 15)
+* ~~1pt to upgrade _Timeport_ (SL 14 to 15)~~
 * 10pt for +1 ST
 * 3pts for +1 FP
 * 1pt to upgrade _Simple Illusion_ (SL 15 to 16, <3%)
