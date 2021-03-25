@@ -33,7 +33,7 @@
 		]
 	},
 	"created_date": "Jan 6, 2020, 12:00 AM",
-	"modified_date": "Mar 21, 2021, 1:23 PM",
+	"modified_date": "Mar 21, 2021, 7:04 PM",
 	"profile": {
 		"player_name": "Rick Osborne",
 		"name": "Delwyn Brevik (Mage)",
@@ -1841,6 +1841,7 @@
 			"maintenance_cost": "-",
 			"casting_time": "1 sec",
 			"duration": "Instant",
+			"points": 2,
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,
@@ -3291,7 +3292,7 @@
 			"maintenance_cost": "-",
 			"casting_time": "1 sec",
 			"duration": "Instant",
-			"points": 2,
+			"points": 4,
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,

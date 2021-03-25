@@ -82,11 +82,7 @@ Del followed as the barrier dropped, verifying the Lady was out of the picture.
 Behind them, Yenna's strong lungs could be heard working to control her breathing.
 
 Edgar strode down the slope of the drainage floor to Gerin at the bottom.
-She still looked drowsy, agitated, and not entirely there, so he tried to calm her by talking through his efforts at freeing her from her manacles:
-
-> ... so it kind of can take a minute to locate all the tumblers, and as you can see this is a pretty nice lock!
-> But ... there's the first tumbler!
-
+She still looked drowsy, agitated, and not entirely there.
 Vaelyn was considering how she could help, before her attention was ripped away by her daughter's voice and quick footsteps approaching from the other room:
 
 > Is everyone dead in here?
@@ -110,6 +106,12 @@ He didn't give them time to comply.
 Remembering how effective the disorienting mist had been in the sept, he improvised his own version with a swirl of his staff.
 The silvery cloud expanded out from him with a thumping pop, taking the cries of the wounded down to a dull buzz.
 He looked back and saw Yenna, Vaelyn, and Rayna standing in the mist with him, translucent shimmers of arcane energy enveloping them before disappearing.
+
+Rayna, curious about the young woman in chains, and eager to get away from trouble, moved to Edgar in the center of the room.
+Amused by the young girl's curiosity, Edgar narrated his efforts to pick the locks:
+
+> ... so it kind of can take a minute to locate all the tumblers, and as you can see this is a pretty nice lock!
+> But ... there's the first tumbler!
 
 ## Like Bringing a Crossbow to a Glaive Fight
 
