@@ -65,6 +65,16 @@ TODO: Copy background stuff here.
 | [27](../sessions/2021-03-07-could-you-not.md) | +2 | 225 | 15 | - |
 | [28](../sessions/2021-03-14-team-hold-my-beer.md) | -1 | 224 | 14 | Re-roll _Blink Other_ |
 | [29](../sessions/2021-03-21-waitin-to-tap-that.md) | +5 | 229 | 19 | - |
+| [30](../sessions/2021-03-28-bi-lackey-al-disarmament.md) | +1 | 230 | 20 | - |
+| - | -5 | - | 15 | pay off _Post-Combat Shakes_, CR 6 → 12 |
+| - | -1 | - | 14 | new: _Lend Vitality_, SL 15 |
+| - | -1 | - | 13 | new: _Recover Energy_, SL 15 |
+| - | -1 | - | 12 | new: _Minor Healing_, SL 15 |
+| - | -2 | - | 10 | _Teleport_, SL 15 → 16 |
+| - | -2 | - | 8 | _Body Sense_, SL 12 → 13 |
+| - | -4 | - | 4 | _Blink_, SL 17 → 18 |
+| - | -1 | - | 3 | _Blink Other_, SL 15 → 16 |
+| - | -1 | - | 2 | _Timeport_, SL 15 → 16 |
 
 ### Log Notes:
 
@@ -111,17 +121,19 @@ Del has 14 points to spend.  Priorities in descending order:
 * 1pt for _Timeport_ (SL 14)
 * 1pt for _Blink Other_ (SL 15)
 
-### Session 29
+### Session 30
 
 | 𝝙&nbsp;XP | 𝝨&nbsp;XP | Banked | Notes |
 | :---: | :---: | :---: | :--- |
-| - | 229 | 19 | (starting) |
-| -2 | - | 17 | _Teleport_, SL 15 → 16 |
-| -2 | - | 15 | _Body Sense_, SL 12 → 13 |
-| -1 | - | 14 | new: _Lend Vitality_, SL 15 |
-| -1 | - | 13 | new: _Recover Energy_, SL 15 |
-| -1 | - | 12 | _Blink Other_, SL 15 → 16 |
-| -2 | - | 10 | _Timeport_, SL 15 → 16 |
+| - | 230 | 20 | (starting) |
+| -2 | - | 18 | _Teleport_, SL 15 → 16 |
+| -2 | - | 16 | _Body Sense_, SL 12 → 13 |
+| -1 | - | 15 | new: _Lend Vitality_, SL 15 |
+| -1 | - | 14 | new: _Recover Energy_, SL 15 |
+| -1 | - | 13 | _Blink Other_, SL 15 → 16 |
+| -1 | - | 12 | _Timeport_, SL 15 → 16 |
+| -1 | - | 11 | new: _Minor Healing_, SL 15 |
+| -8 | - | 3 | pay off _Post-Combat Shakes_, CR 6 → 15 |
 
 ### Future Sessions
 
@@ -143,7 +155,6 @@ Source document available at [ricko.is/del-grimoire](https://ricko.is/del-grimoi
 ## Spell Log
 
 {:.eyechart}
-
 | Session | Spell | ✅❌ | 𝝙&nbsp;F | 𝝨&nbsp;F | Notes |
 | :---: | :--- | :---: | :---: | :---: | :--- |
 | [26](../sessions/2021-02-21-harried-fodder-and-the-deathly-hallways.md) | - | - | - | 15 | - |
@@ -166,3 +177,6 @@ Source document available at [ricko.is/del-grimoire](https://ricko.is/del-grimoi
 | 29 | _Blink Other_, Vaelyn | ✅ | -1 | 7 | - |
 | 29 | _Mystic Mist_ | ✅ | -3 | 4 | Improvised, area 2 |
 | 29 | _Ice Dagger_ | ✅ | 0 | 4 | - |
+| [30](../sessions/2021-03-28-bi-lackey-al-disarmament.md) | _Minor Healing_ | ✅ | -2 | 2 | Improvised, Loud, Broad Gestures |
+| 30 | (rest) | - | +3 | 5 | - |
+| 30 | _Identify Spell_ | ✅ | 0 | 5 | On Edgar, found _Stop Healing_ |

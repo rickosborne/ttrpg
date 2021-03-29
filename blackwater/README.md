@@ -18,6 +18,7 @@ The character and party art here is by [Jessica Dayley](https://www.artstation.c
 {:.full-width}
 | # | Date | Title | XP |
 | :---: | :---: | :--- | :---: |
+| 30 | <abbr title="2021-03-28">Mar 28</abbr> | [Bi-lackey-al Disarmament](sessions/2021-03-28-bi-lackey-al-disarmament.md) | 1 |
 | 29 | <abbr title="2021-03-21">Mar 21</abbr> | [Waitin' to Tap That](sessions/2021-03-21-waitin-to-tap-that.md) | 5 |
 | 28 | <abbr title="2021-03-14">Mar 14</abbr> | [Team: "Hold My Beer"](sessions/2021-03-14-team-hold-my-beer.md) | - |
 | 27 | <abbr title="2021-03-07">Mar 7</abbr> | [Could you not?](sessions/2021-03-07-could-you-not.md) | 2 |
