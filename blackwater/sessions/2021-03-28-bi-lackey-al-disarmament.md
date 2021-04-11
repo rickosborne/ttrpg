@@ -155,7 +155,7 @@ Taking some chalk from his pocket, he drew a series of runes and circles around 
 
 Without any warning, he swatted away the remaining hand of the man before jamming the arm back into place and releasing his spell.
 A flash of ghostly gray light pulsed from the wound.
-When the old man pulled back, the arm remained, color flooding back into it.
+When the old man pulled back, the arm remained attached, color flooding back into it.
 
 The man winced as he tried to work the limb.
 It responded in twitches and jumps, but he seemed to have some measure of capability.
@@ -163,7 +163,30 @@ His gaze jumped back and forth between it and the old man in front of him, who l
 
 > Why ... why would you do that?
 
-**TODO: Conversation with Edgar**
+Sorven didn't reply.
+He gave a brief nod and went to sit against the wall with Del.
+Edgar stepped up to the man.
+
+> That looks like it could use some more healing, but my friend is tired.
+> I can help you two get to the Healing House.
+> They can finish the job.
+
+The man seemed to have trouble understanding Edgar's words.
+As sincere as the offer was, the man couldn't wrap his head around why these people were now offering aid.
+
+> We can get there.
+> We'll go tomorrow.
+
+Edgar cocked his eyebrow.
+
+> Why not tonight?
+> We can go there now.
+
+When the man seemed resistant, Edgar shrugged and continued.
+
+> Suit yourself.
+> I'll be there at 10.
+> I won't wait long.
 
 After taking several minutes to catch his breath, Sorven began walking around, trying to heal people.
 The woman was first, the flesh of her arm stitching together before her eyes.
@@ -171,7 +194,10 @@ Edgar was next, both men expecting the same effect.
 
 As the spell released, it fizzled, refusing to connect with its target.
 From across the hall, Del muttered a curse.
-Getting to his feet, he pointed to a stone on the ground, and told Edgar to stand on it without moving.
+He stood, shooing the pair of mercenaries toward the grate.
+Edgar called after them as they dropped through, reminding them of their appointment at the Healing House.
+
+Del pointed to a stone on the ground, telling Edgar to stand on it without moving.
 Like Sorven had done, Del drew out a geometric series of shapes and sigils with a bit of chalk, pacing and chanting, looking the other man up and down.
 
 > You're cursed.
