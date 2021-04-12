@@ -9,7 +9,7 @@ keywords:
 
 # Delwyn Brevik
 
-TODO: Copy background stuff here.
+[Rick's Character Backgrounds Google Doc](https://docs.google.com/document/d/1OeipBkEh1d2vbf5vHq0K4Q2kqwYF2oFt6QOlik1BAso/edit)
 
 ## Skill Progression Log
 

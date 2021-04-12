@@ -217,7 +217,7 @@ Del, unexpectedly eager to get everyone's attention, began:
 > I might have another option.
 > I have a contact, Flynn, the renegade mage who taught me, who may know more about the politics and plays happening here.
 
-Edgar was nonplussed at the idea of brining in an outsider.
+Edgar was nonplussed at the idea of bringing in an outsider.
 As Del expressed how little he trusted his contact, Edgar grew more agitated.
 The two worked out a dialogue for Del to get as much as he could, without giving too much away.
 They also agreed to see if Flynn could move the dagger, as that would be less likely to draw attention than Cassandra and Nicodemus.
