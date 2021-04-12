@@ -308,6 +308,10 @@ A few minutes later, he noticed bits of stewed apple began to disappear from his
 Listening closely, he was able to make out a faint chewing sound from the empty seat across from him.
 Try as he might, however, he could not make out the smell of eucalyptus over the strong scents coming off their meal.
 
+{:.art}
+!["I want a pet bear!"](art/yenna-wants-a-bear.svg "Yenna jealously guards a small figurine of a bear")
+<a href="https://www.artstation.com/jdayley">Art by Jessica Dayley</a>
+
 # Outcomes
 
 * Fave put down $50 (half of the total $100) to get his armor repaired at Mad Cow.  Done by the 22nd.
