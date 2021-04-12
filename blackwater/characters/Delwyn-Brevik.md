@@ -65,16 +65,17 @@ TODO: Copy background stuff here.
 | [27](../sessions/2021-03-07-could-you-not.md) | +2 | 225 | 15 | - |
 | [28](../sessions/2021-03-14-team-hold-my-beer.md) | -1 | 224 | 14 | Re-roll _Blink Other_ |
 | [29](../sessions/2021-03-21-waitin-to-tap-that.md) | +5 | 229 | 19 | - |
-| [30](../sessions/2021-03-28-bi-lackey-al-disarmament.md) | +1 | 230 | 20 | - |
-| - | -5 | - | 15 | pay off _Post-Combat Shakes_, CR 6 → 12 |
-| - | -1 | - | 14 | new: _Lend Vitality_, SL 15 |
-| - | -1 | - | 13 | new: _Recover Energy_, SL 15 |
+| [30](../sessions/2021-03-28-bi-lackey-al-disarmament.md) | +1 | 230 | 19 | - |
+| - | -5 | - | 14 | pay off _Post-Combat Shakes_, CR 6 → 12 |
+| - | -1 | - | 13 | new: _Lend Vitality_, SL 15 |
 | - | -1 | - | 12 | new: _Minor Healing_, SL 15 |
 | - | -2 | - | 10 | _Teleport_, SL 15 → 16 |
 | - | -2 | - | 8 | _Body Sense_, SL 12 → 13 |
 | - | -4 | - | 4 | _Blink_, SL 17 → 18 |
 | - | -1 | - | 3 | _Blink Other_, SL 15 → 16 |
-| - | -1 | - | 2 | _Timeport_, SL 15 → 16 |
+| - | -2 | - | 1 | _Timeport_, SL 15 → 16 |
+| [31](../sessions/2021-04-11-flynn-and-bear-it.md) | +19 | 248 | 20 | 1 for all, 18 for Gavin |
+| - | -18 | - | 2 | _Contact_, Gavin Monkrief |
 
 ### Log Notes:
 
@@ -180,3 +181,6 @@ Source document available at [ricko.is/del-grimoire](https://ricko.is/del-grimoi
 | [30](../sessions/2021-03-28-bi-lackey-al-disarmament.md) | _Minor Healing_ | ✅ | -2 | 2 | Improvised, Loud, Broad Gestures |
 | 30 | (rest) | - | +3 | 5 | - |
 | 30 | _Identify Spell_ | ✅ | 0 | 5 | On Edgar, found _Stop Healing_ |
+| [31](../sessions/2021-04-11-flynn-and-bear-it.md) | Full night's rest | - | - | 15 | - |
+| 31 | _Sense Observation_ | ✅ | -1 | 14 | Ceremonial with Vaelyn |
+| 31 | _Scryguard_ | ✅ | -1 | 13 | Ceremonial with Vaelyn |

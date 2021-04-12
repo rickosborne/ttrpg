@@ -36,7 +36,7 @@
 		]
 	},
 	"created_date": "Jan 6, 2020, 12:00 AM",
-	"modified_date": "Mar 28, 2021, 2:49 PM",
+	"modified_date": "Apr 11, 2021, 2:35 PM",
 	"profile": {
 		"player_name": "Rick Osborne",
 		"name": "Delwyn Brevik (Mage)",
@@ -54,7 +54,7 @@
 		"tech_level": "3"
 	},
 	"FP_adj": 4,
-	"total_points": 230,
+	"total_points": 248,
 	"ST": 9,
 	"DX": 13,
 	"IQ": 14,
@@ -322,6 +322,197 @@
 					"type": "modifier",
 					"version": 1,
 					"id": "d8fd052d-5661-47c8-96cf-4ac140e87a66",
+					"disabled": true,
+					"name": "Favor",
+					"reference": "B55",
+					"cost_type": "multiplier",
+					"cost": 0.2
+				}
+			],
+			"reference": "B44",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "c8e8a3b7-7ec6-4c89-b127-6a52eb6cf5bd",
+			"based_on_id": "f8327c39-3fc5-4841-83cc-a16207de2d0a",
+			"based_on_hash": "TH2K+Uc2lR/JQul4kRuUa2wEsH7+kwqXlXD2fFhCo9U",
+			"name": "Contact (Gavin Monkrief)",
+			"social": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c192de85-e3d8-454d-88d3-c54dcca6d39b",
+					"based_on_id": "80a6b173-b299-4970-bceb-130cb2eaac7c",
+					"based_on_hash": "aQqkq7e9OzREBQvhceCFoEj9IaUijUa5E3AHdPfIl/Y",
+					"disabled": true,
+					"name": "Effective skill",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "12"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "6950478d-0d6f-4f80-b405-61066ef1d950",
+					"based_on_id": "96671d31-0697-4cc0-9b1f-926e1895fa30",
+					"based_on_hash": "wJrPbdGd+4YbFewTQYJAJsRBNwoPyrZIvso3OY6JzXM",
+					"disabled": true,
+					"name": "Effective skill",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "15"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "4f2dcf48-31fe-4ed7-ba09-58a0c43df5f3",
+					"based_on_id": "b74f3920-99e7-4d09-bf1f-7700783373ed",
+					"based_on_hash": "GBL+7xuabpbXcd6oZGeV0UM0NtQ5Wz7JD2ab8Jq+ZDY",
+					"name": "Effective skill",
+					"cost_type": "points",
+					"cost": 3,
+					"affects": "total",
+					"notes": "18"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "ce4bda0e-f668-4771-a48a-b49e40b8066f",
+					"based_on_id": "cc690c4d-bd52-4a98-9124-afae2ae65f25",
+					"based_on_hash": "QfDYVf1lS0rKTI/O/JK+xPVeAUxiKARLMfjFBdR6WlU",
+					"disabled": true,
+					"name": "Effective skill",
+					"cost_type": "points",
+					"cost": 4,
+					"affects": "total",
+					"notes": "21"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c700aacf-1748-46cb-b2a9-c1c46c43c5a3",
+					"based_on_id": "611a71f2-cfe0-4ee2-a9f9-d4e196bdc42a",
+					"based_on_hash": "gkRHsi9AmYP8nE0aT5quH0OpvXXyjmuhReR/S17aNgQ",
+					"disabled": true,
+					"name": "Can obtain information using supernatural talents",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "439cf0e4-4bae-4006-8e6d-94cdd19c2584",
+					"based_on_id": "d3b79421-a275-4e84-b703-c6a5b54db258",
+					"based_on_hash": "ZQUvVcijfv4ZbbomTaCZANSL5gkmHIWr9PlStGpcPw8",
+					"disabled": true,
+					"name": "Group",
+					"cost_type": "multiplier",
+					"cost": 5
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "102ea8a0-b0d4-466e-ac1e-ba70f943d3f5",
+					"based_on_id": "f5c5ee3b-215c-48f6-a7e6-a668e2a845a9",
+					"based_on_hash": "PlxEsr4pCEMI93pV8wEoI8I+TF8wTNkjUhiO52uJGiQ",
+					"name": "Appears almost all the time",
+					"cost_type": "multiplier",
+					"cost": 3,
+					"notes": "15-"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "f852f92b-3e97-49ad-a8f7-fa1079a041ee",
+					"based_on_id": "d3955691-0d44-4113-b04b-b0e43e78babf",
+					"based_on_hash": "JHDrFPq9EDHavIsfHgCcN7Q3vWr4UTphZe1tEPjwxDE",
+					"disabled": true,
+					"name": "Appears quite often",
+					"cost_type": "multiplier",
+					"cost": 2,
+					"notes": "12-"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "3038aa21-f37c-4eeb-a61f-54d59f54329a",
+					"based_on_id": "2301199e-97d4-4bcc-b723-4947a9b20bff",
+					"based_on_hash": "q3tWwdLaZOuZGIaUrWLpnmswWfN1A+SOY946GZcVxxQ",
+					"disabled": true,
+					"name": "Appears fairly often",
+					"cost_type": "multiplier",
+					"cost": 1,
+					"notes": "9-"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "b33b23c7-8733-4f6b-9e7b-8b57f3ae7302",
+					"based_on_id": "6f062764-dde4-45f8-9a98-f8305d66da68",
+					"based_on_hash": "8ZwQWpxIpbv6kLodsgbz6kefuqnRJ8YpiPaAAk2Ayio",
+					"disabled": true,
+					"name": "Appears quite rarely",
+					"cost_type": "multiplier",
+					"cost": 0.5,
+					"notes": "6-"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "3b15a6ab-475a-4d12-acfa-bcd779043181",
+					"based_on_id": "020d20c5-0ec4-4f46-bf72-0197185a0b1f",
+					"based_on_hash": "42dIAR0Xr118WrNr2djxHFYFQgr0CClwR869HPlIHC0",
+					"disabled": true,
+					"name": "Completely reliable",
+					"cost_type": "multiplier",
+					"cost": 3
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "6aa54f98-7acb-45ad-b4ea-46d9e1cef2c6",
+					"based_on_id": "a7af6deb-be8b-4e89-a817-b6d2a9089676",
+					"based_on_hash": "g1x6Rsn+i8gsjvVzzf/R2qAkgzMKfRESx0H70csa7fE",
+					"name": "Usually reliable",
+					"cost_type": "multiplier",
+					"cost": 2
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "9ab84e42-0195-4d61-a50b-55667f7e25de",
+					"based_on_id": "8ba15952-3148-4233-8b73-ad77b9095b8e",
+					"based_on_hash": "x7Hujn1+yTr9hpdkB94vRG+A0ybFczG7tnRpMIckC70",
+					"disabled": true,
+					"name": "Somewhat reliable",
+					"cost_type": "multiplier",
+					"cost": 1
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "9bf3ed8e-0703-47b3-95ca-5a3a8cb9bc03",
+					"based_on_id": "2b7cdbfd-5e4e-4a1a-83a6-c12c3b24c0cc",
+					"based_on_hash": "o1eAT8dw0NkTECW6aqg8duafB6MV7jydGYHs40AxHtA",
+					"disabled": true,
+					"name": "Unreliable",
+					"cost_type": "multiplier",
+					"cost": 0.5
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "5077722b-7d6d-4ab4-98c4-c85a8dfee9af",
+					"based_on_id": "c770a7ef-4f4d-4d17-a82b-71cd450afb97",
+					"based_on_hash": "HURfFGjqFXWE1CYxZ/P2iytfq+VOifZxpRHGRRIa1rU",
 					"disabled": true,
 					"name": "Favor",
 					"reference": "B55",
@@ -2833,83 +3024,6 @@
 		{
 			"type": "spell",
 			"version": 1,
-			"id": "3ce75ba4-520d-4a56-91f3-1543e7bfd81b",
-			"based_on_id": "30a697a3-04f3-4d92-99f6-148fa6deced8",
-			"based_on_hash": "F/YOhvguv9erH56Uk/z+tokMMNaCy9d3YTqnGvZuKXw",
-			"name": "Recover Energy",
-			"reference": "M89",
-			"difficulty": "IQ/H",
-			"college": "Healing",
-			"power_source": "Arcane",
-			"spell_class": "Special",
-			"casting_cost": "0",
-			"maintenance_cost": "0",
-			"casting_time": "1 sec",
-			"duration": "Special",
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "prereq_list",
-						"all": false,
-						"prereqs": [
-							{
-								"type": "advantage_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "magery"
-								},
-								"level": {
-									"compare": "at_least",
-									"qualifier": 1
-								},
-								"notes": {
-									"compare": "contains",
-									"qualifier": "one college (healing)"
-								}
-							},
-							{
-								"type": "advantage_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "magery"
-								},
-								"level": {
-									"compare": "at_least",
-									"qualifier": 1
-								},
-								"notes": {
-									"compare": "does_not_contain",
-									"qualifier": "one college"
-								}
-							}
-						]
-					},
-					{
-						"type": "spell_prereq",
-						"has": true,
-						"sub_type": "name",
-						"qualifier": {
-							"compare": "is",
-							"qualifier": "lend energy"
-						},
-						"quantity": {
-							"compare": "at_least",
-							"qualifier": 1
-						}
-					}
-				]
-			},
-			"categories": [
-				"Healing"
-			]
-		},
-		{
-			"type": "spell",
-			"version": 1,
 			"id": "4bb62095-e0dc-4077-a893-7d082681e05c",
 			"name": "Return Missile",
 			"reference": "M168",
@@ -3270,7 +3384,7 @@
 			"maintenance_cost": "-",
 			"casting_time": "1 sec",
 			"duration": "Instant",
-			"points": 2,
+			"points": 4,
 			"prereqs": {
 				"type": "prereq_list",
 				"all": true,

@@ -52,7 +52,7 @@ After some negotiation, he was able to order a set of fine thieves' mail which w
 
 Del, now at the Mad Cow Leatherworks, was able to arrange for Yenna's armor to be repaired for $75, which would take the next 3 days.
 He enquired about the establishment's experience working with drider leather.
-The artisans scoffed, expressing disbelief at the existence of such a beast, until Del presented them with a small square he'd brough with him.
+The artisans scoffed, expressing disbelief at the existence of such a beast, until Del presented them with a small square he'd brought with him.
 Excited, the crafters reasoned the leather would likely hold up better to sharp, edged weapons than their usual medium leather.
 
 Edgar showed up around this time, and the two walked back to the inn for lunch.
