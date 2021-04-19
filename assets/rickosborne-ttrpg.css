@@ -158,7 +158,7 @@ blockquote p:only-child {
     margin: 0;
     padding: 0;
 }
-.eyechart {
+.eyechart, .eyechart + table {
     font-size: 80%;
     line-height: 120%;
 }

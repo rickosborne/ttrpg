@@ -18,6 +18,7 @@ The character and party art here is by [Jessica Dayley](https://www.artstation.c
 {:.full-width}
 | # | Date | Title | XP |
 | :---: | :---: | :--- | :---: |
+| 32 | <abbr title="2021-04-18">Apr 18</abbr> | [Guy, Interrupted](sessions/2021-04-18-guy-interrupted.md) | - |
 | 31 | <abbr title="2021-04-11">Apr 11</abbr> | [Flynn and Bear It](sessions/2021-04-11-flynn-and-bear-it.md) | 1±18 |
 | 30 | <abbr title="2021-03-28">Mar 28</abbr> | [Bi-lackey-al Disarmament](sessions/2021-03-28-bi-lackey-al-disarmament.md) | 1 |
 | 29 | <abbr title="2021-03-21">Mar 21</abbr> | [Waitin' to Tap That](sessions/2021-03-21-waitin-to-tap-that.md) | 5 |

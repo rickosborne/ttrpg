@@ -14,6 +14,7 @@ keywords:
 ## Skill Progression Log
 
 {:.eyechart}
+
 | Session | 𝝙&nbsp;XP | 𝝨&nbsp;XP | Banked | Notes |
 | :---: | :---: | :---: | :---: | :--- |
 | - | - | 165 | 3 | (started with only 162 spent) |
@@ -76,6 +77,7 @@ keywords:
 | - | -2 | - | 1 | _Timeport_, SL 15 → 16 |
 | [31](../sessions/2021-04-11-flynn-and-bear-it.md) | +19 | 248 | 20 | 1 for all, 18 for Gavin |
 | - | -18 | - | 2 | _Contact_, Gavin Monkrief |
+| [32](../sessions/2021-04-18-guy-interrupted.md) | - | 248 | 2 | - |
 
 ### Log Notes:
 
@@ -156,6 +158,7 @@ Source document available at [ricko.is/del-grimoire](https://ricko.is/del-grimoi
 ## Spell Log
 
 {:.eyechart}
+
 | Session | Spell | ✅❌ | 𝝙&nbsp;F | 𝝨&nbsp;F | Notes |
 | :---: | :--- | :---: | :---: | :---: | :--- |
 | [26](../sessions/2021-02-21-harried-fodder-and-the-deathly-hallways.md) | - | - | - | 15 | - |
@@ -184,3 +187,5 @@ Source document available at [ricko.is/del-grimoire](https://ricko.is/del-grimoi
 | [31](../sessions/2021-04-11-flynn-and-bear-it.md) | Full night's rest | - | - | 15 | - |
 | 31 | _Sense Observation_ | ✅ | -1 | 14 | Ceremonial with Vaelyn |
 | 31 | _Scryguard_ | ✅ | -1 | 13 | Ceremonial with Vaelyn |
+| [32](../sessions/2021-04-18-guy-interrupted.md) | Full night's rest | - | - | 15 | - |
+| - | _Ice Dagger_ | ✅ | -4 | 11 | - |
