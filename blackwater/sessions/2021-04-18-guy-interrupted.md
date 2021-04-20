@@ -42,6 +42,10 @@ Before he had a chance to provide details, Vaelyn stepped forward holding a palm
 
 > It has become clear the Order is aware of who we are, where we are, and what we seek.
 
+{:.art.max-width-half.float-right}
+![Magi Medallion](art/MagiMedallion.svg "An ornate medallion features a glowing emerald eye surrounded by a silver laurel wreath")
+<a href="https://github.com/mlmckaig">Art by Matthew McKaig</a>
+
 Sorven pulls out a similar ornament, showing it to the others.
 Vaelyn suggests they check for magic or scrying before they continue the conversation.
 Nodding, Sorven crossed the room to her, and the pair stepped away in a flurry of whispers.
@@ -81,6 +85,10 @@ As Edgar vanished, Guy showed the painted mark to the group, along with a large 
 
 > It's the symbol of my clan.
 > The last time I saw it, it was being burned off my arm as I was being banished.
+
+{:.art.max-width-half.float-right}
+!["The last time I saw it..."](art/guy-brand.svg "Guy shows off the burn scar on his arm.")
+<a href="https://www.artstation.com/jdayley">Art by Jessica Dayley</a>
 
 This caused Fave and Brorvec to also rise, cracking their knuckles in unison.
 Everyone made their way to windows, to see if they could spot any stand-out Strig.
@@ -157,6 +165,10 @@ Lashing out with a pair of blows, the monk got an elbow past a too-slow shield.
 The follow-up punch wasn't as well-timed, and the curved blade caught the monk's arm just below the elbow.
 Steel went through flesh and bone, dropping the appendage to the street.
 
+{:.art.max-width-half.float-right}
+!["Fave is disarmed"](art/fave-arm.svg "An arcing sweep takes off Fave's arm")
+<a href="https://www.artstation.com/jdayley">Art by Jessica Dayley</a>
+
 Feinting for Faves other arm, the Strig didn't regain his balance in time to land the follow-up blow.
 Fave countered with a powerful spin kick, knocking the man several steps back.
 Stepping forward, the larger man's shield blocked a heel strike.
@@ -171,6 +183,10 @@ As before, the edge went through flesh and bone, though not as completely.
 Nonfunctional, the limb dangled loosely from his shoulder.
 
 ## The Chaos
+
+{:.art.max-width-half.float-right}
+!["Invisi-bell"](art/invisi-bell.svg "A guard bell seems to ring itself")
+<a href="https://www.artstation.com/jdayley">Art by Jessica Dayley</a>
 
 The hooded Strig stared at the self-ringing bell.
 Unamused, he slashed out with his greatsword at the rope above it.
@@ -188,6 +204,10 @@ Inside, Yenna gained the second floor, beelining for Guy's room.
 Grabbing his glaive and axe, she yelled a warning to everyone on the level.
 As she passed Sorven at the head of the stairs, he blurred and dropped into the form of Lamikel.
 In the farthest room, she heard Del's voice begin to chant, thick frost vapors forming in the doorway.
+
+{:.art.max-width-half.float-right}
+!["Lamikel awaits"](art/lamikel-waits.svg "A large tiger waits at the top of the stairs")
+<a href="https://www.artstation.com/jdayley">Art by Jessica Dayley</a>
 
 Brorvec and Guy raced up the stairs, pushing past the tiger.
 Yenna handed off Guy's weapons before darting off again toward her room.

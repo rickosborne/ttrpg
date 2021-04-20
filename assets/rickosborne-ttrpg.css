@@ -228,6 +228,10 @@ p.art a:hover {
 .full-width {
     width: 100%;
 }
+.float-right {
+    float: right;
+    margin: var(--full) 0 var(--full) var(--full);
+}
 
 @media screen {
     html {
