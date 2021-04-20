@@ -42,7 +42,7 @@ Before he had a chance to provide details, Vaelyn stepped forward holding a palm
 
 > It has become clear the Order is aware of who we are, where we are, and what we seek.
 
-{:.art.max-width-half.float-right}
+{:.art.max-width-half}
 ![Magi Medallion](art/MagiMedallion.svg "An ornate medallion features a glowing emerald eye surrounded by a silver laurel wreath")
 <a href="https://github.com/mlmckaig">Art by Matthew McKaig</a>
 
@@ -86,7 +86,7 @@ As Edgar vanished, Guy showed the painted mark to the group, along with a large 
 > It's the symbol of my clan.
 > The last time I saw it, it was being burned off my arm as I was being banished.
 
-{:.art.max-width-half.float-right}
+{:.art.max-width-half}
 !["The last time I saw it..."](art/guy-brand.svg "Guy shows off the burn scar on his arm.")
 <a href="https://www.artstation.com/jdayley">Art by Jessica Dayley</a>
 
@@ -165,7 +165,7 @@ Lashing out with a pair of blows, the monk got an elbow past a too-slow shield.
 The follow-up punch wasn't as well-timed, and the curved blade caught the monk's arm just below the elbow.
 Steel went through flesh and bone, dropping the appendage to the street.
 
-{:.art.max-width-half.float-right}
+{:.art.max-width-half}
 !["Fave is disarmed"](art/fave-arm.svg "An arcing sweep takes off Fave's arm")
 <a href="https://www.artstation.com/jdayley">Art by Jessica Dayley</a>
 
@@ -205,14 +205,14 @@ Grabbing his glaive and axe, she yelled a warning to everyone on the level.
 As she passed Sorven at the head of the stairs, he blurred and dropped into the form of Lamikel.
 In the farthest room, she heard Del's voice begin to chant, thick frost vapors forming in the doorway.
 
-{:.art.max-width-half.float-right}
-!["Lamikel awaits"](art/lamikel-waits.svg "A large tiger waits at the top of the stairs")
-<a href="https://www.artstation.com/jdayley">Art by Jessica Dayley</a>
-
 Brorvec and Guy raced up the stairs, pushing past the tiger.
 Yenna handed off Guy's weapons before darting off again toward her room.
 Brorvec kept going, running toward his own room.
 One by one, the rest of the party gathered at the choke point.
+
+{:.art}
+!["Lamikel awaits"](art/lamikel-waits.svg "A large tiger waits at the top of the stairs")
+<a href="https://www.artstation.com/jdayley">Art by Jessica Dayley</a>
 
 Vaelyn, catching the eyes of those around her, mimed a wall forming in place just in front of Lamikel.
 It seemed that most understood her, as several people took a step back to give her space to cast.
