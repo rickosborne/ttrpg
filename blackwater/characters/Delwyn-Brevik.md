@@ -75,9 +75,12 @@ keywords:
 | - | -4 | - | 4 | _Blink_, SL 17 → 18 |
 | - | -1 | - | 3 | _Blink Other_, SL 15 → 16 |
 | - | -2 | - | 1 | _Timeport_, SL 15 → 16 |
-| [31](../sessions/2021-04-11-flynn-and-bear-it.md) | +19 | 248 | 20 | 1 for all, 18 for Gavin |
+| [31](../sessions/2021-04-11-flynn-and-bear-it.md) | +19 | 249 | 20 | 1 for all, 18 for Gavin |
 | - | -18 | - | 2 | _Contact_, Gavin Monkrief |
-| [32](../sessions/2021-04-18-guy-interrupted.md) | - | 248 | 2 | - |
+| [32](../sessions/2021-04-18-guy-interrupted.md) | - | 249 | 2 | - |
+| [33](../sessions/2021-05-02-tooth-and-claw.md) | +2 | 251 | 4 | - |
+| - | -1 | - | 3 | new: _Recover Energy_, SL 15 |
+| - | -1 | - | 2 | new: _Major Healing_, SL 14 |
 
 ### Log Notes:
 
@@ -189,3 +192,5 @@ Source document available at [ricko.is/del-grimoire](https://ricko.is/del-grimoi
 | 31 | _Scryguard_ | ✅ | -1 | 13 | Ceremonial with Vaelyn |
 | [32](../sessions/2021-04-18-guy-interrupted.md) | Full night's rest | - | - | 15 | - |
 | - | _Ice Dagger_ | ✅ | -4 | 11 | - |
+| [33](../sessions/2021-05-02-tooth-and-claw.md) | Full night's rest | - | - | 15 | - |
+| - | (various) | ✅ | - | - | Two dozen healing spells |
