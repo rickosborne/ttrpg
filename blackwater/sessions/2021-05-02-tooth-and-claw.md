@@ -96,7 +96,7 @@ It takes several hours, but the guards eventually haul the bodies away, leaving 
 
 ## Rest and Recovery
 
-Edgar returns to the Skeleton Key, telling of his time at the Healing House with Fave.
+Edgar eventually returned to the Skeleton Key, telling of his time at the Healing House with Fave.
 Only a single healer of advanced skill had been available.
 The odds were stacked against Fave, but through extensive prayer and attention, the severed arm is reattached, and both regain their full function.
 Fave was kept overnight for observation, but the signs were good when Edgar left him.
