@@ -128,3 +128,6 @@ In addition to pre-paying your passage to Vasiliki, Gavin's investors provided a
 * Everyone gets 2 XP.
 * Edgar gets +1 XP for good scouting.
 * Fave gets +1 XP for bloodlust RP.
+* Yenna spent 1 XP to force a re-roll on a block (which failed).
+* Lamikel spent 1 XP to re-roll a health check.
+
