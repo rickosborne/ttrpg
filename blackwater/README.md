@@ -18,7 +18,7 @@ The character and party art here is by [Jessica Dayley](https://www.artstation.c
 {:.full-width}
 | # | Date | Title | XP |
 | :---: | :---: | :--- | :---: |
-| 34 | <abbr title="2021-05-16">May 16</abbr> | [Merchants and Medallions](sessions/2021-05-16-merchants-and-medallions.md) | ? |
+| 34 | <abbr title="2021-05-16">May 16</abbr> | [Merchants and Medallions](sessions/2021-05-16-merchants-and-medallions.md) | 1 |
 | 33 | <abbr title="2021-05-02">May 2</abbr> | [Tooth & Claw](sessions/2021-05-02-tooth-and-claw.md) | 2 |
 | 32 | <abbr title="2021-04-18">Apr 18</abbr> | [Guy, Interrupted](sessions/2021-04-18-guy-interrupted.md) | - |
 | 31 | <abbr title="2021-04-11">Apr 11</abbr> | [Flynn and Bear It](sessions/2021-04-11-flynn-and-bear-it.md) | 1±18 |
