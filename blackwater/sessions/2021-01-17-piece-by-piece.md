@@ -54,7 +54,7 @@ Looking inside, he quickly snapped the lid closed again, looking around the room
 Sorven, seeming to know what was in the box already, took the note and read it aloud:
 
 {:.art.max-width-half}
-![For the murdering and thieving minions of Monkreif](art/minions-of-monkreif.svg "A handwritten and bloodstained note reading: For the murdering and theiving minions of Monkreif")
+![For the murdering and thieving minions of Monkreif](art/minions-of-monkreif.svg "A handwritten and bloodstained note reading: For the murdering and thieving minions of Monkreif")
 
 Gavin, demanding to know what's in the box, was shown the gruesome contents: a severed finger.
 Eyes turned to the young boy, yelling and demanding to know more about who'd sent him.

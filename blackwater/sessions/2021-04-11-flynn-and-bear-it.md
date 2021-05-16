@@ -65,7 +65,7 @@ The woman said they are always happy to trade, if the items were interesting eno
 Edgar asked if they contract out retrieval of such items.
 Raising an eyebrow, the woman said they might be — the group could leave their contact information.
 
-Excited at the opportunity for further adventuring, the three each scribbled out the same thing: contact through Gavin Monkrief, at the Skeleton Key.
+Excited at the opportunity for further adventuring, the three each scribbled out the same thing: contact through Gavin Monkreif, at the Skeleton Key.
 Cassandra acknowledged that she knew Gavin well, and worked with him regularly.
 Their business concluded, visible disappointment on the merchant's face, the trio made their way out.
 

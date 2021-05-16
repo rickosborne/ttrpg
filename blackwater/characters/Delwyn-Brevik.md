@@ -81,6 +81,8 @@ keywords:
 | [33](../sessions/2021-05-02-tooth-and-claw.md) | +2 | 251 | 4 | - |
 | - | -1 | - | 3 | new: _Recover Energy_, SL 15 |
 | - | -1 | - | 2 | new: _Major Healing_, SL 14 |
+| [34](../sessions/2021-05-16-merchants-and-medallions.md) | +1 | 252 | 3 | - |
+| - | -1 | - | 2 | _Analyze Magic_, SL 15 → 16 |
 
 ### Log Notes:
 
@@ -98,7 +100,9 @@ keywords:
 | 0  | - | 0 | Starting cash: effectively zero |
 | [20](../sessions/2021-01-03-back-to-blackwater.md) | +2,525 | 2,525 | Payout from Gavin for Sept of the Maiden loot |
 | 20 | -150 | 2,375 | Payment to Mad Cow for the drider armor (torso, legs, arms) |
-
+| [34](../sessions/2021-05-16-merchants-and-medallions.md) | +3,071 | 5,596 | Proceeds from sale of crystal ball to Nelora |
+| 34 | +607 | 6203 | Proceeds from expedition investment |
+| 34 | -10 | 6193 | Personal basics, rations, etc |
 
 ## Spend Proposals
 
@@ -192,5 +196,51 @@ Source document available at [ricko.is/del-grimoire](https://ricko.is/del-grimoi
 | 31 | _Scryguard_ | ✅ | -1 | 13 | Ceremonial with Vaelyn |
 | [32](../sessions/2021-04-18-guy-interrupted.md) | Full night's rest | - | - | 15 | - |
 | - | _Ice Dagger_ | ✅ | -4 | 11 | - |
-| [33](../sessions/2021-05-02-tooth-and-claw.md) | Full night's rest | - | - | 15 | - |
-| - | (various) | ✅ | - | - | Two dozen healing spells |
+| [33](../sessions/2021-05-02-tooth-and-claw.md) | _Major Healing_ &times; 12 | ✅ | - | - | - |
+| [34](../sessions/2021-05-16-merchants-and-medallions.md) | _Analyze Magic_ &times; 5 | ✅ | - | - | - |
+
+## Powerstones Log
+
+{:.eyechart}
+
+| Date | Staff (15) | Opal Water Stone (12) | Magi Medallion | Events |
+| :---: | ---: | ---: | ---: | :--- |
+| [17 Flocktime](../sessions/2021-01-02-Meta-Session-GM-Notes.md) | 7 | 1 | - | Return to Blackwater |
+| 18 Flocktime | 7 | 1 | - | - |
+| 19 Flocktime | 7 | 1 | - | Second confrontation with Lady Dunwich |
+| [20 Flocktime](../sessions/2021-04-11-flynn-and-bear-it.md) | 8 | 2 | - | - |
+| [21 Flocktime](../sessions/2021-04-18-guy-interrupted.md) | 9 | 3 | - | - |
+| 22 Flocktime | 10 | 4 | 20 | Medallions obtained |
+| [23 Flocktime](../sessions/2021-05-16-merchants-and-medallions.md) | 11 | 5 | 20 | - |
+| 24 Flocktime | 12 | 6 | 20 | - |
+| 25 Flocktime | 13 | 7 | 20 | - |
+| 26 Flocktime | 14 | 8 | 20 | - |
+| 27 Flocktime | 15 | 9 | 20 | - |
+| 28 Flocktime | 16 | 10 | 20 | - |
+| 29 Flocktime | 17 | 11 | 20 | Depart for Vasiliki |
+| 30 Flocktime | 18 | 12 | 20 | - |
+| 1 Wealsun | 19 | 12 | 20 | - |
+| 2 Wealsun | 20 | 12 | 20 | - |
+
+## Study Log
+
+{:.eyechart}
+
+| Date | 𝝙&nbsp;hrs | 𝝨&nbsp;hrs | Book |
+| :---: | ---: | ---: | :--- |
+| [17 Flocktime](../sessions/2021-01-02-Meta-Session-GM-Notes.md) | 2 | 2 | Soul on Fire: a Treatise on The Magic of Flame |
+| 18 Flocktime | 2 | 4 | "" |
+| 19 Flocktime | - | 4 | "" |
+| [20 Flocktime](../sessions/2021-04-11-flynn-and-bear-it.md) | 4 | 8 | "" |
+| [21 Flocktime](../sessions/2021-04-18-guy-interrupted.md) | 4 | 12 | "" |
+| 22 Flocktime | 4 | 16 | "" |
+| [23 Flocktime](../sessions/2021-05-16-merchants-and-medallions.md) | 4 | 20 | "" |
+| 24 Flocktime | 4 | 24 | "" |
+| 25 Flocktime | 4 | 28 | "" |
+| 26 Flocktime | 4 | 32 | "" |
+| 27 Flocktime | 4 | 36 | "" |
+| 28 Flocktime | 4 | 40 | "" |
+| 29 Flocktime | 4 | 44 | "" |
+| 30 Flocktime | 4 | 48 | "" |
+| 1 Wealsun | 4 | 52 | "" |
+| 2 Wealsun | 4 | 56 | "" |

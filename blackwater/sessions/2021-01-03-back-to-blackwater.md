@@ -67,7 +67,7 @@ The work would take them about a week to finish.
 
 Later that night, Gavin and his posse showed up.
 The men with him were heavily armed, no-nonsense types, two of who were carrying a large and heavy chest.
-Before getting down to their primary business, the party presented Gavin with one of the books they'd found: _The Life of Dragons_ by Gerin Monkrief.
+Before getting down to their primary business, the party presented Gavin with one of the books they'd found: _The Life of Dragons_ by Gerin Monkreif.
 Gavin was quite surprised to see it:
 
 > This is my daughter's book!

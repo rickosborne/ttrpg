@@ -87,7 +87,7 @@ Party loot included:
     * 1 medium topaz
 * Books
     * _Primer on Avestani language_ (Calach) - Cyrus Modrani
-    * _The Life of Dragons_ (Calach) - Gerin Monkrief
+    * _The Life of Dragons_ (Calach) - Gerin Monkreif
     * _Succession lines and lineage of House Harkonnen_ - No author
     * _Life in the Vallenwoods (Mellinarathi)_ - No author
 * Scrolls

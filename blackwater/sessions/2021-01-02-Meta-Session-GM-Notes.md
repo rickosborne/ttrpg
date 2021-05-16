@@ -9,11 +9,11 @@ keywords:
 
 # Meta Session: Getting Paid is Half the Fun  
 
-After nearly 24 hours of logistical struggles, and a significant number of Fatigue Points (both magically and organically spent), the party is able to haul themselves and their loot from the crypts beneath the abandonded Sept of the Maiden.  The party is pretty sure it's either Bochdi, 11 of Flocktime or Holidi, 12 of Flocktime, making it roughly a week since you left Blackwater.  After resting and tending wounds for an evening, the group eventually agress that three of the team will head for Blackwater to hire a wagon, and return with it the next day.  
+After nearly 24 hours of logistical struggles, and a significant number of Fatigue Points (both magically and organically spent), the party is able to haul themselves, and their loot, from the crypts beneath the abandoned Sept of the Maiden.  The party is pretty sure it's either Bochdi, 11 of Flocktime or Holidi, 12 of Flocktime, making it roughly a week since you left Blackwater.  After resting and tending wounds for an evening, the group eventually agrees that three of the team will head for Blackwater to hire a wagon, and return with it the next day.  
 
 The party is able to hire 2 sturdy covered wagons out of Northunder, each pulled by a team of 2 stout looking mules, from local halfling farmers, Alburt Picklefoot and his son Jarrod.  They agree to bring the wagons out to the hills, along with a selection of crates, burlap sacks, oiled canvas wrapping cloth and rope. They let you load your cargo into the back and then drive you and your Cargo to Ferton.  After some haggling Alburt agrees that they will do this for 18 Gold Royals ($2,520) and no questions or peeking at the cargo.  
 
-It takes you one day to get from the ruins of the Maidens Sept back to Northunder.  You spend the night there, camping on the edge of town, near the wagons.  In the morning, you are also able to hire a messenger from Northunder to carry a message for you downriver, on a skif, to Gavin Monkreif in Blackwater.  After some discussion you eventually decide on a somewhat vague note of: “*Successful trip.  Meet at Inn in Ferton to examine cargo and settle accounts.*”  The messenger agrees to carry the message for 2 Silver Crests ($60).  
+It takes you one day to get from the ruins of the Maidens Sept back to Northunder.  You spend the night there, camping on the edge of town, near the wagons.  In the morning, you are also able to hire a messenger from Northunder to carry a message for you downriver, on a skiff, to Gavin Monkreif in Blackwater.  After some discussion you eventually decide on a somewhat vague note of: “*Successful trip.  Meet at Inn in Ferton to examine cargo and settle accounts.*”  The messenger agrees to carry the message for 2 Silver Crests ($60).  
 
 The next day, you and your wagons make the journey from Northunder to Ferton, arriving near dinner time and check-in at the [Cock & Balls Inn](https://rickosborne.github.io/blackwater/guide/105-blackwater-city.html#cock-&-balls-inn).  <img src="https://rickosborne.github.io/blackwater/images/Cock%20and%20Balls%20Sign.png" align="right" height="200"> Given the significant value of your cargo, you elected to have 3 people sleep in the wagons, in the stable yard, for the first half of the night, and then the other three take over at midnight.  You were able to get a room at the Inn with 3 beds and a window overlooking the stable yards, the river, and the city of Blackwater beyond.  The room, stabling, and meals cost 3 Silver Crests ($90).
 
@@ -40,6 +40,7 @@ The next morning you are awakened by a knock at your door.  Opening your door, K
 ## Summary of money spent
 
 {:.eyechart}
+
 |Date|Amount|Reason|
 |---|---|---|
 |13&nbsp;Flocktime|18 Gold Royals ($2,520)|Hire 2 wagons, 4 mules, and 2 drivers to come to abandoned Maiden's Sept.  Then haul cargo from Sept to Ferton.|
