@@ -198,6 +198,7 @@ Source document available at [ricko.is/del-grimoire](https://ricko.is/del-grimoi
 | - | _Ice Dagger_ | ✅ | -4 | 11 | - |
 | [33](../sessions/2021-05-02-tooth-and-claw.md) | _Major Healing_ &times; 12 | ✅ | - | - | - |
 | [34](../sessions/2021-05-16-merchants-and-medallions.md) | _Analyze Magic_ &times; 5 | ✅ | - | - | - |
+| [35](../sessions/2021-05-23-the-three-hour-tour.md) | _Breathe Water_ &times; 3 | ❌❌✅ | - | - | - |
 
 ## Powerstones Log
 
@@ -242,5 +243,4 @@ Source document available at [ricko.is/del-grimoire](https://ricko.is/del-grimoi
 | 28 Flocktime | 4 | 40 | "" |
 | 29 Flocktime | 4 | 44 | "" |
 | 30 Flocktime | 4 | 48 | "" |
-| 1 Wealsun | 4 | 52 | "" |
-| 2 Wealsun | 4 | 56 | "" |
+| 1 Wealsun | - | 48 | - |
