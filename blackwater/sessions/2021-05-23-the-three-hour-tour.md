@@ -38,10 +38,10 @@ The _Screaming Otter_ queued up to disburse her passengers, who made it onto the
 One small exception was Fave, who lost his breakfast several times between the two decks.
 Guy seemed a little pale, always keeping one hand on a railing, but kept his food down.
 
-As they gained the desk, Allysandra, "Ally", introduced herself as the first mate of the ship.
+As they gained the deck, Allysandra, "Ally", introduced herself as the first mate of the ship.
 She welcomed everyone aboard with genuine hospitality, and extended an invitation to move freely about the vessel, barring a few locked doors marked as crew-only.
 She pointed out the captain of the _Albatross_, Kordova.
-He was a tall, broad shouldered, intimidating looking man with piercing blue-grey eyes.
+He was a tall, broad shouldered, intimidating looking man with piercing blue-gray eyes.
 He kept his long hair in dreadlocks, and could be instantly seen anywhere on deck thanks to his well-maintained coat dyed a bright crimson, and the glint off the impeccably-polished basket-hilted sabre.
 Pointing to each in turn, she listed the officers: Zamir, Master at Arms (human), Colvin, the healer (halfling), Scrimshaw, the bo'sun (half-orc), Ophivial, sailmistress (half-elf), and Hawk, carpenter.
 
@@ -75,12 +75,12 @@ To the passengers eyes, the crew seemed skilled and well-organized, with painles
 
 Fave, in an attempt to force his body to deal with his seasickness head-on, climbed up the mast rigging to sit in the crow's nest beside one of the crew.
 An occasional disembodied and nonproductive retching from above could be heard across the deck.
-He eventually gives up and makes his way down to the foredeck, engaging one of the watch in idle chit-chat.
-This is well-received, at least until a commanding voice yells out to get eyes back on the horizon.
+He eventually gave up and made his way down to the foredeck, engaging one of the watch in idle chit-chat.
+This was well-received, at least until a commanding voice yelled out to get eyes back on the horizon.
 
 Edgar spent the day exploring the ship, making note of each of the off-limits areas.
 Approaching the map room on the stern of the poop deck, he found that nearby crew redirected him, explaining that the room wasn't explicitly locked, but that entry presumed some authorized need.
-Each time, it was explained that maps were crucial to the survival of the ship, possibly the most valuable things on the ship, and not children's toys.
+Each time, it was pointed out that maps were crucial to their survival, possibly the most valuable things on the ship, and not children's toys.
 
 The very fact that he was denied access made him want to enter all the more.
 Acquiescing and returning to his bunk, he went invisible and returned to the deck.
@@ -140,7 +140,7 @@ Edgar offered up any assistance the party could provide, including magics if nec
 Kordova seemed consigned to fate.
 
 > There are no preparations to be made.
-> We can't out run them.
+> We can't outrun them.
 > If it comes to a fight, we are sunk.
 > Come about toward them.
 
@@ -159,7 +159,7 @@ Zamir stepped over, seeing the conversation, and gave a more direct order:
 > For now, gather your party in the mess, and ready your weapons.
 
 The mess quickly became crowded with both passengers and crew, the latter of whom had gathered polearms and spears.
-Only a handful of officers remained on the main deck as the ship slowed to a drift before dropping anchor.
+Only a handful of officers stayed on the main deck as the ship slowed to a drift before dropping anchor.
 
 Fave, wandering about and being curious, and Edgar, now invisible and staying out of the way on deck, were able to overhear snippets of Kordova's heated conversation with one of the elves.
 What he caught seemed to focus on Mallium, Belorum, and something about "greedy dwarves" hoarding the riches of the sea.
@@ -171,7 +171,7 @@ Just as it seemed about to come to a head, a loud elf voice rang out from the la
 This immediately deflated the tension, as it seemed the elves suddenly had more pressing concerns.
 As the elves withdrew to their ship and began to make sail, the representative addressed Kordova:
 
-> This is either a very luck day for you, or a very unlucky day for you.
+> This is either a very lucky day for you, or a very unlucky day for you.
 > Either way, we will be back shortly.
 
 A massive fog bank became visible on the horizon, rolling toward the ship.
@@ -193,20 +193,20 @@ Del, studying the interactions of the sailmistress, crew, and weather, was intri
 
 Out of the fog bank, a huge, squarish ship appeared.
 It was aggressive-looking, with metal plating on the sides, quickly flanked by two smaller ships.
-One of the new ships even had large paddle-wheels to aid in moving even without the wind.
+One of the new ships had large paddle-wheels to aid in moving even without the wind.
 They all headed straight for the Shalimar ships, the gap closing with frightening speed.
 
 Large balls of dirty flame and lava launched toward the elven ships.
 Even at the increasing distance, a chant could be heard coming from the elven crew.
-Large green tentacles rose up from the water to ensnare the large dwarven ship, beating at the hull plating, trying to find weak spots and capsize it.
+Large green tentacles rose up from the water to ensnare the dwarven ship, beating at the hull plating, trying to find weak spots and capsize it.
 
-The smaller dwarven ship had a large metal spike on the bow, and seemed to be the fastest and most maneuverable.
+The smaller dwarven ship had a long metal spike on the bow, and seemed to be the fastest and most maneuverable.
 It raced toward the larger elven ship, piercing it in what looked like some kind of boarding action.
 The elven archers and ballistas made quick work of the attackers, felling everyone on the smaller ship.
 The scales remained in balance, however, as a fireball took out the smaller elven ship with a single hit.
 
 The large dwarven ship succumbed to the wrath of the tentacles, sinking slowly beneath the waves.
-The larger elven ship, listing and low in the water, continued to fire on the dwarven paddle-wheeled ship as it fled to the north.
+The lead elven ship, listing and low in the water, continued to fire on the dwarven paddle-wheeled ship as it fled to the north.
 Before the smaller ship could get far, something unseen sped toward it beneath the water.
 Jets of flame lanced out at the incoming wave, but it wasn't enough.
 Again, green tentacles rose up and made short work of dragging the ship to the depths.
@@ -216,7 +216,7 @@ Kordova's voice rang clear over the chanting crew:
 > We've got to get clear before the beast comes for us.
 > We need more speed!
 
-Grim, Ophivial said she'd do what she could, and turned to the crew, calling for more.
+Ophivial, grim, said she'd do what she could, and turned to the crew.
 
 > Sing more, sing louder!
 > Sing for your lives!
