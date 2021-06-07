@@ -30,7 +30,7 @@ keywords:
 | 22 | 32 | Medallions obtained |
 | 23-28 | [34](../sessions/2021-05-16-merchants-and-medallions.md) | Shopping |
 | 29 | [35](../sessions/2021-05-23-the-three-hour-tour.md) | Depart for Vasiliki |
-| 30 | ? | At sail |
+| 30 | 35 | At sail |
 
 ## Wealsun
 
@@ -38,5 +38,5 @@ keywords:
 
 | Wealsun | Session | Events |
 | :---: | :---: | :--- |
-| 1 | ? | Encounter with the Shalimar |
+| 1 | [36](../sessions/2021-06-06-from-beneath-you-it-devours.md) | Encounter with the Shalimar & Leviathan |
 

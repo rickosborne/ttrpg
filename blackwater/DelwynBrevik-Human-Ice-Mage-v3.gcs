@@ -510,7 +510,7 @@
 		]
 	},
 	"created_date": "Jan 6, 2020, 12:00 AM",
-	"modified_date": "May 16, 2021, 12:49 PM",
+	"modified_date": "Jun 6, 2021, 10:54 PM",
 	"profile": {
 		"player_name": "Rick Osborne",
 		"name": "Delwyn Brevik (Mage)",
@@ -652,7 +652,7 @@
 			}
 		}
 	],
-	"total_points": 251,
+	"total_points": 257,
 	"advantages": [
 		{
 			"type": "advantage",
@@ -2620,8 +2620,8 @@
 			"duration": "Instant",
 			"points": 8,
 			"calc": {
-				"level": 21,
-				"rsl": "IQ+7"
+				"level": 18,
+				"rsl": "IQ+4"
 			},
 			"prereqs": {
 				"type": "prereq_list",
@@ -2665,8 +2665,8 @@
 			"duration": "Instant",
 			"points": 2,
 			"calc": {
-				"level": 19,
-				"rsl": "IQ+5"
+				"level": 16,
+				"rsl": "IQ+2"
 			},
 			"prereqs": {
 				"type": "prereq_list",
@@ -2986,8 +2986,8 @@
 			"duration": "Instant",
 			"points": 2,
 			"calc": {
-				"level": 19,
-				"rsl": "IQ+5"
+				"level": 16,
+				"rsl": "IQ+2"
 			},
 			"prereqs": {
 				"type": "prereq_list",
@@ -4214,8 +4214,8 @@
 			"duration": "Instant",
 			"points": 4,
 			"calc": {
-				"level": 19,
-				"rsl": "IQ+5"
+				"level": 16,
+				"rsl": "IQ+2"
 			},
 			"prereqs": {
 				"type": "prereq_list",

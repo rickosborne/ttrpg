@@ -5,7 +5,6 @@ prev:
   title: Blackwater
 date: 2021-05-23
 keywords:
-- blackwater
 - albatross
 - shalimar
 - elves

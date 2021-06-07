@@ -18,6 +18,7 @@ The character and party art here is by [Jessica Dayley](https://www.artstation.c
 {:.full-width}
 | # | Date | Title | XP |
 | :---: | :---: | :--- | :---: |
+| 36 | <abbr title="2021-06-06">Jun 6</abbr> | [From Beneath You, It Devours](sessions/2021-06-06-from-beneath-you-it-devours.md) | 4 |
 | 35 | <abbr title="2021-05-23">May 23</abbr> | [The Three-Hour Tour](sessions/2021-05-23-the-three-hour-tour.md) | - |
 | 34 | <abbr title="2021-05-16">May 16</abbr> | [Merchants and Medallions](sessions/2021-05-16-merchants-and-medallions.md) | 1 |
 | 33 | <abbr title="2021-05-02">May 2</abbr> | [Tooth & Claw](sessions/2021-05-02-tooth-and-claw.md) | 2 |

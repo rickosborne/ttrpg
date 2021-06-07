@@ -83,6 +83,8 @@ keywords:
 | - | -1 | - | 2 | new: _Major Healing_, SL 14 |
 | [34](../sessions/2021-05-16-merchants-and-medallions.md) | +1 | 252 | 3 | - |
 | - | -1 | - | 2 | _Analyze Magic_, SL 15 → 16 |
+| [36](../sessions/2021-06-06-from-beneath-you-it-devours.md) | -1 | 252 | 1 | Re-roll _Blink Other_ |
+| - | +6 | 258 | 7 | - |
 
 ### Log Notes:
 
@@ -91,6 +93,7 @@ keywords:
 * ❖ For session #14, Del got 4 points instead 3 because of Rick's clever use of an improvised _Glass Wall_ spell.
 * ❖ For session #15, Del got 5 points instead 3 because of Rick's clever use of an improvised _Timeport_ spell.
 * For session #17, Del spent 9 points on rerolls to stay alive.
+* For session #36, Del spent 1 point to re-roll a _Blink Other_, but still failed.
 
 ## Funds
 
@@ -147,6 +150,14 @@ Del has 14 points to spend.  Priorities in descending order:
 
 ### Future Sessions
 
+* 4pt to upgrade _Blink_ (SL 18 to 19)
+* 2pt to upgrade _Blink Other_ (SL 16 to 17)
+* 1pt to upgrade _Levitation_ (SL 15 to 16)
+* 1pt for a new spell: _Teleport Other_ (SL 15)
+* 1pt for a new spell: _Create Air_ (SL 15)
+* 1pt for a new spell: _Destroy Water_ (SL 15)
+* 1pt for a new spell: _Breathe Water_ (SL 15)
+* 1pt for a new spell: _Light Jet_ (SL 15)
 * ~~1pt to upgrade _Timeport_ (SL 14 to 15)~~
 * 10pt for +1 ST
 * 3pts for +1 FP
@@ -199,6 +210,13 @@ Source document available at [ricko.is/del-grimoire](https://ricko.is/del-grimoi
 | [33](../sessions/2021-05-02-tooth-and-claw.md) | _Major Healing_ &times; 12 | ✅ | - | - | - |
 | [34](../sessions/2021-05-16-merchants-and-medallions.md) | _Analyze Magic_ &times; 5 | ✅ | - | - | - |
 | [35](../sessions/2021-05-23-the-three-hour-tour.md) | _Breathe Water_ &times; 3 | ❌❌✅ | - | - | - |
+| [36](../sessions/2021-06-06-from-beneath-you-it-devours.md) | _Ice Dagger_ | ✅ | -6 | - | Opal (12&rarr;6) |
+| 36 | _Blink Other_ | ✅ | -2 | 13 | Target: Ophivial |
+| 36 | _Blink_ | ✅ | -2 | 11 | Tentacle dodge |
+| 36 | _Blink Other_ | ❌ | -1 | - | Staff (15&rarr;14), Target: Ophivial |
+| 36 | _Levitation_ | ✅ | -2 | - | Staff (14&rarr;12) |
+| 36 | _Light Jet_ | ✅ | -6 | 5 | Improvised |
+| 36 | _Teleport Other_ | ✅ | -9 | - | Staff (12&rarr;3), Target: Ophivial |
 
 ## Powerstones Log
 
@@ -217,10 +235,10 @@ Source document available at [ricko.is/del-grimoire](https://ricko.is/del-grimoi
 | 25 Flocktime | 13 | 7 | 20 | - |
 | 26 Flocktime | 14 | 8 | 20 | - |
 | 27 Flocktime | 15 | 9 | 20 | - |
-| 28 Flocktime | 16 | 10 | 20 | - |
-| 29 Flocktime | 17 | 11 | 20 | Depart for Vasiliki |
-| 30 Flocktime | 18 | 12 | 20 | - |
-| 1 Wealsun | 19 | 12 | 20 | - |
+| 28 Flocktime | 15 | 10 | 20 | - |
+| 29 Flocktime | 15 | 11 | 20 | Depart for Vasiliki |
+| 30 Flocktime | 15 | 12 | 20 | - |
+| 1 Wealsun | 3 | 6 | 20 | Leviathan Fight |
 | 2 Wealsun | 20 | 12 | 20 | - |
 
 ## Study Log
